@@ -288,18 +288,204 @@ if SelectReferenciaEG[-1]=="Copa 1.0":
     if IncidenteEGCP1[-1]=="Si":
         DescrIncidenteEGCP1=EmsambleGabinete.col_values(13)
         ValidarParoIncidenteEMCP1=EmsambleGabinete.col_values(14)
-        
+        mensajeIncidenteEGCP1="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteEGCP1[-1]
+        print(mensajeIncidenteEGCP1)
         if ValidarParoIncidenteEMCP1[-1]=="Si":   
             TiempoIncidenteEGCP1=EmsambleGabinete.col_values(15)
             mensajeIncidenteEGCP1="*Incidente y/o accidente ambiental y/o SST - Tiempo:* "+TiempoIncidenteEGCP1[-1]+" min, *Razón:* "+DescrIncidenteEGCP1[-1]
             print (mensajeIncidenteEGCP1)
+        else:
+            #DescrIncidenteEGCP1=EmsambleGabinete.col_values(12)
+            mensajeIncidenteEGCP1=""
+            print (mensajeIncidenteEGCP1)
     else:
-        DescrIncidenteEGCP1=EmsambleGabinete.col_values(12)
-        mensajeIncidenteEGCP1="*Incidente y/o accidente ambiental y/o SST - Razón:* "+DescrIncidenteEGCP1[-1] + ", No se generó paro."
-        print (mensajeIncidenteEGCP1)
+        mensajeIncidenteEGCP1=""
+        print(mensajeIncidenteEGCP1)
 
- #   if SelectReferencia[-1]=="Copa 2.0 Whirlpool":
+##SERVICIOS PUBLICOS COPA1::
+    ServiciosPublicosEGCP1=EmsambleGabinete.col_values(16)
+    if ServiciosPublicosEGCP1[-1]=="Si":
+        DescrServiciosPublicosEGCP1=EmsambleGabinete.col_values(18)
+        TiempoServiciosPublucosEMCP1=EmsambleGabinete.col_values(17)
+        mensajeServiciosPublicosEGCP1="*Hubo afectación en las unidades del hora a hora por falta de servicios públicos: Razón:* "+DescrServiciosPublicosEGCP1[-1]+ " -*Tiempo:* :"+TiempoServiciosPublucosEMCP1[-1]+"min"
+        print(mensajeServiciosPublicosEGCP1)
+    else:
+        mensajeServiciosPublicosEGCP1=""
+        print(mensajeServiciosPublicosEGCP1)
+#POR MAQUINA COPA1:::
+    MaquinaEGCP1=EmsambleGabinete.col_values(19)
+    if MaquinaEGCP1[-1]=="Si":
+        DescrMaquinaEGCP1=EmsambleGabinete.col_values(22)
+        TiempoServiciosPublucosEMCP1=EmsambleGabinete.col_values(20)
+        mensajeMaquinaEGCP1="*Hubo afectación en las unidades por Maquina/ Equipo: Razón:* "+DescrMaquinaEGCP1[-1]+ " - *Tiempo:* "+TiempoServiciosPublucosEMCP1[-1]+"min" 
+        print(mensajeMaquinaEGCP1)
+    else:
+        mensajeMaquinaEGCP1=""
+        print(mensajeMaquinaEGCP1)
 
+#POR MANO DE OBRA COPA1::::::::
+    ManoDeObraEGCP1=EmsambleGabinete.col_values(23)
+    if ManoDeObraEGCP1[-1]=="Si":
+        DescrManoDeObraEGCP1=EmsambleGabinete.col_values(27)
+        TiempoManoDeObraEMCP1=EmsambleGabinete.col_values(24)
+        mensajeManoDeObraEGCP1="*Hubo afectación en las unidades por Mano De Obra: Razón:* "+DescrManoDeObraEGCP1[-1]+ " - *Tiempo:* "+TiempoManoDeObraEMCP1[-1]+"min" 
+        print(mensajeManoDeObraEGCP1)
+    else:
+        mensajeManoDeObraEGCP1=""
+        print(mensajeManoDeObraEGCP1)
 
+#MATERIA PRIMA COPA1::::
+
+    MateriaPrimaEGCP1=EmsambleGabinete.col_values(28)
+    if MateriaPrimaEGCP1[-1]=="Si":
+        DescrMateriaPrimaEGCP1=EmsambleGabinete.col_values(32)
+        TiempoMateriaPrimaEMCP1=EmsambleGabinete.col_values(29)
+        mensajeMateriaPrimaEGCP1="*Hubo afectación en las unidades por Materia Prima: Razón:* "+DescrMateriaPrimaEGCP1[-1]+ " - *Tiempo:* "+TiempoMateriaPrimaEMCP1[-1]+"min" 
+        print(mensajeMateriaPrimaEGCP1)
+    else:
+        mensajeMateriaPrimaEGCP1=""
+        print(mensajeMateriaPrimaEGCP1)
+
+#POR METODO COPA1:::
+    MetodoEGCP1=EmsambleGabinete.col_values(33)
+    if MetodoEGCP1[-1]=="Si":
+        DescrMetodoEGCP1=EmsambleGabinete.col_values(36)
+        TiempoMetodoEMCP1=EmsambleGabinete.col_values(34)
+        mensajeMetodoEGCP1="*Hubo afectación en las unidades por Método: Razón:* "+DescrMetodoEGCP1[-1]+ "- *Tiempo:* "+TiempoMetodoEMCP1[-1]+"min" 
+        print(mensajeMetodoEGCP1)
+    else:
+        mensajeMetodoEGCP1=""
+        print(mensajeMetodoEGCP1)
+
+#SCRAP COPA1::::::::::
+    ScrapEGCP1=EmsambleGabinete.col_values(37)
+    if ScrapEGCP1[-1]=="Si":
+        DescrScrapEGCP1=EmsambleGabinete.col_values(39)
+        CantidadScrapEMCP1=EmsambleGabinete.col_values(40)
+        mensajeScrapEGCP1="*Se generó SCRAP: Cantidad:* "+CantidadScrapEMCP1[-1]+" - *Razón:* "+DescrScrapEGCP1[-1]
+        print(mensajeScrapEGCP1)
+    else:
+        mensajeScrapEGCP1=""
+        print(mensajeScrapEGCP1)
+
+#REPROCESADAS COPA1::::::::
+    UnidadesReprocesadasEGP1 =  EmsambleGabinete.col_values(41)
+    if UnidadesReprocesadasEGP1[-1]=="Si":
+        CantidadReprocesadasEGP1=  EmsambleGabinete.col_values(42)
+
+        mensajeUnidadesReprocesadasEGP1="*Se reprocesaron unidades - Cantidad:* "+CantidadReprocesadasEGP1[-1]+""
+        print (mensajeUnidadesReprocesadasEGP1)
+    else:
+        mensajeUnidadesReprocesadasEGP1=""
+        print(mensajeUnidadesReprocesadasEGP1)
+
+##SELECCIONA COPA 2 HACEB::::::::::::::::::::::
+
+if SelectReferenciaEG[-1]=="Copa 2.0 Haceb":
+    #PAROS PROGRAMADOS::
+    ParoProgramadoEGCP2H = EmsambleGabinete.col_values(43)
+    if ParoProgramadoEGCP2H[-1]=="Si":
+        RazonParoProgramadoEGCP2H =  EmsambleGabinete.col_values(44)
+        TiempoParoProgramadoEGCP2H =  EmsambleGabinete.col_values(45)
+        mensajeParoProgramadoEGCP2H="*Paro programado - Tiempo:* "+TiempoParoProgramadoEGCP2H[-1]+" min, *Razón:* "+RazonParoProgramadoEGCP2H[-1]
+        print(mensajeParoProgramadoEGCP2H)
+    else:
+        mensajeParoProgramadoEGCP2H=""
+        print(mensajeParoProgramadoEGCP2H)
     
+    #INCIDENTES::
+    IncidenteEGCP1=EmsambleGabinete.col_values(11)
+    if IncidenteEGCP1[-1]=="Si":
+        DescrIncidenteEGCP1=EmsambleGabinete.col_values(13)
+        ValidarParoIncidenteEMCP1=EmsambleGabinete.col_values(14)
+        mensajeIncidenteEGCP1="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteEGCP1[-1]
+        print(mensajeIncidenteEGCP1)
+        if ValidarParoIncidenteEMCP1[-1]=="Si":   
+            TiempoIncidenteEGCP1=EmsambleGabinete.col_values(15)
+            mensajeIncidenteEGCP1="*Incidente y/o accidente ambiental y/o SST - Tiempo:* "+TiempoIncidenteEGCP1[-1]+" min, *Razón:* "+DescrIncidenteEGCP1[-1]
+            print (mensajeIncidenteEGCP1)
+        else:
+            #DescrIncidenteEGCP1=EmsambleGabinete.col_values(12)
+            mensajeIncidenteEGCP1=""
+            print (mensajeIncidenteEGCP1)
+    else:
+        mensajeIncidenteEGCP1=""
+        print(mensajeIncidenteEGCP1)
 
+##SERVICIOS PUBLICOS COPA2::
+    ServiciosPublicosEGCP1=EmsambleGabinete.col_values(16)
+    if ServiciosPublicosEGCP1[-1]=="Si":
+        DescrServiciosPublicosEGCP1=EmsambleGabinete.col_values(18)
+        TiempoServiciosPublucosEMCP1=EmsambleGabinete.col_values(17)
+        mensajeServiciosPublicosEGCP1="*Hubo afectación en las unidades del hora a hora por falta de servicios públicos: Razón:* "+DescrServiciosPublicosEGCP1[-1]+ " -*Tiempo:* :"+TiempoServiciosPublucosEMCP1[-1]+"min"
+        print(mensajeServiciosPublicosEGCP1)
+    else:
+        mensajeServiciosPublicosEGCP1=""
+        print(mensajeServiciosPublicosEGCP1)
+#POR MAQUINA COPA2:::
+    MaquinaEGCP1=EmsambleGabinete.col_values(19)
+    if MaquinaEGCP1[-1]=="Si":
+        DescrMaquinaEGCP1=EmsambleGabinete.col_values(22)
+        TiempoServiciosPublucosEMCP1=EmsambleGabinete.col_values(20)
+        mensajeMaquinaEGCP1="*Hubo afectación en las unidades por Maquina/ Equipo: Razón:* "+DescrMaquinaEGCP1[-1]+ " - *Tiempo:* "+TiempoServiciosPublucosEMCP1[-1]+"min" 
+        print(mensajeMaquinaEGCP1)
+    else:
+        mensajeMaquinaEGCP1=""
+        print(mensajeMaquinaEGCP1)
+
+#POR MANO DE OBRA COPA2::::::::
+    ManoDeObraEGCP1=EmsambleGabinete.col_values(23)
+    if ManoDeObraEGCP1[-1]=="Si":
+        DescrManoDeObraEGCP1=EmsambleGabinete.col_values(27)
+        TiempoManoDeObraEMCP1=EmsambleGabinete.col_values(24)
+        mensajeManoDeObraEGCP1="*Hubo afectación en las unidades por Mano De Obra: Razón:* "+DescrManoDeObraEGCP1[-1]+ " - *Tiempo:* "+TiempoManoDeObraEMCP1[-1]+"min" 
+        print(mensajeManoDeObraEGCP1)
+    else:
+        mensajeManoDeObraEGCP1=""
+        print(mensajeManoDeObraEGCP1)
+
+#MATERIA PRIMA COPA2::::
+
+    MateriaPrimaEGCP1=EmsambleGabinete.col_values(28)
+    if MateriaPrimaEGCP1[-1]=="Si":
+        DescrMateriaPrimaEGCP1=EmsambleGabinete.col_values(32)
+        TiempoMateriaPrimaEMCP1=EmsambleGabinete.col_values(29)
+        mensajeMateriaPrimaEGCP1="*Hubo afectación en las unidades por Materia Prima: Razón:* "+DescrMateriaPrimaEGCP1[-1]+ " - *Tiempo:* "+TiempoMateriaPrimaEMCP1[-1]+"min" 
+        print(mensajeMateriaPrimaEGCP1)
+    else:
+        mensajeMateriaPrimaEGCP1=""
+        print(mensajeMateriaPrimaEGCP1)
+
+#POR METODO COPA2:::
+    MetodoEGCP1=EmsambleGabinete.col_values(33)
+    if MetodoEGCP1[-1]=="Si":
+        DescrMetodoEGCP1=EmsambleGabinete.col_values(36)
+        TiempoMetodoEMCP1=EmsambleGabinete.col_values(34)
+        mensajeMetodoEGCP1="*Hubo afectación en las unidades por Método: Razón:* "+DescrMetodoEGCP1[-1]+ "- *Tiempo:* "+TiempoMetodoEMCP1[-1]+"min" 
+        print(mensajeMetodoEGCP1)
+    else:
+        mensajeMetodoEGCP1=""
+        print(mensajeMetodoEGCP1)
+
+#SCRAP COPA2::::::::::
+    ScrapEGCP1=EmsambleGabinete.col_values(37)
+    if ScrapEGCP1[-1]=="Si":
+        DescrScrapEGCP1=EmsambleGabinete.col_values(39)
+        CantidadScrapEMCP1=EmsambleGabinete.col_values(40)
+        mensajeScrapEGCP1="*Se generó SCRAP: Cantidad:* "+CantidadScrapEMCP1[-1]+" - *Razón:* "+DescrScrapEGCP1[-1]
+        print(mensajeScrapEGCP1)
+    else:
+        mensajeScrapEGCP1=""
+        print(mensajeScrapEGCP1)
+
+#REPROCESADAS COPA2::::::::
+    UnidadesReprocesadasEGP1 =  EmsambleGabinete.col_values(41)
+    if UnidadesReprocesadasEGP1[-1]=="Si":
+        CantidadReprocesadasEGP1=  EmsambleGabinete.col_values(42)
+
+        mensajeUnidadesReprocesadasEGP1="*Se reprocesaron unidades - Cantidad:* "+CantidadReprocesadasEGP1[-1]+""
+        print (mensajeUnidadesReprocesadasEGP1)
+    else:
+        mensajeUnidadesReprocesadasEGP1=""
+        print(mensajeUnidadesReprocesadasEGP1)
+ #if SelectReferencia[-1]=="Copa 2.0 Whirlpool":
