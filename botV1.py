@@ -1,6 +1,6 @@
 #!/usr/bin/python
 #este es EL BOTTT
-
+#Rich
 from tkinter.tix import Select
 import gspread
 import pywhatkit
