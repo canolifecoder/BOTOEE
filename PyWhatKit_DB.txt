@@ -1,0 +1,5015 @@
+Date: 3/2/2022
+Time: 9:14
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Samuel a trabajar!
+--------------------
+Date: 3/2/2022
+Time: 9:28
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Samuel a trabajar!
+--------------------
+Date: 3/2/2022
+Time: 9:32
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: PRUEBA!
+--------------------
+Date: 3/2/2022
+Time: 11:45
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: PRUEBA!
+--------------------
+Date: 3/2/2022
+Time: 12:5
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: PRUEBA!
+--------------------
+Date: 3/2/2022
+Time: 12:22
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: PRUEBA!
+--------------------
+Date: 3/2/2022
+Time: 12:25
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: PRUEBA!
+--------------------
+Date: 3/2/2022
+Time: 12:28
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: PRUEBA!
+--------------------
+Date: 3/2/2022
+Time: 12:30
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: PRUEBA!
+--------------------
+Date: 3/2/2022
+Time: 13:31
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: hola
+--------------------
+Date: 3/2/2022
+Time: 13:37
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia a las: 12:00:00 = 110 Cadencia a las: 12:30:00 = 120
+--------------------
+Date: 3/2/2022
+Time: 13:48
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia a las: 12:00:00 = 110 Cadencia a las: 12:30:00 = 120
+--------------------
+Date: 3/2/2022
+Time: 14:14
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia a las: 12:00:00 = 110 Cadencia a las: 12:30:00 = 120
+--------------------
+Date: 3/2/2022
+Time: 14:30
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia a las: 12:00:00 = 110 Cadencia a las: 12:30:00 = 120
+--------------------
+Date: 3/2/2022
+Time: 14:32
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia a las: 12:00:00 = 110 Cadencia a las: 12:30:00 = 120
+--------------------
+Date: 3/2/2022
+Time: 14:33
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia a las: 12:00:00 = 110 Cadencia a las: 12:30:00 = 120
+--------------------
+Date: 3/2/2022
+Time: 14:34
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia a las: 12:00:00 = 110 Cadencia a las: 12:30:00 = 120
+--------------------
+Date: 3/2/2022
+Time: 14:37
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia a las: 12:00:00 = 110 Cadencia a las: 12:30:00 = 120
+--------------------
+Date: 3/2/2022
+Time: 15:1
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia a las: 14:00:00 = 123 Cadencia a las: 14:30:00 = 190
+--------------------
+Date: 3/2/2022
+Time: 15:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia a las: 14:00:00 = 123 Cadencia a las: 14:30:00 = 190
+--------------------
+Date: 3/2/2022
+Time: 15:3
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia a las: 14:00:00 = 123 Cadencia a las: 14:30:00 = 190
+--------------------
+Date: 3/2/2022
+Time: 15:4
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia a las: 14:00:00 = 123 Cadencia a las: 14:30:00 = 190
+--------------------
+Date: 3/2/2022
+Time: 15:6
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia a las: 14:30:00 = 190 Cadencia a las: 15:30:00 = 190
+--------------------
+Date: 3/2/2022
+Time: 15:7
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia a las: 14:30:00 = 190 Cadencia a las: 15:30:00 = 190
+--------------------
+Date: 3/2/2022
+Time: 15:8
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia a las: 15:30:00 = 190 Cadencia a las: 16:30:00 = 189
+--------------------
+Date: 3/2/2022
+Time: 15:9
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia a las: 15:30:00 = 190 Cadencia a las: 16:30:00 = 189
+--------------------
+Date: 3/2/2022
+Time: 15:10
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia a las: 16:30:00 = 189 Cadencia a las: 17:30:00 = 189
+--------------------
+Date: 3/2/2022
+Time: 15:11
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia a las: 16:30:00 = 189 Cadencia a las: 17:30:00 = 189
+--------------------
+Date: 3/2/2022
+Time: 15:12
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia a las: 16:30:00 = 189 Cadencia a las: 17:30:00 = 189
+--------------------
+Date: 3/2/2022
+Time: 15:13
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia a las: 16:30:00 = 189 Cadencia a las: 17:30:00 = 189
+--------------------
+Date: 4/2/2022
+Time: 7:43
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia a las: 19:30:00 = 189 Cadencia a las: 20:30:00 = 189
+--------------------
+Date: 4/2/2022
+Time: 7:44
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia a las: 19:30:00 = 189 Cadencia a las: 20:30:00 = 189
+--------------------
+Date: 4/2/2022
+Time: 7:46
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia a las: 20:30:00 = 189 Cadencia a las: 21:30:00 = 189
+--------------------
+Date: 4/2/2022
+Time: 7:47
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia a las: 20:30:00 = 189 Cadencia a las: 21:30:00 = 189
+--------------------
+Date: 4/2/2022
+Time: 7:51
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia a las: 21:30:00 = 189|||| Cadencia a las: 22:30:00 = 189
+--------------------
+Date: 4/2/2022
+Time: 7:53
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia a las: 21:30:00 = 189 Cadencia a las: 22:30:00 = 189
+--------------------
+Date: 4/2/2022
+Time: 7:54
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia a las: 21:30:00 = 189 Cadencia a las: 22:30:00 = 189
+--------------------
+Date: 4/2/2022
+Time: 7:55
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia a las: 21:30:00 = 189 Cadencia a las: 22:30:00 = 189
+--------------------
+Date: 4/2/2022
+Time: 7:57
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia a las: 21:30:00 = 189 Cadencia a las: 22:30:00 = 189
+--------------------
+Date: 4/2/2022
+Time: 8:0
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia a las: 21:30:00 = 189 Cadencia a las: 22:30:00 = 189
+--------------------
+Date: 4/2/2022
+Time: 9:34
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia a las: 22:30:00 = 189 Cadencia a las: 23:30:00 = 189
+--------------------
+Date: 4/2/2022
+Time: 9:36
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia a las: 22:30:00 = 189 Cadencia a las: 23:30:00 = 189
+--------------------
+Date: 4/2/2022
+Time: 9:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia a las: 22:30:00 = 189 Cadencia a las: 23:30:00 = 189
+--------------------
+Date: 4/2/2022
+Time: 9:53
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia a las: 22:30:00 = 189 Cadencia a las: 23:30:00 = 189
+--------------------
+Date: 4/2/2022
+Time: 10:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia a las: 22:30:00 = 189 Cadencia a las: 23:30:00 = 189
+--------------------
+Date: 4/2/2022
+Time: 10:12
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia a las: 22:30:00 = 189 Cadencia a las: 23:30:00 = 189
+--------------------
+Date: 4/2/2022
+Time: 10:14
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia a las: 22:30:00 = 189 Cadencia a las: 23:30:00 = 189
+--------------------
+Date: 4/2/2022
+Time: 10:19
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia a las: 22:30:00 = 189 Cadencia a las: 23:30:00 = 189
+--------------------
+Date: 4/2/2022
+Time: 10:21
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia a las: 22:30:00 = 189 Cadencia a las: 23:30:00 = 189
+--------------------
+Date: 4/2/2022
+Time: 10:30
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia a las: 22:30:00 = 189 Cadencia a las: 23:30:00 = 189
+--------------------
+Date: 4/2/2022
+Time: 11:0
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia a las: 22:30:00 = 189 Cadencia a las: 23:30:00 = 189
+--------------------
+Date: 4/2/2022
+Time: 11:14
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la planta: 22:30:00 = 189Cadencia de la planta: 23:30:00 = 189
+--------------------
+Date: 4/2/2022
+Time: 11:41
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: ✔️✔️Cadencia de la planta: 22:30:00 = 189 ✔️✔️Cadencia de la planta: 23:30:00 = 189
+--------------------
+Date: 4/2/2022
+Time: 11:44
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la planta: 22:30:00 = 189 Cadencia de la planta: 23:30:00 = 189
+--------------------
+Date: 4/2/2022
+Time: 11:47
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: ✔️ Cadencia de la planta: 22:30:00 = 189 Cadencia de la planta: 23:30:00 = 189
+--------------------
+Date: 4/2/2022
+Time: 12:30
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: ✔️ Cadencia de la planta: 22:30:00 = 189 Cadencia de la planta: 23:30:00 = 189
+--------------------
+Date: 4/2/2022
+Time: 12:47
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: ✔️ Cadencia de la planta: 22:30:00 = 189 Cadencia de la planta: 23:30:00 = 189
+--------------------
+Date: 4/2/2022
+Time: 12:56
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: ✔️ Cadencia de la planta: 22:30:00 = 189 Cadencia de la planta: 23:30:00 = 189
+--------------------
+Date: 4/2/2022
+Time: 13:32
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la planta: 23:30:00 = 189 Unidades Producidas: 46
+--------------------
+Date: 4/2/2022
+Time: 13:35
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la planta: 23:30:00 = 189 Unidades Producidas: 46
+--------------------
+Date: 4/2/2022
+Time: 13:52
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la planta: 13:30:00 = 120 Unidades Producidas: 84
+--------------------
+Date: 4/2/2022
+Time: 13:54
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la planta: 13:30:00 = 120 Unidades Producidas: 84
+--------------------
+Date: 4/2/2022
+Time: 14:0
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la planta: 13:30:00 = 120 Unidades Producidas: 84
+--------------------
+Date: 4/2/2022
+Time: 14:4
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la planta: 14:00:00 = 120 Unidades Producidas: 1
+--------------------
+Date: 4/2/2022
+Time: 14:7
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la planta: 14:00:00 = 120 Unidades Producidas: 1
+--------------------
+Date: 4/2/2022
+Time: 14:9
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la planta: 14:00:00 = 120 Unidades Producidas: 1
+--------------------
+Date: 4/2/2022
+Time: 14:11
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la planta: 14:00:00 = 120 Unidades Producidas: 10
+--------------------
+Date: 4/2/2022
+Time: 14:20
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la planta: 14:00:00 = 120 Unidades Producidas: 10
+--------------------
+Date: 4/2/2022
+Time: 15:0
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la planta: 14:30:00 = 120 Unidades Producidas: 73
+--------------------
+Date: 4/2/2022
+Time: 15:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la planta: 15:00:00 = 120 Unidades Producidas: 1
+--------------------
+Date: 7/2/2022
+Time: 8:4
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la planta: 8:00:00 = 120 Unidades Producidas: 94
+--------------------
+Date: 7/2/2022
+Time: 8:6
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la planta: 8:00:00 = 120 Unidades Producidas: 11
+--------------------
+Date: 7/2/2022
+Time: 9:1
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la planta: 9:00:01 = 120 Unidades Producidas: 95
+--------------------
+Date: 7/2/2022
+Time: 11:4
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la planta: 11:00:00 = 120 Unidades Producidas: 93
+--------------------
+Date: 7/2/2022
+Time: 12:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la planta: 12:00:00 = 120 Unidades Producidas: 83
+--------------------
+Date: 7/2/2022
+Time: 13:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la planta: 13:00:00 = 120 Unidades Producidas: 88
+--------------------
+Date: 7/2/2022
+Time: 14:31
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la planta: 14:30:00 = 120 Unidades Producidas: 47
+--------------------
+Date: 7/2/2022
+Time: 15:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la planta: 15:00:00 = 120 Unidades Producidas: 109
+--------------------
+Date: 7/2/2022
+Time: 16:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la planta: 16:00:00 = 120 Unidades Producidas: 115
+--------------------
+Date: 8/2/2022
+Time: 8:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la planta: 8:00:00 = 120 Unidades Producidas: 0
+--------------------
+Date: 8/2/2022
+Time: 9:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la planta: 9:00:00 = 120 Unidades Producidas: 0
+--------------------
+Date: 8/2/2022
+Time: 10:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la planta: 10:00:00 = 120 Unidades Producidas: 0
+--------------------
+Date: 8/2/2022
+Time: 11:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la planta: 11:00:00 = 120 Unidades Producidas: 0
+--------------------
+Date: 8/2/2022
+Time: 12:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la planta: 12:00:00 = 120 Unidades Producidas: 0
+--------------------
+Date: 8/2/2022
+Time: 13:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la planta: 13:00:00 = 120 Unidades Producidas: 0
+--------------------
+Date: 8/2/2022
+Time: 14:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la planta: 14:00:00 = 120 Unidades Producidas: 0
+--------------------
+Date: 8/2/2022
+Time: 15:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la planta: 15:00:00 = 120 Unidades Producidas: 0
+--------------------
+Date: 8/2/2022
+Time: 16:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la planta: 16:00:00 = 120 Unidades Producidas: 0
+--------------------
+Date: 9/2/2022
+Time: 7:19
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la planta: 7:00:00 = 110 Unidades Producidas: 22
+--------------------
+Date: 9/2/2022
+Time: 7:40
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la planta: 7:30:00 = 110 Unidades Producidas: 57
+--------------------
+Date: 9/2/2022
+Time: 8:3
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la planta: 8:00:00 = 110 -- Unidades Producidas: 4
+--------------------
+Date: 9/2/2022
+Time: 8:9
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la planta: 8:00:00 = 110 -- Unidades Producidas: 4
+--------------------
+Date: 9/2/2022
+Time: 8:16
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la planta: 8:00:00 = 110 -- Unidades Producidas: 24
+--------------------
+Date: 9/2/2022
+Time: 8:19
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la planta: 8:00:00 = 110 -- Unidades Producidas: 24
+--------------------
+Date: 9/2/2022
+Time: 9:21
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la planta: 9:00:00 = 120 -- Unidades Producidas: 17
+--------------------
+Date: 9/2/2022
+Time: 9:28
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la planta: 9:00:00 = 120 -- Unidades Producidas: 34
+--------------------
+Date: 9/2/2022
+Time: 10:1
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la planta: 10:00:01 = 120 -- Unidades Producidas: 37
+--------------------
+Date: 9/2/2022
+Time: 11:3
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la planta: 11:00:00 = 120 -- Unidades Producidas: 5
+--------------------
+Date: 9/2/2022
+Time: 13:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la planta: 13:00:00 = 120 -- Unidades Producidas: 73
+--------------------
+Date: 9/2/2022
+Time: 14:41
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la linea: - 13 = 120 -- Unidades Producidas: 47
+--------------------
+Date: 9/2/2022
+Time: 14:47
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la linea: - 13-14=120 -- Unidades Producidas: 65
+--------------------
+Date: 9/2/2022
+Time: 14:53
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la linea: 13-14 = 120 Unidades Producidas: 65
+--------------------
+Date: 9/2/2022
+Time: 15:17
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la linea: 14-15 = 120 Unidades Producidas: 13
+--------------------
+Date: 9/2/2022
+Time: 15:36
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la linea: 14-15 = 120 Unidades Producidas: 38
+--------------------
+Date: 9/2/2022
+Time: 15:40
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Cadencia de la linea: 14-15 = 120Unidades Producidas: 38
+--------------------
+Date: 10/2/2022
+Time: 7:16
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Cadencia de la linea:* 6-7 = 120*Unidades Producidas:* 14
+--------------------
+Date: 10/2/2022
+Time: 8:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Cadencia de la linea:* 7-8 = 120*Unidades Producidas:* 102
+--------------------
+Date: 10/2/2022
+Time: 9:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 8-9*Cadencia:* 120*Unidades Producidas:* 81
+--------------------
+Date: 10/2/2022
+Time: 10:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 9-10*Cadencia:* 120*Unidades Producidas:* 37
+--------------------
+Date: 10/2/2022
+Time: 11:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 10-11*Cadencia:* 120*Unidades Producidas:* 76
+--------------------
+Date: 10/2/2022
+Time: 12:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 11-12*Cadencia:* 120*Unidades Producidas:* 99
+--------------------
+Date: 10/2/2022
+Time: 13:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 12-13*Cadencia:* 120*Unidades Producidas:* 95
+--------------------
+Date: 10/2/2022
+Time: 13:37
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 12-13*Cadencia:* 120*Unidades Producidas:* 38*Eficiencia de la linea:* 31.666666666666664%
+--------------------
+Date: 10/2/2022
+Time: 13:46
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 12-13*Cadencia:* 120*Unidades Producidas:* 56*Eficiencia de la linea:* 46.67%
+--------------------
+Date: 10/2/2022
+Time: 14:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 13-14*Cadencia:* 120*Unidades Producidas:* 96*Eficiencia de la linea:* 80.0%
+--------------------
+Date: 10/2/2022
+Time: 15:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 14-15*Cadencia:* 120*Unidades Producidas:* 96*Eficiencia de la linea:* 80.0%
+--------------------
+Date: 10/2/2022
+Time: 16:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 15-16*Cadencia:* 120*Unidades Producidas:* 111*Eficiencia de la linea:* 92.5%
+--------------------
+Date: 10/2/2022
+Time: 17:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 16-17*Cadencia:* 120*Unidades Producidas:* 66*Eficiencia de la linea:* 55.0%
+--------------------
+Date: 10/2/2022
+Time: 21:42
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 20-21*Cadencia:* 120*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 11/2/2022
+Time: 8:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 7-8*Cadencia:* 120*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 11/2/2022
+Time: 9:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 8-9*Cadencia:* 120*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 11/2/2022
+Time: 10:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 9-10*Cadencia:* 120*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 11/2/2022
+Time: 11:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 10-11*Cadencia:* 120*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 11/2/2022
+Time: 12:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 11-12*Cadencia:* 120*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 11/2/2022
+Time: 13:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 12-13*Cadencia:* 120*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 11/2/2022
+Time: 14:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 13-14*Cadencia:* 120*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 11/2/2022
+Time: 15:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 14-15*Cadencia:* 120*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 11/2/2022
+Time: 16:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 15-16*Cadencia:* 120*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 11/2/2022
+Time: 17:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 16-17*Cadencia:* 120*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 11/2/2022
+Time: 19:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 18-19*Cadencia:* 120*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 14/2/2022
+Time: 7:21
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 6-7*Cadencia:* 110*Unidades Producidas:* 9*Eficiencia de la linea:* 8.18%
+--------------------
+Date: 14/2/2022
+Time: 8:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 7-8*Cadencia:* 110*Unidades Producidas:* 28*Eficiencia de la linea:* 25.45%
+--------------------
+Date: 14/2/2022
+Time: 9:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 8-9*Cadencia:* 110*Unidades Producidas:* 1*Eficiencia de la linea:* 0.91%
+--------------------
+Date: 14/2/2022
+Time: 10:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 9-10*Cadencia:* 110*Unidades Producidas:* 37*Eficiencia de la linea:* 33.64%
+--------------------
+Date: 14/2/2022
+Time: 11:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 10-11*Cadencia:* 110*Unidades Producidas:* 16*Eficiencia de la linea:* 14.55%
+--------------------
+Date: 14/2/2022
+Time: 12:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 11-12*Cadencia:* 110*Unidades Producidas:* 2*Eficiencia de la linea:* 1.82%
+--------------------
+Date: 14/2/2022
+Time: 13:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 12-13*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 14/2/2022
+Time: 13:20
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Recuerde enviar el informe
+--------------------
+Date: 14/2/2022
+Time: 13:23
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Recuerde enviar el informe
+--------------------
+Date: 14/2/2022
+Time: 13:24
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: Recuerde enviar el informe
+--------------------
+Date: 14/2/2022
+Time: 13:27
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:* https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 14/2/2022
+Time: 13:29
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:* https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 14/2/2022
+Time: 13:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 14/2/2022
+Time: 14:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 13-14*Cadencia:* 110*Unidades Producidas:* 58*Eficiencia de la linea:* 52.73%
+--------------------
+Date: 14/2/2022
+Time: 14:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 14/2/2022
+Time: 15:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 14-15*Cadencia:* 110*Unidades Producidas:* 77*Eficiencia de la linea:* 70.0%
+--------------------
+Date: 14/2/2022
+Time: 15:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 14/2/2022
+Time: 16:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 15-16*Cadencia:* 110*Unidades Producidas:* 67*Eficiencia de la linea:* 60.91%
+--------------------
+Date: 14/2/2022
+Time: 16:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 14/2/2022
+Time: 17:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 16-17*Cadencia:* 110*Unidades Producidas:* 57*Eficiencia de la linea:* 51.82%
+--------------------
+Date: 14/2/2022
+Time: 22:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 21-22*Cadencia:* 110*Unidades Producidas:* 74*Eficiencia de la linea:* 67.27%
+--------------------
+Date: 14/2/2022
+Time: 22:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 14/2/2022
+Time: 23:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 22-23*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 16/2/2022
+Time: 7:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 16/2/2022
+Time: 8:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 7-8*Cadencia:* 110*Unidades Producidas:* 82*Eficiencia de la linea:* 74.55%
+--------------------
+Date: 16/2/2022
+Time: 8:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 16/2/2022
+Time: 8:55
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 16/2/2022
+Time: 9:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 8-9*Cadencia:* 110*Unidades Producidas:* 31*Eficiencia de la linea:* 28.18%
+--------------------
+Date: 16/2/2022
+Time: 9:55
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 16/2/2022
+Time: 10:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 9-10*Cadencia:* 110*Unidades Producidas:* 26*Eficiencia de la linea:* 23.64%
+--------------------
+Date: 16/2/2022
+Time: 10:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 16/2/2022
+Time: 11:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 10-11*Cadencia:* 110*Unidades Producidas:* 50*Eficiencia de la linea:* 45.45%
+--------------------
+Date: 16/2/2022
+Time: 11:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 16/2/2022
+Time: 12:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 11-12*Cadencia:* 110*Unidades Producidas:* 69*Eficiencia de la linea:* 62.73%
+--------------------
+Date: 16/2/2022
+Time: 12:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 16/2/2022
+Time: 13:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 12-13*Cadencia:* 110*Unidades Producidas:* 53*Eficiencia de la linea:* 48.18%
+--------------------
+Date: 16/2/2022
+Time: 14:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 13-14*Cadencia:* 110*Unidades Producidas:* 69*Eficiencia de la linea:* 62.73%
+--------------------
+Date: 16/2/2022
+Time: 14:9
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 16/2/2022
+Time: 14:12
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 16/2/2022
+Time: 14:15
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 16/2/2022
+Time: 14:17
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 16/2/2022
+Time: 14:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 16/2/2022
+Time: 15:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 14-15*Cadencia:* 110*Unidades Producidas:* 62*Eficiencia de la linea:* 56.36%
+--------------------
+Date: 16/2/2022
+Time: 15:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 16/2/2022
+Time: 16:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 15-16*Cadencia:* 110*Unidades Producidas:* 76*Eficiencia de la linea:* 69.09%
+--------------------
+Date: 16/2/2022
+Time: 16:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 16/2/2022
+Time: 17:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 16-17*Cadencia:* 110*Unidades Producidas:* 67*Eficiencia de la linea:* 60.91%
+--------------------
+Date: 16/2/2022
+Time: 17:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 16/2/2022
+Time: 18:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 17-18*Cadencia:* 110*Unidades Producidas:* 63*Eficiencia de la linea:* 57.27%
+--------------------
+Date: 16/2/2022
+Time: 18:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 16/2/2022
+Time: 19:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 18-19*Cadencia:* 110*Unidades Producidas:* 7*Eficiencia de la linea:* 6.36%
+--------------------
+Date: 16/2/2022
+Time: 19:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 16/2/2022
+Time: 20:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 19-20*Cadencia:* 110*Unidades Producidas:* 58*Eficiencia de la linea:* 52.73%
+--------------------
+Date: 16/2/2022
+Time: 20:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 16/2/2022
+Time: 21:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 20-21*Cadencia:* 110*Unidades Producidas:* 78*Eficiencia de la linea:* 70.91%
+--------------------
+Date: 16/2/2022
+Time: 21:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 16/2/2022
+Time: 22:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 21-22*Cadencia:* 110*Unidades Producidas:* 75*Eficiencia de la linea:* 68.18%
+--------------------
+Date: 16/2/2022
+Time: 22:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 16/2/2022
+Time: 23:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 22-23*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 16/2/2022
+Time: 23:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 17/2/2022
+Time: 0:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* -1-0*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 17/2/2022
+Time: 0:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 17/2/2022
+Time: 1:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 0-1*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 17/2/2022
+Time: 1:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 17/2/2022
+Time: 2:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 1-2*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 17/2/2022
+Time: 6:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 17/2/2022
+Time: 7:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 6-7*Cadencia:* 110*Unidades Producidas:* 84*Eficiencia de la linea:* 76.36%
+--------------------
+Date: 17/2/2022
+Time: 7:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 17/2/2022
+Time: 8:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 7-8*Cadencia:* 110*Unidades Producidas:* 52*Eficiencia de la linea:* 47.27%
+--------------------
+Date: 17/2/2022
+Time: 8:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 17/2/2022
+Time: 9:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 8-9*Cadencia:* 110*Unidades Producidas:* 75*Eficiencia de la linea:* 68.18%
+--------------------
+Date: 17/2/2022
+Time: 9:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 17/2/2022
+Time: 10:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 9-10*Cadencia:* 110*Unidades Producidas:* 34*Eficiencia de la linea:* 30.91%
+--------------------
+Date: 17/2/2022
+Time: 10:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 17/2/2022
+Time: 11:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 10-11*Cadencia:* 110*Unidades Producidas:* 66*Eficiencia de la linea:* 60.0%
+--------------------
+Date: 17/2/2022
+Time: 11:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 17/2/2022
+Time: 12:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 11-12*Cadencia:* 110*Unidades Producidas:* 77*Eficiencia de la linea:* 70.0%
+--------------------
+Date: 17/2/2022
+Time: 12:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 17/2/2022
+Time: 13:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 12-13*Cadencia:* 110*Unidades Producidas:* 74*Eficiencia de la linea:* 67.27%
+--------------------
+Date: 17/2/2022
+Time: 13:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 17/2/2022
+Time: 14:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 13-14*Cadencia:* 110*Unidades Producidas:* 40*Eficiencia de la linea:* 36.36%
+--------------------
+Date: 17/2/2022
+Time: 14:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 17/2/2022
+Time: 15:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 14-15*Cadencia:* 110*Unidades Producidas:* 35*Eficiencia de la linea:* 31.82%
+--------------------
+Date: 17/2/2022
+Time: 15:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 17/2/2022
+Time: 16:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 15-16*Cadencia:* 110*Unidades Producidas:* 87*Eficiencia de la linea:* 79.09%
+--------------------
+Date: 17/2/2022
+Time: 16:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 17/2/2022
+Time: 17:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 16-17*Cadencia:* 110*Unidades Producidas:* 64*Eficiencia de la linea:* 58.18%
+--------------------
+Date: 17/2/2022
+Time: 17:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 17/2/2022
+Time: 19:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 17/2/2022
+Time: 20:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 19-20*Cadencia:* 110*Unidades Producidas:* 59*Eficiencia de la linea:* 53.64%
+--------------------
+Date: 17/2/2022
+Time: 20:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 17/2/2022
+Time: 21:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 20-21*Cadencia:* 110*Unidades Producidas:* 42*Eficiencia de la linea:* 38.18%
+--------------------
+Date: 17/2/2022
+Time: 21:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 17/2/2022
+Time: 22:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 21-22*Cadencia:* 110*Unidades Producidas:* 80*Eficiencia de la linea:* 72.73%
+--------------------
+Date: 17/2/2022
+Time: 22:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 17/2/2022
+Time: 23:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 22-23*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 17/2/2022
+Time: 23:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 18/2/2022
+Time: 0:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* -1-0*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 18/2/2022
+Time: 0:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 18/2/2022
+Time: 1:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 0-1*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 18/2/2022
+Time: 1:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 18/2/2022
+Time: 2:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 1-2*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 18/2/2022
+Time: 2:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 18/2/2022
+Time: 3:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 2-3*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 18/2/2022
+Time: 3:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 18/2/2022
+Time: 4:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 3-4*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 18/2/2022
+Time: 4:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 18/2/2022
+Time: 5:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 4-5*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 18/2/2022
+Time: 5:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 18/2/2022
+Time: 6:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 5-6*Cadencia:* 110*Unidades Producidas:* 19*Eficiencia de la linea:* 17.27%
+--------------------
+Date: 18/2/2022
+Time: 6:51
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 18/2/2022
+Time: 7:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 6-7*Cadencia:* 110*Unidades Producidas:* 71*Eficiencia de la linea:* 64.55%
+--------------------
+Date: 18/2/2022
+Time: 7:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 18/2/2022
+Time: 8:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble 7-8*Cadencia: 110Unidades Producidas: 82Eficiencia de la linea: 74.55%
+--------------------
+Date: 18/2/2022
+Time: 8:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 18/2/2022
+Time: 9:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 8-9*Cadencia:* 110*Unidades Producidas:* 83*Eficiencia de la linea:* 75.45%
+--------------------
+Date: 18/2/2022
+Time: 9:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 18/2/2022
+Time: 10:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 9-10*Cadencia:* 110*Unidades Producidas:* 38*Eficiencia de la linea:* 34.55%
+--------------------
+Date: 18/2/2022
+Time: 10:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 18/2/2022
+Time: 11:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 10-11*Cadencia:* 110*Unidades Producidas:* 68*Eficiencia de la linea:* 61.82%
+--------------------
+Date: 18/2/2022
+Time: 11:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 18/2/2022
+Time: 12:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 11-12*Cadencia:* 110*Unidades Producidas:* 86*Eficiencia de la linea:* 78.18%
+--------------------
+Date: 18/2/2022
+Time: 12:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 18/2/2022
+Time: 13:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 12-13*Cadencia:* 110*Unidades Producidas:* 66*Eficiencia de la linea:* 60.0%
+--------------------
+Date: 18/2/2022
+Time: 14:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 13-14*Cadencia:* 110*Unidades Producidas:* 79*Eficiencia de la linea:* 71.82%
+--------------------
+Date: 18/2/2022
+Time: 14:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 18/2/2022
+Time: 15:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 14-15*Cadencia:* 110*Unidades Producidas:* 77*Eficiencia de la linea:* 70.0%
+--------------------
+Date: 18/2/2022
+Time: 15:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 18/2/2022
+Time: 16:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 15-16*Cadencia:* 110*Unidades Producidas:* 64*Eficiencia de la linea:* 58.18%
+--------------------
+Date: 18/2/2022
+Time: 16:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 18/2/2022
+Time: 17:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 16-17*Cadencia:* 110*Unidades Producidas:* 34*Eficiencia de la linea:* 30.91%
+--------------------
+Date: 18/2/2022
+Time: 17:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 18/2/2022
+Time: 18:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 17-18*Cadencia:* 110*Unidades Producidas:* 90*Eficiencia de la linea:* 81.82%
+--------------------
+Date: 18/2/2022
+Time: 18:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 18/2/2022
+Time: 19:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 18-19*Cadencia:* 110*Unidades Producidas:* 14*Eficiencia de la linea:* 12.73%
+--------------------
+Date: 18/2/2022
+Time: 19:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 18/2/2022
+Time: 20:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 19-20*Cadencia:* 110*Unidades Producidas:* 23*Eficiencia de la linea:* 20.91%
+--------------------
+Date: 18/2/2022
+Time: 20:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 18/2/2022
+Time: 21:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 20-21*Cadencia:* 110*Unidades Producidas:* 3*Eficiencia de la linea:* 2.73%
+--------------------
+Date: 18/2/2022
+Time: 21:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 18/2/2022
+Time: 22:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 21-22*Cadencia:* 110*Unidades Producidas:* 75*Eficiencia de la linea:* 68.18%
+--------------------
+Date: 18/2/2022
+Time: 22:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 18/2/2022
+Time: 23:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 22-23*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 18/2/2022
+Time: 23:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 19/2/2022
+Time: 0:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* -1-0*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 19/2/2022
+Time: 0:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 19/2/2022
+Time: 1:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 0-1*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 19/2/2022
+Time: 1:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 19/2/2022
+Time: 2:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 1-2*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 19/2/2022
+Time: 2:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 19/2/2022
+Time: 3:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 2-3*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 19/2/2022
+Time: 3:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 19/2/2022
+Time: 4:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 3-4*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 19/2/2022
+Time: 4:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 19/2/2022
+Time: 5:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 4-5*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 19/2/2022
+Time: 5:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 19/2/2022
+Time: 6:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 5-6*Cadencia:* 110*Unidades Producidas:* 22*Eficiencia de la linea:* 20.0%
+--------------------
+Date: 19/2/2022
+Time: 6:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 19/2/2022
+Time: 7:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 6-7*Cadencia:* 110*Unidades Producidas:* 75*Eficiencia de la linea:* 68.18%
+--------------------
+Date: 19/2/2022
+Time: 7:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 19/2/2022
+Time: 8:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 7-8*Cadencia:* 110*Unidades Producidas:* 67*Eficiencia de la linea:* 60.91%
+--------------------
+Date: 19/2/2022
+Time: 8:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 19/2/2022
+Time: 9:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 8-9*Cadencia:* 110*Unidades Producidas:* 48*Eficiencia de la linea:* 43.64%
+--------------------
+Date: 19/2/2022
+Time: 9:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 19/2/2022
+Time: 10:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 9-10*Cadencia:* 110*Unidades Producidas:* 32*Eficiencia de la linea:* 29.09%
+--------------------
+Date: 19/2/2022
+Time: 10:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 19/2/2022
+Time: 11:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 10-11*Cadencia:* 110*Unidades Producidas:* 61*Eficiencia de la linea:* 55.45%
+--------------------
+Date: 19/2/2022
+Time: 11:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 19/2/2022
+Time: 12:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 11-12*Cadencia:* 110*Unidades Producidas:* 88*Eficiencia de la linea:* 80.0%
+--------------------
+Date: 19/2/2022
+Time: 12:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 19/2/2022
+Time: 13:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 12-13*Cadencia:* 110*Unidades Producidas:* 67*Eficiencia de la linea:* 60.91%
+--------------------
+Date: 19/2/2022
+Time: 13:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 19/2/2022
+Time: 14:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 13-14*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 19/2/2022
+Time: 14:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 19/2/2022
+Time: 15:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 14-15*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 19/2/2022
+Time: 15:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 19/2/2022
+Time: 16:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 15-16*Cadencia:* 110*Unidades Producidas:* 34*Eficiencia de la linea:* 30.91%
+--------------------
+Date: 19/2/2022
+Time: 16:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 19/2/2022
+Time: 17:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 16-17*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 19/2/2022
+Time: 17:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 19/2/2022
+Time: 18:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 17-18*Cadencia:* 110*Unidades Producidas:* 29*Eficiencia de la linea:* 26.36%
+--------------------
+Date: 19/2/2022
+Time: 18:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 19/2/2022
+Time: 19:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 18-19*Cadencia:* 110*Unidades Producidas:* 28*Eficiencia de la linea:* 25.45%
+--------------------
+Date: 19/2/2022
+Time: 19:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 19/2/2022
+Time: 20:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 19-20*Cadencia:* 110*Unidades Producidas:* 50*Eficiencia de la linea:* 45.45%
+--------------------
+Date: 19/2/2022
+Time: 20:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 19/2/2022
+Time: 21:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 20-21*Cadencia:* 110*Unidades Producidas:* 66*Eficiencia de la linea:* 60.0%
+--------------------
+Date: 19/2/2022
+Time: 21:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 19/2/2022
+Time: 22:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 21-22*Cadencia:* 110*Unidades Producidas:* 41*Eficiencia de la linea:* 37.27%
+--------------------
+Date: 19/2/2022
+Time: 22:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 19/2/2022
+Time: 23:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 22-23*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 19/2/2022
+Time: 23:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 20/2/2022
+Time: 0:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* -1-0*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 20/2/2022
+Time: 0:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 20/2/2022
+Time: 1:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 0-1*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 20/2/2022
+Time: 1:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 20/2/2022
+Time: 2:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 1-2*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 20/2/2022
+Time: 2:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 20/2/2022
+Time: 3:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 2-3*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 20/2/2022
+Time: 3:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 20/2/2022
+Time: 4:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 3-4*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 20/2/2022
+Time: 4:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 20/2/2022
+Time: 5:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 4-5*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 20/2/2022
+Time: 5:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 20/2/2022
+Time: 6:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 5-6*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 20/2/2022
+Time: 6:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 20/2/2022
+Time: 7:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 6-7*Cadencia:* 110*Unidades Producidas:* 89*Eficiencia de la linea:* 80.91%
+--------------------
+Date: 20/2/2022
+Time: 7:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 20/2/2022
+Time: 8:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 7-8*Cadencia:* 110*Unidades Producidas:* 79*Eficiencia de la linea:* 71.82%
+--------------------
+Date: 20/2/2022
+Time: 8:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 20/2/2022
+Time: 9:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 8-9*Cadencia:* 110*Unidades Producidas:* 33*Eficiencia de la linea:* 30.0%
+--------------------
+Date: 20/2/2022
+Time: 9:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 20/2/2022
+Time: 10:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 9-10*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 20/2/2022
+Time: 10:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 20/2/2022
+Time: 11:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 10-11*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 20/2/2022
+Time: 11:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 20/2/2022
+Time: 12:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 11-12*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 20/2/2022
+Time: 12:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 20/2/2022
+Time: 13:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 12-13*Cadencia:* 110*Unidades Producidas:* 9*Eficiencia de la linea:* 8.18%
+--------------------
+Date: 20/2/2022
+Time: 13:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 20/2/2022
+Time: 14:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 13-14*Cadencia:* 110*Unidades Producidas:* 77*Eficiencia de la linea:* 70.0%
+--------------------
+Date: 20/2/2022
+Time: 14:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 20/2/2022
+Time: 15:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 14-15*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 20/2/2022
+Time: 15:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 20/2/2022
+Time: 16:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 15-16*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 20/2/2022
+Time: 16:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 20/2/2022
+Time: 17:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 16-17*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 20/2/2022
+Time: 17:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 20/2/2022
+Time: 18:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 17-18*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 20/2/2022
+Time: 18:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 20/2/2022
+Time: 19:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 18-19*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 20/2/2022
+Time: 19:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 20/2/2022
+Time: 20:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 19-20*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 20/2/2022
+Time: 20:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 20/2/2022
+Time: 21:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 20-21*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 20/2/2022
+Time: 21:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 20/2/2022
+Time: 22:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 21-22*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 20/2/2022
+Time: 22:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 20/2/2022
+Time: 23:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 22-23*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 20/2/2022
+Time: 23:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 21/2/2022
+Time: 0:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* -1-0*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 21/2/2022
+Time: 0:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 21/2/2022
+Time: 1:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 0-1*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 21/2/2022
+Time: 1:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 21/2/2022
+Time: 2:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 1-2*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 21/2/2022
+Time: 2:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 21/2/2022
+Time: 3:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 2-3*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 21/2/2022
+Time: 3:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 21/2/2022
+Time: 4:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 3-4*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 21/2/2022
+Time: 4:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 21/2/2022
+Time: 5:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 4-5*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 21/2/2022
+Time: 5:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 21/2/2022
+Time: 6:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 5-6*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 21/2/2022
+Time: 6:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 21/2/2022
+Time: 7:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 6-7*Cadencia:* 110*Unidades Producidas:* 19*Eficiencia de la linea:* 17.27%
+--------------------
+Date: 21/2/2022
+Time: 7:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 21/2/2022
+Time: 8:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 7-8*Cadencia:* 110*Unidades Producidas:* 79*Eficiencia de la linea:* 71.82%
+--------------------
+Date: 21/2/2022
+Time: 8:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 21/2/2022
+Time: 9:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 8-9*Cadencia:* 110*Unidades Producidas:* 63*Eficiencia de la linea:* 57.27%
+--------------------
+Date: 21/2/2022
+Time: 10:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 21/2/2022
+Time: 11:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 10-11*Cadencia:* 110*Unidades Producidas:* 80*Eficiencia de la linea:* 72.73%
+--------------------
+Date: 21/2/2022
+Time: 11:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 21/2/2022
+Time: 12:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 11-12*Cadencia:* 110*Unidades Producidas:* 86*Eficiencia de la linea:* 78.18%
+--------------------
+Date: 21/2/2022
+Time: 12:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 21/2/2022
+Time: 13:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 12-13*Cadencia:* 110*Unidades Producidas:* 95*Eficiencia de la linea:* 86.36%
+--------------------
+Date: 21/2/2022
+Time: 13:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 21/2/2022
+Time: 14:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 13-14*Cadencia:* 110*Unidades Producidas:* 89*Eficiencia de la linea:* 80.91%
+--------------------
+Date: 21/2/2022
+Time: 14:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 21/2/2022
+Time: 15:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 14-15*Cadencia:* 110*Unidades Producidas:* 23*Eficiencia de la linea:* 20.91%
+--------------------
+Date: 21/2/2022
+Time: 15:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 21/2/2022
+Time: 16:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 15-16*Cadencia:* 110*Unidades Producidas:* 17*Eficiencia de la linea:* 15.45%
+--------------------
+Date: 21/2/2022
+Time: 16:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 21/2/2022
+Time: 17:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 16-17*Cadencia:* 110*Unidades Producidas:* 86*Eficiencia de la linea:* 78.18%
+--------------------
+Date: 21/2/2022
+Time: 17:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 21/2/2022
+Time: 18:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 17-18*Cadencia:* 110*Unidades Producidas:* 47*Eficiencia de la linea:* 42.73%
+--------------------
+Date: 21/2/2022
+Time: 18:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 21/2/2022
+Time: 19:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 18-19*Cadencia:* 110*Unidades Producidas:* 27*Eficiencia de la linea:* 24.55%
+--------------------
+Date: 21/2/2022
+Time: 19:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 21/2/2022
+Time: 20:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 19-20*Cadencia:* 110*Unidades Producidas:* 40*Eficiencia de la linea:* 36.36%
+--------------------
+Date: 21/2/2022
+Time: 20:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 21/2/2022
+Time: 21:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 20-21*Cadencia:* 110*Unidades Producidas:* 57*Eficiencia de la linea:* 51.82%
+--------------------
+Date: 21/2/2022
+Time: 21:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 21/2/2022
+Time: 22:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 21-22*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 21/2/2022
+Time: 22:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 22/2/2022
+Time: 6:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 5-6*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 22/2/2022
+Time: 6:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 22/2/2022
+Time: 7:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 6-7*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 22/2/2022
+Time: 7:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 22/2/2022
+Time: 8:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 7-8*Cadencia:* 110*Unidades Producidas:* 48*Eficiencia de la linea:* 43.64%
+--------------------
+Date: 22/2/2022
+Time: 8:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 22/2/2022
+Time: 9:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 8-9*Cadencia:* 110*Unidades Producidas:* 90*Eficiencia de la linea:* 81.82%
+--------------------
+Date: 22/2/2022
+Time: 9:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 22/2/2022
+Time: 10:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 9-10*Cadencia:* 110*Unidades Producidas:* 41*Eficiencia de la linea:* 37.27%
+--------------------
+Date: 22/2/2022
+Time: 10:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 22/2/2022
+Time: 11:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 10-11*Cadencia:* 110*Unidades Producidas:* 82*Eficiencia de la linea:* 74.55%
+--------------------
+Date: 22/2/2022
+Time: 11:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 22/2/2022
+Time: 12:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 11-12*Cadencia:* 110*Unidades Producidas:* 83*Eficiencia de la linea:* 75.45%
+--------------------
+Date: 22/2/2022
+Time: 12:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 22/2/2022
+Time: 13:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 12-13*Cadencia:* 110*Unidades Producidas:* 74*Eficiencia de la linea:* 67.27%
+--------------------
+Date: 22/2/2022
+Time: 13:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 22/2/2022
+Time: 14:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 13-14*Cadencia:* 110*Unidades Producidas:* 66*Eficiencia de la linea:* 60.0%
+--------------------
+Date: 22/2/2022
+Time: 14:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 22/2/2022
+Time: 15:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 14-15*Cadencia:* 110*Unidades Producidas:* 59*Eficiencia de la linea:* 53.64%
+--------------------
+Date: 22/2/2022
+Time: 15:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 22/2/2022
+Time: 16:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 15-16*Cadencia:* 110*Unidades Producidas:* 105*Eficiencia de la linea:* 95.45%
+--------------------
+Date: 22/2/2022
+Time: 16:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 22/2/2022
+Time: 17:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 16-17*Cadencia:* 110*Unidades Producidas:* 79*Eficiencia de la linea:* 71.82%
+--------------------
+Date: 22/2/2022
+Time: 17:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 22/2/2022
+Time: 18:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 17-18*Cadencia:* 110*Unidades Producidas:* 57*Eficiencia de la linea:* 51.82%
+--------------------
+Date: 22/2/2022
+Time: 18:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 22/2/2022
+Time: 19:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 18-19*Cadencia:* 110*Unidades Producidas:* 33*Eficiencia de la linea:* 30.0%
+--------------------
+Date: 22/2/2022
+Time: 19:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 22/2/2022
+Time: 20:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 19-20*Cadencia:* 110*Unidades Producidas:* 87*Eficiencia de la linea:* 79.09%
+--------------------
+Date: 22/2/2022
+Time: 20:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 22/2/2022
+Time: 21:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 20-21*Cadencia:* 110*Unidades Producidas:* 87*Eficiencia de la linea:* 79.09%
+--------------------
+Date: 22/2/2022
+Time: 21:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 22/2/2022
+Time: 22:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 21-22*Cadencia:* 110*Unidades Producidas:* 94*Eficiencia de la linea:* 85.45%
+--------------------
+Date: 22/2/2022
+Time: 22:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 23/2/2022
+Time: 6:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 5-6*Cadencia:* 110*Unidades Producidas:* 19*Eficiencia de la linea:* 17.27%
+--------------------
+Date: 23/2/2022
+Time: 6:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 23/2/2022
+Time: 7:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 6-7*Cadencia:* 110*Unidades Producidas:* 93*Eficiencia de la linea:* 84.55%
+--------------------
+Date: 23/2/2022
+Time: 7:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 23/2/2022
+Time: 8:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 7-8*Cadencia:* 110*Unidades Producidas:* 98*Eficiencia de la linea:* 89.09%
+--------------------
+Date: 23/2/2022
+Time: 8:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 23/2/2022
+Time: 11:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 23/2/2022
+Time: 12:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 11-12*Cadencia:* 110*Unidades Producidas:* 87*Eficiencia de la linea:* 79.09%
+--------------------
+Date: 23/2/2022
+Time: 12:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 23/2/2022
+Time: 13:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 12-13*Cadencia:* 110*Unidades Producidas:* 86*Eficiencia de la linea:* 78.18%
+--------------------
+Date: 23/2/2022
+Time: 13:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 23/2/2022
+Time: 14:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 13-14*Cadencia:* 110*Unidades Producidas:* 25*Eficiencia de la linea:* 22.73%
+--------------------
+Date: 23/2/2022
+Time: 14:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 23/2/2022
+Time: 15:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 14-15*Cadencia:* 110*Unidades Producidas:* 62*Eficiencia de la linea:* 56.36%
+--------------------
+Date: 23/2/2022
+Time: 15:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 23/2/2022
+Time: 16:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 15-16*Cadencia:* 110*Unidades Producidas:* 88*Eficiencia de la linea:* 80.0%
+--------------------
+Date: 23/2/2022
+Time: 16:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 23/2/2022
+Time: 17:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 16-17*Cadencia:* 110*Unidades Producidas:* 74*Eficiencia de la linea:* 67.27%
+--------------------
+Date: 23/2/2022
+Time: 17:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 23/2/2022
+Time: 18:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 17-18*Cadencia:* 110*Unidades Producidas:* 76*Eficiencia de la linea:* 69.09%
+--------------------
+Date: 23/2/2022
+Time: 18:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 23/2/2022
+Time: 19:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 18-19*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 23/2/2022
+Time: 19:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 23/2/2022
+Time: 20:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 19-20*Cadencia:* 110*Unidades Producidas:* 73*Eficiencia de la linea:* 66.36%
+--------------------
+Date: 23/2/2022
+Time: 20:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 23/2/2022
+Time: 21:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 20-21*Cadencia:* 110*Unidades Producidas:* 78*Eficiencia de la linea:* 70.91%
+--------------------
+Date: 23/2/2022
+Time: 21:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 23/2/2022
+Time: 22:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 21-22*Cadencia:* 110*Unidades Producidas:* 86*Eficiencia de la linea:* 78.18%
+--------------------
+Date: 23/2/2022
+Time: 22:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 24/2/2022
+Time: 6:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 5-6*Cadencia:* 110*Unidades Producidas:* 15*Eficiencia de la linea:* 13.64%
+--------------------
+Date: 24/2/2022
+Time: 6:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 24/2/2022
+Time: 7:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 6-7*Cadencia:* 110*Unidades Producidas:* 56*Eficiencia de la linea:* 50.91%
+--------------------
+Date: 24/2/2022
+Time: 7:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde enviar el informe:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 24/2/2022
+Time: 8:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de emsamble* 7-8*Cadencia:* 110*Unidades Producidas:* 0*Eficiencia de la linea:* 0.0%
+--------------------
+Date: 24/2/2022
+Time: 8:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 24/2/2022
+Time: 9:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 8-9*Cadencia: 110Unidades Producidas: 38Eficiencia de la linea: 34.55%
+--------------------
+Date: 24/2/2022
+Time: 9:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 24/2/2022
+Time: 10:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 9-10*Cadencia: 110Unidades Producidas: 40Eficiencia de la linea: 36.36%
+--------------------
+Date: 24/2/2022
+Time: 10:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 24/2/2022
+Time: 11:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 10-11*Cadencia: 110Unidades Producidas: 59Eficiencia de la linea: 53.64%
+--------------------
+Date: 24/2/2022
+Time: 11:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 24/2/2022
+Time: 12:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 11-12*Cadencia: 110Unidades Producidas: 83Eficiencia de la linea: 75.45%
+--------------------
+Date: 24/2/2022
+Time: 12:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 24/2/2022
+Time: 13:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 12-13*Cadencia: 110Unidades Producidas: 54Eficiencia de la linea: 49.09%
+--------------------
+Date: 24/2/2022
+Time: 13:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 24/2/2022
+Time: 14:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 13-14*Cadencia: 110Unidades Producidas: 13Eficiencia de la linea: 11.82%
+--------------------
+Date: 24/2/2022
+Time: 14:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 24/2/2022
+Time: 15:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 14-15*Cadencia: 110Unidades Producidas: 59Eficiencia de la linea: 53.64%
+--------------------
+Date: 24/2/2022
+Time: 15:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 24/2/2022
+Time: 16:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 15-16*Cadencia: 110Unidades Producidas: 71Eficiencia de la linea: 64.55%
+--------------------
+Date: 24/2/2022
+Time: 16:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 24/2/2022
+Time: 17:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 16-17*Cadencia: 110Unidades Producidas: 66Eficiencia de la linea: 60.0%
+--------------------
+Date: 24/2/2022
+Time: 17:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 24/2/2022
+Time: 18:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 17-18*Cadencia: 110Unidades Producidas: 68Eficiencia de la linea: 61.82%
+--------------------
+Date: 24/2/2022
+Time: 18:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 24/2/2022
+Time: 19:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 18-19*Cadencia: 110Unidades Producidas: 30Eficiencia de la linea: 27.27%
+--------------------
+Date: 24/2/2022
+Time: 19:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 24/2/2022
+Time: 20:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 19-20*Cadencia: 110Unidades Producidas: 78Eficiencia de la linea: 70.91%
+--------------------
+Date: 24/2/2022
+Time: 20:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 24/2/2022
+Time: 21:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 20-21*Cadencia: 110Unidades Producidas: 71Eficiencia de la linea: 64.55%
+--------------------
+Date: 24/2/2022
+Time: 21:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 24/2/2022
+Time: 22:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 21-22*Cadencia: 110Unidades Producidas: 86Eficiencia de la linea: 78.18%
+--------------------
+Date: 24/2/2022
+Time: 22:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 25/2/2022
+Time: 6:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 5-6*Cadencia: 110Unidades Producidas: 12Eficiencia de la linea: 10.91%
+--------------------
+Date: 25/2/2022
+Time: 6:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 25/2/2022
+Time: 7:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 6-7*Cadencia: 110Unidades Producidas: 97Eficiencia de la linea: 88.18%
+--------------------
+Date: 25/2/2022
+Time: 7:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 25/2/2022
+Time: 8:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 7-8*Cadencia: 110Unidades Producidas: 83Eficiencia de la linea: 75.45%
+--------------------
+Date: 25/2/2022
+Time: 8:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 25/2/2022
+Time: 9:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 8-9*Cadencia: 110Unidades Producidas: 43Eficiencia de la linea: 39.09%
+--------------------
+Date: 25/2/2022
+Time: 9:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 25/2/2022
+Time: 10:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 9-10*Cadencia: 110Unidades Producidas: 28Eficiencia de la linea: 25.45%
+--------------------
+Date: 25/2/2022
+Time: 10:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 25/2/2022
+Time: 11:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 10-11*Cadencia: 110Unidades Producidas: 62Eficiencia de la linea: 56.36%
+--------------------
+Date: 25/2/2022
+Time: 11:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 25/2/2022
+Time: 12:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 25/2/2022
+Time: 13:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 12-13*Cadencia: 130Unidades Producidas: 73Eficiencia de la linea: 56.15%
+--------------------
+Date: 25/2/2022
+Time: 13:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 25/2/2022
+Time: 14:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 13-14*Cadencia: 110Unidades Producidas: 67Eficiencia de la linea: 60.91%
+--------------------
+Date: 3/3/2022
+Time: 8:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 7-8*Cadencia: 120Unidades Producidas: 108Eficiencia de la linea: 90.0%
+--------------------
+Date: 3/3/2022
+Time: 11:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 3/3/2022
+Time: 12:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 11-12*Cadencia: 120Unidades Producidas: 74Eficiencia de la linea: 61.67%
+--------------------
+Date: 3/3/2022
+Time: 12:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 3/3/2022
+Time: 13:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 12-13*Cadencia: 120Unidades Producidas: 48Eficiencia de la linea: 40.0%
+--------------------
+Date: 3/3/2022
+Time: 13:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 3/3/2022
+Time: 14:1
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 13-14*Cadencia: 120Unidades Producidas: 94Eficiencia de la linea: 78.33%
+--------------------
+Date: 3/3/2022
+Time: 14:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 3/3/2022
+Time: 15:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 14-15*Cadencia: 120Unidades Producidas: 39Eficiencia de la linea: 32.5%
+--------------------
+Date: 3/3/2022
+Time: 15:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 3/3/2022
+Time: 16:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 15-16*Cadencia: 120Unidades Producidas: 88Eficiencia de la linea: 73.33%
+--------------------
+Date: 3/3/2022
+Time: 16:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 3/3/2022
+Time: 17:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 16-17*Cadencia: 120Unidades Producidas: 79Eficiencia de la linea: 65.83%
+--------------------
+Date: 3/3/2022
+Time: 17:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 3/3/2022
+Time: 18:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 17-18*Cadencia: 120Unidades Producidas: 0Eficiencia de la linea: 0.0%
+--------------------
+Date: 3/3/2022
+Time: 18:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 3/3/2022
+Time: 19:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 18-19*Cadencia: 120Unidades Producidas: 0Eficiencia de la linea: 0.0%
+--------------------
+Date: 3/3/2022
+Time: 19:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 3/3/2022
+Time: 20:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 19-20*Cadencia: 120Unidades Producidas: 1Eficiencia de la linea: 0.83%
+--------------------
+Date: 3/3/2022
+Time: 20:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 3/3/2022
+Time: 21:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 20-21*Cadencia: 120Unidades Producidas: 1Eficiencia de la linea: 0.83%
+--------------------
+Date: 3/3/2022
+Time: 21:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 3/3/2022
+Time: 22:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 21-22*Cadencia: 120Unidades Producidas: 0Eficiencia de la linea: 0.0%
+--------------------
+Date: 3/3/2022
+Time: 22:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 4/3/2022
+Time: 6:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 5-6*Cadencia: 120Unidades Producidas: 15Eficiencia de la linea: 12.5%
+--------------------
+Date: 4/3/2022
+Time: 6:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 4/3/2022
+Time: 7:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 6-7*Cadencia: 120Unidades Producidas: 86Eficiencia de la linea: 71.67%
+--------------------
+Date: 4/3/2022
+Time: 7:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 4/3/2022
+Time: 8:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 7-8*Cadencia: 120Unidades Producidas: 101Eficiencia de la linea: 84.17%
+--------------------
+Date: 4/3/2022
+Time: 8:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 4/3/2022
+Time: 9:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 8-9*Cadencia: 120Unidades Producidas: 91Eficiencia de la linea: 75.83%
+--------------------
+Date: 4/3/2022
+Time: 9:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 4/3/2022
+Time: 10:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 9-10*Cadencia: 120Unidades Producidas: 38Eficiencia de la linea: 31.67%
+--------------------
+Date: 4/3/2022
+Time: 10:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 4/3/2022
+Time: 11:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 10-11*Cadencia: 120Unidades Producidas: 93Eficiencia de la linea: 77.5%
+--------------------
+Date: 4/3/2022
+Time: 11:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 4/3/2022
+Time: 12:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 11-12*Cadencia: 120Unidades Producidas: 86Eficiencia de la linea: 71.67%
+--------------------
+Date: 4/3/2022
+Time: 12:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 4/3/2022
+Time: 13:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 12-13*Cadencia: 120Unidades Producidas: 62Eficiencia de la linea: 51.67%
+--------------------
+Date: 4/3/2022
+Time: 13:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 4/3/2022
+Time: 14:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 13-14*Cadencia: 120Unidades Producidas: 72Eficiencia de la linea: 60.0%
+--------------------
+Date: 4/3/2022
+Time: 14:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 4/3/2022
+Time: 15:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 14-15*Cadencia: 120Unidades Producidas: 86Eficiencia de la linea: 71.67%
+--------------------
+Date: 4/3/2022
+Time: 15:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 4/3/2022
+Time: 16:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 15-16*Cadencia: 120Unidades Producidas: 101Eficiencia de la linea: 84.17%
+--------------------
+Date: 4/3/2022
+Time: 16:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 4/3/2022
+Time: 17:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 16-17*Cadencia: 120Unidades Producidas: 81Eficiencia de la linea: 67.5%
+--------------------
+Date: 4/3/2022
+Time: 17:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 4/3/2022
+Time: 18:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 17-18*Cadencia: 120Unidades Producidas: 98Eficiencia de la linea: 81.67%
+--------------------
+Date: 4/3/2022
+Time: 18:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 4/3/2022
+Time: 19:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 18-19*Cadencia: 120Unidades Producidas: 7Eficiencia de la linea: 5.83%
+--------------------
+Date: 4/3/2022
+Time: 19:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 4/3/2022
+Time: 20:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 19-20*Cadencia: 120Unidades Producidas: 95Eficiencia de la linea: 79.17%
+--------------------
+Date: 4/3/2022
+Time: 20:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 4/3/2022
+Time: 21:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 20-21*Cadencia: 120Unidades Producidas: 59Eficiencia de la linea: 49.17%
+--------------------
+Date: 4/3/2022
+Time: 21:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 4/3/2022
+Time: 22:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 21-22*Cadencia: 120Unidades Producidas: 81Eficiencia de la linea: 67.5%
+--------------------
+Date: 4/3/2022
+Time: 22:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 5/3/2022
+Time: 6:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 5-6*Cadencia: 110Unidades Producidas: 21Eficiencia de la linea: 19.09%
+--------------------
+Date: 5/3/2022
+Time: 6:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 5/3/2022
+Time: 7:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 6-7*Cadencia: 110Unidades Producidas: 73Eficiencia de la linea: 66.36%
+--------------------
+Date: 5/3/2022
+Time: 7:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 5/3/2022
+Time: 8:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 7-8*Cadencia: 110Unidades Producidas: 101Eficiencia de la linea: 91.82%
+--------------------
+Date: 5/3/2022
+Time: 8:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 5/3/2022
+Time: 9:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 8-9*Cadencia: 110Unidades Producidas: 91Eficiencia de la linea: 82.73%
+--------------------
+Date: 5/3/2022
+Time: 9:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 5/3/2022
+Time: 10:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 9-10*Cadencia: 110Unidades Producidas: 38Eficiencia de la linea: 34.55%
+--------------------
+Date: 5/3/2022
+Time: 10:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 5/3/2022
+Time: 11:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 10-11*Cadencia: 110Unidades Producidas: 89Eficiencia de la linea: 80.91%
+--------------------
+Date: 5/3/2022
+Time: 11:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 5/3/2022
+Time: 12:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 11-12*Cadencia: 110Unidades Producidas: 85Eficiencia de la linea: 77.27%
+--------------------
+Date: 5/3/2022
+Time: 12:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 5/3/2022
+Time: 13:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 12-13*Cadencia: 110Unidades Producidas: 58Eficiencia de la linea: 52.73%
+--------------------
+Date: 5/3/2022
+Time: 13:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 5/3/2022
+Time: 14:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 13-14*Cadencia: 110Unidades Producidas: 63Eficiencia de la linea: 57.27%
+--------------------
+Date: 5/3/2022
+Time: 14:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 5/3/2022
+Time: 15:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 14-15*Cadencia: 110Unidades Producidas: 68Eficiencia de la linea: 61.82%
+--------------------
+Date: 5/3/2022
+Time: 15:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 5/3/2022
+Time: 16:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 15-16*Cadencia: 110Unidades Producidas: 81Eficiencia de la linea: 73.64%
+--------------------
+Date: 5/3/2022
+Time: 16:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 5/3/2022
+Time: 17:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 16-17*Cadencia: 110Unidades Producidas: 80Eficiencia de la linea: 72.73%
+--------------------
+Date: 5/3/2022
+Time: 17:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 5/3/2022
+Time: 18:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 17-18*Cadencia: 110Unidades Producidas: 68Eficiencia de la linea: 61.82%
+--------------------
+Date: 5/3/2022
+Time: 18:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 5/3/2022
+Time: 19:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 18-19*Cadencia: 110Unidades Producidas: 31Eficiencia de la linea: 28.18%
+--------------------
+Date: 5/3/2022
+Time: 19:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 5/3/2022
+Time: 20:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 19-20*Cadencia: 110Unidades Producidas: 73Eficiencia de la linea: 66.36%
+--------------------
+Date: 5/3/2022
+Time: 20:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 5/3/2022
+Time: 21:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 20-21*Cadencia: 110Unidades Producidas: 75Eficiencia de la linea: 68.18%
+--------------------
+Date: 5/3/2022
+Time: 21:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 5/3/2022
+Time: 22:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 21-22*Cadencia: 130Unidades Producidas: 79Eficiencia de la linea: 60.77%
+--------------------
+Date: 5/3/2022
+Time: 22:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 7/3/2022
+Time: 6:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 5-6*Cadencia: 110Unidades Producidas: 2Eficiencia de la linea: 1.82%
+--------------------
+Date: 7/3/2022
+Time: 6:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 7/3/2022
+Time: 7:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 6-7*Cadencia: 110Unidades Producidas: 57Eficiencia de la linea: 51.82%
+--------------------
+Date: 7/3/2022
+Time: 7:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 7/3/2022
+Time: 8:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 7-8*Cadencia: 110Unidades Producidas: 18Eficiencia de la linea: 16.36%
+--------------------
+Date: 7/3/2022
+Time: 8:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 7/3/2022
+Time: 9:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 8-9*Cadencia: 110Unidades Producidas: 60Eficiencia de la linea: 54.55%
+--------------------
+Date: 7/3/2022
+Time: 9:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 7/3/2022
+Time: 10:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 9-10*Cadencia: 110Unidades Producidas: 2Eficiencia de la linea: 1.82%
+--------------------
+Date: 7/3/2022
+Time: 10:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 7/3/2022
+Time: 11:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 10-11*Cadencia: 110Unidades Producidas: 29Eficiencia de la linea: 26.36%
+--------------------
+Date: 7/3/2022
+Time: 11:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 7/3/2022
+Time: 12:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 11-12*Cadencia: 110Unidades Producidas: 69Eficiencia de la linea: 62.73%
+--------------------
+Date: 7/3/2022
+Time: 12:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 7/3/2022
+Time: 13:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 12-13*Cadencia: 110Unidades Producidas: 45Eficiencia de la linea: 40.91%
+--------------------
+Date: 7/3/2022
+Time: 13:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 7/3/2022
+Time: 14:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 13-14*Cadencia: 110Unidades Producidas: 69Eficiencia de la linea: 62.73%
+--------------------
+Date: 7/3/2022
+Time: 14:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 7/3/2022
+Time: 15:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 14-15*Cadencia: 110Unidades Producidas: 61Eficiencia de la linea: 55.45%
+--------------------
+Date: 7/3/2022
+Time: 15:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 7/3/2022
+Time: 16:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 15-16*Cadencia: 110Unidades Producidas: 78Eficiencia de la linea: 70.91%
+--------------------
+Date: 7/3/2022
+Time: 16:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 7/3/2022
+Time: 17:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 16-17*Cadencia: 110Unidades Producidas: 77Eficiencia de la linea: 70.0%
+--------------------
+Date: 7/3/2022
+Time: 17:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 7/3/2022
+Time: 18:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 17-18*Cadencia: 110Unidades Producidas: 94Eficiencia de la linea: 85.45%
+--------------------
+Date: 7/3/2022
+Time: 18:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 7/3/2022
+Time: 19:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 18-19*Cadencia: 110Unidades Producidas: 36Eficiencia de la linea: 32.73%
+--------------------
+Date: 7/3/2022
+Time: 19:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 7/3/2022
+Time: 20:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 19-20*Cadencia: 110Unidades Producidas: 69Eficiencia de la linea: 62.73%
+--------------------
+Date: 7/3/2022
+Time: 20:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 7/3/2022
+Time: 21:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 20-21*Cadencia: 110Unidades Producidas: 48Eficiencia de la linea: 43.64%
+--------------------
+Date: 7/3/2022
+Time: 21:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 7/3/2022
+Time: 22:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 21-22*Cadencia: 110Unidades Producidas: 86Eficiencia de la linea: 78.18%
+--------------------
+Date: 7/3/2022
+Time: 22:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 8/3/2022
+Time: 6:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 5-6*Cadencia: 110Unidades Producidas: 1Eficiencia de la linea: 0.91%
+--------------------
+Date: 8/3/2022
+Time: 6:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 8/3/2022
+Time: 7:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 6-7*Cadencia: 110Unidades Producidas: 0Eficiencia de la linea: 0.0%
+--------------------
+Date: 8/3/2022
+Time: 7:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 8/3/2022
+Time: 8:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 7-8*Cadencia: 110Unidades Producidas: 64Eficiencia de la linea: 58.18%
+--------------------
+Date: 8/3/2022
+Time: 8:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 8/3/2022
+Time: 9:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 8-9*Cadencia: 110Unidades Producidas: 76Eficiencia de la linea: 69.09%
+--------------------
+Date: 8/3/2022
+Time: 9:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 8/3/2022
+Time: 10:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 9-10*Cadencia: 110Unidades Producidas: 0Eficiencia de la linea: 0.0%
+--------------------
+Date: 8/3/2022
+Time: 10:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 8/3/2022
+Time: 11:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 10-11*Cadencia: 110Unidades Producidas: 0Eficiencia de la linea: 0.0%
+--------------------
+Date: 8/3/2022
+Time: 11:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 8/3/2022
+Time: 12:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 11-12*Cadencia: 110Unidades Producidas: 0Eficiencia de la linea: 0.0%
+--------------------
+Date: 8/3/2022
+Time: 12:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 8/3/2022
+Time: 13:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 12-13*Cadencia: 110Unidades Producidas: 0Eficiencia de la linea: 0.0%
+--------------------
+Date: 8/3/2022
+Time: 13:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 8/3/2022
+Time: 14:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 13-14*Cadencia: 110Unidades Producidas: 0Eficiencia de la linea: 0.0%
+--------------------
+Date: 8/3/2022
+Time: 14:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 8/3/2022
+Time: 15:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 14-15*Cadencia: 110Unidades Producidas: 0Eficiencia de la linea: 0.0%
+--------------------
+Date: 8/3/2022
+Time: 15:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 8/3/2022
+Time: 16:1
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 15-16*Cadencia: 110Unidades Producidas: 0Eficiencia de la linea: 0.0%
+--------------------
+Date: 8/3/2022
+Time: 16:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 8/3/2022
+Time: 17:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 16-17*Cadencia: 110Unidades Producidas: 0Eficiencia de la linea: 0.0%
+--------------------
+Date: 8/3/2022
+Time: 17:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 8/3/2022
+Time: 18:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 17-18*Cadencia: 110Unidades Producidas: 0Eficiencia de la linea: 0.0%
+--------------------
+Date: 8/3/2022
+Time: 18:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 8/3/2022
+Time: 19:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 18-19*Cadencia: 110Unidades Producidas: 0Eficiencia de la linea: 0.0%
+--------------------
+Date: 8/3/2022
+Time: 19:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 8/3/2022
+Time: 20:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 19-20*Cadencia: 110Unidades Producidas: 52Eficiencia de la linea: 47.27%
+--------------------
+Date: 8/3/2022
+Time: 20:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 8/3/2022
+Time: 21:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 20-21*Cadencia: 110Unidades Producidas: 16Eficiencia de la linea: 14.55%
+--------------------
+Date: 8/3/2022
+Time: 21:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 8/3/2022
+Time: 22:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 21-22*Cadencia: 110Unidades Producidas: 62Eficiencia de la linea: 56.36%
+--------------------
+Date: 8/3/2022
+Time: 22:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 9/3/2022
+Time: 6:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 5-6*Cadencia: 110Unidades Producidas: 15Eficiencia de la linea: 13.64%
+--------------------
+Date: 9/3/2022
+Time: 6:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 9/3/2022
+Time: 7:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 6-7*Cadencia: 110Unidades Producidas: 84Eficiencia de la linea: 76.36%
+--------------------
+Date: 9/3/2022
+Time: 7:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 9/3/2022
+Time: 8:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 7-8*Cadencia: 110Unidades Producidas: 86Eficiencia de la linea: 78.18%
+--------------------
+Date: 9/3/2022
+Time: 8:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 9/3/2022
+Time: 9:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 8-9*Cadencia: 110Unidades Producidas: 74Eficiencia de la linea: 67.27%
+--------------------
+Date: 9/3/2022
+Time: 9:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 9/3/2022
+Time: 10:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 9-10*Cadencia: 110Unidades Producidas: 21Eficiencia de la linea: 19.09%
+--------------------
+Date: 9/3/2022
+Time: 10:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 9/3/2022
+Time: 11:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 10-11*Cadencia: 110Unidades Producidas: 53Eficiencia de la linea: 48.18%
+--------------------
+Date: 9/3/2022
+Time: 11:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 9/3/2022
+Time: 12:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 11-12*Cadencia: 110Unidades Producidas: 68Eficiencia de la linea: 61.82%
+--------------------
+Date: 9/3/2022
+Time: 12:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 9/3/2022
+Time: 13:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 12-13*Cadencia: 110Unidades Producidas: 93Eficiencia de la linea: 84.55%
+--------------------
+Date: 9/3/2022
+Time: 13:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 9/3/2022
+Time: 14:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 13-14*Cadencia: 110Unidades Producidas: 57Eficiencia de la linea: 51.82%
+--------------------
+Date: 9/3/2022
+Time: 14:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 9/3/2022
+Time: 15:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 14-15*Cadencia: 110Unidades Producidas: 40Eficiencia de la linea: 36.36%
+--------------------
+Date: 9/3/2022
+Time: 15:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 9/3/2022
+Time: 16:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 15-16*Cadencia: 110Unidades Producidas: 66Eficiencia de la linea: 60.0%
+--------------------
+Date: 9/3/2022
+Time: 16:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 9/3/2022
+Time: 17:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 16-17*Cadencia: 110Unidades Producidas: 0Eficiencia de la linea: 0.0%
+--------------------
+Date: 9/3/2022
+Time: 17:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 9/3/2022
+Time: 18:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 17-18*Cadencia: 110Unidades Producidas: 0Eficiencia de la linea: 0.0%
+--------------------
+Date: 9/3/2022
+Time: 18:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 9/3/2022
+Time: 19:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 18-19*Cadencia: 110Unidades Producidas: 0Eficiencia de la linea: 0.0%
+--------------------
+Date: 9/3/2022
+Time: 19:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 9/3/2022
+Time: 20:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 19-20*Cadencia: 110Unidades Producidas: 14Eficiencia de la linea: 12.73%
+--------------------
+Date: 9/3/2022
+Time: 20:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 9/3/2022
+Time: 21:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 20-21*Cadencia: 110Unidades Producidas: 76Eficiencia de la linea: 69.09%
+--------------------
+Date: 9/3/2022
+Time: 21:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 9/3/2022
+Time: 22:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 21-22*Cadencia: 110Unidades Producidas: 48Eficiencia de la linea: 43.64%
+--------------------
+Date: 9/3/2022
+Time: 22:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 10/3/2022
+Time: 6:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 5-6*Cadencia: 110Unidades Producidas: 0Eficiencia de la linea: 0.0%
+--------------------
+Date: 10/3/2022
+Time: 6:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 10/3/2022
+Time: 7:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 6-7*Cadencia: 110Unidades Producidas: 0Eficiencia de la linea: 0.0%
+--------------------
+Date: 10/3/2022
+Time: 7:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 10/3/2022
+Time: 8:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 7-8*Cadencia: 110Unidades Producidas: 0Eficiencia de la linea: 0.0%
+--------------------
+Date: 10/3/2022
+Time: 8:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 10/3/2022
+Time: 9:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 8-9*Cadencia: 110Unidades Producidas: 1Eficiencia de la linea: 0.91%
+--------------------
+Date: 10/3/2022
+Time: 9:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 10/3/2022
+Time: 10:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 9-10*Cadencia: 110Unidades Producidas: 5Eficiencia de la linea: 4.55%
+--------------------
+Date: 10/3/2022
+Time: 10:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 10/3/2022
+Time: 11:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 10-11*Cadencia: 110Unidades Producidas: 36Eficiencia de la linea: 32.73%
+--------------------
+Date: 10/3/2022
+Time: 11:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 10/3/2022
+Time: 12:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 11-12*Cadencia: 110Unidades Producidas: 56Eficiencia de la linea: 50.91%
+--------------------
+Date: 10/3/2022
+Time: 12:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 10/3/2022
+Time: 13:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 12-13*Cadencia: 110Unidades Producidas: 0Eficiencia de la linea: 0.0%
+--------------------
+Date: 10/3/2022
+Time: 13:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 10/3/2022
+Time: 14:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 13-14*Cadencia: 110Unidades Producidas: 0Eficiencia de la linea: 0.0%
+--------------------
+Date: 10/3/2022
+Time: 14:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 10/3/2022
+Time: 15:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 14-15*Cadencia: 110Unidades Producidas: 51Eficiencia de la linea: 46.36%
+--------------------
+Date: 10/3/2022
+Time: 15:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 10/3/2022
+Time: 16:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 15-16*Cadencia: 110Unidades Producidas: 41Eficiencia de la linea: 37.27%
+--------------------
+Date: 10/3/2022
+Time: 16:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 10/3/2022
+Time: 17:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 16-17*Cadencia: 110Unidades Producidas: 43Eficiencia de la linea: 39.09%
+--------------------
+Date: 10/3/2022
+Time: 17:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 10/3/2022
+Time: 18:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 17-18*Cadencia: 110Unidades Producidas: 89Eficiencia de la linea: 80.91%
+--------------------
+Date: 10/3/2022
+Time: 18:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 10/3/2022
+Time: 19:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 18-19*Cadencia: 110Unidades Producidas: 38Eficiencia de la linea: 34.55%
+--------------------
+Date: 10/3/2022
+Time: 19:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 10/3/2022
+Time: 20:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 19-20*Cadencia: 110Unidades Producidas: 71Eficiencia de la linea: 64.55%
+--------------------
+Date: 10/3/2022
+Time: 20:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 10/3/2022
+Time: 21:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 20-21*Cadencia: 110Unidades Producidas: 77Eficiencia de la linea: 70.0%
+--------------------
+Date: 10/3/2022
+Time: 21:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 10/3/2022
+Time: 22:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 21-22*Cadencia: 110Unidades Producidas: 70Eficiencia de la linea: 63.64%
+--------------------
+Date: 10/3/2022
+Time: 22:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 11/3/2022
+Time: 6:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 5-6*Cadencia: 110Unidades Producidas: 20Eficiencia de la linea: 18.18%
+--------------------
+Date: 11/3/2022
+Time: 6:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 11/3/2022
+Time: 7:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 6-7*Cadencia: 110Unidades Producidas: 66Eficiencia de la linea: 60.0%
+--------------------
+Date: 11/3/2022
+Time: 7:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 11/3/2022
+Time: 8:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 7-8*Cadencia: 110Unidades Producidas: 78Eficiencia de la linea: 70.91%
+--------------------
+Date: 11/3/2022
+Time: 8:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 11/3/2022
+Time: 9:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 8-9*Cadencia: 110Unidades Producidas: 74Eficiencia de la linea: 67.27%
+--------------------
+Date: 11/3/2022
+Time: 9:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 11/3/2022
+Time: 10:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 9-10*Cadencia: 110Unidades Producidas: 28Eficiencia de la linea: 25.45%
+--------------------
+Date: 11/3/2022
+Time: 10:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 11/3/2022
+Time: 11:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 10-11*Cadencia: 110Unidades Producidas: 58Eficiencia de la linea: 52.73%
+--------------------
+Date: 11/3/2022
+Time: 11:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 11/3/2022
+Time: 12:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 11-12*Cadencia: 110Unidades Producidas: 87Eficiencia de la linea: 79.09%
+--------------------
+Date: 11/3/2022
+Time: 12:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 11/3/2022
+Time: 13:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 12-13*Cadencia: 110Unidades Producidas: 80Eficiencia de la linea: 72.73%
+--------------------
+Date: 11/3/2022
+Time: 13:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 11/3/2022
+Time: 14:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 13-14*Cadencia: 110Unidades Producidas: 69Eficiencia de la linea: 62.73%
+--------------------
+Date: 11/3/2022
+Time: 14:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 11/3/2022
+Time: 15:1
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 14-15*Cadencia: 110Unidades Producidas: 61Eficiencia de la linea: 55.45%
+--------------------
+Date: 11/3/2022
+Time: 15:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 11/3/2022
+Time: 16:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 15-16*Cadencia: 110Unidades Producidas: 98Eficiencia de la linea: 89.09%
+--------------------
+Date: 11/3/2022
+Time: 16:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 11/3/2022
+Time: 17:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 16-17*Cadencia: 110Unidades Producidas: 85Eficiencia de la linea: 77.27%
+--------------------
+Date: 11/3/2022
+Time: 17:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 11/3/2022
+Time: 18:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 17-18*Cadencia: 110Unidades Producidas: 40Eficiencia de la linea: 36.36%
+--------------------
+Date: 11/3/2022
+Time: 18:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 11/3/2022
+Time: 19:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 18-19*Cadencia: 110Unidades Producidas: 27Eficiencia de la linea: 24.55%
+--------------------
+Date: 11/3/2022
+Time: 19:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 11/3/2022
+Time: 20:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 19-20*Cadencia: 110Unidades Producidas: 66Eficiencia de la linea: 60.0%
+--------------------
+Date: 11/3/2022
+Time: 20:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 11/3/2022
+Time: 21:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 20-21*Cadencia: 110Unidades Producidas: 52Eficiencia de la linea: 47.27%
+--------------------
+Date: 11/3/2022
+Time: 21:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 11/3/2022
+Time: 22:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 21-22*Cadencia: 110Unidades Producidas: 67Eficiencia de la linea: 60.91%
+--------------------
+Date: 11/3/2022
+Time: 22:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 12/3/2022
+Time: 6:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 5-6*Cadencia: 110Unidades Producidas: 10Eficiencia de la linea: 9.09%
+--------------------
+Date: 12/3/2022
+Time: 6:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 12/3/2022
+Time: 7:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 6-7*Cadencia: 110Unidades Producidas: 52Eficiencia de la linea: 47.27%
+--------------------
+Date: 12/3/2022
+Time: 7:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 12/3/2022
+Time: 8:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 7-8*Cadencia: 110Unidades Producidas: 53Eficiencia de la linea: 48.18%
+--------------------
+Date: 12/3/2022
+Time: 8:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 12/3/2022
+Time: 9:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 8-9*Cadencia: 110Unidades Producidas: 31Eficiencia de la linea: 28.18%
+--------------------
+Date: 12/3/2022
+Time: 9:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 12/3/2022
+Time: 10:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 9-10*Cadencia: 110Unidades Producidas: 37Eficiencia de la linea: 33.64%
+--------------------
+Date: 12/3/2022
+Time: 10:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 12/3/2022
+Time: 11:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 10-11*Cadencia: 110Unidades Producidas: 81Eficiencia de la linea: 73.64%
+--------------------
+Date: 12/3/2022
+Time: 11:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 12/3/2022
+Time: 12:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 11-12*Cadencia: 110Unidades Producidas: 77Eficiencia de la linea: 70.0%
+--------------------
+Date: 12/3/2022
+Time: 12:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 12/3/2022
+Time: 13:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 12-13*Cadencia: 110Unidades Producidas: 90Eficiencia de la linea: 81.82%
+--------------------
+Date: 12/3/2022
+Time: 13:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 12/3/2022
+Time: 14:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 13-14*Cadencia: 110Unidades Producidas: 80Eficiencia de la linea: 72.73%
+--------------------
+Date: 12/3/2022
+Time: 14:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 12/3/2022
+Time: 15:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 14-15*Cadencia: 110Unidades Producidas: 77Eficiencia de la linea: 70.0%
+--------------------
+Date: 12/3/2022
+Time: 15:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 12/3/2022
+Time: 16:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 15-16*Cadencia: 110Unidades Producidas: 88Eficiencia de la linea: 80.0%
+--------------------
+Date: 12/3/2022
+Time: 16:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 12/3/2022
+Time: 17:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 16-17*Cadencia: 110Unidades Producidas: 60Eficiencia de la linea: 54.55%
+--------------------
+Date: 12/3/2022
+Time: 17:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 12/3/2022
+Time: 18:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 17-18*Cadencia: 110Unidades Producidas: 75Eficiencia de la linea: 68.18%
+--------------------
+Date: 12/3/2022
+Time: 18:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 12/3/2022
+Time: 19:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 18-19*Cadencia: 110Unidades Producidas: 9Eficiencia de la linea: 8.18%
+--------------------
+Date: 12/3/2022
+Time: 19:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 12/3/2022
+Time: 20:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 19-20*Cadencia: 110Unidades Producidas: 62Eficiencia de la linea: 56.36%
+--------------------
+Date: 12/3/2022
+Time: 20:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 12/3/2022
+Time: 21:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 20-21*Cadencia: 110Unidades Producidas: 73Eficiencia de la linea: 66.36%
+--------------------
+Date: 12/3/2022
+Time: 21:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 12/3/2022
+Time: 22:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 21-22*Cadencia: 110Unidades Producidas: 91Eficiencia de la linea: 82.73%
+--------------------
+Date: 12/3/2022
+Time: 22:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 14/3/2022
+Time: 6:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 5-6*Cadencia: 110Unidades Producidas: 13Eficiencia de la linea: 11.82%
+--------------------
+Date: 14/3/2022
+Time: 6:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 14/3/2022
+Time: 7:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 6-7*Cadencia: 110Unidades Producidas: 14Eficiencia de la linea: 12.73%
+--------------------
+Date: 14/3/2022
+Time: 7:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 14/3/2022
+Time: 8:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 7-8*Cadencia: 110Unidades Producidas: 85Eficiencia de la linea: 77.27%
+--------------------
+Date: 14/3/2022
+Time: 8:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 14/3/2022
+Time: 9:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 8-9*Cadencia: 110Unidades Producidas: 78Eficiencia de la linea: 70.91%
+--------------------
+Date: 14/3/2022
+Time: 9:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 14/3/2022
+Time: 10:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 9-10*Cadencia: 110Unidades Producidas: 32Eficiencia de la linea: 29.09%
+--------------------
+Date: 14/3/2022
+Time: 10:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 14/3/2022
+Time: 11:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 10-11*Cadencia: 110Unidades Producidas: 87Eficiencia de la linea: 79.09%
+--------------------
+Date: 14/3/2022
+Time: 11:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 14/3/2022
+Time: 12:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 11-12*Cadencia: 110Unidades Producidas: 63Eficiencia de la linea: 57.27%
+--------------------
+Date: 14/3/2022
+Time: 12:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 14/3/2022
+Time: 13:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 12-13*Cadencia: 110Unidades Producidas: 91Eficiencia de la linea: 82.73%
+--------------------
+Date: 14/3/2022
+Time: 13:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 14/3/2022
+Time: 14:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 13-14*Cadencia: 110Unidades Producidas: 44Eficiencia de la linea: 40.0%
+--------------------
+Date: 14/3/2022
+Time: 14:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 14/3/2022
+Time: 15:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 14-15*Cadencia: 110Unidades Producidas: 0Eficiencia de la linea: 0.0%
+--------------------
+Date: 14/3/2022
+Time: 15:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 14/3/2022
+Time: 16:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 15-16*Cadencia: 110Unidades Producidas: 0Eficiencia de la linea: 0.0%
+--------------------
+Date: 14/3/2022
+Time: 16:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 14/3/2022
+Time: 17:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 16-17*Cadencia: 110Unidades Producidas: 25Eficiencia de la linea: 22.73%
+--------------------
+Date: 14/3/2022
+Time: 17:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 14/3/2022
+Time: 18:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 17-18*Cadencia: 110Unidades Producidas: 88Eficiencia de la linea: 80.0%
+--------------------
+Date: 14/3/2022
+Time: 18:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 14/3/2022
+Time: 19:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 18-19*Cadencia: 110Unidades Producidas: 35Eficiencia de la linea: 31.82%
+--------------------
+Date: 14/3/2022
+Time: 19:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 14/3/2022
+Time: 20:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 19-20*Cadencia: 110Unidades Producidas: 83Eficiencia de la linea: 75.45%
+--------------------
+Date: 14/3/2022
+Time: 20:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 14/3/2022
+Time: 21:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 20-21*Cadencia: 110Unidades Producidas: 25Eficiencia de la linea: 22.73%
+--------------------
+Date: 14/3/2022
+Time: 21:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 14/3/2022
+Time: 22:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 21-22*Cadencia: 110Unidades Producidas: 80Eficiencia de la linea: 72.73%
+--------------------
+Date: 14/3/2022
+Time: 22:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 15/3/2022
+Time: 6:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 5-6*Cadencia: 110Unidades Producidas: 16Eficiencia de la linea: 14.55%
+--------------------
+Date: 15/3/2022
+Time: 6:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 15/3/2022
+Time: 7:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 6-7*Cadencia: 110Unidades Producidas: 90Eficiencia de la linea: 81.82%
+--------------------
+Date: 15/3/2022
+Time: 7:48
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 15/3/2022
+Time: 8:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 7-8*Cadencia: 110Unidades Producidas: 82Eficiencia de la linea: 74.55%
+--------------------
+Date: 15/3/2022
+Time: 8:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 15/3/2022
+Time: 9:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 8-9*Cadencia: 110Unidades Producidas: 81Eficiencia de la linea: 73.64%
+--------------------
+Date: 15/3/2022
+Time: 9:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 15/3/2022
+Time: 10:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 9-10*Cadencia: 110Unidades Producidas: 33Eficiencia de la linea: 30.0%
+--------------------
+Date: 15/3/2022
+Time: 10:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 15/3/2022
+Time: 11:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 10-11*Cadencia: 110Unidades Producidas: 62Eficiencia de la linea: 56.36%
+--------------------
+Date: 15/3/2022
+Time: 11:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 15/3/2022
+Time: 12:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 11-12*Cadencia: 110Unidades Producidas: 1Eficiencia de la linea: 0.91%
+--------------------
+Date: 15/3/2022
+Time: 12:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 15/3/2022
+Time: 13:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 12-13*Cadencia: 120Unidades Producidas: 60Eficiencia de la linea: 50.0%
+--------------------
+Date: 15/3/2022
+Time: 13:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 15/3/2022
+Time: 14:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 13-14*Cadencia: 110Unidades Producidas: 28Eficiencia de la linea: 25.45%
+--------------------
+Date: 15/3/2022
+Time: 14:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 15/3/2022
+Time: 15:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 14-15*Cadencia: 110Unidades Producidas: 74Eficiencia de la linea: 67.27%
+--------------------
+Date: 15/3/2022
+Time: 15:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 15/3/2022
+Time: 16:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 15-16*Cadencia: 110Unidades Producidas: 83Eficiencia de la linea: 75.45%
+--------------------
+Date: 15/3/2022
+Time: 16:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 15/3/2022
+Time: 17:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 16-17*Cadencia: 110Unidades Producidas: 67Eficiencia de la linea: 60.91%
+--------------------
+Date: 15/3/2022
+Time: 17:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 15/3/2022
+Time: 18:1
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 17-18*Cadencia: 110Unidades Producidas: 89Eficiencia de la linea: 80.91%
+--------------------
+Date: 15/3/2022
+Time: 18:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 15/3/2022
+Time: 19:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 18-19*Cadencia: 110Unidades Producidas: 29Eficiencia de la linea: 26.36%
+--------------------
+Date: 15/3/2022
+Time: 19:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 15/3/2022
+Time: 20:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 19-20*Cadencia: 110Unidades Producidas: 82Eficiencia de la linea: 74.55%
+--------------------
+Date: 15/3/2022
+Time: 20:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 15/3/2022
+Time: 21:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 20-21*Cadencia: 110Unidades Producidas: 60Eficiencia de la linea: 54.55%
+--------------------
+Date: 15/3/2022
+Time: 21:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 15/3/2022
+Time: 22:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 21-22*Cadencia: 110Unidades Producidas: 75Eficiencia de la linea: 68.18%
+--------------------
+Date: 15/3/2022
+Time: 22:49
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Recuerde diligenciar el formulario:*https://mail.google.com/mail/u/0/?ogbl#inbox
+--------------------
+Date: 16/3/2022
+Time: 6:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 5-6*Cadencia: 110Unidades Producidas: 20Eficiencia de la linea: 18.18%
+--------------------
+Date: 16/3/2022
+Time: 7:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 6-7*Cadencia: 110Unidades Producidas: 64Eficiencia de la linea: 58.18%
+--------------------
+Date: 16/3/2022
+Time: 8:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 7-8*Cadencia: 110Unidades Producidas: 0Eficiencia de la linea: 0.0%
+--------------------
+Date: 16/3/2022
+Time: 9:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 8-9*Cadencia: 110Unidades Producidas: 0Eficiencia de la linea: 0.0%
+--------------------
+Date: 16/3/2022
+Time: 10:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 9-10*Cadencia: 110Unidades Producidas: 0Eficiencia de la linea: 0.0%
+--------------------
+Date: 16/3/2022
+Time: 11:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 10-11*Cadencia: 110Unidades Producidas: 0Eficiencia de la linea: 0.0%
+--------------------
+Date: 16/3/2022
+Time: 13:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 12-13*Cadencia: 120Unidades Producidas: 99Eficiencia de la linea: 82.5%
+--------------------
+Date: 16/3/2022
+Time: 14:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 13-14*Cadencia: 120Unidades Producidas: 87Eficiencia de la linea: 72.5%
+--------------------
+Date: 16/3/2022
+Time: 15:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 14-15*Cadencia: 110Unidades Producidas: 61Eficiencia de la linea: 55.45%
+--------------------
+Date: 16/3/2022
+Time: 16:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 15-16*Cadencia: 110Unidades Producidas: 70Eficiencia de la linea: 63.64%
+--------------------
+Date: 16/3/2022
+Time: 17:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 16-17*Cadencia: 110Unidades Producidas: 72Eficiencia de la linea: 65.45%
+--------------------
+Date: 16/3/2022
+Time: 18:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 17-18*Cadencia: 110Unidades Producidas: 59Eficiencia de la linea: 53.64%
+--------------------
+Date: 16/3/2022
+Time: 19:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 18-19*Cadencia: 110Unidades Producidas: 0Eficiencia de la linea: 0.0%
+--------------------
+Date: 16/3/2022
+Time: 20:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 19-20*Cadencia: 110Unidades Producidas: 26Eficiencia de la linea: 23.64%
+--------------------
+Date: 16/3/2022
+Time: 21:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 20-21*Cadencia: 110Unidades Producidas: 38Eficiencia de la linea: 34.55%
+--------------------
+Date: 16/3/2022
+Time: 22:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 21-22*Cadencia: 110Unidades Producidas: 67Eficiencia de la linea: 60.91%
+--------------------
+Date: 17/3/2022
+Time: 6:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 5-6*Cadencia: 110Unidades Producidas: 4Eficiencia de la linea: 3.64%
+--------------------
+Date: 17/3/2022
+Time: 7:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 6-7*Cadencia: 120Unidades Producidas: 104Eficiencia de la linea: 86.67%
+--------------------
+Date: 17/3/2022
+Time: 8:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 7-8*Cadencia: 120Unidades Producidas: 89Eficiencia de la linea: 74.17%
+--------------------
+Date: 17/3/2022
+Time: 9:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 8-9*Cadencia: 120Unidades Producidas: 91Eficiencia de la linea: 75.83%
+--------------------
+Date: 17/3/2022
+Time: 10:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 9-10*Cadencia: 120Unidades Producidas: 43Eficiencia de la linea: 35.83%
+--------------------
+Date: 17/3/2022
+Time: 11:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 10-11*Cadencia: 120Unidades Producidas: 77Eficiencia de la linea: 64.17%
+--------------------
+Date: 17/3/2022
+Time: 12:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 11-12*Cadencia: 120Unidades Producidas: 94Eficiencia de la linea: 78.33%
+--------------------
+Date: 17/3/2022
+Time: 13:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 12-13*Cadencia: 120Unidades Producidas: 89Eficiencia de la linea: 74.17%
+--------------------
+Date: 17/3/2022
+Time: 14:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 13-14*Cadencia: 120Unidades Producidas: 97Eficiencia de la linea: 80.83%
+--------------------
+Date: 17/3/2022
+Time: 15:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 14-15*Cadencia: 120Unidades Producidas: 77Eficiencia de la linea: 64.17%
+--------------------
+Date: 17/3/2022
+Time: 16:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 15-16*Cadencia: 120Unidades Producidas: 88Eficiencia de la linea: 73.33%
+--------------------
+Date: 17/3/2022
+Time: 17:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 16-17*Cadencia: 130Unidades Producidas: 74Eficiencia de la linea: 56.92%
+--------------------
+Date: 17/3/2022
+Time: 18:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 17-18*Cadencia: 130Unidades Producidas: 103Eficiencia de la linea: 79.23%
+--------------------
+Date: 17/3/2022
+Time: 19:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 18-19*Cadencia: 130Unidades Producidas: 32Eficiencia de la linea: 24.62%
+--------------------
+Date: 17/3/2022
+Time: 20:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 19-20*Cadencia: 130Unidades Producidas: 90Eficiencia de la linea: 69.23%
+--------------------
+Date: 17/3/2022
+Time: 21:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 20-21*Cadencia: 130Unidades Producidas: 82Eficiencia de la linea: 63.08%
+--------------------
+Date: 17/3/2022
+Time: 22:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 21-22*Cadencia: 130Unidades Producidas: 72Eficiencia de la linea: 55.38%
+--------------------
+Date: 18/3/2022
+Time: 6:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 5-6*Cadencia: 120Unidades Producidas: 21Eficiencia de la linea: 17.5%
+--------------------
+Date: 18/3/2022
+Time: 7:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 6-7*Cadencia: 120Unidades Producidas: 76Eficiencia de la linea: 63.33%
+--------------------
+Date: 18/3/2022
+Time: 8:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 7-8*Cadencia: 120Unidades Producidas: 48Eficiencia de la linea: 40.0%
+--------------------
+Date: 18/3/2022
+Time: 9:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 8-9*Cadencia: 110Unidades Producidas: 16Eficiencia de la linea: 14.55%
+--------------------
+Date: 18/3/2022
+Time: 10:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 9-10*Cadencia: 110Unidades Producidas: 15Eficiencia de la linea: 13.64%
+--------------------
+Date: 18/3/2022
+Time: 11:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 10-11*Cadencia: 110Unidades Producidas: 29Eficiencia de la linea: 26.36%
+--------------------
+Date: 18/3/2022
+Time: 12:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 11-12*Cadencia: 120Unidades Producidas: 50Eficiencia de la linea: 41.67%
+--------------------
+Date: 18/3/2022
+Time: 13:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 12-13*Cadencia: 120Unidades Producidas: 87Eficiencia de la linea: 72.5%
+--------------------
+Date: 18/3/2022
+Time: 14:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 13-14*Cadencia: 120Unidades Producidas: 90Eficiencia de la linea: 75.0%
+--------------------
+Date: 18/3/2022
+Time: 15:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 14-15*Cadencia: 120Unidades Producidas: 80Eficiencia de la linea: 66.67%
+--------------------
+Date: 18/3/2022
+Time: 16:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 15-16*Cadencia: 120Unidades Producidas: 83Eficiencia de la linea: 69.17%
+--------------------
+Date: 18/3/2022
+Time: 17:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 16-17*Cadencia: 120Unidades Producidas: 83Eficiencia de la linea: 69.17%
+--------------------
+Date: 18/3/2022
+Time: 18:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 17-18*Cadencia: 120Unidades Producidas: 95Eficiencia de la linea: 79.17%
+--------------------
+Date: 18/3/2022
+Time: 19:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 18-19*Cadencia: 120Unidades Producidas: 36Eficiencia de la linea: 30.0%
+--------------------
+Date: 18/3/2022
+Time: 20:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 19-20*Cadencia: 120Unidades Producidas: 81Eficiencia de la linea: 67.5%
+--------------------
+Date: 18/3/2022
+Time: 21:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 20-21*Cadencia: 120Unidades Producidas: 92Eficiencia de la linea: 76.67%
+--------------------
+Date: 18/3/2022
+Time: 22:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 21-22*Cadencia: 120Unidades Producidas: 98Eficiencia de la linea: 81.67%
+--------------------
+Date: 19/3/2022
+Time: 6:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 5-6*Cadencia: 120Unidades Producidas: 19Eficiencia de la linea: 15.83%
+--------------------
+Date: 19/3/2022
+Time: 7:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 6-7*Cadencia: 120Unidades Producidas: 85Eficiencia de la linea: 70.83%
+--------------------
+Date: 19/3/2022
+Time: 8:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 7-8*Cadencia: 120Unidades Producidas: 101Eficiencia de la linea: 84.17%
+--------------------
+Date: 19/3/2022
+Time: 9:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 8-9*Cadencia: 120Unidades Producidas: 78Eficiencia de la linea: 65.0%
+--------------------
+Date: 19/3/2022
+Time: 10:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 9-10*Cadencia: 120Unidades Producidas: 43Eficiencia de la linea: 35.83%
+--------------------
+Date: 19/3/2022
+Time: 11:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 10-11*Cadencia: 120Unidades Producidas: 73Eficiencia de la linea: 60.83%
+--------------------
+Date: 19/3/2022
+Time: 12:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 11-12*Cadencia: 120Unidades Producidas: 31Eficiencia de la linea: 25.83%
+--------------------
+Date: 19/3/2022
+Time: 13:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 12-13*Cadencia: 120Unidades Producidas: 0Eficiencia de la linea: 0.0%
+--------------------
+Date: 19/3/2022
+Time: 14:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 13-14*Cadencia: 120Unidades Producidas: 0Eficiencia de la linea: 0.0%
+--------------------
+Date: 19/3/2022
+Time: 15:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 14-15*Cadencia: 120Unidades Producidas: 0Eficiencia de la linea: 0.0%
+--------------------
+Date: 19/3/2022
+Time: 16:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 15-16*Cadencia: 120Unidades Producidas: 0Eficiencia de la linea: 0.0%
+--------------------
+Date: 19/3/2022
+Time: 17:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 16-17*Cadencia: 110Unidades Producidas: 26Eficiencia de la linea: 23.64%
+--------------------
+Date: 19/3/2022
+Time: 18:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 17-18*Cadencia: 110Unidades Producidas: 46Eficiencia de la linea: 41.82%
+--------------------
+Date: 19/3/2022
+Time: 19:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 18-19*Cadencia: 110Unidades Producidas: 7Eficiencia de la linea: 6.36%
+--------------------
+Date: 19/3/2022
+Time: 20:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 19-20*Cadencia: 130Unidades Producidas: 76Eficiencia de la linea: 58.46%
+--------------------
+Date: 19/3/2022
+Time: 21:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 20-21*Cadencia: 130Unidades Producidas: 61Eficiencia de la linea: 46.92%
+--------------------
+Date: 19/3/2022
+Time: 22:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 21-22*Cadencia: 160Unidades Producidas: 79Eficiencia de la linea: 49.38%
+--------------------
+Date: 22/3/2022
+Time: 6:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 5-6*Cadencia: 120Unidades Producidas: 7Eficiencia de la linea: 5.83%
+--------------------
+Date: 22/3/2022
+Time: 7:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 6-7*Cadencia: 120Unidades Producidas: 96Eficiencia de la linea: 80.0%
+--------------------
+Date: 22/3/2022
+Time: 8:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 7-8*Cadencia: 120Unidades Producidas: 105Eficiencia de la linea: 87.5%
+--------------------
+Date: 22/3/2022
+Time: 9:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 8-9*Cadencia: 120Unidades Producidas: 83Eficiencia de la linea: 69.17%
+--------------------
+Date: 22/3/2022
+Time: 10:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 9-10*Cadencia: 120Unidades Producidas: 44Eficiencia de la linea: 36.67%
+--------------------
+Date: 22/3/2022
+Time: 11:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 10-11*Cadencia: 120Unidades Producidas: 97Eficiencia de la linea: 80.83%
+--------------------
+Date: 22/3/2022
+Time: 12:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 11-12*Cadencia: 120Unidades Producidas: 93Eficiencia de la linea: 77.5%
+--------------------
+Date: 22/3/2022
+Time: 13:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 12-13*Cadencia: 120Unidades Producidas: 101Eficiencia de la linea: 84.17%
+--------------------
+Date: 22/3/2022
+Time: 14:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 13-14*Cadencia: 110Unidades Producidas: 82Eficiencia de la linea: 74.55%
+--------------------
+Date: 22/3/2022
+Time: 15:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 14-15*Cadencia: 110Unidades Producidas: 43Eficiencia de la linea: 39.09%
+--------------------
+Date: 22/3/2022
+Time: 16:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 15-16*Cadencia: 110Unidades Producidas: 29Eficiencia de la linea: 26.36%
+--------------------
+Date: 25/3/2022
+Time: 18:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 17-18*Cadencia: 110Unidades Producidas: 63Eficiencia de la linea: 57.27%
+--------------------
+Date: 28/3/2022
+Time: 13:21
+Group ID: Lv0uj5NxZMaBqtGVnsHtej
+Message: *Informe linea de ensamble 12-13*Cadencia: 120Unidades Producidas: 7Eficiencia de la linea: 5.83%
+--------------------
+Date: 28/3/2022
+Time: 13:27
+Group ID: Lv0uj5NxZMaBqtGVnsHtej
+Message: *Informe linea de ensamble 12-13*Cadencia: 120Unidades Producidas: 7Eficiencia de la linea: 5.83%
+--------------------
+Date: 28/3/2022
+Time: 13:32
+Group ID: Lv0uj5NxZMaBqtGVnsHtej
+Message: *Informe linea de ensamble 12-13*Cadencia: 120Unidades Producidas: 23Eficiencia de la linea: 19.17%
+--------------------
+Date: 28/3/2022
+Time: 13:53
+Group ID: Lv0uj5NxZMaBqtGVnsHtej
+Message: *Informe linea de ensamble 12-13*Cadencia: 120Unidades Producidas: 27Eficiencia de la linea: 22.5%
+--------------------
+Date: 28/3/2022
+Time: 14:10
+Group ID: Lv0uj5NxZMaBqtGVnsHtej
+Message: *Informe linea de ensamble 13-14*Cadencia: 120Unidades Producidas: 27Eficiencia de la linea: 22.5%
+--------------------
+Date: 28/3/2022
+Time: 14:56
+Group ID: Lv0uj5NxZMaBqtGVnsHtej
+Message: *Informe linea de ensamble 13-14*Cadencia: 120Unidades Producidas: 9Eficiencia de la linea: 7.5%
+--------------------
+Date: 28/3/2022
+Time: 17:2
+Group ID: LEsZN7aH2TVHRAzaZUp3qI
+Message: *Informe linea de ensamble 16-17*Cadencia: 120Unidades Producidas: 53Eficiencia de la linea: 44.17%
+--------------------
+Date: 28/3/2022
+Time: 18:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 17-18*Cadencia: 120Unidades Producidas: 87Eficiencia de la linea: 72.5%
+--------------------
+Date: 28/3/2022
+Time: 19:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 18-19*Cadencia: 120Unidades Producidas: 34Eficiencia de la linea: 28.33%
+--------------------
+Date: 28/3/2022
+Time: 20:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 19-20*Cadencia: 120Unidades Producidas: 97Eficiencia de la linea: 80.83%
+--------------------
+Date: 28/3/2022
+Time: 21:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 20-21*Cadencia: 120Unidades Producidas: 86Eficiencia de la linea: 71.67%
+--------------------
+Date: 28/3/2022
+Time: 22:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 21-22*Cadencia: 120Unidades Producidas: 84Eficiencia de la linea: 70.0%
+--------------------
+Date: 29/3/2022
+Time: 6:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 5-6*Cadencia: 120Unidades Producidas: 10Eficiencia de la linea: 8.33%
+--------------------
+Date: 29/3/2022
+Time: 7:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 6-7*Cadencia: 120Unidades Producidas: 45Eficiencia de la linea: 37.5%
+--------------------
+Date: 29/3/2022
+Time: 8:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 7-8*Cadencia: 120Unidades Producidas: 77Eficiencia de la linea: 64.17%
+--------------------
+Date: 29/3/2022
+Time: 9:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 8-9*Cadencia: 120Unidades Producidas: 86Eficiencia de la linea: 71.67%
+--------------------
+Date: 29/3/2022
+Time: 10:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 9-10*Cadencia: 120Unidades Producidas: 42Eficiencia de la linea: 35.0%
+--------------------
+Date: 29/3/2022
+Time: 11:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 10-11*Cadencia: 120Unidades Producidas: 76Eficiencia de la linea: 63.33%
+--------------------
+Date: 29/3/2022
+Time: 12:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 11-12*Cadencia: 120Unidades Producidas: 90Eficiencia de la linea: 75.0%
+--------------------
+Date: 29/3/2022
+Time: 13:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 12-13*Cadencia: 120Unidades Producidas: 48Eficiencia de la linea: 40.0%
+--------------------
+Date: 29/3/2022
+Time: 14:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 13-14*Cadencia: 120Unidades Producidas: 0Eficiencia de la linea: 0.0%
+--------------------
+Date: 29/3/2022
+Time: 15:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 14-15*Cadencia: 115Unidades Producidas: 68Eficiencia de la linea: 59.13%
+--------------------
+Date: 29/3/2022
+Time: 16:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 15-16*Cadencia: 120Unidades Producidas: 82Eficiencia de la linea: 68.33%
+--------------------
+Date: 29/3/2022
+Time: 17:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 16-17*Cadencia: 120Unidades Producidas: 64Eficiencia de la linea: 53.33%
+--------------------
+Date: 29/3/2022
+Time: 18:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 17-18*Cadencia: 120Unidades Producidas: 83Eficiencia de la linea: 69.17%
+--------------------
+Date: 29/3/2022
+Time: 19:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 18-19*Cadencia: 120Unidades Producidas: 37Eficiencia de la linea: 30.83%
+--------------------
+Date: 29/3/2022
+Time: 20:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 19-20*Cadencia: 120Unidades Producidas: 91Eficiencia de la linea: 75.83%
+--------------------
+Date: 29/3/2022
+Time: 21:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 20-21*Cadencia: 120Unidades Producidas: 80Eficiencia de la linea: 66.67%
+--------------------
+Date: 29/3/2022
+Time: 22:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 21-22*Cadencia: 120Unidades Producidas: 76Eficiencia de la linea: 63.33%
+--------------------
+Date: 30/3/2022
+Time: 6:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 5-6*Cadencia: 120Unidades Producidas: 7Eficiencia de la linea: 5.83%
+--------------------
+Date: 30/3/2022
+Time: 7:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 6-7*Cadencia: 120Unidades Producidas: 95Eficiencia de la linea: 79.17%
+--------------------
+Date: 30/3/2022
+Time: 8:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 7-8*Cadencia: 120Unidades Producidas: 86Eficiencia de la linea: 71.67%
+--------------------
+Date: 30/3/2022
+Time: 9:2
+Group ID: Jsol5eaS9yX80IGakvF7bF
+Message: *Informe linea de ensamble 8-9*Cadencia: 110Unidades Producidas: 65Eficiencia de la linea: 59.09%
+--------------------

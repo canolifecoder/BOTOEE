@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "enviocadencia",
+  "private_key_id": "f5961987ea877ec9a88ed4475a6fe7f775b7937d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDTb9CFKalIS2/H\nh4xz3TQt8jxF/FrbvOqZ6salWrbLdnMUEWX5RffgUvyKU8/Vinq4WDOS1mwFvgIC\nA0hlswZkQ27u0tgCaqvJva9/C77tEpUS3ntvdSG3CJS88aXSXo4nT4aMfCCkv46Q\nYGFD345lHyYfuWIAGcw/7TFp3/RHAsjjxZXPDz5enkLLrsAjBtqQYJjANzJ1VNcQ\nSYJsGgvMfw2DIKXweuRQgUHNUr8oc9S+6RAIbdjxy/jBDfUPmvU5ktx8H0AHS31C\nSpN1dTgvAhslzsV0v90Zrbo9A3Y4pX4sywbzTcqpcByrdMjxkWj1ljLqMVzB9UXR\nHQdq4GplAgMBAAECggEAZLqiRq5gXXbC2/Xxrck2cKU0ncrppkHMKmO1G1WqPChE\nDs1zHVx+CLrAYU4od30vld8/QrcwY1PwNPFHblvpsZ6GnPSJwCz9hnD9yLLZ1KvD\npWekuqa81ywZYCJnc19krcmvOgJwsswnqRShgephNj+us/Jng9DGg7YGkoAFKkaF\nrKWaDsAtriwOVYTKV1W4pSwS8zaWNETnGlRTCA8QeNAFgu1QwLwO1zDDLBKG8h4g\nfhwCOla0Fv4EAQlUdfVO9jE4loDc5hy3kunivsFYZ2xz/1nhUzLjA+90xG67FTIp\nogchF7Mytqt51qSevZTV/PK1rRIQAuqA+AdwGlG4iQKBgQDpOEw9naKTqPVnqVst\nzdA4oQVVWBEl7jPeKSr3eQtpZQzcD+DT2lfZg0FF+dlsZJjAGF82mBVPlJvStUoG\njx/gx5Rm60U8P3ymRo6zvfOuedBRQkI8MEF8FkqM8GEgOCX8EC1k6oqfBW70xRN9\n0rdMHgJdyuT+mrCQQThmCPHTawKBgQDoFtNmfWXPA3DVeuL2gu61QwAV6ANWcjYd\nhwLiJ5CjjZGo25ItcXRd5mzY+NUly2gjIO8oYRqULFoWmy1pg6n9LfyyvDbaSKfY\npIN/e+mT//crBRoI9JCQN+RklIvoENIq0enYSmudTRLQJkgxLRbsLCwwCdWmFiCm\nQfrEfn/9bwKBgAdzowv882rgZSbwxFcMUnDcxDzb2YBqwgGBMzxBA9pUPjrxzu81\n9MSgav9/YjESbccFgFVQOq4WQ3xSCpF3FT+rYNSBA+9O3/64Fmsr0JNslPljspYV\nvKHoXG1waMoMwTnykmC9FbzLAaaUfXDxwKWP9+djSjnQW3/gdZrdAk0NAoGBAMhW\nY7b1iXsvciekwuOdU+Z9ZkaCltb5EYNddny3QGAdpN1IY578b0Fa1RxZdswAD+06\n0ZZec63xtvYKjyGkeIjGOHokg4ja7J/SKnxR/uc1LSsiZT3TtjH3PRwhKb9xPame\ntydv3gLTc+jfErP4QvAslRwGcTjDov1AuPECbQLbAoGBAKQGjL+iFvVr2ZuCHnf/\n6jtcmzf2NEgl1B+G5by+zIDCIpu+obUezDAOn+lBhO2C4vjzHyAAYgWQOUBHXOzf\nh7ivFJCJNz6bmU8Q5xWFRjrGXFTeQ+24EpNHaNxBsDgXerxqe8nTNlkMmhwwxCLs\nkoMswLV+dmkZA3lrOwQwaGDh\n-----END PRIVATE KEY-----\n",
+  "client_email": "unidadesproducidas@enviocadencia.iam.gserviceaccount.com",
+  "client_id": "100151658409628405421",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/unidadesproducidas%40enviocadencia.iam.gserviceaccount.com"
+}

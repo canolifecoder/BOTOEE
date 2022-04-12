@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "enviocadencia",
+  "private_key_id": "8ffd859b0128f699391911e9044796d3655b74eb",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDCY88sCq6zV9Lg\nVxNiu5LSBo/yBf6fqUdNfVXdT98DeChnSH6KLePvfkUSYUSqgVrxvAslIRPCKrOY\n3fxjFiRoaoBtDYCFKTvHyS3xIDRaP5nl32v2DnbQ4MZopRcZmsBjirnVHS6vm796\nxnqER+LNmkqXFPLUgvGWj6HE3RjO0BeRLTuuKdMWpajB0OrPDPVo7of+CI6ByYlS\ni4cjbdi33PSkNxQodGem2OCkjGzfrP+RgNOzm6go3S5YjYXuULwuMGpxG4ayPSV/\nPhhiskCYxeyanXHMiwmpGlnCP/pEWu4SQWpezT2/+G+1Heyf++3RhzE+QcK4d/Z/\nrBeD8W39AgMBAAECggEABp/i+R/XvSC7/O1ivv2K9EbeeXOXA5G/2RDG0BRkfShc\nt3Za6kfEPzlo+QZ2Z1l3WV/HQR7r3t+t1VgSqD132f9v0dJBDr4CvZ0qHbqd+3Re\n64dOFSmAMZVIwFtd7+oG7pgqm0FpFvl3u036cg8cGCskVG/q6ESadJR/rBHn15u5\nzkH1HOKqAm7+3sUWHeGFAAe6FH++h7ECooXz14IIyNX2rxl64KeDhbW1SFUarzsQ\nLaxljZ8n5N08DI+t9SrJTGBNS2Bt41FiDlQQC3L8D3CVCToHBI3yPuRKyX/6MxL2\n6XHxSqfXmqT+vwnMMYACmgi/6EBDXTJ1Ysk4PzGJiQKBgQDi6Dtkasu0+YLNxb/W\n90D3Snnj66fOJwJpf5FC1hYbDWEqerYRodD40U9N3HuOWifwxyUp0DP2TblpEtcK\nFzJ02W2ijW07wz9tgrMxtqlfJfcKiY7Fpr22lSNI1HyDw+7h0dtAJRMisRxFtTFb\nfS9v/xjxyeQfIF2/w5ZcpvkBGQKBgQDbUEN1G17umeIWZUQ9p8Ed/OcKbEgCOOIU\nna15v9r4Jd2NCrzV/67J+zFy1dpJrxb+B0fpuyEkiw0zK8gr8mO7/RxghH1iqSel\nlZ3z17svP2cV5eAi5Za/tgSb+vGHIpgfMZnNzzBlJNsu5V/XVjjOx1a/Vce82pgi\n5WTruyI8hQKBgHDxYWa5Vc4uB/K+xJ+OkPLGSmeti+gsOKIkkjxvba9neH75d5jN\nL8Q6AzxhS8rui0TpC1GFxeeKhoiLjSgDpeTNuSmZNc7yf6bV0LYlEqc+sXm4QK2X\nMoUoNNjyk0vPAh+7ImQKUD0LZWQ5LWk5pZwcoODxOjBYHvHtu/FAV185AoGBANYJ\nR0yLIeMLG7NvsWHazoZNw85QTxacHUixehRQQYvcqJR13kWb+yH0nRXNz/QJhQ72\nXCCoGHhpnMBMAlehf+R/6anoo9Yd8CuSEU1hRbWe0yRz7IMiPjVrlqQEDKQuBviq\nl8hcZIbRqXfjM94cr+RedzLUrNKLI98qsYu+XnNhAoGBALYO+vjq+SP9WkGU8SEQ\na4dYNKw/KHWUHf+yPqjuCgDN25Wi7VdmNUaSbxW62rdIoyX+vbZy0GuO7nR3CJGH\n/GyAblVUD0h1q7zlico9BGEVZWHW7tdsULcefryvwaDHKIbTJFQzhiQG5/dj5Wb/\n+6Wx5wB0RqmizR/iF41qoEuS\n-----END PRIVATE KEY-----\n",
+  "client_email": "cadencia@enviocadencia.iam.gserviceaccount.com",
+  "client_id": "104055361950622817458",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cadencia%40enviocadencia.iam.gserviceaccount.com"
+}
