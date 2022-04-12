@@ -1,11 +1,6 @@
 #!/usr/bin/python
 #este es EL BOTTT
-#Rich
-<<<<<<< HEAD
-#probando comentarioSAMUEL
-=======
-#RichBandido
->>>>>>> 80bf3994f2d3344817d8dcd51bd97629dca96fc7
+#CAMBIADO
 from tkinter.tix import Select
 import gspread
 import pywhatkit
