@@ -272,34 +272,34 @@ EmsambleGabinete = sh.get_worksheet(2)
 UnidadesFabricadasEG=  EmsambleGabinete.col_values(5)
 print(UnidadesFabricadasEG[-1])
 #SELECCION DE COPA 1:::::
-SelectReferencia = EmsambleGabinete.col_values(8)
-if SelectReferencia[-1]=="Copa 1.0":
+SelectReferenciaEG = EmsambleGabinete.col_values(7)
+if SelectReferenciaEG[-1]=="Copa 1.0":
     #PAROS PROGRAMADOS::
-    ParoProgramadoEGCP1 =  EmsambleGabinete.col_values(9)
+    ParoProgramadoEGCP1 = EmsambleGabinete.col_values(8)
     if ParoProgramadoEGCP1[-1]=="Si":
-        RazonParoProgramadoEGCP1 =  EmsambleGabinete.col_values(10)
-        TiempoParoProgramadoEGCP1 =  EmsambleGabinete.col_values(11)
+        RazonParoProgramadoEGCP1 =  EmsambleGabinete.col_values(9)
+        TiempoParoProgramadoEGCP1 =  EmsambleGabinete.col_values(10)
         mensajeParoProgramadoEGCP1="*Paro programado - Tiempo:* "+TiempoParoProgramadoEGCP1[-1]+" min, *Razón:* "+RazonParoProgramadoEGCP1[-1]
-        print (mensajeParoProgramadoEGCP1)
+        print(mensajeParoProgramadoEGCP1)
     else:
         mensajeParoProgramadoEGCP1=""
         print(mensajeParoProgramadoEGCP1)
     
     #INCIDENTES::
-    IncidenteEGCP1=EmsambleGabinete.col_values(12)
+    IncidenteEGCP1=EmsambleGabinete.col_values(11)
     if IncidenteEGCP1[-1]=="Si":
-        DescrIncidenteEGCP1=EmsambleGabinete.col_values(14)
-        ValidarParoIncidenteEMCP1=EmsambleGabinete.col_values(15)
+        DescrIncidenteEGCP1=EmsambleGabinete.col_values(13)
+        ValidarParoIncidenteEMCP1=EmsambleGabinete.col_values(14)
         
         if ValidarParoIncidenteEMCP1[-1]=="Si":   
-            TiempoIncidenteEGCP1=EmsambleGabinete.col_values(16)
+            TiempoIncidenteEGCP1=EmsambleGabinete.col_values(15)
             mensajeIncidenteEGCP1="*Incidente y/o accidente ambiental y/o SST - Tiempo:* "+TiempoIncidenteEGCP1[-1]+" min, *Razón:* "+DescrIncidenteEGCP1[-1]
+            print (mensajeIncidenteEGCP1)
     else:
-        DescrIncidenteEGCP1=EmsambleGabinete.col_values(14)
+        DescrIncidenteEGCP1=EmsambleGabinete.col_values(12)
         mensajeIncidenteEGCP1="*Incidente y/o accidente ambiental y/o SST - Razón:* "+DescrIncidenteEGCP1[-1] + ", No se generó paro."
         print (mensajeIncidenteEGCP1)
-else:
-    print("Fallo La busqueda")
+
  #   if SelectReferencia[-1]=="Copa 2.0 Whirlpool":
 
 
