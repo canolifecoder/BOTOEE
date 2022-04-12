@@ -1,6 +1,7 @@
 #!/usr/bin/python
 #este es EL BOTTT
 #CAMBIADO
+#Bueeenoo mor
 from tkinter.tix import Select
 import gspread
 import pywhatkit
