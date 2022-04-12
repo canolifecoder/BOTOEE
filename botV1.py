@@ -1,6 +1,7 @@
 #!/usr/bin/python
 #este es EL BOTTT
 #Rich
+#probando comentarioSAMUEL
 from tkinter.tix import Select
 import gspread
 import pywhatkit
