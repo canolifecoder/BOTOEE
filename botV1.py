@@ -1,6 +1,4 @@
 #!/usr/bin/python
-#este es EL BOTTT
-#CAMBIADO
 
 from tkinter.tix import Select
 import gspread
