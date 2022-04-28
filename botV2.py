@@ -25,349 +25,349 @@ sh = gc3.open("Gestión Célula Hora a Hora Células")
 
 
 
-#EMSAMBLE GABINETE:::::::::::::::
+#TESTEO FINAL:::::::::::::::
 print("TESTEO FINAL::---------")
 
 #SELECCION DE LA HOJA::
 TesteoFinal = sh.get_worksheet(3)
 #SELECCIONAR LA REFERENCIA::::: COPA 1 -- COPA 2 HACEB -- COPA 2 WHIRLPOOL
-UnidadesFabricadasEG=  TesteoFinal.col_values(5)
-print(UnidadesFabricadasEG[-1])
+UnidadesFabricadasTF=  TesteoFinal.col_values(5)
+print(UnidadesFabricadasTF[-1])
 #SELECCION DE COPA 1:::::
-SelectReferenciaEG = TesteoFinal.col_values(7)
-if SelectReferenciaEG[-1]=="Copa 1.0":
+SelectReferenciaTF = TesteoFinal.col_values(7)
+if SelectReferenciaTF[-1]=="Copa 1.0":
     print("COPA 1::::")
     #PAROS PROGRAMADOS::
-    ParoProgramadoEGCP1 = TesteoFinal.col_values(8)
-    if ParoProgramadoEGCP1[-1]=="Si":
-        RazonParoProgramadoEGCP1 =  TesteoFinal.col_values(9)
-        TiempoParoProgramadoEGCP1 =  TesteoFinal.col_values(10)
-        mensajeParoProgramadoEGCP1="*Paro programado - Tiempo:* "+TiempoParoProgramadoEGCP1[-1]+" min, *Razón:* "+RazonParoProgramadoEGCP1[-1]
-        print(mensajeParoProgramadoEGCP1)
+    ParoProgramadoTFCP1 = TesteoFinal.col_values(8)
+    if ParoProgramadoTFCP1[-1]=="Si":
+        RazonParoProgramadoTFCP1 =  TesteoFinal.col_values(9)
+        TiempoParoProgramadoTFCP1 =  TesteoFinal.col_values(10)
+        mensajeParoProgramadoTFCP1="*Paro programado - Tiempo:* "+TiempoParoProgramadoTFCP1[-1]+" min, *Razón:* "+RazonParoProgramadoTFCP1[-1]
+        print(mensajeParoProgramadoTFCP1)
     else:
-        mensajeParoProgramadoEGCP1=""
-        print(mensajeParoProgramadoEGCP1)
+        mensajeParoProgramadoTFCP1=""
+        print(mensajeParoProgramadoTFCP1)
     
     #INCIDENTES::
-    IncidenteEGCP1=TesteoFinal.col_values(11)
-    if IncidenteEGCP1[-1]=="Si":
-        DescrIncidenteEGCP1=TesteoFinal.col_values(13)
-        ValidarParoIncidenteEGCP1=TesteoFinal.col_values(14)
-        mensajeIncidenteEGCP1="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteEGCP1[-1] + " No se generó paro"
-        print(mensajeIncidenteEGCP1)
-        if ValidarParoIncidenteEGCP1[-1]=="Si":   
-            TiempoIncidenteEGCP1=TesteoFinal.col_values(15)
-            mensajeIncidenteEGCP1="*Incidente y/o accidente ambiental y/o SST - Tiempo:* "+TiempoIncidenteEGCP1[-1]+" min, *Razón:* "+DescrIncidenteEGCP1[-1]
-            print (mensajeIncidenteEGCP1)
+    IncidenteTFCP1=TesteoFinal.col_values(11)
+    if IncidenteTFCP1[-1]=="Si":
+        DescrIncidenteTFCP1=TesteoFinal.col_values(13)
+        ValidarParoIncidenteTFCP1=TesteoFinal.col_values(14)
+        mensajeIncidenteTFCP1="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTFCP1[-1] + " No se generó paro"
+        print(mensajeIncidenteTFCP1)
+        if ValidarParoIncidenteTFCP1[-1]=="Si":   
+            TiempoIncidenteTFCP1=TesteoFinal.col_values(15)
+            mensajeIncidenteTFCP1="*Incidente y/o accidente ambiental y/o SST - Tiempo:* "+TiempoIncidenteTFCP1[-1]+" min, *Razón:* "+DescrIncidenteTFCP1[-1]
+            print (mensajeIncidenteTFCP1)
         else:
-            #DescrIncidenteEGCP1=TesteoFinal.col_values(12)
-            mensajeIncidenteEGCP1="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteEGCP1[-1] + " No se generó paro"
-            print (mensajeIncidenteEGCP1)
+            DescrIncidenteTFCP1=TesteoFinal.col_values(12)
+            mensajeIncidenteTFCP1="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTFCP1[-1] + " No se generó paro"
+            print (mensajeIncidenteTFCP1)
     else:
-        mensajeIncidenteEGCP1=""
-        print(mensajeIncidenteEGCP1)
+        mensajeIncidenteTFCP1=""
+        print(mensajeIncidenteTFCP1)
 
 ##SERVICIOS PUBLICOS COPA1::
-    ServiciosPublicosEGCP1=TesteoFinal.col_values(16)
-    if ServiciosPublicosEGCP1[-1]=="Si":
-        DescrServiciosPublicosEGCP1=TesteoFinal.col_values(18)
-        TiempoServiciosPublucosEGCP1=TesteoFinal.col_values(17)
-        mensajeServiciosPublicosEGCP1="*Hubo afectación en las unidades del hora a hora por falta de servicios públicos: Razón:* "+DescrServiciosPublicosEGCP1[-1]+ " -*Tiempo:* :"+TiempoServiciosPublucosEGCP1[-1]+"min"
-        print(mensajeServiciosPublicosEGCP1)
+    ServiciosPublicosTFCP1=TesteoFinal.col_values(16)
+    if ServiciosPublicosTFCP1[-1]=="Si":
+        DescrServiciosPublicosTFCP1=TesteoFinal.col_values(18)
+        TiempoServiciosPublucosTFCP1=TesteoFinal.col_values(17)
+        mensajeServiciosPublicosTFCP1="*Hubo afectación en las unidades del hora a hora por falta de servicios públicos: Razón:* "+DescrServiciosPublicosTFCP1[-1]+ " -*Tiempo:* :"+TiempoServiciosPublucosTFCP1[-1]+"min"
+        print(mensajeServiciosPublicosTFCP1)
     else:
-        mensajeServiciosPublicosEGCP1=""
-        print(mensajeServiciosPublicosEGCP1)
+        mensajeServiciosPublicosTFCP1=""
+        print(mensajeServiciosPublicosTFCP1)
 #POR MAQUINA COPA1:::
-    MaquinaEGCP1=TesteoFinal.col_values(19)
-    if MaquinaEGCP1[-1]=="Si":
-        DescrMaquinaEGCP1=TesteoFinal.col_values(22)
-        TiempoMaquinaEGCP1=TesteoFinal.col_values(20)
-        mensajeMaquinaEGCP1="*Hubo afectación en las unidades por Maquina/ Equipo: Razón:* "+DescrMaquinaEGCP1[-1]+ " - *Tiempo:* "+TiempoMaquinaEGCP1[-1]+"min" 
-        print(mensajeMaquinaEGCP1)
+    MaquinaTFCP1=TesteoFinal.col_values(19)
+    if MaquinaTFCP1[-1]=="Si":
+        DescrMaquinaTFCP1=TesteoFinal.col_values(22)
+        TiempoMaquinaTFCP1=TesteoFinal.col_values(20)
+        mensajeMaquinaTFCP1="*Hubo afectación en las unidades por Maquina/ Equipo: Razón:* "+DescrMaquinaTFCP1[-1]+ " - *Tiempo:* "+TiempoMaquinaTFCP1[-1]+"min" 
+        print(mensajeMaquinaTFCP1)
     else:
-        mensajeMaquinaEGCP1=""
-        print(mensajeMaquinaEGCP1)
+        mensajeMaquinaTFCP1=""
+        print(mensajeMaquinaTFCP1)
 
 #POR MANO DE OBRA COPA1::::::::
-    ManoDeObraEGCP1=TesteoFinal.col_values(23)
-    if ManoDeObraEGCP1[-1]=="Si":
-        DescrManoDeObraEGCP1=TesteoFinal.col_values(27)
-        TiempoManoDeObraEGCP1=TesteoFinal.col_values(24)
-        mensajeManoDeObraEGCP1="*Hubo afectación en las unidades por Mano De Obra: Razón:* "+DescrManoDeObraEGCP1[-1]+ " - *Tiempo:* "+TiempoManoDeObraEGCP1[-1]+"min" 
-        print(mensajeManoDeObraEGCP1)
+    ManoDeObraTFCP1=TesteoFinal.col_values(23)
+    if ManoDeObraTFCP1[-1]=="Si":
+        DescrManoDeObraTFCP1=TesteoFinal.col_values(27)
+        TiempoManoDeObraTFCP1=TesteoFinal.col_values(24)
+        mensajeManoDeObraTFCP1="*Hubo afectación en las unidades por Mano De Obra: Razón:* "+DescrManoDeObraTFCP1[-1]+ " - *Tiempo:* "+TiempoManoDeObraTFCP1[-1]+"min" 
+        print(mensajeManoDeObraTFCP1)
     else:
-        mensajeManoDeObraEGCP1=""
-        print(mensajeManoDeObraEGCP1)
+        mensajeManoDeObraTFCP1=""
+        print(mensajeManoDeObraTFCP1)
 
 #MATERIA PRIMA COPA1::::
 
-    MateriaPrimaEGCP1=TesteoFinal.col_values(28)
-    if MateriaPrimaEGCP1[-1]=="Si":
-        DescrMateriaPrimaEGCP1=TesteoFinal.col_values(32)
-        TiempoMateriaPrimaEGCP1=TesteoFinal.col_values(29)
-        mensajeMateriaPrimaEGCP1="*Hubo afectación en las unidades por Materia Prima: Razón:* "+DescrMateriaPrimaEGCP1[-1]+ " - *Tiempo:* "+TiempoMateriaPrimaEGCP1[-1]+"min" 
-        print(mensajeMateriaPrimaEGCP1)
+    MateriaPrimaTFCP1=TesteoFinal.col_values(28)
+    if MateriaPrimaTFCP1[-1]=="Si":
+        DescrMateriaPrimaTFCP1=TesteoFinal.col_values(32)
+        TiempoMateriaPrimaTFCP1=TesteoFinal.col_values(29)
+        mensajeMateriaPrimaTFCP1="*Hubo afectación en las unidades por Materia Prima: Razón:* "+DescrMateriaPrimaTFCP1[-1]+ " - *Tiempo:* "+TiempoMateriaPrimaTFCP1[-1]+"min" 
+        print(mensajeMateriaPrimaTFCP1)
     else:
-        mensajeMateriaPrimaEGCP1=""
-        print(mensajeMateriaPrimaEGCP1)
+        mensajeMateriaPrimaTFCP1=""
+        print(mensajeMateriaPrimaTFCP1)
 
 #POR METODO COPA1:::
-    MetodoEGCP1=TesteoFinal.col_values(33)
-    if MetodoEGCP1[-1]=="Si":
-        DescrMetodoEGCP1=TesteoFinal.col_values(36)
-        TiempoMetodoEGCP1=TesteoFinal.col_values(34)
-        mensajeMetodoEGCP1="*Hubo afectación en las unidades por Método: Razón:* "+DescrMetodoEGCP1[-1]+ "- *Tiempo:* "+TiempoMetodoEGCP1[-1]+"min" 
-        print(mensajeMetodoEGCP1)
+    MetodoTFCP1=TesteoFinal.col_values(33)
+    if MetodoTFCP1[-1]=="Si":
+        DescrMetodoTFCP1=TesteoFinal.col_values(36)
+        TiempoMetodoTFCP1=TesteoFinal.col_values(34)
+        mensajeMetodoTFCP1="*Hubo afectación en las unidades por Método: Razón:* "+DescrMetodoTFCP1[-1]+ "- *Tiempo:* "+TiempoMetodoTFCP1[-1]+"min" 
+        print(mensajeMetodoTFCP1)
     else:
-        mensajeMetodoEGCP1=""
-        print(mensajeMetodoEGCP1)
+        mensajeMetodoTFCP1=""
+        print(mensajeMetodoTFCP1)
 
 #SCRAP COPA1::::::::::
-    ScrapEGCP1=TesteoFinal.col_values(37)
-    if ScrapEGCP1[-1]=="Si":
-        DescrScrapEGCP1=TesteoFinal.col_values(39)
-        CantidadScrapEGCP1=TesteoFinal.col_values(40)
-        mensajeScrapEGCP1="*Se generó SCRAP: Cantidad:* "+CantidadScrapEGCP1[-1]+" - *Razón:* "+DescrScrapEGCP1[-1]
-        print(mensajeScrapEGCP1)
+    ScrapTFCP1=TesteoFinal.col_values(37)
+    if ScrapTFCP1[-1]=="Si":
+        DescrScrapTFCP1=TesteoFinal.col_values(39)
+        CantidadScrapTFCP1=TesteoFinal.col_values(40)
+        mensajeScrapTFCP1="*Se generó SCRAP: Cantidad:* "+CantidadScrapTFCP1[-1]+" - *Razón:* "+DescrScrapTFCP1[-1]
+        print(mensajeScrapTFCP1)
     else:
-        mensajeScrapEGCP1=""
-        print(mensajeScrapEGCP1)
+        mensajeScrapTFCP1=""
+        print(mensajeScrapTFCP1)
 
 #REPROCESADAS COPA1::::::::
-    UnidadesReprocesadasEGP1 =  TesteoFinal.col_values(41)
-    if UnidadesReprocesadasEGP1[-1]=="Si":
-        CantidadReprocesadasEGP1=  TesteoFinal.col_values(42)
+    UnidadesReprocesadasTFP1 =  TesteoFinal.col_values(41)
+    if UnidadesReprocesadasTFP1[-1]=="Si":
+        CantidadReprocesadasTFP1=  TesteoFinal.col_values(42)
 
-        mensajeUnidadesReprocesadasEGP1="*Se reprocesaron unidades - Cantidad:* "+CantidadReprocesadasEGP1[-1]+""
-        print (mensajeUnidadesReprocesadasEGP1)
+        mensajeUnidadesReprocesadasTFP1="*Se reprocesaron unidades - Cantidad:* "+CantidadReprocesadasTFP1[-1]+""
+        print (mensajeUnidadesReprocesadasTFP1)
     else:
-        mensajeUnidadesReprocesadasEGP1=""
-        print(mensajeUnidadesReprocesadasEGP1)
+        mensajeUnidadesReprocesadasTFP1=""
+        print(mensajeUnidadesReprocesadasTFP1)
 
 ##SELECCIONA COPA 2 HACEB::::::::::::::::::::::
 
-if SelectReferenciaEG[-1]=="Copa 2.0 Haceb":
+if SelectReferenciaTF[-1]=="Copa 2.0 Haceb":
     print("COPA 2 HACEB::::")
     #PAROS PROGRAMADOS::
-    ParoProgramadoEGCP2H = TesteoFinal.col_values(43)
-    if ParoProgramadoEGCP2H[-1]=="Si":
-        RazonParoProgramadoEGCP2H =  TesteoFinal.col_values(44)
-        TiempoParoProgramadoEGCP2H =  TesteoFinal.col_values(45)
-        mensajeParoProgramadoEGCP2H="*Paro programado - Tiempo:* "+TiempoParoProgramadoEGCP2H[-1]+" min, *Razón:* "+RazonParoProgramadoEGCP2H[-1]
-        print(mensajeParoProgramadoEGCP2H)
+    ParoProgramadoTFCP2H = TesteoFinal.col_values(43)
+    if ParoProgramadoTFCP2H[-1]=="Si":
+        RazonParoProgramadoTFCP2H =  TesteoFinal.col_values(44)
+        TiempoParoProgramadoTFCP2H =  TesteoFinal.col_values(45)
+        mensajeParoProgramadoTFCP2H="*Paro programado - Tiempo:* "+TiempoParoProgramadoTFCP2H[-1]+" min, *Razón:* "+RazonParoProgramadoTFCP2H[-1]
+        print(mensajeParoProgramadoTFCP2H)
     else:
-        mensajeParoProgramadoEGCP2H=""
-        print(mensajeParoProgramadoEGCP2H)
+        mensajeParoProgramadoTFCP2H=""
+        print(mensajeParoProgramadoTFCP2H)
     
     #INCIDENTES::
-    IncidenteEGCP2H=TesteoFinal.col_values(46)
-    if IncidenteEGCP2H[-1]=="Si":
-        DescrIncidenteEGCP2H=TesteoFinal.col_values(48)
-        ValidarParoIncidenteEMCP2H=TesteoFinal.col_values(49)
-        mensajeIncidenteEGCP2H="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteEGCP2H[-1]+ " no se generó paro."
-        print(mensajeIncidenteEGCP2H)
-        if ValidarParoIncidenteEMCP2H[-1]=="Si":   
-            TiempoIncidenteEGCP2H=TesteoFinal.col_values(50)
-            mensajeIncidenteEGCP2H="*Incidente y/o accidente ambiental y/o SST - Tiempo:* "+TiempoIncidenteEGCP2H[-1]+" min, *Razón:* "+DescrIncidenteEGCP2H[-1]
-            print (mensajeIncidenteEGCP2H)
+    IncidenteTFCP2H=TesteoFinal.col_values(46)
+    if IncidenteTFCP2H[-1]=="Si":
+        DescrIncidenteTFCP2H=TesteoFinal.col_values(48)
+        ValidarParoIncidenteTFCP2H=TesteoFinal.col_values(49)
+        mensajeIncidenteTFCP2H="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTFCP2H[-1]+ " no se generó paro."
+        print(mensajeIncidenteTFCP2H)
+        if ValidarParoIncidenteTFCP2H[-1]=="Si":   
+            TiempoIncidenteTFCP2H=TesteoFinal.col_values(50)
+            mensajeIncidenteTFCP2H="*Incidente y/o accidente ambiental y/o SST - Tiempo:* "+TiempoIncidenteTFCP2H[-1]+" min, *Razón:* "+DescrIncidenteTFCP2H[-1]
+            print (mensajeIncidenteTFCP2H)
         else:
             #DescrIncidenteEGCP1=TesteoFinal.col_values(12)
-            mensajeIncidenteEGCP2H="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteEGCP2H[-1] + " no se generó paro."
-            print (mensajeIncidenteEGCP2H)
+            mensajeIncidenteTFCP2H="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTFCP2H[-1] + " no se generó paro."
+            print (mensajeIncidenteTFCP2H)
     else:
-        mensajeIncidenteEGCP2H=""
-        print(mensajeIncidenteEGCP2H)
+        mensajeIncidenteTFCP2H=""
+        print(mensajeIncidenteTFCP2H)
 
 ##SERVICIOS PUBLICOS COPA2::
-    ServiciosPublicosEGCP2H=TesteoFinal.col_values(51)
-    if ServiciosPublicosEGCP2H[-1]=="Si":
-        DescrServiciosPublicosEGCP2H=TesteoFinal.col_values(53)
-        TiempoServiciosPublicosEGCP2H=TesteoFinal.col_values(52)
-        mensajeServiciosPublicosEGCP2H="*Hubo afectación en las unidades del hora a hora por falta de servicios públicos: Razón:* "+DescrServiciosPublicosEGCP2H[-1]+ " -*Tiempo:* :"+TiempoServiciosPublicosEGCP2H[-1]+"min"
-        print(mensajeServiciosPublicosEGCP2H)
+    ServiciosPublicosTFCP2H=TesteoFinal.col_values(51)
+    if ServiciosPublicosTFCP2H[-1]=="Si":
+        DescrServiciosPublicosTFCP2H=TesteoFinal.col_values(53)
+        TiempoServiciosPublicosTFCP2H=TesteoFinal.col_values(52)
+        mensajeServiciosPublicosTFCP2H="*Hubo afectación en las unidades del hora a hora por falta de servicios públicos: Razón:* "+DescrServiciosPublicosTFCP2H[-1]+ " -*Tiempo:* :"+TiempoServiciosPublicosTFCP2H[-1]+"min"
+        print(mensajeServiciosPublicosTFCP2H)
     else:
-        mensajeServiciosPublicosEGCP2H=""
-        print(mensajeServiciosPublicosEGCP2H)
+        mensajeServiciosPublicosTFCP2H=""
+        print(mensajeServiciosPublicosTFCP2H)
 #POR MAQUINA COPA2:::
-    MaquinaEGCP2H=TesteoFinal.col_values(54)
-    if MaquinaEGCP2H[-1]=="Si":
-        DescrMaquinaEGCP2H=TesteoFinal.col_values(57)
-        TiempoMaquinaEGCP2H=TesteoFinal.col_values(55)
-        mensajeMaquinaEGCP2H="*Hubo afectación en las unidades por Maquina/ Equipo: Razón:* "+DescrMaquinaEGCP2H[-1]+ " - *Tiempo:* "+TiempoMaquinaEGCP2H[-1]+"min" 
-        print(mensajeMaquinaEGCP2H)
+    MaquinaTFCP2H=TesteoFinal.col_values(54)
+    if MaquinaTFCP2H[-1]=="Si":
+        DescrMaquinaTFCP2H=TesteoFinal.col_values(57)
+        TiempoMaquinaTFCP2H=TesteoFinal.col_values(55)
+        mensajeMaquinaTFCP2H="*Hubo afectación en las unidades por Maquina/ Equipo: Razón:* "+DescrMaquinaTFCP2H[-1]+ " - *Tiempo:* "+TiempoMaquinaTFCP2H[-1]+"min" 
+        print(mensajeMaquinaTFCP2H)
     else:
-        mensajeMaquinaEGCP2H=""
-        print(mensajeMaquinaEGCP2H)
+        mensajeMaquinaTFCP2H=""
+        print(mensajeMaquinaTFCP2H)
 
 #POR MANO DE OBRA COPA2::::::::
-    ManoDeObraEGCP2H=TesteoFinal.col_values(58)
-    if ManoDeObraEGCP2H[-1]=="Si":
-        DescrManoDeObraEGCP2H=TesteoFinal.col_values(62)
-        TiempoManoDeObraEGCP2H=TesteoFinal.col_values(59)
-        mensajeManoDeObraEGCP2H="*Hubo afectación en las unidades por Mano De Obra: Razón:* "+DescrManoDeObraEGCP2H[-1]+ " - *Tiempo:* "+TiempoManoDeObraEGCP2H[-1]+"min" 
-        print(mensajeManoDeObraEGCP2H)
+    ManoDeObraTFCP2H=TesteoFinal.col_values(58)
+    if ManoDeObraTFCP2H[-1]=="Si":
+        DescrManoDeObraTFCP2H=TesteoFinal.col_values(62)
+        TiempoManoDeObraTFCP2H=TesteoFinal.col_values(59)
+        mensajeManoDeObraTFCP2H="*Hubo afectación en las unidades por Mano De Obra: Razón:* "+DescrManoDeObraTFCP2H[-1]+ " - *Tiempo:* "+TiempoManoDeObraTFCP2H[-1]+"min" 
+        print(mensajeManoDeObraTFCP2H)
     else:
-        mensajeManoDeObraEGCP2H=""
-        print(mensajeManoDeObraEGCP2H)
+        mensajeManoDeObraTFCP2H=""
+        print(mensajeManoDeObraTFCP2H)
 
 #MATERIA PRIMA COPA2::::
 
-    MateriaPrimaEGCP2H=TesteoFinal.col_values(63)
-    if MateriaPrimaEGCP2H[-1]=="Si":
-        DescrMateriaPrimaEGCP2H=TesteoFinal.col_values(67)
-        TiempoMateriaPrimaEGCP2H=TesteoFinal.col_values(64)
-        mensajeMateriaPrimaEGCP2H="*Hubo afectación en las unidades por Materia Prima: Razón:* "+DescrMateriaPrimaEGCP2H[-1]+ " - *Tiempo:* "+TiempoMateriaPrimaEGCP2H[-1]+"min" 
-        print(mensajeMateriaPrimaEGCP2H)
+    MateriaPrimaTFCP2H=TesteoFinal.col_values(63)
+    if MateriaPrimaTFCP2H[-1]=="Si":
+        DescrMateriaPrimaTFCP2H=TesteoFinal.col_values(67)
+        TiempoMateriaPrimaTFCP2H=TesteoFinal.col_values(64)
+        mensajeMateriaPrimaTFCP2H="*Hubo afectación en las unidades por Materia Prima: Razón:* "+DescrMateriaPrimaTFCP2H[-1]+ " - *Tiempo:* "+TiempoMateriaPrimaTFCP2H[-1]+"min" 
+        print(mensajeMateriaPrimaTFCP2H)
     else:
-        mensajeMateriaPrimaEGCP2H=""
-        print(mensajeMateriaPrimaEGCP2H)
+        mensajeMateriaPrimaTFCP2H=""
+        print(mensajeMateriaPrimaTFCP2H)
 
 #POR METODO COPA2:::
-    MetodoEGCP2H=TesteoFinal.col_values(68)
-    if MetodoEGCP2H[-1]=="Si":
-        DescrMetodoEGCP2H=TesteoFinal.col_values(71)
-        TiempoMetodoEGCP2H=TesteoFinal.col_values(69)
-        mensajeMetodoEGCP2H="*Hubo afectación en las unidades por Método: Razón:* "+DescrMetodoEGCP2H[-1]+ "- *Tiempo:* "+TiempoMetodoEGCP2H[-1]+"min" 
-        print(mensajeMetodoEGCP2H)
+    MetodoTFCP2H=TesteoFinal.col_values(68)
+    if MetodoTFCP2H[-1]=="Si":
+        DescrMetodoTFCP2H=TesteoFinal.col_values(71)
+        TiempoMetodoTFCP2H=TesteoFinal.col_values(69)
+        mensajeMetodoTFCP2H="*Hubo afectación en las unidades por Método: Razón:* "+DescrMetodoTFCP2H[-1]+ "- *Tiempo:* "+TiempoMetodoTFCP2H[-1]+"min" 
+        print(mensajeMetodoTFCP2H)
     else:
-        mensajeMetodoEGCP2H=""
-        print(mensajeMetodoEGCP2H)
+        mensajeMetodoTFCP2H=""
+        print(mensajeMetodoTFCP2H)
 
 #SCRAP COPA2::::::::::
-    ScrapEGCP2H=TesteoFinal.col_values(72)
-    if ScrapEGCP2H[-1]=="Si":
-        DescrScrapEGCP2H=TesteoFinal.col_values(74)
-        CantidadScrapEGCP2H=TesteoFinal.col_values(75)
-        mensajeScrapEGCP2H="*Se generó SCRAP: Cantidad:* "+CantidadScrapEGCP2H[-1]+" - *Razón:* "+DescrScrapEGCP2H[-1]
-        print(mensajeScrapEGCP2H)
+    ScrapTFCP2H=TesteoFinal.col_values(72)
+    if ScrapTFCP2H[-1]=="Si":
+        DescrScrapTFCP2H=TesteoFinal.col_values(74)
+        CantidadScrapTFCP2H=TesteoFinal.col_values(75)
+        mensajeScrapTFCP2H="*Se generó SCRAP: Cantidad:* "+CantidadScrapTFCP2H[-1]+" - *Razón:* "+DescrScrapTFCP2H[-1]
+        print(mensajeScrapTFCP2H)
     else:
-        mensajeScrapEGCP2H=""
-        print(mensajeScrapEGCP2H)
+        mensajeScrapTFCP2H=""
+        print(mensajeScrapTFCP2H)
 
 #REPROCESADAS COPA2::::::::
-    UnidadesReprocesadasEGCP2H =  TesteoFinal.col_values(76)
-    if UnidadesReprocesadasEGCP2H[-1]=="Si":
-        CantidadReprocesadasEGCP2H=  TesteoFinal.col_values(77)
+    UnidadesReprocesadasTFCP2H =  TesteoFinal.col_values(76)
+    if UnidadesReprocesadasTFCP2H[-1]=="Si":
+        CantidadReprocesadasTFCP2H=  TesteoFinal.col_values(77)
 
-        mensajeUnidadesReprocesadasEGCP2H="*Se reprocesaron unidades - Cantidad:* "+CantidadReprocesadasEGCP2H[-1]+""
-        print (mensajeUnidadesReprocesadasEGCP2H)
+        mensajeUnidadesReprocesadasTFCP2H="*Se reprocesaron unidades - Cantidad:* "+CantidadReprocesadasTFCP2H[-1]+""
+        print (mensajeUnidadesReprocesadasTFCP2H)
     else:
-        mensajeUnidadesReprocesadasEGCP2H=""
-        print(mensajeUnidadesReprocesadasEGCP2H)
+        mensajeUnidadesReprocesadasTFCP2H=""
+        print(mensajeUnidadesReprocesadasTFCP2H)
 
 ##COPA 2 WHIRLPOOL::::::::::::::
 # EMSAMBLE MECANISMOS COPA 2 WHIRLPOOL__:::::
-if SelectReferenciaEG[-1]=="Copa 2.0 Whirlpool":
+if SelectReferenciaTF[-1]=="Copa 2.0 Whirlpool":
     print("COPA 2 Whirlpool::::::")
     #PAROS PROGRAMADOS::::
-    ParoProgramadoEGCP2W = TesteoFinal.col_values(78)
-    if ParoProgramadoEGCP2W[-1]=="Si":
-        RazonParoProgramadoEGCP2W =  TesteoFinal.col_values(79)
-        TiempoParoProgramadoEGCP2W =  TesteoFinal.col_values(80)
-        mensajeParoProgramadoEGCP2W="*Paro programado - Tiempo:* "+TiempoParoProgramadoEGCP2W[-1]+" min, *Razón:* "+RazonParoProgramadoEGCP2W[-1]
-        print(mensajeParoProgramadoEGCP2W)
+    ParoProgramadoTFCP2W = TesteoFinal.col_values(78)
+    if ParoProgramadoTFCP2W[-1]=="Si":
+        RazonParoProgramadoTFCP2W =  TesteoFinal.col_values(79)
+        TiempoParoProgramadoTFCP2W =  TesteoFinal.col_values(80)
+        mensajeParoProgramadoTFCP2W="*Paro programado - Tiempo:* "+TiempoParoProgramadoTFCP2W[-1]+" min, *Razón:* "+RazonParoProgramadoTFCP2W[-1]
+        print(mensajeParoProgramadoTFCP2W)
     else:
-        mensajeParoProgramadoEGCP2W=""
-        print(mensajeParoProgramadoEGCP2W)
+        mensajeParoProgramadoTFCP2W=""
+        print(mensajeParoProgramadoTFCP2W)
     
     #INCIDENTES WHIRLPOOL COPA 2:::::
-    IncidenteEGCP2W=TesteoFinal.col_values(81)
-    if IncidenteEGCP2W[-1]=="Si":
-        DescrIncidenteEGCP2W=TesteoFinal.col_values(83)
-        ValidarParoIncidenteEMCP2W=TesteoFinal.col_values(84)
-        mensajeIncidenteEGCP2W="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteEGCP2W[-1]+ " no se generó paro."
-        print(mensajeIncidenteEGCP2W)
-        if ValidarParoIncidenteEMCP2W[-1]=="Si":   
-            TiempoIncidenteEGCP2W=TesteoFinal.col_values(85)
-            mensajeIncidenteEGCP2W="*Incidente y/o accidente ambiental y/o SST - Tiempo:* "+TiempoIncidenteEGCP2W[-1]+" min, *Razón:* "+DescrIncidenteEGCP2W[-1]
-            print (mensajeIncidenteEGCP2W)
+    IncidenteTFCP2W=TesteoFinal.col_values(81)
+    if IncidenteTFCP2W[-1]=="Si":
+        DescrIncidenteTFCP2W=TesteoFinal.col_values(83)
+        ValidarParoIncidenteTFCP2W=TesteoFinal.col_values(84)
+        mensajeIncidenteTFCP2W="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTFCP2W[-1]+ " no se generó paro."
+        print(mensajeIncidenteTFCP2W)
+        if ValidarParoIncidenteTFCP2W[-1]=="Si":   
+            TiempoIncidenteTFCP2W=TesteoFinal.col_values(85)
+            mensajeIncidenteTFCP2W="*Incidente y/o accidente ambiental y/o SST - Tiempo:* "+TiempoIncidenteTFCP2W[-1]+" min, *Razón:* "+DescrIncidenteTFCP2W[-1]
+            print (mensajeIncidenteTFCP2W)
         else:
             #DescrIncidenteEGCP1=TesteoFinal.col_values(12)
-            mensajeIncidenteEGCP2W="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteEGCP2W[-1] + " no se generó paro."
-            print (mensajeIncidenteEGCP2W)
+            mensajeIncidenteTFCP2W="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTFCP2W[-1] + " no se generó paro."
+            print (mensajeIncidenteTFCP2W)
     else:
-        mensajeIncidenteEGCP2H=""
-        print(mensajeIncidenteEGCP2H)
+        mensajeIncidenteTFCP2H=""
+        print(mensajeIncidenteTFCP2H)
 
 ##SERVICIOS PUBLICOS COPA2 WHIRPOOL:::
-    ServiciosPublicosEGCP2W=TesteoFinal.col_values(86)
-    if ServiciosPublicosEGCP2W[-1]=="Si":
-        DescrServiciosPublicosEGCP2W=TesteoFinal.col_values(87)
-        TiempoServiciosPublicosEGCP2W=TesteoFinal.col_values(88)
-        mensajeServiciosPublicosEGCP2W="*Hubo afectación en las unidades del hora a hora por falta de servicios públicos: Razón:* "+DescrServiciosPublicosEGCP2W[-1]+ " -*Tiempo:* :"+TiempoServiciosPublicosEGCP2W[-1]+"min"
-        print(mensajeServiciosPublicosEGCP2W)
+    ServiciosPublicosTFCP2W=TesteoFinal.col_values(86)
+    if ServiciosPublicosTFCP2W[-1]=="Si":
+        DescrServiciosPublicosTFCP2W=TesteoFinal.col_values(87)
+        TiempoServiciosPublicosTFCP2W=TesteoFinal.col_values(88)
+        mensajeServiciosPublicosTFCP2W="*Hubo afectación en las unidades del hora a hora por falta de servicios públicos: Razón:* "+DescrServiciosPublicosTFCP2W[-1]+ " -*Tiempo:* :"+TiempoServiciosPublicosTFCP2W[-1]+"min"
+        print(mensajeServiciosPublicosTFCP2W)
     else:
-        mensajeServiciosPublicosEGCP2W=""
-        print(mensajeServiciosPublicosEGCP2W)
+        mensajeServiciosPublicosTFCP2W=""
+        print(mensajeServiciosPublicosTFCP2W)
 
 #POR MAQUINA COPA2 WHIRLPOOL::::::::
-    MaquinaEGCP2W=TesteoFinal.col_values(89)
-    if MaquinaEGCP2W[-1]=="Si":
-        DescrMaquinaEGCP2W=TesteoFinal.col_values(92)
-        TiempoMaquinaEGCP2W=TesteoFinal.col_values(90)
-        mensajeMaquinaEGCP2W="*Hubo afectación en las unidades por Maquina/ Equipo: Razón:* "+DescrMaquinaEGCP2W[-1]+ " - *Tiempo:* "+TiempoMaquinaEGCP2W[-1]+"min" 
-        print(mensajeMaquinaEGCP2W)
+    MaquinaTFCP2W=TesteoFinal.col_values(89)
+    if MaquinaTFCP2W[-1]=="Si":
+        DescrMaquinaTFCP2W=TesteoFinal.col_values(92)
+        TiempoMaquinaTFCP2W=TesteoFinal.col_values(90)
+        mensajeMaquinaTFCP2W="*Hubo afectación en las unidades por Maquina/ Equipo: Razón:* "+DescrMaquinaTFCP2W[-1]+ " - *Tiempo:* "+TiempoMaquinaTFCP2W[-1]+"min" 
+        print(mensajeMaquinaTFCP2W)
     else:
-        mensajeMaquinaEGCP2W=""
-        print(mensajeMaquinaEGCP2W)
+        mensajeMaquinaTFCP2W=""
+        print(mensajeMaquinaTFCP2W)
 
 #POR MANO DE OBRA COPA2 WHIRLPOOL::::::::
-    ManoDeObraEGCP2W=TesteoFinal.col_values(93)
-    if ManoDeObraEGCP2W[-1]=="Si":
-        DescrManoDeObraEGCP2W=TesteoFinal.col_values(97)
-        TiempoManoDeObraEGCP2W=TesteoFinal.col_values(94)
-        mensajeManoDeObraEGCP2W="*Hubo afectación en las unidades por Mano De Obra: Razón:* "+DescrManoDeObraEGCP2W[-1]+ " - *Tiempo:* "+TiempoManoDeObraEGCP2W[-1]+"min" 
-        print(mensajeManoDeObraEGCP2W)
+    ManoDeObraTFCP2W=TesteoFinal.col_values(93)
+    if ManoDeObraTFCP2W[-1]=="Si":
+        DescrManoDeObraTFCP2W=TesteoFinal.col_values(97)
+        TiempoManoDeObraTFCP2W=TesteoFinal.col_values(94)
+        mensajeManoDeObraTFCP2W="*Hubo afectación en las unidades por Mano De Obra: Razón:* "+DescrManoDeObraTFCP2W[-1]+ " - *Tiempo:* "+TiempoManoDeObraTFCP2W[-1]+"min" 
+        print(mensajeManoDeObraTFCP2W)
     else:
-        mensajeManoDeObraEGCP2W=""
-        print(mensajeManoDeObraEGCP2W)
+        mensajeManoDeObraTFCP2W=""
+        print(mensajeManoDeObraTFCP2W)
 
 #MATERIA PRIMA COPA2 WHIRPOOL::::
 
-    MateriaPrimaEGCP2W=TesteoFinal.col_values(98)
-    if MateriaPrimaEGCP2W[-1]=="Si":
-        DescrMateriaPrimaEGCP2W=TesteoFinal.col_values(102)
-        TiempoMateriaPrimaEGCP2W=TesteoFinal.col_values(99)
-        mensajeMateriaPrimaEGCP2W="*Hubo afectación en las unidades por Materia Prima: Razón:* "+DescrMateriaPrimaEGCP2W[-1]+ " - *Tiempo:* "+TiempoMateriaPrimaEGCP2W[-1]+"min" 
-        print(mensajeMateriaPrimaEGCP2W)
+    MateriaPrimaTFCP2W=TesteoFinal.col_values(98)
+    if MateriaPrimaTFCP2W[-1]=="Si":
+        DescrMateriaPrimaTFCP2W=TesteoFinal.col_values(102)
+        TiempoMateriaPrimaTFCP2W=TesteoFinal.col_values(99)
+        mensajeMateriaPrimaTFCP2W="*Hubo afectación en las unidades por Materia Prima: Razón:* "+DescrMateriaPrimaTFCP2W[-1]+ " - *Tiempo:* "+TiempoMateriaPrimaTFCP2W[-1]+"min" 
+        print(mensajeMateriaPrimaTFCP2W)
     else:
-        mensajeMateriaPrimaEGCP2W=""
-        print(mensajeMateriaPrimaEGCP2W)
+        mensajeMateriaPrimaTFCP2W=""
+        print(mensajeMateriaPrimaTFCP2W)
 
 #POR METODO COPA2 WHIRLPOOL:::
-    MetodoEGCP2W=TesteoFinal.col_values(103)
-    if MetodoEGCP2W[-1]=="Si":
-        DescrMetodoEGCP2W=TesteoFinal.col_values(106)
-        TiempoMetodoEGCP2W=TesteoFinal.col_values(104)
-        mensajeMetodoEGCP2W="*Hubo afectación en las unidades por Método: Razón:* "+DescrMetodoEGCP2W[-1]+ "- *Tiempo:* "+TiempoMetodoEGCP2W[-1]+"min" 
-        print(mensajeMetodoEGCP2W)
+    MetodoTFCP2W=TesteoFinal.col_values(103)
+    if MetodoTFCP2W[-1]=="Si":
+        DescrMetodoTFCP2W=TesteoFinal.col_values(106)
+        TiempoMetodoTFCP2W=TesteoFinal.col_values(104)
+        mensajeMetodoTFCP2W="*Hubo afectación en las unidades por Método: Razón:* "+DescrMetodoTFCP2W[-1]+ "- *Tiempo:* "+TiempoMetodoTFCP2W[-1]+"min" 
+        print(mensajeMetodoTFCP2W)
     else:
-        mensajeMetodoEGCP2W=""
-        print(mensajeMetodoEGCP2W)
+        mensajeMetodoTFCP2W=""
+        print(mensajeMetodoTFCP2W)
 
 #SCRAP COPA2 WHIRLPOOL::::::::::
-    ScrapEGCP2W=TesteoFinal.col_values(107)
-    if ScrapEGCP2W[-1]=="Si":
-        DescrScrapEGCP2W=TesteoFinal.col_values(109)
-        CantidadScrapEGCP2W=TesteoFinal.col_values(110)
-        mensajeScrapEGCP2W="*Se generó SCRAP: Cantidad:* "+CantidadScrapEGCP2W[-1]+" - *Razón:* "+DescrScrapEGCP2W[-1]
-        print(mensajeScrapEGCP2W)
+    ScrapTFCP2W=TesteoFinal.col_values(107)
+    if ScrapTFCP2W[-1]=="Si":
+        DescrScrapTFCP2W=TesteoFinal.col_values(109)
+        CantidadScrapTFCP2W=TesteoFinal.col_values(110)
+        mensajeScrapTFCP2W="*Se generó SCRAP: Cantidad:* "+CantidadScrapTFCP2W[-1]+" - *Razón:* "+DescrScrapTFCP2W[-1]
+        print(mensajeScrapTFCP2W)
     else:
-        mensajeScrapEGCP2W=""
-        print(mensajeScrapEGCP2W)
+        mensajeScrapTFCP2W=""
+        print(mensajeScrapTFCP2W)
 
 #REPROCESADAS COPA2::::::::
-    UnidadesReprocesadasEGCP2W =  TesteoFinal.col_values(111)
-    if UnidadesReprocesadasEGCP2W[-1]=="Si":
-        CantidadReprocesadasEGCP2W=  TesteoFinal.col_values(112)
+    UnidadesReprocesadasTFCP2W =  TesteoFinal.col_values(111)
+    if UnidadesReprocesadasTFCP2W[-1]=="Si":
+        CantidadReprocesadasTFCP2W=  TesteoFinal.col_values(112)
 
-        mensajeUnidadesReprocesadasEGCP2W="*Se reprocesaron unidades - Cantidad:* "+CantidadReprocesadasEGCP2W[-1]+""
-        print (mensajeUnidadesReprocesadasEGCP2W)
+        mensajeUnidadesReprocesadasTFCP2W="*Se reprocesaron unidades - Cantidad:* "+CantidadReprocesadasTFCP2W[-1]+""
+        print (mensajeUnidadesReprocesadasTFCP2W)
     else:
-        mensajeUnidadesReprocesadasEGCP2W=""
-        print(mensajeUnidadesReprocesadasEGCP2W)
+        mensajeUnidadesReprocesadasTFCP2W=""
+        print(mensajeUnidadesReprocesadasTFCP2W)
 
 
-OeeEG= TesteoFinal.col_values(118)
-OeeEmsableGabinete = OeeEG[-1]
-print(OeeEmsableGabinete)
+OeeTF= TesteoFinal.col_values(118)
+OeeTesteoFinal = OeeTF[-1]
+print("Porcentaje OEE: " + OeeTesteoFinal)
