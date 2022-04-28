@@ -286,8 +286,8 @@ if SelectReferenciaTM[-1]=="Copa 2.0 Whirlpool":
             mensajeIncidenteTMCP2W="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTMCP2W[-1] + " no se generó paro."
             print (mensajeIncidenteTMCP2W)
     else:
-        mensajeIncidenteTMCP2H=""
-        print(mensajeIncidenteTMCP2H)
+        mensajeIncidenteTMCP2W=""
+        print(mensajeIncidenteTMCP2W)
 
 ##SERVICIOS PUBLICOS COPA2 WHIRPOOL TAPA MOVIL:::
     ServiciosPublicosTMCP2W=TapaMovil.col_values(86)
