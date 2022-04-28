@@ -370,4 +370,4 @@ if SelectReferenciaTM[-1]=="Copa 2.0 Whirlpool":
 
 OeeTM= TapaMovil.col_values(118)
 OeeTapaMovil = OeeTM[-1]
-print(OeeTapaMovil)
+print("Porcentaje OEE: "+ OeeTapaMovil)
