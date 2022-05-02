@@ -5013,3 +5013,43 @@ Time: 9:2
 Group ID: Jsol5eaS9yX80IGakvF7bF
 Message: *Informe linea de ensamble 8-9*Cadencia: 110Unidades Producidas: 65Eficiencia de la linea: 59.09%
 --------------------
+Date: 2/5/2022
+Time: 9:46
+Group ID: HPuk6hQ3c4p1SSAgyQCTbE
+Message: Cadencia de las células: 130
+--------------------
+Date: 2/5/2022
+Time: 9:50
+Group ID: HPuk6hQ3c4p1SSAgyQCTbE
+Message: Cadencia de las células: 130
+--------------------
+Date: 2/5/2022
+Time: 9:58
+Group ID: HPuk6hQ3c4p1SSAgyQCTbE
+Message: *GESTIÓN CÉLULA HORA A HORA:*/nCadencia de las células: 130
+--------------------
+Date: 2/5/2022
+Time: 10:3
+Group ID: HPuk6hQ3c4p1SSAgyQCTbE
+Message: *GESTION CELULA HORA A HORA:*Cadencia de las celulas: 130
+--------------------
+Date: 2/5/2022
+Time: 10:20
+Group ID: HPuk6hQ3c4p1SSAgyQCTbE
+Message: *GESTION CELULA HORA A HORA:*Cadencia de las celulas: 130Unidades producidas: 93OEE: #DIV/0!
+--------------------
+Date: 2/5/2022
+Time: 11:43
+Group ID: HPuk6hQ3c4p1SSAgyQCTbE
+Message: *GESTION CELULA HORA A HORA: EMSAMBLE MECANISMOSCadencia de las celulas: 130Unidades producidas: 93OEE: #DIV/0!*GESTION CELULA HORA A HORA: CONJUNTO SUSPENCIÓNUnidades Producidas: 158OEE: 2%
+--------------------
+Date: 2/5/2022
+Time: 11:51
+Group ID: HPuk6hQ3c4p1SSAgyQCTbE
+Message: *GESTION CELULA HORA A HORA: EMSAMBLE MECANISMOSCadencia de las celulas: 130Unidades producidas: 93OEE: #DIV/0!*GESTION CELULA HORA A HORA: CONJUNTO SUSPENCIÓNUnidades Producidas: 158OEE: 2%
+--------------------
+Date: 2/5/2022
+Time: 11:58
+Group ID: HPuk6hQ3c4p1SSAgyQCTbE
+Message: *GESTION CELULA HORA A HORA:* *EMSAMBLE MECANISMOS*Cadencia de las celulas: 130Unidades producidas: 93OEE: #DIV/0!*CONJUNTO SUSPENCIÓN*Unidades Producidas: 158OEE: 2%
+--------------------

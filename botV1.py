@@ -20,7 +20,8 @@ gc4 = gspread.service_account(
     filename='named-haven-340115-8092bf8dd87f.json'
 )
     
-sh = gc3.open("Gestión Célula Hora a Hora Células")
+
+
 """ sh2 = gc4.open("Gestión Célula Hora a Hora Células") """
 
 ##CADENCIA:::::
@@ -30,7 +31,7 @@ cadenciaList = cadencia.col_values(3)
 print("Cadencia de las células: "+cadenciaList[-1])
 MensajeCadencia = "Cadencia de las células: "+ cadenciaList[-1]
 
-    #EMSAMBLE MECANISMOS:::::::::::::::
+#EMSAMBLE MECANISMOS:::::::::::::::
 print("EMSAMBLE MECANISMOS:--------")
 EmsambleMecanismos = sh.get_worksheet(0)
 UnidadesFabricadasEM =  EmsambleMecanismos.col_values(5)
@@ -93,7 +94,6 @@ else:
     mensajeManoObraEM=""
     print(mensajeManoObraEM)
 
-
 MateriaPrimaEM =  EmsambleMecanismos.col_values(29)
 if MateriaPrimaEM[-1]=="Si":
     DescrMateriaPrimaEM=  EmsambleMecanismos.col_values(33)
@@ -149,6 +149,7 @@ print("OEE: "+OeeEmsambleMecanismos)
 print("CONJUNTO SUSPENCIÓN:---------")
 
 #SELECCION DE LA HOJA::
+
 ConjuntoSuspencion = sh.get_worksheet(1)
 
 UnidadesFabricadasCJ=  ConjuntoSuspencion.col_values(5)
