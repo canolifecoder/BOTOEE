@@ -5098,3 +5098,8 @@ Time: 15:15
 Group ID: HPuk6hQ3c4p1SSAgyQCTbE
 Message: *GESTION CELULA HORA A HORA:*Cadencia de las celulas: 130*EMSAMBLE MECANISMOS*Unidades producidas: 96OEE: #DIV/0!*CONJUNTO SUSPENCION*Unidades Producidas: 47OEE: #DIV/0!*ENSAMBLE GABINETE*Unidades Producidas: 83*COPA 1.0*OEE: #DIV/0!*TESTEO FINAL*Unidades Producidas: 101*COPA 1.0**Paro programado - Tiempo:* 5 min, *Razon:* Pausas Activas*Se reprocesaron unidades - Cantidad:* 11Porcentaje OEE: #DIV/0!*TAPA MOVIL*Unidades Producidas: 96*COPA 2.0 WHIRLPOOL*OEE: #DIV/0!
 --------------------
+Date: 3/5/2022
+Time: 16:15
+Group ID: HPuk6hQ3c4p1SSAgyQCTbE
+Message: *GESTION CELULA HORA A HORA:*Cadencia de las celulas: 130*EMSAMBLE MECANISMOS*Unidades producidas: 96OEE: #DIV/0!*CONJUNTO SUSPENCION*Unidades Producidas: 47OEE: #DIV/0!*ENSAMBLE GABINETE*Unidades Producidas: 83*COPA 1.0*OEE: #DIV/0!*TESTEO FINAL*Unidades Producidas: 101*COPA 1.0**Paro programado - Tiempo:* 5 min, *Razon:* Pausas Activas*Se reprocesaron unidades - Cantidad:* 11Porcentaje OEE: #DIV/0!*TAPA MOVIL*Unidades Producidas: 96*COPA 2.0 WHIRLPOOL*OEE: #DIV/0!
+--------------------
