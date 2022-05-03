@@ -20,9 +20,7 @@ gc4 = gspread.service_account(
     filename='named-haven-340115-8092bf8dd87f.json'
 )
     
-
-
-""" sh2 = gc4.open("Gestión Célula Hora a Hora Células") """
+sh = gc3.open("Gestión Célula Hora a Hora Células")
 
 ##CADENCIA:::::
 cadencia = gc.open("Cadencia")
