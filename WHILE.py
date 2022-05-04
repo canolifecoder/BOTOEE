@@ -34,7 +34,7 @@ while True:
             espera_Minuto= False
 
             #CONDICIONAL PARA SELECCIONAR EL MIN Y EL RANGO DE SEGUNDOS
-        if (Minuto2==5 and Segundo>=40) and Segundo<=45:
+        if (Minuto2==6 and Segundo>=40) and Segundo<=45:
             ##CADENCIA:::::
             sh = gc3.open("Gestión Célula Hora a Hora Células")
             cadencia = gc.open("Cadencia")
@@ -189,7 +189,7 @@ while True:
             espera_Minuto= False
 
             #CONDICIONAL PARA SELECCIONAR EL MIN Y EL RANGO DE SEGUNDOS
-        if (Minuto2==6 and Segundo>=40) and Segundo<=45:
+        if (Minuto2==7 and Segundo>=40) and Segundo<=45:
             #CONJUNTO SUSPENCIÓN:::::::::::::::
             print("CONJUNTO SUSPENCIÓN:---------")
 
@@ -342,7 +342,7 @@ while True:
             espera_Minuto= False
 
         #CONDICIONAL PARA SELECCIONAR EL MIN Y EL RANGO DE SEGUNDOS
-        if (Minuto2==7 and Segundo>=40) and Segundo<=45:
+        if (Minuto2==8 and Segundo>=40) and Segundo<=45:
             #--------------------------------------------------------------------------------------------------
             #EMSAMBLE GABINETE:::::::::::::::
             print("EMSAMBLE GABINETE:---------")
@@ -773,7 +773,7 @@ while True:
             espera_Minuto= False
 
         #CONDICIONAL PARA SELECCIONAR EL MIN Y EL RANGO DE SEGUNDOS
-        if (Minuto2==8 and Segundo>=40) and Segundo<=45:
+        if (Minuto2==9 and Segundo>=40) and Segundo<=45:
             #TESTEO FINAL:::::::::::::::
             print("TESTEO FINAL::---------")
 
@@ -1201,7 +1201,7 @@ while True:
             espera_Minuto= False
 
         #CONDICIONAL PARA SELECCIONAR EL MIN Y EL RANGO DE SEGUNDOS
-        if (Minuto2==9 and Segundo>=40) and Segundo<=45:
+        if (Minuto2==10 and Segundo>=40) and Segundo<=45:
             #TESTEO FINAL:::::::::::::::
             print("TAPA MOVIL::---------")
             #SELECCION DE LA HOJA::
@@ -1628,848 +1628,849 @@ while True:
             espera_Minuto= False
 
         #CONDICIONAL PARA SELECCIONAR EL MIN Y EL RANGO DE SEGUNDOS
-        if (Minuto2==10 and Segundo>=40) and Segundo<=45:
+        if (Minuto2==11 and Segundo>=40) and Segundo<=45:
             #TAPA FIJA:::::::::::::::::
             print("TAPA FIJA:::---------")
 
             #SELECCION DE LA HOJA::
             TapaFija = sh.get_worksheet(5)
             #SELECCIONAR LA REFERENCIA:::::Back Panel -- COPA 2 WHIRLPOOL -- AGIPELER --- BACK PANEL --- IMPELER --- QUASAR
-            UnidadesFabricadasTF=  TapaFija.col_values(5)
-            print(UnidadesFabricadasTF[-1])
-            mensajeUnidadesFabricadasTF=UnidadesFabricadasTF[-1]
+            UnidadesFabricadasTF2=  TapaFija.col_values(5)
+            print(UnidadesFabricadasTF2[-1])
+            mensajeUnidadesFabricadasTF2=UnidadesFabricadasTF2[-1]
             #SELECCION DE Agipeller:::::
-            SelectReferenciaTF = TapaFija.col_values(7)
-            if SelectReferenciaTF[-1]=="Agipeller":
+            SelectReferenciaTF2 = TapaFija.col_values(7)
+            if SelectReferenciaTF2[-1]=="Agipeller":
                 print("Agipeller::::")
                 #PAROS PROGRAMADOS TAPA FIJA Agipeller::::
-                ParoProgramadoTFAGI = TapaFija.col_values(8)
-                if ParoProgramadoTFAGI[-1]=="Si":
-                    RazonParoProgramadoTFAGI =  TapaFija.col_values(9)
-                    TiempoParoProgramadoTFAGI =  TapaFija.col_values(10)
-                    mensajeParoProgramadoTFAGI="*Paro programado - Tiempo:* "+TiempoParoProgramadoTFAGI[-1]+" min, *Razón:* "+RazonParoProgramadoTFAGI[-1]
-                    print(mensajeParoProgramadoTFAGI)
+                ParoProgramadoTF2AGI = TapaFija.col_values(8)
+                if ParoProgramadoTF2AGI[-1]=="Si":
+                    RazonParoProgramadoTF2AGI =  TapaFija.col_values(9)
+                    TiempoParoProgramadoTF2AGI =  TapaFija.col_values(10)
+                    mensajeParoProgramadoTF2AGI="*Paro programado - Tiempo:* "+TiempoParoProgramadoTF2AGI[-1]+" min, *Razón:* "+RazonParoProgramadoTF2AGI[-1]
+                    print(mensajeParoProgramadoTF2AGI)
                 else:
-                    mensajeParoProgramadoTFAGI=""
-                    print(mensajeParoProgramadoTFAGI)
+                    mensajeParoProgramadoTF2AGI=""
+                    print(mensajeParoProgramadoTF2AGI)
                 
                 #INCIDENTES TAPA FIJA Agipeller::
-                IncidenteTFAGI=TapaFija.col_values(11)
-                if IncidenteTFAGI[-1]=="Si":
-                    DescrIncidenteTFAGI=TapaFija.col_values(13)
-                    ValidarParoIncidenteTFAGI=TapaFija.col_values(14)
-                    mensajeIncidenteTFAGI="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTFAGI[-1] + " No se generó paro"
-                    print(mensajeIncidenteTFAGI)
-                    if ValidarParoIncidenteTFAGI[-1]=="Si":   
-                        TiempoIncidenteTFAGI=TapaFija.col_values(15)
-                        mensajeIncidenteTFAGI="*Incidente y/o accidente ambiental y/o SST - Tiempo:* "+TiempoIncidenteTFAGI[-1]+" min, *Razón:* "+DescrIncidenteTFAGI[-1]
-                        print (mensajeIncidenteTFAGI)
+                IncidenteTF2AGI=TapaFija.col_values(11)
+                if IncidenteTF2AGI[-1]=="Si":
+                    DescrIncidenteTF2AGI=TapaFija.col_values(13)
+                    ValidarParoIncidenteTF2AGI=TapaFija.col_values(14)
+                    mensajeIncidenteTF2AGI="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTF2AGI[-1] + " No se generó paro"
+                    print(mensajeIncidenteTF2AGI)
+                    if ValidarParoIncidenteTF2AGI[-1]=="Si":   
+                        TiempoIncidenteTF2AGI=TapaFija.col_values(15)
+                        mensajeIncidenteTF2AGI="*Incidente y/o accidente ambiental y/o SST - Tiempo:* "+TiempoIncidenteTF2AGI[-1]+" min, *Razón:* "+DescrIncidenteTF2AGI[-1]
+                        print (mensajeIncidenteTF2AGI)
                     else:
-                        #DescrIncidenteTFAGI=TapaFija.col_values(12)
-                        mensajeIncidenteTFAGI="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTFAGI[-1] + " No se generó paro"
-                        print (mensajeIncidenteTFAGI)
+                        #DescrIncidenteTF2AGI=TapaFija.col_values(12)
+                        mensajeIncidenteTF2AGI="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTF2AGI[-1] + " No se generó paro"
+                        print (mensajeIncidenteTF2AGI)
                 else:
-                    mensajeIncidenteTFAGI=""
-                    print(mensajeIncidenteTFAGI)
+                    mensajeIncidenteTF2AGI=""
+                    print(mensajeIncidenteTF2AGI)
 
             ##SERVICIOS PUBLICOS  TAPA FIJA Agipeller:::.
-                ServiciosPublicosTFAGI=TapaFija.col_values(16)
-                if ServiciosPublicosTFAGI[-1]=="Si":
-                    DescrServiciosPublicosTFAGI=TapaFija.col_values(18)
-                    TiempoServiciosPublucosTFAGI=TapaFija.col_values(17)
-                    mensajeServiciosPublicosTFAGI="*Hubo afectación en las unidades del hora a hora por falta de servicios públicos: Razón:* "+DescrServiciosPublicosTFAGI[-1]+ " -*Tiempo:* :"+TiempoServiciosPublucosTFAGI[-1]+"min"
-                    print(mensajeServiciosPublicosTFAGI)
+                ServiciosPublicosTF2AGI=TapaFija.col_values(16)
+                if ServiciosPublicosTF2AGI[-1]=="Si":
+                    DescrServiciosPublicosTF2AGI=TapaFija.col_values(18)
+                    TiempoServiciosPublucosTF2AGI=TapaFija.col_values(17)
+                    mensajeServiciosPublicosTF2AGI="*Hubo afectación en las unidades del hora a hora por falta de servicios públicos: Razón:* "+DescrServiciosPublicosTF2AGI[-1]+ " -*Tiempo:* :"+TiempoServiciosPublucosTF2AGI[-1]+"min"
+                    print(mensajeServiciosPublicosTF2AGI)
                 else:
-                    mensajeServiciosPublicosTFAGI=""
-                    print(mensajeServiciosPublicosTFAGI)
+                    mensajeServiciosPublicosTF2AGI=""
+                    print(mensajeServiciosPublicosTF2AGI)
             #POR MAQUINA Agipeller TAPA FIJA:::
-                MaquinaTFAGI=TapaFija.col_values(19)
-                if MaquinaTFAGI[-1]=="Si":
-                    DescrMaquinaTFAGI=TapaFija.col_values(22)
-                    TiempoMaquinaTFAGI=TapaFija.col_values(20)
-                    mensajeMaquinaTFAGI="*Hubo afectación en las unidades por Maquina/ Equipo: Razón:* "+DescrMaquinaTFAGI[-1]+ " - *Tiempo:* "+TiempoMaquinaTFAGI[-1]+"min" 
-                    print(mensajeMaquinaTFAGI)
+                MaquinaTF2AGI=TapaFija.col_values(19)
+                if MaquinaTF2AGI[-1]=="Si":
+                    DescrMaquinaTF2AGI=TapaFija.col_values(22)
+                    TiempoMaquinaTF2AGI=TapaFija.col_values(20)
+                    mensajeMaquinaTF2AGI="*Hubo afectación en las unidades por Maquina/ Equipo: Razón:* "+DescrMaquinaTF2AGI[-1]+ " - *Tiempo:* "+TiempoMaquinaTF2AGI[-1]+"min" 
+                    print(mensajeMaquinaTF2AGI)
                 else:
-                    mensajeMaquinaTFAGI=""
-                    print(mensajeMaquinaTFAGI)
+                    mensajeMaquinaTF2AGI=""
+                    print(mensajeMaquinaTF2AGI)
 
             #POR MANO DE OBRA Agipeller TAPA FIJA::::::::
-                ManoDeObraTFAGI=TapaFija.col_values(23)
-                if ManoDeObraTFAGI[-1]=="Si":
-                    DescrManoDeObraTFAGI=TapaFija.col_values(27)
-                    TiempoManoDeObraTFAGI=TapaFija.col_values(24)
-                    mensajeManoDeObraTFAGI="*Hubo afectación en las unidades por Mano De Obra: Razón:* "+DescrManoDeObraTFAGI[-1]+ " - *Tiempo:* "+TiempoManoDeObraTFAGI[-1]+"min" 
-                    print(mensajeManoDeObraTFAGI)
+                ManoDeObraTF2AGI=TapaFija.col_values(23)
+                if ManoDeObraTF2AGI[-1]=="Si":
+                    DescrManoDeObraTF2AGI=TapaFija.col_values(27)
+                    TiempoManoDeObraTF2AGI=TapaFija.col_values(24)
+                    mensajeManoDeObraTF2AGI="*Hubo afectación en las unidades por Mano De Obra: Razón:* "+DescrManoDeObraTF2AGI[-1]+ " - *Tiempo:* "+TiempoManoDeObraTF2AGI[-1]+"min" 
+                    print(mensajeManoDeObraTF2AGI)
                 else:
-                    mensajeManoDeObraTFAGI=""
-                    print(mensajeManoDeObraTFAGI)
+                    mensajeManoDeObraTF2AGI=""
+                    print(mensajeManoDeObraTF2AGI)
 
             #MATERIA PRIMA Agipeller TAPA FIJA::::
 
-                MateriaPrimaTFAGI=TapaFija.col_values(28)
-                if MateriaPrimaTFAGI[-1]=="Si":
-                    DescrMateriaPrimaTFAGI=TapaFija.col_values(32)
-                    TiempoMateriaPrimaTFAGI=TapaFija.col_values(29)
-                    mensajeMateriaPrimaTFAGI="*Hubo afectación en las unidades por Materia Prima: Razón:* "+DescrMateriaPrimaTFAGI[-1]+ " - *Tiempo:* "+TiempoMateriaPrimaTFAGI[-1]+"min" 
-                    print(mensajeMateriaPrimaTFAGI)
+                MateriaPrimaTF2AGI=TapaFija.col_values(28)
+                if MateriaPrimaTF2AGI[-1]=="Si":
+                    DescrMateriaPrimaTF2AGI=TapaFija.col_values(32)
+                    TiempoMateriaPrimaTF2AGI=TapaFija.col_values(29)
+                    mensajeMateriaPrimaTF2AGI="*Hubo afectación en las unidades por Materia Prima: Razón:* "+DescrMateriaPrimaTF2AGI[-1]+ " - *Tiempo:* "+TiempoMateriaPrimaTF2AGI[-1]+"min" 
+                    print(mensajeMateriaPrimaTF2AGI)
                 else:
-                    mensajeMateriaPrimaTFAGI=""
-                    print(mensajeMateriaPrimaTFAGI)
+                    mensajeMateriaPrimaTF2AGI=""
+                    print(mensajeMateriaPrimaTF2AGI)
 
             #POR METODO Agipeller TAPA FIJA:::
-                MetodoTFAGI=TapaFija.col_values(33)
-                if MetodoTFAGI[-1]=="Si":
-                    DescrMetodoTFAGI=TapaFija.col_values(36)
-                    TiempoMetodoTFAGI=TapaFija.col_values(34)
-                    mensajeMetodoTFAGI="*Hubo afectación en las unidades por Método: Razón:* "+DescrMetodoTFAGI[-1]+ "- *Tiempo:* "+TiempoMetodoTFAGI[-1]+"min" 
-                    print(mensajeMetodoTFAGI)
+                MetodoTF2AGI=TapaFija.col_values(33)
+                if MetodoTF2AGI[-1]=="Si":
+                    DescrMetodoTF2AGI=TapaFija.col_values(36)
+                    TiempoMetodoTF2AGI=TapaFija.col_values(34)
+                    mensajeMetodoTF2AGI="*Hubo afectación en las unidades por Método: Razón:* "+DescrMetodoTF2AGI[-1]+ "- *Tiempo:* "+TiempoMetodoTF2AGI[-1]+"min" 
+                    print(mensajeMetodoTF2AGI)
                 else:
-                    mensajeMetodoTFAGI=""
-                    print(mensajeMetodoTFAGI)
+                    mensajeMetodoTF2AGI=""
+                    print(mensajeMetodoTF2AGI)
 
             #SCRAP Agipeller TAPA FIJA::::::::::
-                ScrapTFAGI=TapaFija.col_values(37)
-                if ScrapTFAGI[-1]=="Si":
-                    DescrScrapTFAGI=TapaFija.col_values(39)
-                    CantidadScrapTFAGI=TapaFija.col_values(40)
-                    mensajeScrapTFAGI="*Se generó SCRAP: Cantidad:* "+CantidadScrapTFAGI[-1]+" - *Razón:* "+DescrScrapTFAGI[-1]
-                    print(mensajeScrapTFAGI)
+                ScrapTF2AGI=TapaFija.col_values(37)
+                if ScrapTF2AGI[-1]=="Si":
+                    DescrScrapTF2AGI=TapaFija.col_values(39)
+                    CantidadScrapTF2AGI=TapaFija.col_values(40)
+                    mensajeScrapTF2AGI="*Se generó SCRAP: Cantidad:* "+CantidadScrapTF2AGI[-1]+" - *Razón:* "+DescrScrapTF2AGI[-1]
+                    print(mensajeScrapTF2AGI)
                 else:
-                    mensajeScrapTFAGI=""
-                    print(mensajeScrapTFAGI)
+                    mensajeScrapTF2AGI=""
+                    print(mensajeScrapTF2AGI)
 
             #REPROCESADAS Agipeller TAPA FIJA::::::::
-                UnidadesReprocesadasTFAGI =  TapaFija.col_values(41)
-                if UnidadesReprocesadasTFAGI[-1]=="Si":
-                    CantidadReprocesadasTFAGI=  TapaFija.col_values(42)
+                UnidadesReprocesadasTF2AGI =  TapaFija.col_values(41)
+                if UnidadesReprocesadasTF2AGI[-1]=="Si":
+                    CantidadReprocesadasTF2AGI=  TapaFija.col_values(42)
 
-                    mensajeUnidadesReprocesadasTFAGI="*Se reprocesaron unidades - Cantidad:* "+CantidadReprocesadasTFAGI[-1]+""
-                    print (mensajeUnidadesReprocesadasTFAGI)
+                    mensajeUnidadesReprocesadasTF2AGI="*Se reprocesaron unidades - Cantidad:* "+CantidadReprocesadasTF2AGI[-1]+""
+                    print (mensajeUnidadesReprocesadasTF2AGI)
                 else:
-                    mensajeUnidadesReprocesadasTFAGI=""
-                    print(mensajeUnidadesReprocesadasTFAGI)
+                    mensajeUnidadesReprocesadasTF2AGI=""
+                    print(mensajeUnidadesReprocesadasTF2AGI)
 
             ##SELECCIONA Back Panel TAPA FIJA::::::::::::::::::::::________________________________________
             #_____________________________________________________
 
-            if SelectReferenciaTF[-1]=="Back Panel":
+            if SelectReferenciaTF2[-1]=="Back Panel":
                 print("Back Panel:::")
                 #PAROS PROGRAMADOS TAPA FIJA Back Panel::
-                ParoProgramadoTFBP = TapaFija.col_values(43)
-                if ParoProgramadoTFBP[-1]=="Si":
-                    RazonParoProgramadoTFBP =  TapaFija.col_values(44)
-                    TiempoParoProgramadoTFBP =  TapaFija.col_values(45)
-                    mensajeParoProgramadoTFBP="*Paro programado - Tiempo:* "+TiempoParoProgramadoTFBP[-1]+" min, *Razón:* "+RazonParoProgramadoTFBP[-1]
-                    print(mensajeParoProgramadoTFBP)
+                ParoProgramadoTF2BP = TapaFija.col_values(43)
+                if ParoProgramadoTF2BP[-1]=="Si":
+                    RazonParoProgramadoTF2BP =  TapaFija.col_values(44)
+                    TiempoParoProgramadoTF2BP =  TapaFija.col_values(45)
+                    mensajeParoProgramadoTF2BP="*Paro programado - Tiempo:* "+TiempoParoProgramadoTF2BP[-1]+" min, *Razón:* "+RazonParoProgramadoTF2BP[-1]
+                    print(mensajeParoProgramadoTF2BP)
                 else:
-                    mensajeParoProgramadoTFBP=""
-                    print(mensajeParoProgramadoTFBP)
+                    mensajeParoProgramadoTF2BP=""
+                    print(mensajeParoProgramadoTF2BP)
                 
                 #INCIDENTES TAPA FIJA Back Panel::
-                IncidenteTFBP=TapaFija.col_values(46)
-                if IncidenteTFBP[-1]=="Si":
-                    DescrIncidenteTFBP=TapaFija.col_values(48)
+                IncidenteTF2BP=TapaFija.col_values(46)
+                if IncidenteTF2BP[-1]=="Si":
+                    DescrIncidenteTF2BP=TapaFija.col_values(48)
                     ValidarParoIncidenteEMCP2H=TapaFija.col_values(49)
-                    mensajeIncidenteTFBP="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTFBP[-1]+ " no se generó paro."
-                    print(mensajeIncidenteTFBP)
+                    mensajeIncidenteTF2BP="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTF2BP[-1]+ " no se generó paro."
+                    print(mensajeIncidenteTF2BP)
                     if ValidarParoIncidenteEMCP2H[-1]=="Si":   
-                        TiempoIncidenteTFBP=TapaFija.col_values(50)
-                        mensajeIncidenteTFBP="*Incidente y/o accidente ambiental y/o SST - Tiempo:* "+TiempoIncidenteTFBP[-1]+" min, *Razón:* "+DescrIncidenteTFBP[-1]
-                        print (mensajeIncidenteTFBP)
+                        TiempoIncidenteTF2BP=TapaFija.col_values(50)
+                        mensajeIncidenteTF2BP="*Incidente y/o accidente ambiental y/o SST - Tiempo:* "+TiempoIncidenteTF2BP[-1]+" min, *Razón:* "+DescrIncidenteTF2BP[-1]
+                        print (mensajeIncidenteTF2BP)
                     else:
-                        #DescrIncidenteTFAGI=TapaFija.col_values(12)
-                        mensajeIncidenteTFBP="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTFBP[-1] + " no se generó paro."
-                        print (mensajeIncidenteTFBP)
+                        #DescrIncidenteTF2AGI=TapaFija.col_values(12)
+                        mensajeIncidenteTF2BP="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTF2BP[-1] + " no se generó paro."
+                        print (mensajeIncidenteTF2BP)
                 else:
-                    mensajeIncidenteTFBP=""
-                    print(mensajeIncidenteTFBP)
+                    mensajeIncidenteTF2BP=""
+                    print(mensajeIncidenteTF2BP)
             
             ##SERVICIOS PUBLICOS backpanel TAPA FIJA::
-                ServiciosPublicosTFBP=TapaFija.col_values(51)
-                if ServiciosPublicosTFBP[-1]=="Si":
-                    DescrServiciosPublicosTFBP=TapaFija.col_values(53)
-                    TiempoServiciosPublicosTFBP=TapaFija.col_values(52)
-                    mensajeServiciosPublicosTFBP="*Hubo afectación en las unidades del hora a hora por falta de servicios públicos: Razón:* "+DescrServiciosPublicosTFBP[-1]+ " -*Tiempo:* :"+TiempoServiciosPublicosTFBP[-1]+"min"
-                    print(mensajeServiciosPublicosTFBP)
+                ServiciosPublicosTF2BP=TapaFija.col_values(51)
+                if ServiciosPublicosTF2BP[-1]=="Si":
+                    DescrServiciosPublicosTF2BP=TapaFija.col_values(53)
+                    TiempoServiciosPublicosTF2BP=TapaFija.col_values(52)
+                    mensajeServiciosPublicosTF2BP="*Hubo afectación en las unidades del hora a hora por falta de servicios públicos: Razón:* "+DescrServiciosPublicosTF2BP[-1]+ " -*Tiempo:* :"+TiempoServiciosPublicosTF2BP[-1]+"min"
+                    print(mensajeServiciosPublicosTF2BP)
                 else:
-                    mensajeServiciosPublicosTFBP=""
-                    print(mensajeServiciosPublicosTFBP)
+                    mensajeServiciosPublicosTF2BP=""
+                    print(mensajeServiciosPublicosTF2BP)
             #POR MAQUINA backpanel TAPA FIJA:::
-                MaquinaTFBP=TapaFija.col_values(54)
-                if MaquinaTFBP[-1]=="Si":
-                    DescrMaquinaTFBP=TapaFija.col_values(57)
-                    TiempoMaquinaTFBP=TapaFija.col_values(55)
-                    mensajeMaquinaTFBP="*Hubo afectación en las unidades por Maquina/ Equipo: Razón:* "+DescrMaquinaTFBP[-1]+ " - *Tiempo:* "+TiempoMaquinaTFBP[-1]+"min" 
-                    print(mensajeMaquinaTFBP)
+                MaquinaTF2BP=TapaFija.col_values(54)
+                if MaquinaTF2BP[-1]=="Si":
+                    DescrMaquinaTF2BP=TapaFija.col_values(57)
+                    TiempoMaquinaTF2BP=TapaFija.col_values(55)
+                    mensajeMaquinaTF2BP="*Hubo afectación en las unidades por Maquina/ Equipo: Razón:* "+DescrMaquinaTF2BP[-1]+ " - *Tiempo:* "+TiempoMaquinaTF2BP[-1]+"min" 
+                    print(mensajeMaquinaTF2BP)
                 else:
-                    mensajeMaquinaTFBP=""
-                    print(mensajeMaquinaTFBP)
+                    mensajeMaquinaTF2BP=""
+                    print(mensajeMaquinaTF2BP)
 
             #POR MANO DE OBRA backpanel TAPA FIJA::::::::
-                ManoDeObraTFBP=TapaFija.col_values(58)
-                if ManoDeObraTFBP[-1]=="Si":
-                    DescrManoDeObraTFBP=TapaFija.col_values(62)
-                    TiempoManoDeObraTFBP=TapaFija.col_values(59)
-                    mensajeManoDeObraTFBP="*Hubo afectación en las unidades por Mano De Obra: Razón:* "+DescrManoDeObraTFBP[-1]+ " - *Tiempo:* "+TiempoManoDeObraTFBP[-1]+"min" 
-                    print(mensajeManoDeObraTFBP)
+                ManoDeObraTF2BP=TapaFija.col_values(58)
+                if ManoDeObraTF2BP[-1]=="Si":
+                    DescrManoDeObraTF2BP=TapaFija.col_values(62)
+                    TiempoManoDeObraTF2BP=TapaFija.col_values(59)
+                    mensajeManoDeObraTF2BP="*Hubo afectación en las unidades por Mano De Obra: Razón:* "+DescrManoDeObraTF2BP[-1]+ " - *Tiempo:* "+TiempoManoDeObraTF2BP[-1]+"min" 
+                    print(mensajeManoDeObraTF2BP)
                 else:
-                    mensajeManoDeObraTFBP=""
-                    print(mensajeManoDeObraTFBP)
+                    mensajeManoDeObraTF2BP=""
+                    print(mensajeManoDeObraTF2BP)
 
             #MATERIA PRIMA COPA2 TAPA FIJA::::
 
-                MateriaPrimaTFBP=TapaFija.col_values(63)
-                if MateriaPrimaTFBP[-1]=="Si":
-                    DescrMateriaPrimaTFBP=TapaFija.col_values(67)
-                    TiempoMateriaPrimaTFBP=TapaFija.col_values(64)
-                    mensajeMateriaPrimaTFBP="*Hubo afectación en las unidades por Materia Prima: Razón:* "+DescrMateriaPrimaTFBP[-1]+ " - *Tiempo:* "+TiempoMateriaPrimaTFBP[-1]+"min" 
-                    print(mensajeMateriaPrimaTFBP)
+                MateriaPrimaTF2BP=TapaFija.col_values(63)
+                if MateriaPrimaTF2BP[-1]=="Si":
+                    DescrMateriaPrimaTF2BP=TapaFija.col_values(67)
+                    TiempoMateriaPrimaTF2BP=TapaFija.col_values(64)
+                    mensajeMateriaPrimaTF2BP="*Hubo afectación en las unidades por Materia Prima: Razón:* "+DescrMateriaPrimaTF2BP[-1]+ " - *Tiempo:* "+TiempoMateriaPrimaTF2BP[-1]+"min" 
+                    print(mensajeMateriaPrimaTF2BP)
                 else:
-                    mensajeMateriaPrimaTFBP=""
-                    print(mensajeMateriaPrimaTFBP)
+                    mensajeMateriaPrimaTF2BP=""
+                    print(mensajeMateriaPrimaTF2BP)
 
             #POR METODO COPA2 TAPA FIJA:::
-                MetodoTFBP=TapaFija.col_values(68)
-                if MetodoTFBP[-1]=="Si":
-                    DescrMetodoTFBP=TapaFija.col_values(71)
-                    TiempoMetodoTFBP=TapaFija.col_values(69)
-                    mensajeMetodoTFBP="*Hubo afectación en las unidades por Método: Razón:* "+DescrMetodoTFBP[-1]+ "- *Tiempo:* "+TiempoMetodoTFBP[-1]+"min" 
-                    print(mensajeMetodoTFBP)
+                MetodoTF2BP=TapaFija.col_values(68)
+                if MetodoTF2BP[-1]=="Si":
+                    DescrMetodoTF2BP=TapaFija.col_values(71)
+                    TiempoMetodoTF2BP=TapaFija.col_values(69)
+                    mensajeMetodoTF2BP="*Hubo afectación en las unidades por Método: Razón:* "+DescrMetodoTF2BP[-1]+ "- *Tiempo:* "+TiempoMetodoTF2BP[-1]+"min" 
+                    print(mensajeMetodoTF2BP)
                 else:
-                    mensajeMetodoTFBP=""
-                    print(mensajeMetodoTFBP)
+                    mensajeMetodoTF2BP=""
+                    print(mensajeMetodoTF2BP)
 
             #SCRAP COPA2 TAPA FIJA::::::::::
-                ScrapTFBP=TapaFija.col_values(72)
-                if ScrapTFBP[-1]=="Si":
-                    DescrScrapTFBP=TapaFija.col_values(74)
-                    CantidadScrapTFBP=TapaFija.col_values(75)
-                    mensajeScrapTFBP="*Se generó SCRAP: Cantidad:* "+CantidadScrapTFBP[-1]+" - *Razón:* "+DescrScrapTFBP[-1]
-                    print(mensajeScrapTFBP)
+                ScrapTF2BP=TapaFija.col_values(72)
+                if ScrapTF2BP[-1]=="Si":
+                    DescrScrapTF2BP=TapaFija.col_values(74)
+                    CantidadScrapTF2BP=TapaFija.col_values(75)
+                    mensajeScrapTF2BP="*Se generó SCRAP: Cantidad:* "+CantidadScrapTF2BP[-1]+" - *Razón:* "+DescrScrapTF2BP[-1]
+                    print(mensajeScrapTF2BP)
                 else:
-                    mensajeScrapTFBP=""
-                    print(mensajeScrapTFBP)
+                    mensajeScrapTF2BP=""
+                    print(mensajeScrapTF2BP)
 
             #REPROCESADAS COPA2 TAPA FIJA::::::::
-                UnidadesReprocesadasTFBP =  TapaFija.col_values(76)
-                if UnidadesReprocesadasTFBP[-1]=="Si":
-                    CantidadReprocesadasTFBP=  TapaFija.col_values(77)
+                UnidadesReprocesadasTF2BP =  TapaFija.col_values(76)
+                if UnidadesReprocesadasTF2BP[-1]=="Si":
+                    CantidadReprocesadasTF2BP=  TapaFija.col_values(77)
 
-                    mensajeUnidadesReprocesadasTFBP="*Se reprocesaron unidades - Cantidad:* "+CantidadReprocesadasTFBP[-1]+""
-                    print (mensajeUnidadesReprocesadasTFBP)
+                    mensajeUnidadesReprocesadasTF2BP="*Se reprocesaron unidades - Cantidad:* "+CantidadReprocesadasTF2BP[-1]+""
+                    print (mensajeUnidadesReprocesadasTF2BP)
                 else:
-                    mensajeUnidadesReprocesadasTFBP=""
-                    print(mensajeUnidadesReprocesadasTFBP)
+                    mensajeUnidadesReprocesadasTF2BP=""
+                    print(mensajeUnidadesReprocesadasTF2BP)
 
             ##Copa 2.0 Haceb TAPA FIJA::::::::::::::
             # TAPA FIJA Copa 2.0 Haceb__:::::
-            if SelectReferenciaTF[-1]=="Copa 2.0 Haceb":
+            if SelectReferenciaTF2[-1]=="Copa 2.0 Haceb":
                 print("Copa 2.0 Haceb::::::")
                 #PAROS PROGRAMADOS::::
-                ParoProgramadoTFCP2H = TapaFija.col_values(78)
-                if ParoProgramadoTFCP2H[-1]=="Si":
-                    RazonParoProgramadoTFCP2H =  TapaFija.col_values(79)
-                    TiempoParoProgramadoTFCP2H =  TapaFija.col_values(80)
-                    mensajeParoProgramadoTFCP2H="*Paro programado - Tiempo:* "+TiempoParoProgramadoTFCP2H[-1]+" min, *Razón:* "+RazonParoProgramadoTFCP2H[-1]
-                    print(mensajeParoProgramadoTFCP2H)
+                ParoProgramadoTF2CP2H = TapaFija.col_values(78)
+                if ParoProgramadoTF2CP2H[-1]=="Si":
+                    RazonParoProgramadoTF2CP2H =  TapaFija.col_values(79)
+                    TiempoParoProgramadoTF2CP2H =  TapaFija.col_values(80)
+                    mensajeParoProgramadoTF2CP2H="*Paro programado - Tiempo:* "+TiempoParoProgramadoTF2CP2H[-1]+" min, *Razón:* "+RazonParoProgramadoTF2CP2H[-1]
+                    print(mensajeParoProgramadoTF2CP2H)
                 else:
-                    mensajeParoProgramadoTFCP2H=""
-                    print(mensajeParoProgramadoTFCP2H)
+                    mensajeParoProgramadoTF2CP2H=""
+                    print(mensajeParoProgramadoTF2CP2H)
                 
                 #INCIDENTES Copa 2.0 Haceb TAPA FIJA:::::
-                IncidenteTFCP2H=TapaFija.col_values(81)
-                if IncidenteTFCP2H[-1]=="Si":
-                    DescrIncidenteTFCP2H=TapaFija.col_values(83)
+                IncidenteTF2CP2H=TapaFija.col_values(81)
+                if IncidenteTF2CP2H[-1]=="Si":
+                    DescrIncidenteTF2CP2H=TapaFija.col_values(83)
                     ValidarParoIncidenteEMCP2W=TapaFija.col_values(84)
-                    mensajeIncidenteTFCP2H="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTFCP2H[-1]+ " no se generó paro."
-                    print(mensajeIncidenteTFCP2H)
+                    mensajeIncidenteTF2CP2H="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTF2CP2H[-1]+ " no se generó paro."
+                    print(mensajeIncidenteTF2CP2H)
                     if ValidarParoIncidenteEMCP2W[-1]=="Si":   
-                        TiempoIncidenteTFCP2H=TapaFija.col_values(85)
-                        mensajeIncidenteTFCP2H="*Incidente y/o accidente ambiental y/o SST - Tiempo:* "+TiempoIncidenteTFCP2H[-1]+" min, *Razón:* "+DescrIncidenteTFCP2H[-1]
-                        print (mensajeIncidenteTFCP2H)
+                        TiempoIncidenteTF2CP2H=TapaFija.col_values(85)
+                        mensajeIncidenteTF2CP2H="*Incidente y/o accidente ambiental y/o SST - Tiempo:* "+TiempoIncidenteTF2CP2H[-1]+" min, *Razón:* "+DescrIncidenteTF2CP2H[-1]
+                        print (mensajeIncidenteTF2CP2H)
                     else:
-                        #DescrIncidenteTFAGI=TapaFija.col_values(12)
-                        mensajeIncidenteTFCP2H="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTFCP2H[-1] + " no se generó paro."
-                        print (mensajeIncidenteTFCP2H)
+                        #DescrIncidenteTF2AGI=TapaFija.col_values(12)
+                        mensajeIncidenteTF2CP2H="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTF2CP2H[-1] + " no se generó paro."
+                        print (mensajeIncidenteTF2CP2H)
                 else:
-                    mensajeIncidenteTFCP2H=""
-                    print(mensajeIncidenteTFCP2H)
+                    mensajeIncidenteTF2CP2H=""
+                    print(mensajeIncidenteTF2CP2H)
 
             ##SERVICIOS PUBLICOS Copa 2.0 Haceb TAPA FIJA:::
-                ServiciosPublicosTFCP2H=TapaFija.col_values(86)
-                if ServiciosPublicosTFCP2H[-1]=="Si":
-                    DescrServiciosPublicosTFCP2H=TapaFija.col_values(88)
-                    TiempoServiciosPublicosTFCP2H=TapaFija.col_values(87)
-                    mensajeServiciosPublicosTFCP2H="*Hubo afectación en las unidades del hora a hora por falta de servicios públicos: Razón:* "+DescrServiciosPublicosTFCP2H[-1]+ " -*Tiempo:* :"+TiempoServiciosPublicosTFCP2H[-1]+"min"
-                    print(mensajeServiciosPublicosTFCP2H)
+                ServiciosPublicosTF2CP2H=TapaFija.col_values(86)
+                if ServiciosPublicosTF2CP2H[-1]=="Si":
+                    DescrServiciosPublicosTF2CP2H=TapaFija.col_values(88)
+                    TiempoServiciosPublicosTF2CP2H=TapaFija.col_values(87)
+                    mensajeServiciosPublicosTF2CP2H="*Hubo afectación en las unidades del hora a hora por falta de servicios públicos: Razón:* "+DescrServiciosPublicosTF2CP2H[-1]+ " -*Tiempo:* :"+TiempoServiciosPublicosTF2CP2H[-1]+"min"
+                    print(mensajeServiciosPublicosTF2CP2H)
                 else:
-                    mensajeServiciosPublicosTFCP2H=""
-                    print(mensajeServiciosPublicosTFCP2H)
+                    mensajeServiciosPublicosTF2CP2H=""
+                    print(mensajeServiciosPublicosTF2CP2H)
 
             #POR MAQUINA Copa 2.0 Haceb TAPA FIJA::::::::
-                MaquinaTFCP2H=TapaFija.col_values(89)
-                if MaquinaTFCP2H[-1]=="Si":
-                    DescrMaquinaTFCP2H=TapaFija.col_values(92)
-                    TiempoMaquinaTFCP2H=TapaFija.col_values(90)
-                    mensajeMaquinaTFCP2H="*Hubo afectación en las unidades por Maquina/ Equipo: Razón:* "+DescrMaquinaTFCP2H[-1]+ " - *Tiempo:* "+TiempoMaquinaTFCP2H[-1]+"min" 
-                    print(mensajeMaquinaTFCP2H)
+                MaquinaTF2CP2H=TapaFija.col_values(89)
+                if MaquinaTF2CP2H[-1]=="Si":
+                    DescrMaquinaTF2CP2H=TapaFija.col_values(92)
+                    TiempoMaquinaTF2CP2H=TapaFija.col_values(90)
+                    mensajeMaquinaTF2CP2H="*Hubo afectación en las unidades por Maquina/ Equipo: Razón:* "+DescrMaquinaTF2CP2H[-1]+ " - *Tiempo:* "+TiempoMaquinaTF2CP2H[-1]+"min" 
+                    print(mensajeMaquinaTF2CP2H)
                 else:
-                    mensajeMaquinaTFCP2H=""
-                    print(mensajeMaquinaTFCP2H)
+                    mensajeMaquinaTF2CP2H=""
+                    print(mensajeMaquinaTF2CP2H)
 
             #POR MANO DE OBRA Copa 2.0 Haceb TAPA FIJA::::::::
-                ManoDeObraTFCP2H=TapaFija.col_values(93)
-                if ManoDeObraTFCP2H[-1]=="Si":
-                    DescrManoDeObraTFCP2H=TapaFija.col_values(97)
-                    TiempoManoDeObraTFCP2H=TapaFija.col_values(94)
-                    mensajeManoDeObraTFCP2H="*Hubo afectación en las unidades por Mano De Obra: Razón:* "+DescrManoDeObraTFCP2H[-1]+ " - *Tiempo:* "+TiempoManoDeObraTFCP2H[-1]+"min" 
-                    print(mensajeManoDeObraTFCP2H)
+                ManoDeObraTF2CP2H=TapaFija.col_values(93)
+                if ManoDeObraTF2CP2H[-1]=="Si":
+                    DescrManoDeObraTF2CP2H=TapaFija.col_values(97)
+                    TiempoManoDeObraTF2CP2H=TapaFija.col_values(94)
+                    mensajeManoDeObraTF2CP2H="*Hubo afectación en las unidades por Mano De Obra: Razón:* "+DescrManoDeObraTF2CP2H[-1]+ " - *Tiempo:* "+TiempoManoDeObraTF2CP2H[-1]+"min" 
+                    print(mensajeManoDeObraTF2CP2H)
                 else:
-                    mensajeManoDeObraTFCP2H=""
-                    print(mensajeManoDeObraTFCP2H)
+                    mensajeManoDeObraTF2CP2H=""
+                    print(mensajeManoDeObraTF2CP2H)
 
             #MATERIA PRIMA Copa 2.0 Haceb TAPA FIJA::::
 
-                MateriaPrimaTFCP2H=TapaFija.col_values(98)
-                if MateriaPrimaTFCP2H[-1]=="Si":
-                    DescrMateriaPrimaTFCP2H=TapaFija.col_values(102)
-                    TiempoMateriaPrimaTFCP2H=TapaFija.col_values(99)
-                    mensajeMateriaPrimaTFCP2H="*Hubo afectación en las unidades por Materia Prima: Razón:* "+DescrMateriaPrimaTFCP2H[-1]+ " - *Tiempo:* "+TiempoMateriaPrimaTFCP2H[-1]+"min" 
-                    print(mensajeMateriaPrimaTFCP2H)
+                MateriaPrimaTF2CP2H=TapaFija.col_values(98)
+                if MateriaPrimaTF2CP2H[-1]=="Si":
+                    DescrMateriaPrimaTF2CP2H=TapaFija.col_values(102)
+                    TiempoMateriaPrimaTF2CP2H=TapaFija.col_values(99)
+                    mensajeMateriaPrimaTF2CP2H="*Hubo afectación en las unidades por Materia Prima: Razón:* "+DescrMateriaPrimaTF2CP2H[-1]+ " - *Tiempo:* "+TiempoMateriaPrimaTF2CP2H[-1]+"min" 
+                    print(mensajeMateriaPrimaTF2CP2H)
                 else:
-                    mensajeMateriaPrimaTFCP2H=""
-                    print(mensajeMateriaPrimaTFCP2H)
+                    mensajeMateriaPrimaTF2CP2H=""
+                    print(mensajeMateriaPrimaTF2CP2H)
 
             #POR METODO Copa 2.0 Haceb TAPA FIJA:::
-                MetodoTFCP2H=TapaFija.col_values(103)
-                if MetodoTFCP2H[-1]=="Si":
-                    DescrMetodoTFCP2H=TapaFija.col_values(106)
-                    TiempoMetodoTFCP2H=TapaFija.col_values(104)
-                    mensajeMetodoTFCP2H="*Hubo afectación en las unidades por Método: Razón:* "+DescrMetodoTFCP2H[-1]+ "- *Tiempo:* "+TiempoMetodoTFCP2H[-1]+"min" 
-                    print(mensajeMetodoTFCP2H)
+                MetodoTF2CP2H=TapaFija.col_values(103)
+                if MetodoTF2CP2H[-1]=="Si":
+                    DescrMetodoTF2CP2H=TapaFija.col_values(106)
+                    TiempoMetodoTF2CP2H=TapaFija.col_values(104)
+                    mensajeMetodoTF2CP2H="*Hubo afectación en las unidades por Método: Razón:* "+DescrMetodoTF2CP2H[-1]+ "- *Tiempo:* "+TiempoMetodoTF2CP2H[-1]+"min" 
+                    print(mensajeMetodoTF2CP2H)
                 else:
-                    mensajeMetodoTFCP2H=""
-                    print(mensajeMetodoTFCP2H)
+                    mensajeMetodoTF2CP2H=""
+                    print(mensajeMetodoTF2CP2H)
 
             #SCRAP Copa 2.0 Haceb TAPA FIJA::::::::::
-                ScrapTFCP2H=TapaFija.col_values(107)
-                if ScrapTFCP2H[-1]=="Si":
-                    DescrScrapTFCP2H=TapaFija.col_values(109)
-                    CantidadScrapTFCP2H=TapaFija.col_values(110)
-                    mensajeScrapTFCP2H="*Se generó SCRAP: Cantidad:* "+CantidadScrapTFCP2H[-1]+" - *Razón:* "+DescrScrapTFCP2H[-1]
-                    print(mensajeScrapTFCP2H)
+                ScrapTF2CP2H=TapaFija.col_values(107)
+                if ScrapTF2CP2H[-1]=="Si":
+                    DescrScrapTF2CP2H=TapaFija.col_values(109)
+                    CantidadScrapTF2CP2H=TapaFija.col_values(110)
+                    mensajeScrapTF2CP2H="*Se generó SCRAP: Cantidad:* "+CantidadScrapTF2CP2H[-1]+" - *Razón:* "+DescrScrapTF2CP2H[-1]
+                    print(mensajeScrapTF2CP2H)
                 else:
-                    mensajeScrapTFCP2H=""
-                    print(mensajeScrapTFCP2H)
+                    mensajeScrapTF2CP2H=""
+                    print(mensajeScrapTF2CP2H)
 
             #REPROCESADAS Copa 2.0 Haceb::::::::
-                UnidadesReprocesadasTFCP2H =  TapaFija.col_values(111)
-                if UnidadesReprocesadasTFCP2H[-1]=="Si":
-                    CantidadReprocesadasTFCP2H=  TapaFija.col_values(112)
+                UnidadesReprocesadasTF2CP2H =  TapaFija.col_values(111)
+                if UnidadesReprocesadasTF2CP2H[-1]=="Si":
+                    CantidadReprocesadasTF2CP2H=  TapaFija.col_values(112)
 
-                    mensajeUnidadesReprocesadasTFCP2H="*Se reprocesaron unidades - Cantidad:* "+CantidadReprocesadasTFCP2H[-1]+""
-                    print (mensajeUnidadesReprocesadasTFCP2H)
+                    mensajeUnidadesReprocesadasTF2CP2H="*Se reprocesaron unidades - Cantidad:* "+CantidadReprocesadasTF2CP2H[-1]+""
+                    print (mensajeUnidadesReprocesadasTF2CP2H)
                 else:
-                    mensajeUnidadesReprocesadasTFCP2H=""
-                    print(mensajeUnidadesReprocesadasTFCP2H)
+                    mensajeUnidadesReprocesadasTF2CP2H=""
+                    print(mensajeUnidadesReprocesadasTF2CP2H)
 
 
             ##COPA 2WHIRLPOOL::::::::::::__________________________________________________________________
 
             ##COPA 2WHIRLPOOL Haceb TAPA FIJA::::::::::::::
             # TAPA FIJA COPA 2WHIRLPOOL Haceb__:::::
-            if SelectReferenciaTF[-1]=="Copa 2.0 Whirlpool":
+            if SelectReferenciaTF2[-1]=="Copa 2.0 Whirlpool":
                 print("COPA 2 WHIRLPOOL::::::")
                 #PAROS PROGRAMADOS::::
-                ParoProgramadoTFCP2W = TapaFija.col_values(113)
-                if ParoProgramadoTFCP2W[-1]=="Si":
-                    RazonParoProgramadoTFCP2W =  TapaFija.col_values(114)
-                    TiempoParoProgramadoTFCP2W =  TapaFija.col_values(115)
-                    mensajeParoProgramadoTF2CP2W="*Paro programado - Tiempo:* "+TiempoParoProgramadoTF2CP2W[-1]+" min, *Razón:* "+RazonParoProgramadoTF2CP2W[-1]
-                    print(mensajeParoProgramadoTF2CP2W)
+                ParoProgramadoTF2CP2W = TapaFija.col_values(113)
+                if ParoProgramadoTF2CP2W[-1]=="Si":
+                    RazonParoProgramadoTF2CP2W =  TapaFija.col_values(114)
+                    TiempoParoProgramadoTF2CP2W =  TapaFija.col_values(115)
+                    mensajeParoProgramadoTF22CP2W="*Paro programado - Tiempo:* "+TiempoParoProgramadoTF2CP2W[-1]+" min, *Razón:* "+RazonParoProgramadoTF2CP2W[-1]
+                    print(mensajeParoProgramadoTF22CP2W)
                 else:
-                    mensajeParoProgramadoTF2CP2W=""
-                    print(mensajeParoProgramadoTF2CP2W)
+                    mensajeParoProgramadoTF22CP2W=""
+                    print(mensajeParoProgramadoTF22CP2W)
                 
                 #INCIDENTES Copa 2.0 Whirlpool TAPA FIJA:::::
-                IncidenteTFCP2W=TapaFija.col_values(116)
-                if IncidenteTFCP2W[-1]=="Si":
-                    DescrIncidenteTFCP2W=TapaFija.col_values(118)
+                IncidenteTF2CP2W=TapaFija.col_values(116)
+                if IncidenteTF2CP2W[-1]=="Si":
+                    DescrIncidenteTF2CP2W=TapaFija.col_values(118)
                     ValidarParoIncidenteEMCP2W=TapaFija.col_values(119)
-                    mensajeIncidenteTFCP2W="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTFCP2W[-1]+ " no se generó paro."
-                    print(mensajeIncidenteTFCP2W)
+                    mensajeIncidenteTF2CP2W="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTF2CP2W[-1]+ " no se generó paro."
+                    print(mensajeIncidenteTF2CP2W)
                     if ValidarParoIncidenteEMCP2W[-1]=="Si":   
-                        TiempoIncidenteTFCP2W=TapaFija.col_values(120)
-                        mensajeIncidenteTFCP2W="*Incidente y/o accidente ambiental y/o SST - Tiempo:* "+TiempoIncidenteTFCP2W[-1]+" min, *Razón:* "+DescrIncidenteTFCP2W[-1]
-                        print (mensajeIncidenteTFCP2W)
+                        TiempoIncidenteTF2CP2W=TapaFija.col_values(120)
+                        mensajeIncidenteTF2CP2W="*Incidente y/o accidente ambiental y/o SST - Tiempo:* "+TiempoIncidenteTF2CP2W[-1]+" min, *Razón:* "+DescrIncidenteTF2CP2W[-1]
+                        print (mensajeIncidenteTF2CP2W)
                     else:
-                        #DescrIncidenteTFAGI=TapaFija.col_values(12)
-                        mensajeIncidenteTFCP2W="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTFCP2W[-1] + " no se generó paro."
-                        print (mensajeIncidenteTFCP2W)
+                        #DescrIncidenteTF2AGI=TapaFija.col_values(12)
+                        mensajeIncidenteTF2CP2W="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTF2CP2W[-1] + " no se generó paro."
+                        print (mensajeIncidenteTF2CP2W)
                 else:
-                    mensajeIncidenteTFCP2W=""
-                    print(mensajeIncidenteTFCP2W)
+                    mensajeIncidenteTF2CP2W=""
+                    print(mensajeIncidenteTF2CP2W)
 
             ##SERVICIOS PUBLICOS Copa 2.0 Whirlpool TAPA FIJA:::
-                ServiciosPublicosTFCP2W=TapaFija.col_values(121)
-                if ServiciosPublicosTFCP2W[-1]=="Si":
-                    DescrServiciosPublicosTFCP2W=TapaFija.col_values(123)
-                    TiempoServiciosPublicosTFCP2W=TapaFija.col_values(122)
-                    mensajeServiciosPublicosTFCP2W="*Hubo afectación en las unidades del hora a hora por falta de servicios públicos: Razón:* "+DescrServiciosPublicosTFCP2W[-1]+ " -*Tiempo:* :"+TiempoServiciosPublicosTFCP2W[-1]+"min"
-                    print(mensajeServiciosPublicosTFCP2W)
+                ServiciosPublicosTF2CP2W=TapaFija.col_values(121)
+                if ServiciosPublicosTF2CP2W[-1]=="Si":
+                    DescrServiciosPublicosTF2CP2W=TapaFija.col_values(123)
+                    TiempoServiciosPublicosTF2CP2W=TapaFija.col_values(122)
+                    mensajeServiciosPublicosTF2CP2W="*Hubo afectación en las unidades del hora a hora por falta de servicios públicos: Razón:* "+DescrServiciosPublicosTF2CP2W[-1]+ " -*Tiempo:* :"+TiempoServiciosPublicosTF2CP2W[-1]+"min"
+                    print(mensajeServiciosPublicosTF2CP2W)
                 else:
-                    mensajeServiciosPublicosTFCP2W=""
-                    print(mensajeServiciosPublicosTFCP2W)
+                    mensajeServiciosPublicosTF2CP2W=""
+                    print(mensajeServiciosPublicosTF2CP2W)
 
             #POR MAQUINA Copa 2.0 Haceb TAPA FIJA::::::::
-                MaquinaTFCP2W=TapaFija.col_values(124)
-                if MaquinaTFCP2W[-1]=="Si":
-                    DescrMaquinaTFCP2W=TapaFija.col_values(127)
-                    TiempoMaquinaTFCP2W=TapaFija.col_values(125)
-                    mensajeMaquinaTFCP2W="*Hubo afectación en las unidades por Maquina/ Equipo: Razón:* "+DescrMaquinaTFCP2W[-1]+ " - *Tiempo:* "+TiempoMaquinaTFCP2W[-1]+"min" 
-                    print(mensajeMaquinaTFCP2W)
+                MaquinaTF2CP2W=TapaFija.col_values(124)
+                if MaquinaTF2CP2W[-1]=="Si":
+                    DescrMaquinaTF2CP2W=TapaFija.col_values(127)
+                    TiempoMaquinaTF2CP2W=TapaFija.col_values(125)
+                    mensajeMaquinaTF2CP2W="*Hubo afectación en las unidades por Maquina/ Equipo: Razón:* "+DescrMaquinaTF2CP2W[-1]+ " - *Tiempo:* "+TiempoMaquinaTF2CP2W[-1]+"min" 
+                    print(mensajeMaquinaTF2CP2W)
                 else:
-                    mensajeMaquinaTFCP2W=""
-                    print(mensajeMaquinaTFCP2W)
+                    mensajeMaquinaTF2CP2W=""
+                    print(mensajeMaquinaTF2CP2W)
 
             #POR MANO DE OBRA Copa 2.0 Whirlpool TAPA FIJA::::::::
-                ManoDeObraTFCP2W=TapaFija.col_values(128)
-                if ManoDeObraTFCP2W[-1]=="Si":
-                    DescrManoDeObraTFCP2W=TapaFija.col_values(132)
-                    TiempoManoDeObraTFCP2W=TapaFija.col_values(129)
-                    mensajeManoDeObraTFCP2W="*Hubo afectación en las unidades por Mano De Obra: Razón:* "+DescrManoDeObraTFCP2W[-1]+ " - *Tiempo:* "+TiempoManoDeObraTFCP2W[-1]+"min" 
-                    print(mensajeManoDeObraTFCP2W)
+                ManoDeObraTF2CP2W=TapaFija.col_values(128)
+                if ManoDeObraTF2CP2W[-1]=="Si":
+                    DescrManoDeObraTF2CP2W=TapaFija.col_values(132)
+                    TiempoManoDeObraTF2CP2W=TapaFija.col_values(129)
+                    mensajeManoDeObraTF2CP2W="*Hubo afectación en las unidades por Mano De Obra: Razón:* "+DescrManoDeObraTF2CP2W[-1]+ " - *Tiempo:* "+TiempoManoDeObraTF2CP2W[-1]+"min" 
+                    print(mensajeManoDeObraTF2CP2W)
                 else:
-                    mensajeManoDeObraTFCP2W=""
-                    print(mensajeManoDeObraTFCP2W)
+                    mensajeManoDeObraTF2CP2W=""
+                    print(mensajeManoDeObraTF2CP2W)
 
             #MATERIA PRIMA Copa 2.0 Whirlpool TAPA FIJA::::
 
-                MateriaPrimaTFCP2W=TapaFija.col_values(133)
-                if MateriaPrimaTFCP2W[-1]=="Si":
-                    DescrMateriaPrimaTFCP2W=TapaFija.col_values(137)
-                    TiempoMateriaPrimaTFCP2W=TapaFija.col_values(174)
-                    mensajeMateriaPrimaTFCP2W="*Hubo afectación en las unidades por Materia Prima: Razón:* "+DescrMateriaPrimaTFCP2W[-1]+ " - *Tiempo:* "+TiempoMateriaPrimaTFCP2W[-1]+"min" 
-                    print(mensajeMateriaPrimaTFCP2W)
+                MateriaPrimaTF2CP2W=TapaFija.col_values(133)
+                if MateriaPrimaTF2CP2W[-1]=="Si":
+                    DescrMateriaPrimaTF2CP2W=TapaFija.col_values(137)
+                    TiempoMateriaPrimaTF2CP2W=TapaFija.col_values(174)
+                    mensajeMateriaPrimaTF2CP2W="*Hubo afectación en las unidades por Materia Prima: Razón:* "+DescrMateriaPrimaTF2CP2W[-1]+ " - *Tiempo:* "+TiempoMateriaPrimaTF2CP2W[-1]+"min" 
+                    print(mensajeMateriaPrimaTF2CP2W)
                 else:
-                    mensajeMateriaPrimaTFCP2W=""
-                    print(mensajeMateriaPrimaTFCP2W)
+                    mensajeMateriaPrimaTF2CP2W=""
+                    print(mensajeMateriaPrimaTF2CP2W)
 
             #POR METODO Copa 2.0 Whirlpool TAPA FIJA:::
-                MetodoTFCP2W=TapaFija.col_values(138)
-                if MetodoTFCP2W[-1]=="Si":
-                    DescrMetodoTFCP2W=TapaFija.col_values(141)
-                    TiempoMetodoTFCP2W=TapaFija.col_values(139)
-                    mensajeMetodoTFCP2W="*Hubo afectación en las unidades por Método: Razón:* "+DescrMetodoTFCP2W[-1]+ "- *Tiempo:* "+TiempoMetodoTFCP2W[-1]+"min" 
-                    print(mensajeMetodoTFCP2W)
+                MetodoTF2CP2W=TapaFija.col_values(138)
+                if MetodoTF2CP2W[-1]=="Si":
+                    DescrMetodoTF2CP2W=TapaFija.col_values(141)
+                    TiempoMetodoTF2CP2W=TapaFija.col_values(139)
+                    mensajeMetodoTF2CP2W="*Hubo afectación en las unidades por Método: Razón:* "+DescrMetodoTF2CP2W[-1]+ "- *Tiempo:* "+TiempoMetodoTF2CP2W[-1]+"min" 
+                    print(mensajeMetodoTF2CP2W)
                 else:
-                    mensajeMetodoTFCP2W=""
-                    print(mensajeMetodoTFCP2W)
+                    mensajeMetodoTF2CP2W=""
+                    print(mensajeMetodoTF2CP2W)
 
             #SCRAP Copa 2.0 Haceb TAPA FIJA::::::::::
-                ScrapTFCP2W=TapaFija.col_values(142)
-                if ScrapTFCP2W[-1]=="Si":
-                    DescrScrapTFCP2W=TapaFija.col_values(144)
-                    CantidadScrapTFCP2W=TapaFija.col_values(145)
-                    mensajeScrapTFCP2W="*Se generó SCRAP: Cantidad:* "+CantidadScrapTFCP2W[-1]+" - *Razón:* "+DescrScrapTFCP2W[-1]
-                    print(mensajeScrapTFCP2W)
+                ScrapTF2CP2W=TapaFija.col_values(142)
+                if ScrapTF2CP2W[-1]=="Si":
+                    DescrScrapTF2CP2W=TapaFija.col_values(144)
+                    CantidadScrapTF2CP2W=TapaFija.col_values(145)
+                    mensajeScrapTF2CP2W="*Se generó SCRAP: Cantidad:* "+CantidadScrapTF2CP2W[-1]+" - *Razón:* "+DescrScrapTF2CP2W[-1]
+                    print(mensajeScrapTF2CP2W)
                 else:
-                    mensajeScrapTFCP2W=""
-                    print(mensajeScrapTFCP2W)
+                    mensajeScrapTF2CP2W=""
+                    print(mensajeScrapTF2CP2W)
 
             #REPROCESADAS Copa 2.0 Haceb::::::::
-                UnidadesReprocesadasTFCP2W =  TapaFija.col_values(146)
-                if UnidadesReprocesadasTFCP2W[-1]=="Si":
-                    CantidadReprocesadasTFCP2W = TapaFija.col_values(147)
+                UnidadesReprocesadasTF2CP2W =  TapaFija.col_values(146)
+                if UnidadesReprocesadasTF2CP2W[-1]=="Si":
+                    CantidadReprocesadasTF2CP2W = TapaFija.col_values(147)
 
-                    mensajeUnidadesReprocesadasTFCP2W="*Se reprocesaron unidades - Cantidad:* "+CantidadReprocesadasTFCP2W[-1]+""
-                    print (mensajeUnidadesReprocesadasTFCP2W)
+                    mensajeUnidadesReprocesadasTF2CP2W="*Se reprocesaron unidades - Cantidad:* "+CantidadReprocesadasTF2CP2W[-1]+""
+                    print (mensajeUnidadesReprocesadasTF2CP2W)
                 else:
-                    mensajeUnidadesReprocesadasTFCP2W=""
-                    print(mensajeUnidadesReprocesadasTFCP2W)
+                    mensajeUnidadesReprocesadasTF2CP2W=""
+                    print(mensajeUnidadesReprocesadasTF2CP2W)
 
 
             ##IMPELLER TAPA FIJA:::::::::::::::::::::::::::::::::::::::::::::::::
             # ___________________________________________________
 
 
-            if SelectReferenciaTF[-1]=="Impeller":
+            if SelectReferenciaTF2[-1]=="Impeller":
                 print("Impeller::::::")
                 #PAROS PROGRAMADOS::::
-                ParoProgramadoTFIMPELLER = TapaFija.col_values(148)
-                if ParoProgramadoTFIMPELLER[-1]=="Si":
-                    RazonParoProgramadoTFIMPELLER =  TapaFija.col_values(149)
-                    TiempoParoProgramadoTFIMPELLER =  TapaFija.col_values(150)
-                    mensajeParoProgramadoTFIMPELLER="*Paro programado - Tiempo:* "+TiempoParoProgramadoTFIMPELLER[-1]+" min, *Razón:* "+RazonParoProgramadoTFIMPELLER[-1]
-                    print(mensajeParoProgramadoTFIMPELLER)
+                ParoProgramadoTF2IMPELLER = TapaFija.col_values(148)
+                if ParoProgramadoTF2IMPELLER[-1]=="Si":
+                    RazonParoProgramadoTF2IMPELLER =  TapaFija.col_values(149)
+                    TiempoParoProgramadoTF2IMPELLER =  TapaFija.col_values(150)
+                    mensajeParoProgramadoTF2IMPELLER="*Paro programado - Tiempo:* "+TiempoParoProgramadoTF2IMPELLER[-1]+" min, *Razón:* "+RazonParoProgramadoTF2IMPELLER[-1]
+                    print(mensajeParoProgramadoTF2IMPELLER)
                 else:
-                    mensajeParoProgramadoTFIMPELLER=""
-                    print(mensajeParoProgramadoTFIMPELLER)
+                    mensajeParoProgramadoTF2IMPELLER=""
+                    print(mensajeParoProgramadoTF2IMPELLER)
                 
                 #INCIDENTES Impeller TAPA FIJA:::::
-                IncidenteTFIMPELLER=TapaFija.col_values(151)
-                if IncidenteTFIMPELLER[-1]=="Si":
-                    DescrIncidenteTFIMPELLER=TapaFija.col_values(153)
+                IncidenteTF2IMPELLER=TapaFija.col_values(151)
+                if IncidenteTF2IMPELLER[-1]=="Si":
+                    DescrIncidenteTF2IMPELLER=TapaFija.col_values(153)
                     ValidarParoIncidenteEMCP2W=TapaFija.col_values(154)
-                    mensajeIncidenteTFIMPELLER="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTFIMPELLER[-1]+ " no se generó paro."
-                    print(mensajeIncidenteTFIMPELLER)
+                    mensajeIncidenteTF2IMPELLER="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTF2IMPELLER[-1]+ " no se generó paro."
+                    print(mensajeIncidenteTF2IMPELLER)
                     if ValidarParoIncidenteEMCP2W[-1]=="Si":   
-                        TiempoIncidenteTFIMPELLER=TapaFija.col_values(155)
-                        mensajeIncidenteTFIMPELLER="*Incidente y/o accidente ambiental y/o SST - Tiempo:* "+TiempoIncidenteTFIMPELLER[-1]+" min, *Razón:* "+DescrIncidenteTFIMPELLER[-1]
-                        print (mensajeIncidenteTFIMPELLER)
+                        TiempoIncidenteTF2IMPELLER=TapaFija.col_values(155)
+                        mensajeIncidenteTF2IMPELLER="*Incidente y/o accidente ambiental y/o SST - Tiempo:* "+TiempoIncidenteTF2IMPELLER[-1]+" min, *Razón:* "+DescrIncidenteTF2IMPELLER[-1]
+                        print (mensajeIncidenteTF2IMPELLER)
                     else:
-                        #DescrIncidenteTFAGI=TapaFija.col_values(12)
-                        mensajeIncidenteTFIMPELLER="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTFIMPELLER[-1] + " no se generó paro."
-                        print (mensajeIncidenteTFIMPELLER)
+                        #DescrIncidenteTF2AGI=TapaFija.col_values(12)
+                        mensajeIncidenteTF2IMPELLER="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTF2IMPELLER[-1] + " no se generó paro."
+                        print (mensajeIncidenteTF2IMPELLER)
                 else:
-                    mensajeIncidenteTFIMPELLER=""
-                    print(mensajeIncidenteTFIMPELLER)
+                    mensajeIncidenteTF2IMPELLER=""
+                    print(mensajeIncidenteTF2IMPELLER)
 
             ##SERVICIOS PUBLICOS Copa 2.0 Whirlpool TAPA FIJA:::
-                ServiciosPublicosTFIMPELLER=TapaFija.col_values(156)
-                if ServiciosPublicosTFIMPELLER[-1]=="Si":
-                    DescrServiciosPublicosTFIMPELLER=TapaFija.col_values(158)
-                    TiempoServiciosPublicosTFIMPELLER=TapaFija.col_values(157)
-                    mensajeServiciosPublicosTFIMPELLER="*Hubo afectación en las unidades del hora a hora por falta de servicios públicos: Razón:* "+DescrServiciosPublicosTFIMPELLER[-1]+ " -*Tiempo:* :"+TiempoServiciosPublicosTFIMPELLER[-1]+"min"
-                    print(mensajeServiciosPublicosTFIMPELLER)
+                ServiciosPublicosTF2IMPELLER=TapaFija.col_values(156)
+                if ServiciosPublicosTF2IMPELLER[-1]=="Si":
+                    DescrServiciosPublicosTF2IMPELLER=TapaFija.col_values(158)
+                    TiempoServiciosPublicosTF2IMPELLER=TapaFija.col_values(157)
+                    mensajeServiciosPublicosTF2IMPELLER="*Hubo afectación en las unidades del hora a hora por falta de servicios públicos: Razón:* "+DescrServiciosPublicosTF2IMPELLER[-1]+ " -*Tiempo:* :"+TiempoServiciosPublicosTF2IMPELLER[-1]+"min"
+                    print(mensajeServiciosPublicosTF2IMPELLER)
                 else:
-                    mensajeServiciosPublicosTFIMPELLER=""
-                    print(mensajeServiciosPublicosTFIMPELLER)
+                    mensajeServiciosPublicosTF2IMPELLER=""
+                    print(mensajeServiciosPublicosTF2IMPELLER)
 
             #POR MAQUINA Impeller TAPA FIJA::::::::
-                MaquinaTFIMPELLER=TapaFija.col_values(159)
-                if MaquinaTFIMPELLER[-1]=="Si":
-                    DescrMaquinaTFIMPELLER=TapaFija.col_values(162)
-                    TiempoMaquinaTFIMPELLER=TapaFija.col_values(160)
-                    mensajeMaquinaTFIMPELLER="*Hubo afectación en las unidades por Maquina/ Equipo: Razón:* "+DescrMaquinaTFIMPELLER[-1]+ " - *Tiempo:* "+TiempoMaquinaTFIMPELLER[-1]+"min" 
-                    print(mensajeMaquinaTFIMPELLER)
+                MaquinaTF2IMPELLER=TapaFija.col_values(159)
+                if MaquinaTF2IMPELLER[-1]=="Si":
+                    DescrMaquinaTF2IMPELLER=TapaFija.col_values(162)
+                    TiempoMaquinaTF2IMPELLER=TapaFija.col_values(160)
+                    mensajeMaquinaTF2IMPELLER="*Hubo afectación en las unidades por Maquina/ Equipo: Razón:* "+DescrMaquinaTF2IMPELLER[-1]+ " - *Tiempo:* "+TiempoMaquinaTF2IMPELLER[-1]+"min" 
+                    print(mensajeMaquinaTF2IMPELLER)
                 else:
-                    mensajeMaquinaTFIMPELLER=""
-                    print(mensajeMaquinaTFIMPELLER)
+                    mensajeMaquinaTF2IMPELLER=""
+                    print(mensajeMaquinaTF2IMPELLER)
 
             #POR MANO DE OBRA Impeller TAPA FIJA::::::::
-                ManoDeObraTFIMPELLER=TapaFija.col_values(163)
-                if ManoDeObraTFIMPELLER[-1]=="Si":
-                    DescrManoDeObraTFIMPELLER=TapaFija.col_values(167)
-                    TiempoManoDeObraTFIMPELLER=TapaFija.col_values(164)
-                    mensajeManoDeObraTFIMPELLER="*Hubo afectación en las unidades por Mano De Obra: Razón:* "+DescrManoDeObraTFIMPELLER[-1]+ " - *Tiempo:* "+TiempoManoDeObraTFIMPELLER[-1]+"min" 
-                    print(mensajeManoDeObraTFIMPELLER)
+                ManoDeObraTF2IMPELLER=TapaFija.col_values(163)
+                if ManoDeObraTF2IMPELLER[-1]=="Si":
+                    DescrManoDeObraTF2IMPELLER=TapaFija.col_values(167)
+                    TiempoManoDeObraTF2IMPELLER=TapaFija.col_values(164)
+                    mensajeManoDeObraTF2IMPELLER="*Hubo afectación en las unidades por Mano De Obra: Razón:* "+DescrManoDeObraTF2IMPELLER[-1]+ " - *Tiempo:* "+TiempoManoDeObraTF2IMPELLER[-1]+"min" 
+                    print(mensajeManoDeObraTF2IMPELLER)
                 else:
-                    mensajeManoDeObraTFIMPELLER=""
-                    print(mensajeManoDeObraTFIMPELLER)
+                    mensajeManoDeObraTF2IMPELLER=""
+                    print(mensajeManoDeObraTF2IMPELLER)
 
             #MATERIA PRIMA Impeller TAPA FIJA::::
 
-                MateriaPrimaTFIMPELLER=TapaFija.col_values(168)
-                if MateriaPrimaTFIMPELLER[-1]=="Si":
-                    DescrMateriaPrimaTFIMPELLER=TapaFija.col_values(172)
-                    TiempoMateriaPrimaTFIMPELLER=TapaFija.col_values(169)
-                    mensajeMateriaPrimaTFIMPELLER="*Hubo afectación en las unidades por Materia Prima: Razón:* "+DescrMateriaPrimaTFIMPELLER[-1]+ " - *Tiempo:* "+TiempoMateriaPrimaTFIMPELLER[-1]+"min" 
-                    print(mensajeMateriaPrimaTFIMPELLER)
+                MateriaPrimaTF2IMPELLER=TapaFija.col_values(168)
+                if MateriaPrimaTF2IMPELLER[-1]=="Si":
+                    DescrMateriaPrimaTF2IMPELLER=TapaFija.col_values(172)
+                    TiempoMateriaPrimaTF2IMPELLER=TapaFija.col_values(169)
+                    mensajeMateriaPrimaTF2IMPELLER="*Hubo afectación en las unidades por Materia Prima: Razón:* "+DescrMateriaPrimaTF2IMPELLER[-1]+ " - *Tiempo:* "+TiempoMateriaPrimaTF2IMPELLER[-1]+"min" 
+                    print(mensajeMateriaPrimaTF2IMPELLER)
                 else:
-                    mensajeMateriaPrimaTFIMPELLER=""
-                    print(mensajeMateriaPrimaTFIMPELLER)
+                    mensajeMateriaPrimaTF2IMPELLER=""
+                    print(mensajeMateriaPrimaTF2IMPELLER)
 
             #POR METODO Impeller TAPA FIJA:::
-                MetodoTFIMPELLER=TapaFija.col_values(173)
-                if MetodoTFIMPELLER[-1]=="Si":
-                    DescrMetodoTFIMPELLER=TapaFija.col_values(176)
-                    TiempoMetodoTFIMPELLER=TapaFija.col_values(174)
-                    mensajeMetodoTFIMPELLER="*Hubo afectación en las unidades por Método: Razón:* "+DescrMetodoTFIMPELLER[-1]+ "- *Tiempo:* "+TiempoMetodoTFIMPELLER[-1]+"min" 
-                    print(mensajeMetodoTFIMPELLER)
+                MetodoTF2IMPELLER=TapaFija.col_values(173)
+                if MetodoTF2IMPELLER[-1]=="Si":
+                    DescrMetodoTF2IMPELLER=TapaFija.col_values(176)
+                    TiempoMetodoTF2IMPELLER=TapaFija.col_values(174)
+                    mensajeMetodoTF2IMPELLER="*Hubo afectación en las unidades por Método: Razón:* "+DescrMetodoTF2IMPELLER[-1]+ "- *Tiempo:* "+TiempoMetodoTF2IMPELLER[-1]+"min" 
+                    print(mensajeMetodoTF2IMPELLER)
                 else:
-                    mensajeMetodoTFIMPELLER=""
-                    print(mensajeMetodoTFIMPELLER)
+                    mensajeMetodoTF2IMPELLER=""
+                    print(mensajeMetodoTF2IMPELLER)
 
             #SCRAP Impeller TAPA FIJA::::::::::
-                ScrapTFIMPELLER=TapaFija.col_values(177)
-                if ScrapTFIMPELLER[-1]=="Si":
-                    DescrScrapTFIMPELLER=TapaFija.col_values(179)
-                    CantidadScrapTFIMPELLER=TapaFija.col_values(180)
-                    mensajeScrapTFIMPELLER="*Se generó SCRAP: Cantidad:* "+CantidadScrapTFIMPELLER[-1]+" - *Razón:* "+DescrScrapTFIMPELLER[-1]
-                    print(mensajeScrapTFIMPELLER)
+                ScrapTF2IMPELLER=TapaFija.col_values(177)
+                if ScrapTF2IMPELLER[-1]=="Si":
+                    DescrScrapTF2IMPELLER=TapaFija.col_values(179)
+                    CantidadScrapTF2IMPELLER=TapaFija.col_values(180)
+                    mensajeScrapTF2IMPELLER="*Se generó SCRAP: Cantidad:* "+CantidadScrapTF2IMPELLER[-1]+" - *Razón:* "+DescrScrapTF2IMPELLER[-1]
+                    print(mensajeScrapTF2IMPELLER)
                 else:
-                    mensajeScrapTFIMPELLER=""
-                    print(mensajeScrapTFIMPELLER)
+                    mensajeScrapTF2IMPELLER=""
+                    print(mensajeScrapTF2IMPELLER)
 
             #REPROCESADAS Impeller Haceb::::::::
-                UnidadesReprocesadasTFIMPELLER =  TapaFija.col_values(181)
-                if UnidadesReprocesadasTFIMPELLER[-1]=="Si":
-                    CantidadReprocesadasTFIMPELLER = TapaFija.col_values(182)
+                UnidadesReprocesadasTF2IMPELLER =  TapaFija.col_values(181)
+                if UnidadesReprocesadasTF2IMPELLER[-1]=="Si":
+                    CantidadReprocesadasTF2IMPELLER = TapaFija.col_values(182)
 
-                    mensajeUnidadesReprocesadasTFIMPELLER="*Se reprocesaron unidades - Cantidad:* "+CantidadReprocesadasTFIMPELLER[-1]+""
-                    print (mensajeUnidadesReprocesadasTFIMPELLER)
+                    mensajeUnidadesReprocesadasTF2IMPELLER="*Se reprocesaron unidades - Cantidad:* "+CantidadReprocesadasTF2IMPELLER[-1]+""
+                    print (mensajeUnidadesReprocesadasTF2IMPELLER)
                 else:
-                    mensajeUnidadesReprocesadasTFIMPELLER=""
-                    print(mensajeUnidadesReprocesadasTFIMPELLER)
+                    mensajeUnidadesReprocesadasTF2IMPELLER=""
+                    print(mensajeUnidadesReprocesadasTF2IMPELLER)
 
 
             ##QUASAR TAPA FIJA:::::::::::::::::::::::::::::::::::::::::::::::::
             # ___________________________________________________
 
-            if SelectReferenciaTF[-1]=="Quasar":
+            if SelectReferenciaTF2[-1]=="Quasar":
                 print("Quasar::::::::::")
                 #PAROS PROGRAMADOS:::::::::::
                 #________
-                ParoProgramadoTFQUASAR = TapaFija.col_values(183)
-                if ParoProgramadoTFQUASAR[-1]=="Si":
-                    RazonParoProgramadoTFQUASAR =  TapaFija.col_values(184)
-                    TiempoParoProgramadoTFQUASAR =  TapaFija.col_values(185)
-                    mensajeParoProgramadoTFQUASAR="*Paro programado - Tiempo:* "+TiempoParoProgramadoTFQUASAR[-1]+" min, *Razón:* "+RazonParoProgramadoTFQUASAR[-1]
-                    print(mensajeParoProgramadoTFQUASAR)
+                ParoProgramadoTF2QUASAR = TapaFija.col_values(183)
+                if ParoProgramadoTF2QUASAR[-1]=="Si":
+                    RazonParoProgramadoTF2QUASAR =  TapaFija.col_values(184)
+                    TiempoParoProgramadoTF2QUASAR =  TapaFija.col_values(185)
+                    mensajeParoProgramadoTF2QUASAR="*Paro programado - Tiempo:* "+TiempoParoProgramadoTF2QUASAR[-1]+" min, *Razón:* "+RazonParoProgramadoTF2QUASAR[-1]
+                    print(mensajeParoProgramadoTF2QUASAR)
                 else:
-                    mensajeParoProgramadoTFQUASAR=""
-                    print(mensajeParoProgramadoTFQUASAR)
+                    mensajeParoProgramadoTF2QUASAR=""
+                    print(mensajeParoProgramadoTF2QUASAR)
                 
                 #INCIDENTES Quasar TAPA FIJA:::::
-                IncidenteTFQUASAR=TapaFija.col_values(186)
-                if IncidenteTFQUASAR[-1]=="Si":
-                    DescrIncidenteTFQUASAR=TapaFija.col_values(188)
+                IncidenteTF2QUASAR=TapaFija.col_values(186)
+                if IncidenteTF2QUASAR[-1]=="Si":
+                    DescrIncidenteTF2QUASAR=TapaFija.col_values(188)
                     ValidarParoIncidenteEMCP2W=TapaFija.col_values(189)
-                    mensajeIncidenteTFQUASAR="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTFQUASAR[-1]+ " no se generó paro."
-                    print(mensajeIncidenteTFQUASAR)
+                    mensajeIncidenteTF2QUASAR="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTF2QUASAR[-1]+ " no se generó paro."
+                    print(mensajeIncidenteTF2QUASAR)
                     if ValidarParoIncidenteEMCP2W[-1]=="Si":   
-                        TiempoIncidenteTFQUASAR=TapaFija.col_values(190)
-                        mensajeIncidenteTFQUASAR="*Incidente y/o accidente ambiental y/o SST - Tiempo:* "+TiempoIncidenteTFQUASAR[-1]+" min, *Razón:* "+DescrIncidenteTFQUASAR[-1]
-                        print (mensajeIncidenteTFQUASAR)
+                        TiempoIncidenteTF2QUASAR=TapaFija.col_values(190)
+                        mensajeIncidenteTF2QUASAR="*Incidente y/o accidente ambiental y/o SST - Tiempo:* "+TiempoIncidenteTF2QUASAR[-1]+" min, *Razón:* "+DescrIncidenteTF2QUASAR[-1]
+                        print (mensajeIncidenteTF2QUASAR)
                     else:
-                        #DescrIncidenteTFAGI=TapaFija.col_values(12)
-                        mensajeIncidenteTFQUASAR="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTFQUASAR[-1] + " no se generó paro."
-                        print (mensajeIncidenteTFQUASAR)
+                        #DescrIncidenteTF2AGI=TapaFija.col_values(12)
+                        mensajeIncidenteTF2QUASAR="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTF2QUASAR[-1] + " no se generó paro."
+                        print (mensajeIncidenteTF2QUASAR)
                 else:
-                    mensajeIncidenteTFQUASAR=""
-                    print(mensajeIncidenteTFQUASAR)
+                    mensajeIncidenteTF2QUASAR=""
+                    print(mensajeIncidenteTF2QUASAR)
 
             ##SERVICIOS PUBLICOS Quasar TAPA FIJA:::
-                ServiciosPublicosTFQUASAR=TapaFija.col_values(191)
-                if ServiciosPublicosTFQUASAR[-1]=="Si":
-                    DescrServiciosPublicosTFQUASAR=TapaFija.col_values(193)
-                    TiempoServiciosPublicosTFQUASAR=TapaFija.col_values(192)
-                    mensajeServiciosPublicosTFQUASAR="*Hubo afectación en las unidades del hora a hora por falta de servicios públicos: Razón:* "+DescrServiciosPublicosTFQUASAR[-1]+ " -*Tiempo:* :"+TiempoServiciosPublicosTFQUASAR[-1]+"min"
-                    print(mensajeServiciosPublicosTFQUASAR)
+                ServiciosPublicosTF2QUASAR=TapaFija.col_values(191)
+                if ServiciosPublicosTF2QUASAR[-1]=="Si":
+                    DescrServiciosPublicosTF2QUASAR=TapaFija.col_values(193)
+                    TiempoServiciosPublicosTF2QUASAR=TapaFija.col_values(192)
+                    mensajeServiciosPublicosTF2QUASAR="*Hubo afectación en las unidades del hora a hora por falta de servicios públicos: Razón:* "+DescrServiciosPublicosTF2QUASAR[-1]+ " -*Tiempo:* :"+TiempoServiciosPublicosTF2QUASAR[-1]+"min"
+                    print(mensajeServiciosPublicosTF2QUASAR)
                 else:
-                    mensajeServiciosPublicosTFQUASAR=""
-                    print(mensajeServiciosPublicosTFQUASAR)
+                    mensajeServiciosPublicosTF2QUASAR=""
+                    print(mensajeServiciosPublicosTF2QUASAR)
 
             #POR MAQUINA Quasar TAPA FIJA::::::::
-                MaquinaTFQUASAR=TapaFija.col_values(194)
-                if MaquinaTFQUASAR[-1]=="Si":
-                    DescrMaquinaTFQUASAR=TapaFija.col_values(197)
-                    TiempoMaquinaTFQUASAR=TapaFija.col_values(195)
-                    mensajeMaquinaTFQUASAR="*Hubo afectación en las unidades por Maquina/ Equipo: Razón:* "+DescrMaquinaTFQUASAR[-1]+ " - *Tiempo:* "+TiempoMaquinaTFQUASAR[-1]+"min" 
-                    print(mensajeMaquinaTFQUASAR)
+                MaquinaTF2QUASAR=TapaFija.col_values(194)
+                if MaquinaTF2QUASAR[-1]=="Si":
+                    DescrMaquinaTF2QUASAR=TapaFija.col_values(197)
+                    TiempoMaquinaTF2QUASAR=TapaFija.col_values(195)
+                    mensajeMaquinaTF2QUASAR="*Hubo afectación en las unidades por Maquina/ Equipo: Razón:* "+DescrMaquinaTF2QUASAR[-1]+ " - *Tiempo:* "+TiempoMaquinaTF2QUASAR[-1]+"min" 
+                    print(mensajeMaquinaTF2QUASAR)
                 else:
-                    mensajeMaquinaTFQUASAR=""
-                    print(mensajeMaquinaTFQUASAR)
+                    mensajeMaquinaTF2QUASAR=""
+                    print(mensajeMaquinaTF2QUASAR)
 
             #POR MANO DE OBRA Quasar TAPA FIJA::::::::
-                ManoDeObraTFQUASAR=TapaFija.col_values(198)
-                if ManoDeObraTFQUASAR[-1]=="Si":
-                    DescrManoDeObraTFQUASAR=TapaFija.col_values(202)
-                    TiempoManoDeObraTFQUASAR=TapaFija.col_values(199)
-                    mensajeManoDeObraTFQUASAR="*Hubo afectación en las unidades por Mano De Obra: Razón:* "+DescrManoDeObraTFQUASAR[-1]+ " - *Tiempo:* "+TiempoManoDeObraTFQUASAR[-1]+"min" 
-                    print(mensajeManoDeObraTFQUASAR)
+                ManoDeObraTF2QUASAR=TapaFija.col_values(198)
+                if ManoDeObraTF2QUASAR[-1]=="Si":
+                    DescrManoDeObraTF2QUASAR=TapaFija.col_values(202)
+                    TiempoManoDeObraTF2QUASAR=TapaFija.col_values(199)
+                    mensajeManoDeObraTF2QUASAR="*Hubo afectación en las unidades por Mano De Obra: Razón:* "+DescrManoDeObraTF2QUASAR[-1]+ " - *Tiempo:* "+TiempoManoDeObraTF2QUASAR[-1]+"min" 
+                    print(mensajeManoDeObraTF2QUASAR)
                 else:
-                    mensajeManoDeObraTFQUASAR=""
-                    print(mensajeManoDeObraTFQUASAR)
+                    mensajeManoDeObraTF2QUASAR=""
+                    print(mensajeManoDeObraTF2QUASAR)
 
             #MATERIA PRIMA Quasar TAPA FIJA::::
 
-                MateriaPrimaTFQUASAR=TapaFija.col_values(203)
-                if MateriaPrimaTFQUASAR[-1]=="Si":
-                    DescrMateriaPrimaTFQUASAR=TapaFija.col_values(207)
-                    TiempoMateriaPrimaTFQUASAR=TapaFija.col_values(204)
-                    mensajeMateriaPrimaTFQUASAR="*Hubo afectación en las unidades por Materia Prima: Razón:* "+DescrMateriaPrimaTFQUASAR[-1]+ " - *Tiempo:* "+TiempoMateriaPrimaTFQUASAR[-1]+"min" 
-                    print(mensajeMateriaPrimaTFQUASAR)
+                MateriaPrimaTF2QUASAR=TapaFija.col_values(203)
+                if MateriaPrimaTF2QUASAR[-1]=="Si":
+                    DescrMateriaPrimaTF2QUASAR=TapaFija.col_values(207)
+                    TiempoMateriaPrimaTF2QUASAR=TapaFija.col_values(204)
+                    mensajeMateriaPrimaTF2QUASAR="*Hubo afectación en las unidades por Materia Prima: Razón:* "+DescrMateriaPrimaTF2QUASAR[-1]+ " - *Tiempo:* "+TiempoMateriaPrimaTF2QUASAR[-1]+"min" 
+                    print(mensajeMateriaPrimaTF2QUASAR)
                 else:
-                    mensajeMateriaPrimaTFQUASAR=""
-                    print(mensajeMateriaPrimaTFQUASAR)
+                    mensajeMateriaPrimaTF2QUASAR=""
+                    print(mensajeMateriaPrimaTF2QUASAR)
 
             #POR METODO Quasar TAPA FIJA:::
-                MetodoTFQUASAR=TapaFija.col_values(208)
-                if MetodoTFQUASAR[-1]=="Si":
-                    DescrMetodoTFQUASAR=TapaFija.col_values(211)
-                    TiempoMetodoTFQUASAR=TapaFija.col_values(209)
-                    mensajeMetodoTFQUASAR="*Hubo afectación en las unidades por Método: Razón:* "+DescrMetodoTFQUASAR[-1]+ "- *Tiempo:* "+TiempoMetodoTFQUASAR[-1]+"min" 
-                    print(mensajeMetodoTFQUASAR)
+                MetodoTF2QUASAR=TapaFija.col_values(208)
+                if MetodoTF2QUASAR[-1]=="Si":
+                    DescrMetodoTF2QUASAR=TapaFija.col_values(211)
+                    TiempoMetodoTF2QUASAR=TapaFija.col_values(209)
+                    mensajeMetodoTF2QUASAR="*Hubo afectación en las unidades por Método: Razón:* "+DescrMetodoTF2QUASAR[-1]+ "- *Tiempo:* "+TiempoMetodoTF2QUASAR[-1]+"min" 
+                    print(mensajeMetodoTF2QUASAR)
                 else:
-                    mensajeMetodoTFQUASAR=""
-                    print(mensajeMetodoTFQUASAR)
+                    mensajeMetodoTF2QUASAR=""
+                    print(mensajeMetodoTF2QUASAR)
 
             #SCRAP Quasar TAPA FIJA::::::::::
-                ScrapTFQUASAR=TapaFija.col_values(212)
-                if ScrapTFQUASAR[-1]=="Si":
-                    DescrScrapTFQUASAR=TapaFija.col_values(214)
-                    CantidadScrapTFQUASAR=TapaFija.col_values(215)
-                    mensajeScrapTFQUASAR="*Se generó SCRAP: Cantidad:* "+CantidadScrapTFQUASAR[-1]+" - *Razón:* "+DescrScrapTFQUASAR[-1]
-                    print(mensajeScrapTFQUASAR)
+                ScrapTF2QUASAR=TapaFija.col_values(212)
+                if ScrapTF2QUASAR[-1]=="Si":
+                    DescrScrapTF2QUASAR=TapaFija.col_values(214)
+                    CantidadScrapTF2QUASAR=TapaFija.col_values(215)
+                    mensajeScrapTF2QUASAR="*Se generó SCRAP: Cantidad:* "+CantidadScrapTF2QUASAR[-1]+" - *Razón:* "+DescrScrapTF2QUASAR[-1]
+                    print(mensajeScrapTF2QUASAR)
                 else:
-                    mensajeScrapTFQUASAR=""
-                    print(mensajeScrapTFQUASAR)
+                    mensajeScrapTF2QUASAR=""
+                    print(mensajeScrapTF2QUASAR)
 
             #REPROCESADAS Quasar Haceb::::::::
-                UnidadesReprocesadasTFQUASAR =  TapaFija.col_values(216)
-                if UnidadesReprocesadasTFQUASAR[-1]=="Si":
-                    CantidadReprocesadasTFQUASAR = TapaFija.col_values(217)
+                UnidadesReprocesadasTF2QUASAR =  TapaFija.col_values(216)
+                if UnidadesReprocesadasTF2QUASAR[-1]=="Si":
+                    CantidadReprocesadasTF2QUASAR = TapaFija.col_values(217)
 
-                    mensajeUnidadesReprocesadasTFQUASAR="*Se reprocesaron unidades - Cantidad:* "+CantidadReprocesadasTFQUASAR[-1]+""
-                    print (mensajeUnidadesReprocesadasTFQUASAR)
+                    mensajeUnidadesReprocesadasTF2QUASAR="*Se reprocesaron unidades - Cantidad:* "+CantidadReprocesadasTF2QUASAR[-1]+""
+                    print (mensajeUnidadesReprocesadasTF2QUASAR)
                 else:
-                    mensajeUnidadesReprocesadasTFQUASAR=""
-                    print(mensajeUnidadesReprocesadasTFQUASAR)
+                    mensajeUnidadesReprocesadasTF2QUASAR=""
+                    print(mensajeUnidadesReprocesadasTF2QUASAR)
 
 
 
-            OeeTF= TapaFija.col_values(223)
-            OeeTapaFija = OeeTF[-1]
+            OeeTF2= TapaFija.col_values(223)
+            OeeTapaFija = OeeTF2[-1]
             print("Porcentaje OEE: "+ OeeTapaFija)
+            MensajeOeeTF2="OEE: "+OeeTapaFija
 
         if espera_Minuto:
             print("Esperando minuto para envio de wpp...")
             espera_Minuto= False
 
-        if Minuto2==11:
+        if Minuto2==12:
         #Se envia el mensaje por WPP
             print("Entró")
 
             mensaje6="\n\n*TAPA FIJA*" 
 
-            if mensajeUnidadesFabricadasTF!="":
-                mensaje6=mensaje6+"\n\n"+mensajeUnidadesFabricadasTF
+            if mensajeUnidadesFabricadasTF2!="":
+                mensaje6=mensaje6+"\n\n"+mensajeUnidadesFabricadasTF2
 
-            if SelectReferenciaTF[-1]=="Agipeller":
+            if SelectReferenciaTF2[-1]=="Agipeller":
                 mensaje6=mensaje6+"\n\n*AGIPELLER*"
             
-                if mensajeParoProgramadoTFAGI!="":
-                    mensaje6=mensaje6+"\n"+mensajeParoProgramadoTFAGI
-                if mensajeIncidenteTFAGI!="":
-                    mensaje6=mensaje6+"\n"+mensajeIncidenteTFAGI
-                if mensajeServiciosPublicosTFAGI!="":
-                    mensaje6=mensaje6+"\n"+mensajeServiciosPublicosTFAGI
-                if mensajeMaquinaTFAGI!="":
-                    mensaje6=mensaje6+"\n"+mensajeMaquinaTFAGI
-                if mensajeManoDeObraTFAGI!="":
-                    mensaje6=mensaje6+"\n"+mensajeManoDeObraTFAGI
-                if mensajeMateriaPrimaTFAGI!="":
-                    mensaje6=mensaje6+"\n"+mensajeMateriaPrimaTFAGI
-                if mensajeMetodoTFAGI!="":
-                    mensaje6=mensaje6+"\n"+mensajeMetodoTFAGI
-                if mensajeScrapTFAGI!="":
-                    mensaje6=mensaje6+"\n"+mensajeScrapTFAGI
-                if mensajeUnidadesReprocesadasTFAGI!="":
-                    mensaje6=mensaje6+"\n"+mensajeUnidadesReprocesadasTFAGI
+                if mensajeParoProgramadoTF2AGI!="":
+                    mensaje6=mensaje6+"\n"+mensajeParoProgramadoTF2AGI
+                if mensajeIncidenteTF2AGI!="":
+                    mensaje6=mensaje6+"\n"+mensajeIncidenteTF2AGI
+                if mensajeServiciosPublicosTF2AGI!="":
+                    mensaje6=mensaje6+"\n"+mensajeServiciosPublicosTF2AGI
+                if mensajeMaquinaTF2AGI!="":
+                    mensaje6=mensaje6+"\n"+mensajeMaquinaTF2AGI
+                if mensajeManoDeObraTF2AGI!="":
+                    mensaje6=mensaje6+"\n"+mensajeManoDeObraTF2AGI
+                if mensajeMateriaPrimaTF2AGI!="":
+                    mensaje6=mensaje6+"\n"+mensajeMateriaPrimaTF2AGI
+                if mensajeMetodoTF2AGI!="":
+                    mensaje6=mensaje6+"\n"+mensajeMetodoTF2AGI
+                if mensajeScrapTF2AGI!="":
+                    mensaje6=mensaje6+"\n"+mensajeScrapTF2AGI
+                if mensajeUnidadesReprocesadasTF2AGI!="":
+                    mensaje6=mensaje6+"\n"+mensajeUnidadesReprocesadasTF2AGI
             
-            if SelectReferenciaTM[-1]=="Back Panel":
+            if SelectReferenciaTF2[-1]=="Back Panel":
                 mensaje6=mensaje6+"\n\n*BACK PANEL*"
             
-                if mensajeParoProgramadoTFBP!="":
-                    mensaje6=mensaje6+"\n"+mensajeParoProgramadoTFBP
-                if mensajeIncidenteTFBP!="":
-                    mensaje6=mensaje6+"\n"+mensajeIncidenteTFBP
-                if mensajeServiciosPublicosTFBP!="":
-                    mensaje6=mensaje6+"\n"+mensajeServiciosPublicosTFBP
-                if mensajeMaquinaTFBP!="":
-                    mensaje6=mensaje6+"\n"+mensajeMaquinaTFBP
-                if mensajeManoDeObraTFBP!="":
-                    mensaje6=mensaje6+"\n"+mensajeManoDeObraTFBP
-                if mensajeMateriaPrimaTFBP!="":
-                    mensaje6=mensaje6+"\n"+mensajeMateriaPrimaTFBP
-                if mensajeMetodoTFBP!="":
-                    mensaje6=mensaje6+"\n"+mensajeMetodoTFBP
-                if mensajeScrapTFBP!="":
-                    mensaje6=mensaje6+"\n"+mensajeScrapTFBP
-                if mensajeUnidadesReprocesadasTFBP!="":
-                    mensaje6=mensaje6+"\n"+mensajeUnidadesReprocesadasTFBP
-            if SelectReferenciaTM[-1]=="Copa 2.0 Haceb":
+                if mensajeParoProgramadoTF2BP!="":
+                    mensaje6=mensaje6+"\n"+mensajeParoProgramadoTF2BP
+                if mensajeIncidenteTF2BP!="":
+                    mensaje6=mensaje6+"\n"+mensajeIncidenteTF2BP
+                if mensajeServiciosPublicosTF2BP!="":
+                    mensaje6=mensaje6+"\n"+mensajeServiciosPublicosTF2BP
+                if mensajeMaquinaTF2BP!="":
+                    mensaje6=mensaje6+"\n"+mensajeMaquinaTF2BP
+                if mensajeManoDeObraTF2BP!="":
+                    mensaje6=mensaje6+"\n"+mensajeManoDeObraTF2BP
+                if mensajeMateriaPrimaTF2BP!="":
+                    mensaje6=mensaje6+"\n"+mensajeMateriaPrimaTF2BP
+                if mensajeMetodoTF2BP!="":
+                    mensaje6=mensaje6+"\n"+mensajeMetodoTF2BP
+                if mensajeScrapTF2BP!="":
+                    mensaje6=mensaje6+"\n"+mensajeScrapTF2BP
+                if mensajeUnidadesReprocesadasTF2BP!="":
+                    mensaje6=mensaje6+"\n"+mensajeUnidadesReprocesadasTF2BP
+            if SelectReferenciaTF2[-1]=="Copa 2.0 Haceb":
                 mensaje6=mensaje6+"\n\n*COPA 2.0 HACEB*"
             
-                if mensajeParoProgramadoTFCP2H!="":
-                    mensaje6=mensaje6+"\n"+mensajeParoProgramadoTFCP2H
-                if mensajeIncidenteTFCP2H!="":
-                    mensaje6=mensaje6+"\n"+mensajeIncidenteTFCP2H
-                if mensajeServiciosPublicosTFCP2H!="":
-                    mensaje6=mensaje6+"\n"+mensajeServiciosPublicosTFCP2H
-                if mensajeMaquinaTFCP2H!="":
-                    mensaje6=mensaje6+"\n"+mensajeMaquinaTFCP2H
-                if mensajeManoDeObraTFCP2H!="":
-                    mensaje6=mensaje6+"\n"+mensajeManoDeObraTFCP2H
-                if mensajeMateriaPrimaTFCP2H!="":
-                    mensaje6=mensaje6+"\n"+mensajeMateriaPrimaTFCP2H
-                if mensajeMetodoTFCP2H!="":
-                    mensaje6=mensaje6+"\n"+mensajeMetodoTFCP2H
-                if mensajeScrapTFCP2H!="":
-                    mensaje6=mensaje6+"\n"+mensajeScrapTFCP2H
-                if mensajeUnidadesReprocesadasTFCP2H!="":
-                    mensaje6=mensaje6+"\n"+mensajeUnidadesReprocesadasTFCP2H
+                if mensajeParoProgramadoTF2CP2H!="":
+                    mensaje6=mensaje6+"\n"+mensajeParoProgramadoTF2CP2H
+                if mensajeIncidenteTF2CP2H!="":
+                    mensaje6=mensaje6+"\n"+mensajeIncidenteTF2CP2H
+                if mensajeServiciosPublicosTF2CP2H!="":
+                    mensaje6=mensaje6+"\n"+mensajeServiciosPublicosTF2CP2H
+                if mensajeMaquinaTF2CP2H!="":
+                    mensaje6=mensaje6+"\n"+mensajeMaquinaTF2CP2H
+                if mensajeManoDeObraTF2CP2H!="":
+                    mensaje6=mensaje6+"\n"+mensajeManoDeObraTF2CP2H
+                if mensajeMateriaPrimaTF2CP2H!="":
+                    mensaje6=mensaje6+"\n"+mensajeMateriaPrimaTF2CP2H
+                if mensajeMetodoTF2CP2H!="":
+                    mensaje6=mensaje6+"\n"+mensajeMetodoTF2CP2H
+                if mensajeScrapTF2CP2H!="":
+                    mensaje6=mensaje6+"\n"+mensajeScrapTF2CP2H
+                if mensajeUnidadesReprocesadasTF2CP2H!="":
+                    mensaje6=mensaje6+"\n"+mensajeUnidadesReprocesadasTF2CP2H
 
-            if SelectReferenciaTM[-1]=="Copa 2.0 Whirlpool":
+            if SelectReferenciaTF2[-1]=="Copa 2.0 Whirlpool":
                 mensaje6=mensaje6+"\n\n*COPA 2.0 WHIRLPOOL*"
 
-                if mensajeParoProgramadoTF2CP2W!="":
-                    mensaje6=mensaje6+"\n"+mensajeParoProgramadoTF2CP2W
+                if mensajeParoProgramadoTF22CP2W!="":
+                    mensaje6=mensaje6+"\n"+mensajeParoProgramadoTF22CP2W
                 if mensajeIncidenteTF2CP2W!="":
-                    mensaje6=mensaje6+"\n"+mensajeIncidenteTFCP2W
-                if mensajeServiciosPublicosTFCP2W!="":
-                    mensaje6=mensaje6+"\n"+mensajeServiciosPublicosTFCP2W
-                if mensajeMaquinaTFCP2W!="":
-                    mensaje6=mensaje6+"\n"+mensajeMaquinaTFCP2W
-                if mensajeManoDeObraTFCP2W!="":
-                    mensaje6=mensaje6+"\n"+mensajeManoDeObraTFCP2W
-                if mensajeMateriaPrimaTFCP2W!="":
-                    mensaje6=mensaje6+"\n"+mensajeMateriaPrimaTFCP2W
-                if mensajeMetodoTFCP2W!="":
-                    mensaje6=mensaje6+"\n"+mensajeMetodoTFCP2W
-                if mensajeScrapTFCP2W!="":
-                    mensaje6=mensaje6+"\n"+mensajeScrapTFCP2W
-                if mensajeUnidadesReprocesadasTFCP2W!="":
-                    mensaje6=mensaje6+"\n"+mensajeUnidadesReprocesadasTFCP2W     
+                    mensaje6=mensaje6+"\n"+mensajeIncidenteTF2CP2W
+                if mensajeServiciosPublicosTF2CP2W!="":
+                    mensaje6=mensaje6+"\n"+mensajeServiciosPublicosTF2CP2W
+                if mensajeMaquinaTF2CP2W!="":
+                    mensaje6=mensaje6+"\n"+mensajeMaquinaTF2CP2W
+                if mensajeManoDeObraTF2CP2W!="":
+                    mensaje6=mensaje6+"\n"+mensajeManoDeObraTF2CP2W
+                if mensajeMateriaPrimaTF2CP2W!="":
+                    mensaje6=mensaje6+"\n"+mensajeMateriaPrimaTF2CP2W
+                if mensajeMetodoTF2CP2W!="":
+                    mensaje6=mensaje6+"\n"+mensajeMetodoTF2CP2W
+                if mensajeScrapTF2CP2W!="":
+                    mensaje6=mensaje6+"\n"+mensajeScrapTF2CP2W
+                if mensajeUnidadesReprocesadasTF2CP2W!="":
+                    mensaje6=mensaje6+"\n"+mensajeUnidadesReprocesadasTF2CP2W     
 
-            if SelectReferenciaTM[-1]=="Impeller":
+            if SelectReferenciaTF2[-1]=="Impeller":
                 mensaje6=mensaje6+"\n\n*IMPELLER*"
             
-                if mensajeParoProgramadoTFIMPELLER!="":
-                    mensaje6=mensaje6+"\n"+mensajeParoProgramadoTFIMPELLER
-                if mensajeIncidenteTFIMPELLER!="":
-                    mensaje6=mensaje6+"\n"+mensajeIncidenteTFIMPELLER
-                if mensajeServiciosPublicosTFIMPELLER!="":
-                    mensaje6=mensaje6+"\n"+mensajeServiciosPublicosTFIMPELLER
-                if mensajeMaquinaTFIMPELLER!="":
-                    mensaje6=mensaje6+"\n"+mensajeMaquinaTFIMPELLER
-                if mensajeManoDeObraTFIMPELLER!="":
-                    mensaje6=mensaje6+"\n"+mensajeManoDeObraTFIMPELLER
-                if mensajeMateriaPrimaTFIMPELLER!="":
-                    mensaje6=mensaje6+"\n"+mensajeMateriaPrimaTFIMPELLER
-                if mensajeMetodoTFIMPELLER!="":
-                    mensaje6=mensaje6+"\n"+mensajeMetodoTFIMPELLER
-                if mensajeScrapTFIMPELLER!="":
-                    mensaje6=mensaje6+"\n"+mensajeScrapTFIMPELLER
-                if mensajeUnidadesReprocesadasTFIMPELLER!="":
-                    mensaje6=mensaje6+"\n"+mensajeUnidadesReprocesadasTFIMPELLER
+                if mensajeParoProgramadoTF2IMPELLER!="":
+                    mensaje6=mensaje6+"\n"+mensajeParoProgramadoTF2IMPELLER
+                if mensajeIncidenteTF2IMPELLER!="":
+                    mensaje6=mensaje6+"\n"+mensajeIncidenteTF2IMPELLER
+                if mensajeServiciosPublicosTF2IMPELLER!="":
+                    mensaje6=mensaje6+"\n"+mensajeServiciosPublicosTF2IMPELLER
+                if mensajeMaquinaTF2IMPELLER!="":
+                    mensaje6=mensaje6+"\n"+mensajeMaquinaTF2IMPELLER
+                if mensajeManoDeObraTF2IMPELLER!="":
+                    mensaje6=mensaje6+"\n"+mensajeManoDeObraTF2IMPELLER
+                if mensajeMateriaPrimaTF2IMPELLER!="":
+                    mensaje6=mensaje6+"\n"+mensajeMateriaPrimaTF2IMPELLER
+                if mensajeMetodoTF2IMPELLER!="":
+                    mensaje6=mensaje6+"\n"+mensajeMetodoTF2IMPELLER
+                if mensajeScrapTF2IMPELLER!="":
+                    mensaje6=mensaje6+"\n"+mensajeScrapTF2IMPELLER
+                if mensajeUnidadesReprocesadasTF2IMPELLER!="":
+                    mensaje6=mensaje6+"\n"+mensajeUnidadesReprocesadasTF2IMPELLER
 
-            if SelectReferenciaTM[-1]=="Quasar":
+            if SelectReferenciaTF2[-1]=="Quasar":
                 mensaje6=mensaje6+"\n\n*QUASAR*"
             
-                if mensajeParoProgramadoTFQUASAR!="":
-                    mensaje6=mensaje6+"\n"+mensajeParoProgramadoTFQUASAR
-                if mensajeIncidenteTFQUASAR!="":
-                    mensaje6=mensaje6+"\n"+mensajeIncidenteTFQUASAR
-                if mensajeServiciosPublicosTFQUASAR!="":
-                    mensaje6=mensaje6+"\n"+mensajeServiciosPublicosTFQUASAR
-                if mensajeMaquinaTFQUASAR!="":
-                    mensaje6=mensaje6+"\n"+mensajeMaquinaTFQUASAR
-                if mensajeManoDeObraTFQUASAR!="":
-                    mensaje6=mensaje6+"\n"+mensajeManoDeObraTFQUASAR
-                if mensajeMateriaPrimaTFQUASAR!="":
-                    mensaje6=mensaje6+"\n"+mensajeMateriaPrimaTFQUASAR
-                if mensajeMetodoTFQUASAR!="":
-                    mensaje6=mensaje6+"\n"+mensajeMetodoTFQUASAR
-                if mensajeScrapTFQUASAR!="":
-                    mensaje6=mensaje6+"\n"+mensajeScrapTFQUASAR
-                if mensajeUnidadesReprocesadasTFQUASAR!="":
-                    mensaje6=mensaje6+"\n"+mensajeUnidadesReprocesadasTFQUASAR     
+                if mensajeParoProgramadoTF2QUASAR!="":
+                    mensaje6=mensaje6+"\n"+mensajeParoProgramadoTF2QUASAR
+                if mensajeIncidenteTF2QUASAR!="":
+                    mensaje6=mensaje6+"\n"+mensajeIncidenteTF2QUASAR
+                if mensajeServiciosPublicosTF2QUASAR!="":
+                    mensaje6=mensaje6+"\n"+mensajeServiciosPublicosTF2QUASAR
+                if mensajeMaquinaTF2QUASAR!="":
+                    mensaje6=mensaje6+"\n"+mensajeMaquinaTF2QUASAR
+                if mensajeManoDeObraTF2QUASAR!="":
+                    mensaje6=mensaje6+"\n"+mensajeManoDeObraTF2QUASAR
+                if mensajeMateriaPrimaTF2QUASAR!="":
+                    mensaje6=mensaje6+"\n"+mensajeMateriaPrimaTF2QUASAR
+                if mensajeMetodoTF2QUASAR!="":
+                    mensaje6=mensaje6+"\n"+mensajeMetodoTF2QUASAR
+                if mensajeScrapTF2QUASAR!="":
+                    mensaje6=mensaje6+"\n"+mensajeScrapTF2QUASAR
+                if mensajeUnidadesReprocesadasTF2QUASAR!="":
+                    mensaje6=mensaje6+"\n"+mensajeUnidadesReprocesadasTF2QUASAR     
 
-            if MensajeOeeTM!="":
-                mensaje6=mensaje6+"\n"+MensajeOeeTM
+            if MensajeOeeTF2!="":
+                mensaje6=mensaje6+"\n"+MensajeOeeTF2
             
             mensajefinal=mensaje+"\n"+mensaje2+"\n"+mensaje3+"\n"+mensaje4+"\n"+mensaje5+"\n"+mensaje6
             try:
