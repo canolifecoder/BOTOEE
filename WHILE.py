@@ -34,7 +34,7 @@ while True:
             espera_Minuto= False
 
             #CONDICIONAL PARA SELECCIONAR EL MIN Y EL RANGO DE SEGUNDOS
-        if (Minuto2==10 and Segundo>=40) and Segundo<=45:
+        if (Minuto2==5 and Segundo>=40) and Segundo<=45:
             ##CADENCIA:::::
             sh = gc3.open("Gestión Célula Hora a Hora Células")
             cadencia = gc.open("Cadencia")
@@ -189,7 +189,7 @@ while True:
             espera_Minuto= False
 
             #CONDICIONAL PARA SELECCIONAR EL MIN Y EL RANGO DE SEGUNDOS
-        if (Minuto2==11 and Segundo>=40) and Segundo<=45:
+        if (Minuto2==6 and Segundo>=40) and Segundo<=45:
             #CONJUNTO SUSPENCIÓN:::::::::::::::
             print("CONJUNTO SUSPENCIÓN:---------")
 
@@ -342,7 +342,7 @@ while True:
             espera_Minuto= False
 
         #CONDICIONAL PARA SELECCIONAR EL MIN Y EL RANGO DE SEGUNDOS
-        if (Minuto2==12 and Segundo>=40) and Segundo<=45:
+        if (Minuto2==7 and Segundo>=40) and Segundo<=45:
             #--------------------------------------------------------------------------------------------------
             #EMSAMBLE GABINETE:::::::::::::::
             print("EMSAMBLE GABINETE:---------")
@@ -773,7 +773,7 @@ while True:
             espera_Minuto= False
 
         #CONDICIONAL PARA SELECCIONAR EL MIN Y EL RANGO DE SEGUNDOS
-        if (Minuto2==13 and Segundo>=40) and Segundo<=45:
+        if (Minuto2==8 and Segundo>=40) and Segundo<=45:
             #TESTEO FINAL:::::::::::::::
             print("TESTEO FINAL::---------")
 
@@ -1201,7 +1201,7 @@ while True:
             espera_Minuto= False
 
         #CONDICIONAL PARA SELECCIONAR EL MIN Y EL RANGO DE SEGUNDOS
-        if (Minuto2==14 and Segundo>=40) and Segundo<=45:
+        if (Minuto2==9 and Segundo>=40) and Segundo<=45:
             #TESTEO FINAL:::::::::::::::
             print("TAPA MOVIL::---------")
             #SELECCION DE LA HOJA::
@@ -1550,14 +1550,6 @@ while True:
             print("Porcentaje OEE: "+ OeeTapaMovil)
             MensajeOeeTM="OEE: "+OeeTapaMovil
 
-        if espera_Minuto:
-            print("Esperando minuto para envio de wpp...")
-            espera_Minuto= False
-
-        if Minuto2==15:
-        #Se envia el mensaje por WPP
-            print("Entró")
-
             mensaje5="\n\n*TAPA MOVIL*" 
             if MensajeUnidadesFabricadasTM!="":
                 mensaje5=mensaje5+"\n\n"+MensajeUnidadesFabricadasTM
@@ -1636,7 +1628,7 @@ while True:
             espera_Minuto= False
 
         #CONDICIONAL PARA SELECCIONAR EL MIN Y EL RANGO DE SEGUNDOS
-        if (Minuto2==14 and Segundo>=40) and Segundo<=45:
+        if (Minuto2==10 and Segundo>=40) and Segundo<=45:
             #TAPA FIJA:::::::::::::::::
             print("TAPA FIJA:::---------")
 
@@ -1993,11 +1985,11 @@ while True:
                 if ParoProgramadoTFCP2W[-1]=="Si":
                     RazonParoProgramadoTFCP2W =  TapaFija.col_values(114)
                     TiempoParoProgramadoTFCP2W =  TapaFija.col_values(115)
-                    mensajeParoProgramadoTFCP2W="*Paro programado - Tiempo:* "+TiempoParoProgramadoTFCP2W[-1]+" min, *Razón:* "+RazonParoProgramadoTFCP2W[-1]
-                    print(mensajeParoProgramadoTFCP2W)
+                    mensajeParoProgramadoTF2CP2W="*Paro programado - Tiempo:* "+TiempoParoProgramadoTF2CP2W[-1]+" min, *Razón:* "+RazonParoProgramadoTF2CP2W[-1]
+                    print(mensajeParoProgramadoTF2CP2W)
                 else:
-                    mensajeParoProgramadoTFCP2W=""
-                    print(mensajeParoProgramadoTFCP2W)
+                    mensajeParoProgramadoTF2CP2W=""
+                    print(mensajeParoProgramadoTF2CP2W)
                 
                 #INCIDENTES Copa 2.0 Whirlpool TAPA FIJA:::::
                 IncidenteTFCP2W=TapaFija.col_values(116)
@@ -2336,11 +2328,12 @@ while True:
             print("Esperando minuto para envio de wpp...")
             espera_Minuto= False
 
-        if Minuto2==15:
+        if Minuto2==11:
         #Se envia el mensaje por WPP
             print("Entró")
 
             mensaje6="\n\n*TAPA FIJA*" 
+
             if mensajeUnidadesFabricadasTF!="":
                 mensaje6=mensaje6+"\n\n"+mensajeUnidadesFabricadasTF
 
@@ -2388,33 +2381,33 @@ while True:
                 if mensajeUnidadesReprocesadasTFBP!="":
                     mensaje6=mensaje6+"\n"+mensajeUnidadesReprocesadasTFBP
             if SelectReferenciaTM[-1]=="Copa 2.0 Haceb":
-                mensaje5=mensaje5+"\n\n*COPA 2.0 HACEB*"
+                mensaje6=mensaje6+"\n\n*COPA 2.0 HACEB*"
             
                 if mensajeParoProgramadoTFCP2H!="":
-                    mensaje5=mensaje5+"\n"+mensajeParoProgramadoTFCP2H
+                    mensaje6=mensaje6+"\n"+mensajeParoProgramadoTFCP2H
                 if mensajeIncidenteTFCP2H!="":
-                    mensaje5=mensaje5+"\n"+mensajeIncidenteTFCP2H
+                    mensaje6=mensaje6+"\n"+mensajeIncidenteTFCP2H
                 if mensajeServiciosPublicosTFCP2H!="":
-                    mensaje5=mensaje5+"\n"+mensajeServiciosPublicosTFCP2H
+                    mensaje6=mensaje6+"\n"+mensajeServiciosPublicosTFCP2H
                 if mensajeMaquinaTFCP2H!="":
-                    mensaje5=mensaje5+"\n"+mensajeMaquinaTFCP2H
+                    mensaje6=mensaje6+"\n"+mensajeMaquinaTFCP2H
                 if mensajeManoDeObraTFCP2H!="":
-                    mensaje5=mensaje5+"\n"+mensajeManoDeObraTFCP2H
+                    mensaje6=mensaje6+"\n"+mensajeManoDeObraTFCP2H
                 if mensajeMateriaPrimaTFCP2H!="":
-                    mensaje5=mensaje5+"\n"+mensajeMateriaPrimaTFCP2H
+                    mensaje6=mensaje6+"\n"+mensajeMateriaPrimaTFCP2H
                 if mensajeMetodoTFCP2H!="":
-                    mensaje5=mensaje5+"\n"+mensajeMetodoTFCP2H
+                    mensaje6=mensaje6+"\n"+mensajeMetodoTFCP2H
                 if mensajeScrapTFCP2H!="":
-                    mensaje5=mensaje5+"\n"+mensajeScrapTFCP2H
+                    mensaje6=mensaje6+"\n"+mensajeScrapTFCP2H
                 if mensajeUnidadesReprocesadasTFCP2H!="":
-                    mensaje5=mensaje5+"\n"+mensajeUnidadesReprocesadasTFCP2H
+                    mensaje6=mensaje6+"\n"+mensajeUnidadesReprocesadasTFCP2H
 
             if SelectReferenciaTM[-1]=="Copa 2.0 Whirlpool":
                 mensaje6=mensaje6+"\n\n*COPA 2.0 WHIRLPOOL*"
-            
-                if mensajeParoProgramadoTFCP2W!="":
-                    mensaje6=mensaje6+"\n"+mensajeParoProgramadoTFCP2W
-                if mensajeIncidenteTFCP2W!="":
+
+                if mensajeParoProgramadoTF2CP2W!="":
+                    mensaje6=mensaje6+"\n"+mensajeParoProgramadoTF2CP2W
+                if mensajeIncidenteTF2CP2W!="":
                     mensaje6=mensaje6+"\n"+mensajeIncidenteTFCP2W
                 if mensajeServiciosPublicosTFCP2W!="":
                     mensaje6=mensaje6+"\n"+mensajeServiciosPublicosTFCP2W
@@ -2478,3 +2471,22 @@ while True:
             if MensajeOeeTM!="":
                 mensaje6=mensaje6+"\n"+MensajeOeeTM
             
+            mensajefinal=mensaje+"\n"+mensaje2+"\n"+mensaje3+"\n"+mensaje4+"\n"+mensaje5+"\n"+mensaje6
+            try:
+                pywhatkit.sendwhatmsg_to_group(
+                    "HPuk6hQ3c4p1SSAgyQCTbE", mensajefinal, Hora, Minuto, 30, True, 20)
+                print("Mensaje enviado")
+                print(mensaje)
+
+                espera_Minuto = True
+                espera_Hora = True
+                print(mensajefinal)
+            except:
+                print("Error!! El mensaje no pudo ser enviado")
+
+        time.sleep(1)
+
+    else:
+        if espera_Hora:
+            print ("Esperando la hora de envío...")
+            espera_Hora = False
