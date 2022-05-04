@@ -33,6 +33,7 @@ TapaFija = sh.get_worksheet(5)
 #SELECCIONAR LA REFERENCIA:::::Back Panel -- COPA 2 WHIRLPOOL -- AGIPELER --- BACK PANEL --- IMPELER --- QUASAR
 UnidadesFabricadasTF=  TapaFija.col_values(5)
 print(UnidadesFabricadasTF[-1])
+
 #SELECCION DE Agipeller:::::
 SelectReferenciaTF = TapaFija.col_values(7)
 if SelectReferenciaTF[-1]=="Agipeller":

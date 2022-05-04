@@ -376,6 +376,7 @@ print("Porcentaje OEE: " + OeeTesteoFinal)
 
 
 
+
 #TAPA MOVIL:::::::::::::::::
 print("TAPA MOVIL:::---------")
 
