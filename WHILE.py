@@ -19,6 +19,7 @@ gc4 = gspread.service_account(
     filename='named-haven-340115-8092bf8dd87f.json'
 )
 f=1
+SinNovedad=0
 while True:
     tiempo = datetime.datetime.now()
     Dia = datetime.datetime.today().weekday()
@@ -28,27 +29,27 @@ while True:
     Segundo= int(tiempo.second)
 
     #CONDICIONAL PARA SELECCIONAR LA HORA:
-    if (Hora >=6 and Hora <= 22) and (Dia != 6): # Rango de horas de operación y el día de trabajo (Lun - Sab)
+    if (Hora>=6 and Hora<=22) and (Dia != 6): # Rango de horas de operación y el día de trabajo (Lun - Sab)
         if espera_Minuto:
             print("1 Esperando minuto de envio...")
             espera_Minuto= False
 
             #CONDICIONAL PARA SELECCIONAR EL MIN Y EL RANGO DE SEGUNDOS
-        if (Minuto2==6 and Segundo>=40) and Segundo<=45:
+        if (Minuto2==3 and Segundo>=40) and Segundo<=45:
             ##CADENCIA:::::
             sh = gc3.open("Gestión Célula Hora a Hora Células")
             cadencia = gc.open("Cadencia")
             cadencia = cadencia.get_worksheet(0)
             cadenciaList = cadencia.col_values(3)
-            print("Cadencia de las celulas: "+cadenciaList[-1])
-            MensajeCadencia = "Cadencia de las celulas: "+ cadenciaList[-1]
+            print("Cadencia de la linea: "+cadenciaList[-1])
+            MensajeCadencia = "*Cadencia de la linea:* "+ cadenciaList[-1]
 
             #EMSAMBLE MECANISMOS:::::::::::::::
             print("EMSAMBLE MECANISMOS:--------")
             EmsambleMecanismos = sh.get_worksheet(0)
             UnidadesFabricadasEM =  EmsambleMecanismos.col_values(5)
             print("Unidades producidas: "+UnidadesFabricadasEM[-1])
-            MensajeUnidadesFabricadasEM ="Unidades producidas: "+ UnidadesFabricadasEM[-1]
+            MensajeUnidadesFabricadasEM ="*Unidades producidas*: "+ UnidadesFabricadasEM[-1]
 
             EmsambleMecanismos = sh.get_worksheet(0)
             ParoProgramadoEM =  EmsambleMecanismos.col_values(9)
@@ -150,7 +151,7 @@ while True:
             OeeEM= EmsambleMecanismos.col_values(48)
             OeeEmsambleMecanismos = OeeEM[-1]
             mensajeOeeEM = "OEE: "+ OeeEM[-1]
-            print("OEE: "+OeeEmsambleMecanismos)
+            print("*OEE*: "+OeeEmsambleMecanismos)
             
             mensaje="*GESTION CELULA HORA A HORA:*" 
 
@@ -161,27 +162,43 @@ while True:
                 mensaje=mensaje+"\n\n"+MensajeUnidadesFabricadasEM
             if mensajeParoProgramadoEM!="":
                 mensaje=mensaje+"\n"+mensajeParoProgramadoEM
+                SinNovedad=2
             if mensajeIncidenteEM!="":
                 mensaje=mensaje+"\n"+mensajeIncidenteEM
+                SinNovedad=2
             if mensajeServiciosPublicosEM!="":
                 mensaje=mensaje+"\n"+mensajeServiciosPublicosEM
+                SinNovedad=2
             if mensajeMaquinaEM!="":
                 mensaje=mensaje+"\n"+mensajeMaquinaEM
+                SinNovedad=2
             if mensajeManoObraEM!="":
                 mensaje=mensaje+"\n"+mensajeManoObraEM
+                SinNovedad=2
             if mensajeMateriaPrimaEM!="":
                 mensaje=mensaje+"\n"+mensajeMateriaPrimaEM
+                SinNovedad=2
             if mensajeUnidadesPorMetodoEM!="":
                 mensaje=mensaje+"\n"+mensajeUnidadesPorMetodoEM
+                SinNovedad=2
             if mensajeUnidadesPorMetodoEM!="":
                 mensaje=mensaje+"\n"+mensajeUnidadesPorMetodoEM
+                SinNovedad=2
             if mensajeScrapEM!="":
                 mensaje=mensaje+"\n"+mensajeScrapEM
+                SinNovedad=2
             if mensajeUnidadesReprocesadasEM!="":
                 mensaje=mensaje+"\n"+mensajeUnidadesReprocesadasEM
-            if mensajeOeeEM!="":
+                SinNovedad=2
+
+            if SinNovedad!=2:
+                mensaje=mensaje+"\n*No se reportaron novedades*"
+            
+            SinNovedad=0
+
+            if mensajeOeeEM!="" and OeeEmsambleMecanismos!="#DIV/0!":
                 mensaje=mensaje+"\n"+mensajeOeeEM
-            print (mensaje)
+            
     
 #-----------------------------------------------------------------------------------------------------------
         if espera_Minuto:
@@ -189,7 +206,7 @@ while True:
             espera_Minuto= False
 
             #CONDICIONAL PARA SELECCIONAR EL MIN Y EL RANGO DE SEGUNDOS
-        if (Minuto2==7 and Segundo>=40) and Segundo<=45:
+        if (Minuto2==4 and Segundo>=40) and Segundo<=45:
             #CONJUNTO SUSPENCIÓN:::::::::::::::
             print("CONJUNTO SUSPENCIÓN:---------")
 
@@ -197,7 +214,7 @@ while True:
 
             UnidadesFabricadasCJ=  ConjuntoSuspencion.col_values(5)
             print("Unidades Fabricadas: "+UnidadesFabricadasCJ[-1])
-            MensajeUnidadesFabricadasCJ="Unidades Producidas: "+ UnidadesFabricadasCJ[-1]
+            MensajeUnidadesFabricadasCJ="*Unidades Producidas:* "+ UnidadesFabricadasCJ[-1]
             #PAROS PROGRAMADOS::
             ParoProgramadoCS =  ConjuntoSuspencion.col_values(9)
             if ParoProgramadoCS[-1]=="Si":
@@ -307,7 +324,7 @@ while True:
             OeeCS= ConjuntoSuspencion.col_values(47)
             OeeConjuntoSuspencion = OeeCS[-1]
             print("OEE: "+OeeConjuntoSuspencion)
-            MensajeOeeCS="OEE: "+OeeCS[-1]
+            MensajeOeeCS="*OEE:* "+OeeCS[-1]
 
             print("Entró")
             mensaje2="\n\n*CONJUNTO SUSPENCION*" 
@@ -315,25 +332,41 @@ while True:
                 mensaje2=mensaje2+"\n\n"+MensajeUnidadesFabricadasCJ
             if mensajeParoProgramadoCS!="":
                 mensaje2=mensaje2+"\n"+mensajeParoProgramadoCS
+                SinNovedad=2
             if mensajeIncidenteCS!="":
                 mensaje2=mensaje2+"\n"+mensajeIncidenteCS
+                SinNovedad=2
             if mensajeServiciosPublicosCS!="":
                 mensaje2=mensaje2+"\n"+mensajeServiciosPublicosCS
+                SinNovedad=2
             if mensajeMaquinaCS!="":
                 mensaje2=mensaje2+"\n"+mensajeMaquinaCS
+                SinNovedad=2
             if mensajeManoObraCS!="":
                 mensaje2=mensaje2+"\n"+mensajeManoObraCS
+                SinNovedad=2
             if mensajeMateriaPrimaCS!="":
                 mensaje2=mensaje2+"\n"+mensajeMateriaPrimaCS
+                SinNovedad=2
             if mensajeUnidadesPorMetodoCS!="":
                 mensaje2=mensaje2+"\n"+mensajeUnidadesPorMetodoCS
+                SinNovedad=2
             if mensajeUnidadesPorMetodoCS!="":
                 mensaje2=mensaje2+"\n"+mensajeUnidadesPorMetodoCS
+                SinNovedad=2
             if mensajeScrapCS!="":
                 mensaje2=mensaje2+"\n"+mensajeScrapCS
+                SinNovedad=2
             if mensajeUnidadesReprocesadasCS!="":
                 mensaje2=mensaje2+"\n"+mensajeUnidadesReprocesadasCS
-            if MensajeOeeCS!="":
+                SinNovedad=2
+
+            if SinNovedad!=2:
+                mensaje2=mensaje2+"\n*No se reportaron novedades*"
+
+            SinNovedad=0
+    
+            if MensajeOeeCS!="" and OeeConjuntoSuspencion!="#DIV/0!":
                 mensaje2=mensaje2+"\n"+MensajeOeeCS
 
 
@@ -342,7 +375,7 @@ while True:
             espera_Minuto= False
 
         #CONDICIONAL PARA SELECCIONAR EL MIN Y EL RANGO DE SEGUNDOS
-        if (Minuto2==8 and Segundo>=40) and Segundo<=45:
+        if (Minuto2==5 and Segundo>=40) and Segundo<=45:
             #--------------------------------------------------------------------------------------------------
             #EMSAMBLE GABINETE:::::::::::::::
             print("EMSAMBLE GABINETE:---------")
@@ -352,7 +385,7 @@ while True:
             #SELECCIONAR LA REFERENCIA::::: COPA 1 -- COPA 2 HACEB -- COPA 2 WHIRLPOOL
             UnidadesFabricadasEG=  EmsambleGabinete.col_values(5)
             print("Unidades Fabricadas: "+ UnidadesFabricadasEG[-1])
-            MensajeUnidadesFabricadasEG="Unidades Producidas: "+UnidadesFabricadasEG[-1]
+            MensajeUnidadesFabricadasEG="*Unidades Producidas:* "+UnidadesFabricadasEG[-1]
             #SELECCION DE COPA 1:::::
             SelectReferenciaEG = EmsambleGabinete.col_values(7)
             if SelectReferenciaEG[-1]=="Copa 1.0":
@@ -691,7 +724,7 @@ while True:
             OeeEG= EmsambleGabinete.col_values(118)
             OeeEmsableGabinete = OeeEG[-1]
             print("OEE: " +OeeEmsableGabinete)
-            MensajeOeeEG="OEE: "+ OeeEmsableGabinete
+            MensajeOeeEG="*OEE:* "+ OeeEmsableGabinete
 
             print("Entró")
 
@@ -704,68 +737,100 @@ while True:
             
                 if mensajeParoProgramadoEGCP1!="":
                     mensaje3=mensaje3+"\n"+mensajeParoProgramadoEGCP1
+                    SinNovedad=2
                 if mensajeIncidenteEGCP1!="":
                     mensaje3=mensaje3+"\n"+mensajeIncidenteEGCP1
+                    SinNovedad=2
                 if mensajeServiciosPublicosEGCP1!="":
                     mensaje3=mensaje3+"\n"+mensajeServiciosPublicosEGCP1
+                    SinNovedad=2
                 if mensajeMaquinaEGCP1!="":
                     mensaje3=mensaje3+"\n"+mensajeMaquinaEGCP1
+                    SinNovedad=2
                 if mensajeManoDeObraEGCP1!="":
                     mensaje3=mensaje3+"\n"+mensajeManoDeObraEGCP1
+                    SinNovedad=2
                 if mensajeMateriaPrimaEGCP1!="":
                     mensaje3=mensaje3+"\n"+mensajeMateriaPrimaEGCP1
+                    SinNovedad=2
                 if mensajeMetodoEGCP1!="":
                     mensaje3=mensaje3+"\n"+mensajeMetodoEGCP1
+                    SinNovedad=2
                 if mensajeScrapEGCP1!="":
                     mensaje3=mensaje3+"\n"+mensajeScrapEGCP1
+                    SinNovedad=2
                 if mensajeUnidadesReprocesadasEGP1!="":
                     mensaje3=mensaje3+"\n"+mensajeUnidadesReprocesadasEGP1
+                    SinNovedad=2
             
             if SelectReferenciaEG[-1]=="Copa 2.0 Haceb":
                 mensaje3=mensaje3+"\n\n*COPA 2.0 HACEB*"
             
                 if mensajeParoProgramadoEGCP2H!="":
                     mensaje3=mensaje3+"\n"+mensajeParoProgramadoEGCP2H
+                    SinNovedad=2
                 if mensajeIncidenteEGCP2H!="":
                     mensaje3=mensaje3+"\n"+mensajeIncidenteEGCP2H
+                    SinNovedad=2
                 if mensajeServiciosPublicosEGCP2H!="":
                     mensaje3=mensaje3+"\n"+mensajeServiciosPublicosEGCP2H
+                    SinNovedad=2
                 if mensajeMaquinaEGCP2H!="":
                     mensaje3=mensaje3+"\n"+mensajeMaquinaEGCP2H
+                    SinNovedad=2
                 if mensajeManoDeObraEGCP2H!="":
                     mensaje3=mensaje3+"\n"+mensajeManoDeObraEGCP2H
+                    SinNovedad=2
                 if mensajeMateriaPrimaEGCP2H!="":
                     mensaje3=mensaje3+"\n"+mensajeMateriaPrimaEGCP2H
+                    SinNovedad=2
                 if mensajeMetodoEGCP2H!="":
                     mensaje3=mensaje3+"\n"+mensajeMetodoEGCP2H
+                    SinNovedad=2
                 if mensajeScrapEGCP2H!="":
                     mensaje3=mensaje3+"\n"+mensajeScrapEGCP2H
+                    SinNovedad=2
                 if mensajeUnidadesReprocesadasEGCP2H!="":
                     mensaje3=mensaje3+"\n"+mensajeUnidadesReprocesadasEGCP2H
+                    SinNovedad=2
 
             if SelectReferenciaEG[-1]=="Copa 2.0 Whirlpool":
                 mensaje3=mensaje3+"\n\n*COPA 2.0 WHIRLPOOL*"
             
                 if mensajeParoProgramadoEGCP2W!="":
                     mensaje3=mensaje3+"\n"+mensajeParoProgramadoEGCP2W
+                    SinNovedad=2
                 if mensajeIncidenteEGCP2W!="":
                     mensaje3=mensaje3+"\n"+mensajeIncidenteEGCP2W
+                    SinNovedad=2
                 if mensajeServiciosPublicosEGCP2W!="":
                     mensaje3=mensaje3+"\n"+mensajeServiciosPublicosEGCP2W
+                    SinNovedad=2
                 if mensajeMaquinaEGCP2W!="":
                     mensaje3=mensaje3+"\n"+mensajeMaquinaEGCP2W
+                    SinNovedad=2
                 if mensajeManoDeObraEGCP2W!="":
                     mensaje3=mensaje3+"\n"+mensajeManoDeObraEGCP2W
+                    SinNovedad=2
                 if mensajeMateriaPrimaEGCP2W!="":
                     mensaje3=mensaje3+"\n"+mensajeMateriaPrimaEGCP2W
+                    SinNovedad=2
                 if mensajeMetodoEGCP2W!="":
                     mensaje3=mensaje3+"\n"+mensajeMetodoEGCP2W
+                    SinNovedad=2
                 if mensajeScrapEGCP2W!="":
                     mensaje3=mensaje3+"\n"+mensajeScrapEGCP2W
+                    SinNovedad=2
                 if mensajeUnidadesReprocesadasEGCP2W!="":
                     mensaje3=mensaje3+"\n"+mensajeUnidadesReprocesadasEGCP2W
+                    SinNovedad=2
+
+            if SinNovedad!=2:
+                mensaje3=mensaje3+"\n*No se reportaron novedades*"
             
-            if MensajeOeeEG!="":
+            SinNovedad=0
+
+            if MensajeOeeEG!="" and OeeEmsableGabinete!="#DIV/0!":
                 mensaje3=mensaje3+"\n"+MensajeOeeEG
 
         if espera_Minuto:
@@ -773,7 +838,7 @@ while True:
             espera_Minuto= False
 
         #CONDICIONAL PARA SELECCIONAR EL MIN Y EL RANGO DE SEGUNDOS
-        if (Minuto2==9 and Segundo>=40) and Segundo<=45:
+        if (Minuto2==6 and Segundo>=40) and Segundo<=45:
             #TESTEO FINAL:::::::::::::::
             print("TESTEO FINAL::---------")
 
@@ -782,7 +847,7 @@ while True:
             #SELECCIONAR LA REFERENCIA::::: COPA 1 -- COPA 2 HACEB -- COPA 2 WHIRLPOOL
             UnidadesFabricadasTF=  TesteoFinal.col_values(5)
             print("Unidades Fabricadas: "+UnidadesFabricadasTF[-1])
-            MensajeUnidadesFabricadasTF="Unidades Producidas: "+UnidadesFabricadasTF[-1]
+            MensajeUnidadesFabricadasTF="*Unidades Producidas:* "+UnidadesFabricadasTF[-1]
             #SELECCION DE COPA 1:::::
             SelectReferenciaTF = TesteoFinal.col_values(7)
             if SelectReferenciaTF[-1]=="Copa 1.0":
@@ -1120,88 +1185,120 @@ while True:
 
             OeeTF= TesteoFinal.col_values(118)
             OeeTesteoFinal = OeeTF[-1]
-            print("Porcentaje OEE: " + OeeTesteoFinal)
-            MensajeOeeTF="Porcentaje OEE: " + OeeTesteoFinal
+            print("OEE: " + OeeTesteoFinal)
+            MensajeOeeTF="*OEE:* " + OeeTesteoFinal
 
-            mensaje4="\n\n*TESTEO FINAL*" 
+            mensaje6="\n\n*TESTEO FINAL*" 
             if MensajeUnidadesFabricadasTF!="":
-                mensaje4=mensaje4+"\n\n"+MensajeUnidadesFabricadasTF
+                mensaje6=mensaje6+"\n\n"+MensajeUnidadesFabricadasTF
 
             if SelectReferenciaTF[-1]=="Copa 1.0":
-                mensaje4=mensaje4+"\n\n*COPA 1.0*"
+                mensaje6=mensaje6+"\n\n*COPA 1.0*"
             
                 if mensajeParoProgramadoTFCP1!="":
-                    mensaje4=mensaje4+"\n"+mensajeParoProgramadoTFCP1
+                    mensaje6=mensaje6+"\n"+mensajeParoProgramadoTFCP1
+                    SinNovedad=2
                 if mensajeIncidenteTFCP1!="":
-                    mensaje4=mensaje4+"\n"+mensajeIncidenteTFCP1
+                    mensaje6=mensaje6+"\n"+mensajeIncidenteTFCP1
+                    SinNovedad=2
                 if mensajeServiciosPublicosTFCP1!="":
-                    mensaje4=mensaje4+"\n"+mensajeServiciosPublicosTFCP1
+                    mensaje6=mensaje6+"\n"+mensajeServiciosPublicosTFCP1
+                    SinNovedad=2
                 if mensajeMaquinaTFCP1!="":
-                    mensaje4=mensaje4+"\n"+mensajeMaquinaTFCP1
+                    mensaje6=mensaje6+"\n"+mensajeMaquinaTFCP1
+                    SinNovedad=2
                 if mensajeManoDeObraTFCP1!="":
-                    mensaje4=mensaje4+"\n"+mensajeManoDeObraTFCP1
+                    mensaje6=mensaje6+"\n"+mensajeManoDeObraTFCP1
+                    SinNovedad=2
                 if mensajeMateriaPrimaTFCP1!="":
-                    mensaje4=mensaje4+"\n"+mensajeMateriaPrimaTFCP1
+                    mensaje6=mensaje6+"\n"+mensajeMateriaPrimaTFCP1
+                    SinNovedad=2
                 if mensajeMetodoTFCP1!="":
-                    mensaje4=mensaje4+"\n"+mensajeMetodoTFCP1
+                    mensaje6=mensaje6+"\n"+mensajeMetodoTFCP1
+                    SinNovedad=2
                 if mensajeScrapTFCP1!="":
-                    mensaje4=mensaje4+"\n"+mensajeScrapTFCP1
+                    mensaje6=mensaje6+"\n"+mensajeScrapTFCP1
+                    SinNovedad=2
                 if mensajeUnidadesReprocesadasTFCP1!="":
-                    mensaje4=mensaje4+"\n"+mensajeUnidadesReprocesadasTFCP1
+                    mensaje6=mensaje6+"\n"+mensajeUnidadesReprocesadasTFCP1
+                    SinNovedad=2
             
             if SelectReferenciaTF[-1]=="Copa 2.0 Haceb":
-                mensaje4=mensaje4+"\n\n*COPA 2.0 HACEB*"
+                mensaje6=mensaje6+"\n\n*COPA 2.0 HACEB*"
             
                 if mensajeParoProgramadoTFCP2H!="":
-                    mensaje4=mensaje4+"\n"+mensajeParoProgramadoTFCP2H
+                    mensaje6=mensaje6+"\n"+mensajeParoProgramadoTFCP2H
+                    SinNovedad=2
                 if mensajeIncidenteTFCP2H!="":
-                    mensaje4=mensaje4+"\n"+mensajeIncidenteTFCP2H
+                    mensaje6=mensaje6+"\n"+mensajeIncidenteTFCP2H
+                    SinNovedad=2
                 if mensajeServiciosPublicosTFCP2H!="":
-                    mensaje4=mensaje4+"\n"+mensajeServiciosPublicosTFCP2H
+                    mensaje6=mensaje6+"\n"+mensajeServiciosPublicosTFCP2H
+                    SinNovedad=2
                 if mensajeMaquinaTFCP2H!="":
-                    mensaje4=mensaje4+"\n"+mensajeMaquinaTFCP2H
+                    mensaje6=mensaje6+"\n"+mensajeMaquinaTFCP2H
+                    SinNovedad=2
                 if mensajeManoDeObraTFCP2H!="":
-                    mensaje4=mensaje4+"\n"+mensajeManoDeObraTFCP2H
+                    mensaje6=mensaje6+"\n"+mensajeManoDeObraTFCP2H
+                    SinNovedad=2
                 if mensajeMateriaPrimaTFCP2H!="":
-                    mensaje4=mensaje4+"\n"+mensajeMateriaPrimaTFCP2H
+                    mensaje6=mensaje6+"\n"+mensajeMateriaPrimaTFCP2H
+                    SinNovedad=2
                 if mensajeMetodoTFCP2H!="":
-                    mensaje4=mensaje4+"\n"+mensajeMetodoTFCP2H
+                    mensaje6=mensaje6+"\n"+mensajeMetodoTFCP2H
+                    SinNovedad=2
                 if mensajeScrapTFCP2H!="":
-                    mensaje4=mensaje4+"\n"+mensajeScrapTFCP2H
+                    mensaje6=mensaje6+"\n"+mensajeScrapTFCP2H
+                    SinNovedad=2
                 if mensajeUnidadesReprocesadasTFCP2H!="":
-                    mensaje4=mensaje4+"\n"+mensajeUnidadesReprocesadasTFCP2H
+                    mensaje6=mensaje6+"\n"+mensajeUnidadesReprocesadasTFCP2H
+                    SinNovedad=2
 
             if SelectReferenciaTF[-1]=="Copa 2.0 Whirlpool":
-                mensaje4=mensaje4+"\n\n*COPA 2.0 WHIRLPOOL*"
+                mensaje6=mensaje6+"\n\n*COPA 2.0 WHIRLPOOL*"
             
                 if mensajeParoProgramadoTFCP2W!="":
-                    mensaje4=mensaje4+"\n"+mensajeParoProgramadoTFCP2W
+                    mensaje6=mensaje6+"\n"+mensajeParoProgramadoTFCP2W
+                    SinNovedad=2
                 if mensajeIncidenteTFCP2W!="":
-                    mensaje4=mensaje4+"\n"+mensajeIncidenteTFCP2W
+                    mensaje6=mensaje6+"\n"+mensajeIncidenteTFCP2W
+                    SinNovedad=2
                 if mensajeServiciosPublicosTFCP2W!="":
-                    mensaje4=mensaje4+"\n"+mensajeServiciosPublicosTFCP2W
+                    mensaje6=mensaje6+"\n"+mensajeServiciosPublicosTFCP2W
+                    SinNovedad=2
                 if mensajeMaquinaTFCP2W!="":
-                    mensaje4=mensaje4+"\n"+mensajeMaquinaTFCP2W
+                    mensaje6=mensaje6+"\n"+mensajeMaquinaTFCP2W
+                    SinNovedad=2
                 if mensajeManoDeObraTFCP2W!="":
-                    mensaje4=mensaje4+"\n"+mensajeManoDeObraTFCP2W
+                    mensaje6=mensaje6+"\n"+mensajeManoDeObraTFCP2W
+                    SinNovedad=2
                 if mensajeMateriaPrimaTFCP2W!="":
-                    mensaje4=mensaje4+"\n"+mensajeMateriaPrimaTFCP2W
+                    mensaje6=mensaje6+"\n"+mensajeMateriaPrimaTFCP2W
+                    SinNovedad=2
                 if mensajeMetodoTFCP2W!="":
-                    mensaje4=mensaje4+"\n"+mensajeMetodoTFCP2W
+                    mensaje6=mensaje6+"\n"+mensajeMetodoTFCP2W
+                    SinNovedad=2
                 if mensajeScrapTFCP2W!="":
-                    mensaje4=mensaje4+"\n"+mensajeScrapTFCP2W
+                    mensaje6=mensaje6+"\n"+mensajeScrapTFCP2W
+                    SinNovedad=2
                 if mensajeUnidadesReprocesadasTFCP2W!="":
-                    mensaje4=mensaje4+"\n"+mensajeUnidadesReprocesadasTFCP2W
-            
-            if MensajeOeeTF!="":
-                mensaje4=mensaje4+"\n"+MensajeOeeTF
+                    mensaje6=mensaje6+"\n"+mensajeUnidadesReprocesadasTFCP2W
+                    SinNovedad=2
+
+            if SinNovedad!=2:
+                mensaje6=mensaje6+"\n*No se reportaron novedades*"
+
+            SinNovedad=0
+
+            if MensajeOeeTF!="" and OeeTesteoFinal!="#DIV/0!":
+                mensaje6=mensaje6+"\n"+MensajeOeeTF
 
         if espera_Minuto:
             print("2 Esperando minuto de envio...")
             espera_Minuto= False
 
         #CONDICIONAL PARA SELECCIONAR EL MIN Y EL RANGO DE SEGUNDOS
-        if (Minuto2==10 and Segundo>=40) and Segundo<=45:
+        if (Minuto2==7 and Segundo>=40) and Segundo<=45:
             #TESTEO FINAL:::::::::::::::
             print("TAPA MOVIL::---------")
             #SELECCION DE LA HOJA::
@@ -1219,7 +1316,7 @@ while True:
                 if ParoProgramadoTMCP1[-1]=="Si":
                     RazonParoProgramadoTMCP1 =  TapaMovil.col_values(9)
                     TiempoParoProgramadoTMCP1 =  TapaMovil.col_values(10)
-                    mensajeParoProgramadoTMCP1="*Paro programado - Tiempo:* "+TiempoParoProgramadoTMCP1[-1]+" min, *Razón:* "+RazonParoProgramadoTMCP1[-1]
+                    mensajeParoProgramadoTMCP1="*Paro programado - Tiempo:* "+TiempoParoProgramadoTMCP1[-1]+" min, *Razon:* "+RazonParoProgramadoTMCP1[-1]
                     print(mensajeParoProgramadoTMCP1)
                 else:
                     mensajeParoProgramadoTMCP1=""
@@ -1230,15 +1327,15 @@ while True:
                 if IncidenteTMCP1[-1]=="Si":
                     DescrIncidenteTMCP1=TapaMovil.col_values(13)
                     ValidarParoIncidenteTMCP1=TapaMovil.col_values(14)
-                    mensajeIncidenteTMCP1="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTMCP1[-1] + " No se generó paro"
+                    mensajeIncidenteTMCP1="*Incidente y/o accidente ambiental y/o SST: Razon:* "+DescrIncidenteTMCP1[-1] + " No se generó paro"
                     print(mensajeIncidenteTMCP1)
                     if ValidarParoIncidenteTMCP1[-1]=="Si":   
                         TiempoIncidenteTMCP1=TapaMovil.col_values(15)
-                        mensajeIncidenteTMCP1="*Incidente y/o accidente ambiental y/o SST - Tiempo:* "+TiempoIncidenteTMCP1[-1]+" min, *Razón:* "+DescrIncidenteTMCP1[-1]
+                        mensajeIncidenteTMCP1="*Incidente y/o accidente ambiental y/o SST - Tiempo:* "+TiempoIncidenteTMCP1[-1]+" min, *Razon:* "+DescrIncidenteTMCP1[-1]
                         print (mensajeIncidenteTMCP1)
                     else:
                         #DescrIncidenteTMCP1=TapaMovil.col_values(12)
-                        mensajeIncidenteTMCP1="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTMCP1[-1] + " No se generó paro"
+                        mensajeIncidenteTMCP1="*Incidente y/o accidente ambiental y/o SST: Razon:* "+DescrIncidenteTMCP1[-1] + " No se generó paro"
                         print (mensajeIncidenteTMCP1)
                 else:
                     mensajeIncidenteTMCP1=""
@@ -1249,7 +1346,7 @@ while True:
                 if ServiciosPublicosTMCP1[-1]=="Si":
                     DescrServiciosPublicosTMCP1=TapaMovil.col_values(18)
                     TiempoServiciosPublucosTMCP1=TapaMovil.col_values(17)
-                    mensajeServiciosPublicosTMCP1="*Hubo afectación en las unidades del hora a hora por falta de servicios públicos: Razón:* "+DescrServiciosPublicosTMCP1[-1]+ " -*Tiempo:* :"+TiempoServiciosPublucosTMCP1[-1]+"min"
+                    mensajeServiciosPublicosTMCP1="*Hubo afectación en las unidades del hora a hora por falta de servicios públicos: Razon:* "+DescrServiciosPublicosTMCP1[-1]+ " -*Tiempo:* :"+TiempoServiciosPublucosTMCP1[-1]+"min"
                     print(mensajeServiciosPublicosTMCP1)
                 else:
                     mensajeServiciosPublicosTMCP1=""
@@ -1259,7 +1356,7 @@ while True:
                 if MaquinaTMCP1[-1]=="Si":
                     DescrMaquinaTMCP1=TapaMovil.col_values(22)
                     TiempoMaquinaTMCP1=TapaMovil.col_values(20)
-                    mensajeMaquinaTMCP1="*Hubo afectación en las unidades por Maquina/ Equipo: Razón:* "+DescrMaquinaTMCP1[-1]+ " - *Tiempo:* "+TiempoMaquinaTMCP1[-1]+"min" 
+                    mensajeMaquinaTMCP1="*Hubo afectación en las unidades por Maquina/ Equipo: Razon:* "+DescrMaquinaTMCP1[-1]+ " - *Tiempo:* "+TiempoMaquinaTMCP1[-1]+"min" 
                     print(mensajeMaquinaTMCP1)
                 else:
                     mensajeMaquinaTMCP1=""
@@ -1270,7 +1367,7 @@ while True:
                 if ManoDeObraTMCP1[-1]=="Si":
                     DescrManoDeObraTMCP1=TapaMovil.col_values(27)
                     TiempoManoDeObraTMCP1=TapaMovil.col_values(24)
-                    mensajeManoDeObraTMCP1="*Hubo afectación en las unidades por Mano De Obra: Razón:* "+DescrManoDeObraTMCP1[-1]+ " - *Tiempo:* "+TiempoManoDeObraTMCP1[-1]+"min" 
+                    mensajeManoDeObraTMCP1="*Hubo afectación en las unidades por Mano De Obra: Razon:* "+DescrManoDeObraTMCP1[-1]+ " - *Tiempo:* "+TiempoManoDeObraTMCP1[-1]+"min" 
                     print(mensajeManoDeObraTMCP1)
                 else:
                     mensajeManoDeObraTMCP1=""
@@ -1282,7 +1379,7 @@ while True:
                 if MateriaPrimaTMCP1[-1]=="Si":
                     DescrMateriaPrimaTMCP1=TapaMovil.col_values(32)
                     TiempoMateriaPrimaTMCP1=TapaMovil.col_values(29)
-                    mensajeMateriaPrimaTMCP1="*Hubo afectación en las unidades por Materia Prima: Razón:* "+DescrMateriaPrimaTMCP1[-1]+ " - *Tiempo:* "+TiempoMateriaPrimaTMCP1[-1]+"min" 
+                    mensajeMateriaPrimaTMCP1="*Hubo afectación en las unidades por Materia Prima: Razon:* "+DescrMateriaPrimaTMCP1[-1]+ " - *Tiempo:* "+TiempoMateriaPrimaTMCP1[-1]+"min" 
                     print(mensajeMateriaPrimaTMCP1)
                 else:
                     mensajeMateriaPrimaTMCP1=""
@@ -1293,7 +1390,7 @@ while True:
                 if MetodoTMCP1[-1]=="Si":
                     DescrMetodoTMCP1=TapaMovil.col_values(36)
                     TiempoMetodoTMCP1=TapaMovil.col_values(34)
-                    mensajeMetodoTMCP1="*Hubo afectación en las unidades por Método: Razón:* "+DescrMetodoTMCP1[-1]+ "- *Tiempo:* "+TiempoMetodoTMCP1[-1]+"min" 
+                    mensajeMetodoTMCP1="*Hubo afectación en las unidades por Método: Razon:* "+DescrMetodoTMCP1[-1]+ "- *Tiempo:* "+TiempoMetodoTMCP1[-1]+"min" 
                     print(mensajeMetodoTMCP1)
                 else:
                     mensajeMetodoTMCP1=""
@@ -1304,7 +1401,7 @@ while True:
                 if ScrapTMCP1[-1]=="Si":
                     DescrScrapTMCP1=TapaMovil.col_values(39)
                     CantidadScrapTMCP1=TapaMovil.col_values(40)
-                    mensajeScrapTMCP1="*Se generó SCRAP: Cantidad:* "+CantidadScrapTMCP1[-1]+" - *Razón:* "+DescrScrapTMCP1[-1]
+                    mensajeScrapTMCP1="*Se generó SCRAP: Cantidad:* "+CantidadScrapTMCP1[-1]+" - *Razon:* "+DescrScrapTMCP1[-1]
                     print(mensajeScrapTMCP1)
                 else:
                     mensajeScrapTMCP1=""
@@ -1330,7 +1427,7 @@ while True:
                 if ParoProgramadoTMCP2H[-1]=="Si":
                     RazonParoProgramadoTMCP2H =  TapaMovil.col_values(44)
                     TiempoParoProgramadoTMCP2H =  TapaMovil.col_values(45)
-                    mensajeParoProgramadoTMCP2H="*Paro programado - Tiempo:* "+TiempoParoProgramadoTMCP2H[-1]+" min, *Razón:* "+RazonParoProgramadoTMCP2H[-1]
+                    mensajeParoProgramadoTMCP2H="*Paro programado - Tiempo:* "+TiempoParoProgramadoTMCP2H[-1]+" min, *Razon:* "+RazonParoProgramadoTMCP2H[-1]
                     print(mensajeParoProgramadoTMCP2H)
                 else:
                     mensajeParoProgramadoTMCP2H=""
@@ -1341,15 +1438,15 @@ while True:
                 if IncidenteTMCP2H[-1]=="Si":
                     DescrIncidenteTMCP2H=TapaMovil.col_values(48)
                     ValidarParoIncidenteEMCP2H=TapaMovil.col_values(49)
-                    mensajeIncidenteTMCP2H="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTMCP2H[-1]+ " no se generó paro."
+                    mensajeIncidenteTMCP2H="*Incidente y/o accidente ambiental y/o SST: Razon:* "+DescrIncidenteTMCP2H[-1]+ " no se generó paro."
                     print(mensajeIncidenteTMCP2H)
                     if ValidarParoIncidenteEMCP2H[-1]=="Si":   
                         TiempoIncidenteTMCP2H=TapaMovil.col_values(50)
-                        mensajeIncidenteTMCP2H="*Incidente y/o accidente ambiental y/o SST - Tiempo:* "+TiempoIncidenteTMCP2H[-1]+" min, *Razón:* "+DescrIncidenteTMCP2H[-1]
+                        mensajeIncidenteTMCP2H="*Incidente y/o accidente ambiental y/o SST - Tiempo:* "+TiempoIncidenteTMCP2H[-1]+" min, *Razon:* "+DescrIncidenteTMCP2H[-1]
                         print (mensajeIncidenteTMCP2H)
                     else:
                         #DescrIncidenteTMCP1=TapaMovil.col_values(12)
-                        mensajeIncidenteTMCP2H="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTMCP2H[-1] + " no se generó paro."
+                        mensajeIncidenteTMCP2H="*Incidente y/o accidente ambiental y/o SST: Razon:* "+DescrIncidenteTMCP2H[-1] + " no se generó paro."
                         print (mensajeIncidenteTMCP2H)
                 else:
                     mensajeIncidenteTMCP2H=""
@@ -1360,7 +1457,7 @@ while True:
                 if ServiciosPublicosTMCP2H[-1]=="Si":
                     DescrServiciosPublicosTMCP2H=TapaMovil.col_values(53)
                     TiempoServiciosPublicosTMCP2H=TapaMovil.col_values(52)
-                    mensajeServiciosPublicosTMCP2H="*Hubo afectación en las unidades del hora a hora por falta de servicios públicos: Razón:* "+DescrServiciosPublicosTMCP2H[-1]+ " -*Tiempo:* :"+TiempoServiciosPublicosTMCP2H[-1]+"min"
+                    mensajeServiciosPublicosTMCP2H="*Hubo afectación en las unidades del hora a hora por falta de servicios públicos: Razon:* "+DescrServiciosPublicosTMCP2H[-1]+ " -*Tiempo:* :"+TiempoServiciosPublicosTMCP2H[-1]+"min"
                     print(mensajeServiciosPublicosTMCP2H)
                 else:
                     mensajeServiciosPublicosTMCP2H=""
@@ -1370,7 +1467,7 @@ while True:
                 if MaquinaTMCP2H[-1]=="Si":
                     DescrMaquinaTMCP2H=TapaMovil.col_values(57)
                     TiempoMaquinaTMCP2H=TapaMovil.col_values(55)
-                    mensajeMaquinaTMCP2H="*Hubo afectación en las unidades por Maquina/ Equipo: Razón:* "+DescrMaquinaTMCP2H[-1]+ " - *Tiempo:* "+TiempoMaquinaTMCP2H[-1]+"min" 
+                    mensajeMaquinaTMCP2H="*Hubo afectación en las unidades por Maquina/ Equipo: Razon:* "+DescrMaquinaTMCP2H[-1]+ " - *Tiempo:* "+TiempoMaquinaTMCP2H[-1]+"min" 
                     print(mensajeMaquinaTMCP2H)
                 else:
                     mensajeMaquinaTMCP2H=""
@@ -1381,7 +1478,7 @@ while True:
                 if ManoDeObraTMCP2H[-1]=="Si":
                     DescrManoDeObraTMCP2H=TapaMovil.col_values(62)
                     TiempoManoDeObraTMCP2H=TapaMovil.col_values(59)
-                    mensajeManoDeObraTMCP2H="*Hubo afectación en las unidades por Mano De Obra: Razón:* "+DescrManoDeObraTMCP2H[-1]+ " - *Tiempo:* "+TiempoManoDeObraTMCP2H[-1]+"min" 
+                    mensajeManoDeObraTMCP2H="*Hubo afectación en las unidades por Mano De Obra: Razon:* "+DescrManoDeObraTMCP2H[-1]+ " - *Tiempo:* "+TiempoManoDeObraTMCP2H[-1]+"min" 
                     print(mensajeManoDeObraTMCP2H)
                 else:
                     mensajeManoDeObraTMCP2H=""
@@ -1393,7 +1490,7 @@ while True:
                 if MateriaPrimaTMCP2H[-1]=="Si":
                     DescrMateriaPrimaTMCP2H=TapaMovil.col_values(67)
                     TiempoMateriaPrimaTMCP2H=TapaMovil.col_values(64)
-                    mensajeMateriaPrimaTMCP2H="*Hubo afectación en las unidades por Materia Prima: Razón:* "+DescrMateriaPrimaTMCP2H[-1]+ " - *Tiempo:* "+TiempoMateriaPrimaTMCP2H[-1]+"min" 
+                    mensajeMateriaPrimaTMCP2H="*Hubo afectación en las unidades por Materia Prima: Razon:* "+DescrMateriaPrimaTMCP2H[-1]+ " - *Tiempo:* "+TiempoMateriaPrimaTMCP2H[-1]+"min" 
                     print(mensajeMateriaPrimaTMCP2H)
                 else:
                     mensajeMateriaPrimaTMCP2H=""
@@ -1404,7 +1501,7 @@ while True:
                 if MetodoTMCP2H[-1]=="Si":
                     DescrMetodoTMCP2H=TapaMovil.col_values(71)
                     TiempoMetodoTMCP2H=TapaMovil.col_values(69)
-                    mensajeMetodoTMCP2H="*Hubo afectación en las unidades por Método: Razón:* "+DescrMetodoTMCP2H[-1]+ "- *Tiempo:* "+TiempoMetodoTMCP2H[-1]+"min" 
+                    mensajeMetodoTMCP2H="*Hubo afectación en las unidades por Método: Razon:* "+DescrMetodoTMCP2H[-1]+ "- *Tiempo:* "+TiempoMetodoTMCP2H[-1]+"min" 
                     print(mensajeMetodoTMCP2H)
                 else:
                     mensajeMetodoTMCP2H=""
@@ -1415,7 +1512,7 @@ while True:
                 if ScrapTMCP2H[-1]=="Si":
                     DescrScrapTMCP2H=TapaMovil.col_values(74)
                     CantidadScrapTMCP2H=TapaMovil.col_values(75)
-                    mensajeScrapTMCP2H="*Se generó SCRAP: Cantidad:* "+CantidadScrapTMCP2H[-1]+" - *Razón:* "+DescrScrapTMCP2H[-1]
+                    mensajeScrapTMCP2H="*Se generó SCRAP: Cantidad:* "+CantidadScrapTMCP2H[-1]+" - *Razon:* "+DescrScrapTMCP2H[-1]
                     print(mensajeScrapTMCP2H)
                 else:
                     mensajeScrapTMCP2H=""
@@ -1441,7 +1538,7 @@ while True:
                 if ParoProgramadoTMCP2W[-1]=="Si":
                     RazonParoProgramadoTMCP2W =  TapaMovil.col_values(79)
                     TiempoParoProgramadoTMCP2W =  TapaMovil.col_values(80)
-                    mensajeParoProgramadoTMCP2W="*Paro programado - Tiempo:* "+TiempoParoProgramadoTMCP2W[-1]+" min, *Razón:* "+RazonParoProgramadoTMCP2W[-1]
+                    mensajeParoProgramadoTMCP2W="*Paro programado - Tiempo:* "+TiempoParoProgramadoTMCP2W[-1]+" min, *Razon:* "+RazonParoProgramadoTMCP2W[-1]
                     print(mensajeParoProgramadoTMCP2W)
                 else:
                     mensajeParoProgramadoTMCP2W=""
@@ -1452,15 +1549,15 @@ while True:
                 if IncidenteTMCP2W[-1]=="Si":
                     DescrIncidenteTMCP2W=TapaMovil.col_values(83)
                     ValidarParoIncidenteEMCP2W=TapaMovil.col_values(84)
-                    mensajeIncidenteTMCP2W="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTMCP2W[-1]+ " no se generó paro."
+                    mensajeIncidenteTMCP2W="*Incidente y/o accidente ambiental y/o SST: Razon:* "+DescrIncidenteTMCP2W[-1]+ " no se generó paro."
                     print(mensajeIncidenteTMCP2W)
                     if ValidarParoIncidenteEMCP2W[-1]=="Si":   
                         TiempoIncidenteTMCP2W=TapaMovil.col_values(85)
-                        mensajeIncidenteTMCP2W="*Incidente y/o accidente ambiental y/o SST - Tiempo:* "+TiempoIncidenteTMCP2W[-1]+" min, *Razón:* "+DescrIncidenteTMCP2W[-1]
+                        mensajeIncidenteTMCP2W="*Incidente y/o accidente ambiental y/o SST - Tiempo:* "+TiempoIncidenteTMCP2W[-1]+" min, *Razon:* "+DescrIncidenteTMCP2W[-1]
                         print (mensajeIncidenteTMCP2W)
                     else:
                         #DescrIncidenteTMCP1=TapaMovil.col_values(12)
-                        mensajeIncidenteTMCP2W="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTMCP2W[-1] + " no se generó paro."
+                        mensajeIncidenteTMCP2W="*Incidente y/o accidente ambiental y/o SST: Razon:* "+DescrIncidenteTMCP2W[-1] + " no se generó paro."
                         print (mensajeIncidenteTMCP2W)
                 else:
                     mensajeIncidenteTMCP2W=""
@@ -1471,7 +1568,7 @@ while True:
                 if ServiciosPublicosTMCP2W[-1]=="Si":
                     DescrServiciosPublicosTMCP2W=TapaMovil.col_values(87)
                     TiempoServiciosPublicosTMCP2W=TapaMovil.col_values(88)
-                    mensajeServiciosPublicosTMCP2W="*Hubo afectación en las unidades del hora a hora por falta de servicios públicos: Razón:* "+DescrServiciosPublicosTMCP2W[-1]+ " -*Tiempo:* :"+TiempoServiciosPublicosTMCP2W[-1]+"min"
+                    mensajeServiciosPublicosTMCP2W="*Hubo afectación en las unidades del hora a hora por falta de servicios públicos: Razon:* "+DescrServiciosPublicosTMCP2W[-1]+ " -*Tiempo:* :"+TiempoServiciosPublicosTMCP2W[-1]+"min"
                     print(mensajeServiciosPublicosTMCP2W)
                 else:
                     mensajeServiciosPublicosTMCP2W=""
@@ -1482,7 +1579,7 @@ while True:
                 if MaquinaTMCP2W[-1]=="Si":
                     DescrMaquinaTMCP2W=TapaMovil.col_values(92)
                     TiempoMaquinaTMCP2W=TapaMovil.col_values(90)
-                    mensajeMaquinaTMCP2W="*Hubo afectación en las unidades por Maquina/ Equipo: Razón:* "+DescrMaquinaTMCP2W[-1]+ " - *Tiempo:* "+TiempoMaquinaTMCP2W[-1]+"min" 
+                    mensajeMaquinaTMCP2W="*Hubo afectación en las unidades por Maquina/ Equipo: Razon:* "+DescrMaquinaTMCP2W[-1]+ " - *Tiempo:* "+TiempoMaquinaTMCP2W[-1]+"min" 
                     print(mensajeMaquinaTMCP2W)
                 else:
                     mensajeMaquinaTMCP2W=""
@@ -1493,7 +1590,7 @@ while True:
                 if ManoDeObraTMCP2W[-1]=="Si":
                     DescrManoDeObraTMCP2W=TapaMovil.col_values(97)
                     TiempoManoDeObraTMCP2W=TapaMovil.col_values(94)
-                    mensajeManoDeObraTMCP2W="*Hubo afectación en las unidades por Mano De Obra: Razón:* "+DescrManoDeObraTMCP2W[-1]+ " - *Tiempo:* "+TiempoManoDeObraTMCP2W[-1]+"min" 
+                    mensajeManoDeObraTMCP2W="*Hubo afectación en las unidades por Mano De Obra: Razon:* "+DescrManoDeObraTMCP2W[-1]+ " - *Tiempo:* "+TiempoManoDeObraTMCP2W[-1]+"min" 
                     print(mensajeManoDeObraTMCP2W)
                 else:
                     mensajeManoDeObraTMCP2W=""
@@ -1505,7 +1602,7 @@ while True:
                 if MateriaPrimaTMCP2W[-1]=="Si":
                     DescrMateriaPrimaTMCP2W=TapaMovil.col_values(102)
                     TiempoMateriaPrimaTMCP2W=TapaMovil.col_values(99)
-                    mensajeMateriaPrimaTMCP2W="*Hubo afectación en las unidades por Materia Prima: Razón:* "+DescrMateriaPrimaTMCP2W[-1]+ " - *Tiempo:* "+TiempoMateriaPrimaTMCP2W[-1]+"min" 
+                    mensajeMateriaPrimaTMCP2W="*Hubo afectación en las unidades por Materia Prima: Razon:* "+DescrMateriaPrimaTMCP2W[-1]+ " - *Tiempo:* "+TiempoMateriaPrimaTMCP2W[-1]+"min" 
                     print(mensajeMateriaPrimaTMCP2W)
                 else:
                     mensajeMateriaPrimaTMCP2W=""
@@ -1516,7 +1613,7 @@ while True:
                 if MetodoTMCP2W[-1]=="Si":
                     DescrMetodoTMCP2W=TapaMovil.col_values(106)
                     TiempoMetodoTMCP2W=TapaMovil.col_values(104)
-                    mensajeMetodoTMCP2W="*Hubo afectación en las unidades por Método: Razón:* "+DescrMetodoTMCP2W[-1]+ "- *Tiempo:* "+TiempoMetodoTMCP2W[-1]+"min" 
+                    mensajeMetodoTMCP2W="*Hubo afectación en las unidades por Método: Razon:* "+DescrMetodoTMCP2W[-1]+ "- *Tiempo:* "+TiempoMetodoTMCP2W[-1]+"min" 
                     print(mensajeMetodoTMCP2W)
                 else:
                     mensajeMetodoTMCP2W=""
@@ -1527,7 +1624,7 @@ while True:
                 if ScrapTMCP2W[-1]=="Si":
                     DescrScrapTMCP2W=TapaMovil.col_values(109)
                     CantidadScrapTMCP2W=TapaMovil.col_values(110)
-                    mensajeScrapTMCP2W="*Se generó SCRAP: Cantidad:* "+CantidadScrapTMCP2W[-1]+" - *Razón:* "+DescrScrapTMCP2W[-1]
+                    mensajeScrapTMCP2W="*Se generó SCRAP: Cantidad:* "+CantidadScrapTMCP2W[-1]+" - *Razon:* "+DescrScrapTMCP2W[-1]
                     print(mensajeScrapTMCP2W)
                 else:
                     mensajeScrapTMCP2W=""
@@ -1550,85 +1647,117 @@ while True:
             print("Porcentaje OEE: "+ OeeTapaMovil)
             MensajeOeeTM="OEE: "+OeeTapaMovil
 
-            mensaje5="\n\n*TAPA MOVIL*" 
+            mensaje4="\n\n*TAPA MOVIL*" 
             if MensajeUnidadesFabricadasTM!="":
-                mensaje5=mensaje5+"\n\n"+MensajeUnidadesFabricadasTM
+                mensaje4=mensaje4+"\n\n"+MensajeUnidadesFabricadasTM
 
             if SelectReferenciaTM[-1]=="Copa 1.0":
-                mensaje5=mensaje5+"\n\n*COPA 1.0*"
+                mensaje4=mensaje4+"\n\n*COPA 1.0*"
             
                 if mensajeParoProgramadoTMCP1!="":
-                    mensaje5=mensaje5+"\n"+mensajeParoProgramadoTMCP1
+                    mensaje4=mensaje4+"\n"+mensajeParoProgramadoTMCP1
+                    SinNovedad=2
                 if mensajeIncidenteTMCP1!="":
-                    mensaje5=mensaje5+"\n"+mensajeIncidenteTMCP1
+                    mensaje4=mensaje4+"\n"+mensajeIncidenteTMCP1
+                    SinNovedad=2
                 if mensajeServiciosPublicosTMCP1!="":
-                    mensaje5=mensaje5+"\n"+mensajeServiciosPublicosTMCP1
+                    mensaje4=mensaje4+"\n"+mensajeServiciosPublicosTMCP1
+                    SinNovedad=2
                 if mensajeMaquinaTMCP1!="":
-                    mensaje5=mensaje5+"\n"+mensajeMaquinaTMCP1
+                    mensaje4=mensaje4+"\n"+mensajeMaquinaTMCP1
+                    SinNovedad=2
                 if mensajeManoDeObraTMCP1!="":
-                    mensaje5=mensaje5+"\n"+mensajeManoDeObraTMCP1
+                    mensaje4=mensaje4+"\n"+mensajeManoDeObraTMCP1
+                    SinNovedad=2
                 if mensajeMateriaPrimaTMCP1!="":
-                    mensaje5=mensaje5+"\n"+mensajeMateriaPrimaTMCP1
+                    mensaje4=mensaje4+"\n"+mensajeMateriaPrimaTMCP1
+                    SinNovedad=2
                 if mensajeMetodoTMCP1!="":
-                    mensaje5=mensaje5+"\n"+mensajeMetodoTMCP1
+                    mensaje4=mensaje4+"\n"+mensajeMetodoTMCP1
+                    SinNovedad=2
                 if mensajeScrapTMCP1!="":
-                    mensaje5=mensaje5+"\n"+mensajeScrapTMCP1
+                    mensaje4=mensaje4+"\n"+mensajeScrapTMCP1
+                    SinNovedad=2
                 if mensajeUnidadesReprocesadasTMCP1!="":
-                    mensaje5=mensaje5+"\n"+mensajeUnidadesReprocesadasTMCP1
+                    mensaje4=mensaje4+"\n"+mensajeUnidadesReprocesadasTMCP1
+                    SinNovedad=2
             
             if SelectReferenciaTM[-1]=="Copa 2.0 Haceb":
-                mensaje5=mensaje5+"\n\n*COPA 2.0 HACEB*"
+                mensaje4=mensaje4+"\n\n*COPA 2.0 HACEB*"
             
                 if mensajeParoProgramadoTMCP2H!="":
-                    mensaje5=mensaje5+"\n"+mensajeParoProgramadoTMCP2H
+                    mensaje4=mensaje4+"\n"+mensajeParoProgramadoTMCP2H
+                    SinNovedad=2
                 if mensajeIncidenteTMCP2H!="":
-                    mensaje5=mensaje5+"\n"+mensajeIncidenteTMCP2H
+                    mensaje4=mensaje4+"\n"+mensajeIncidenteTMCP2H
+                    SinNovedad=2
                 if mensajeServiciosPublicosTMCP2H!="":
-                    mensaje5=mensaje5+"\n"+mensajeServiciosPublicosTMCP2H
+                    mensaje4=mensaje4+"\n"+mensajeServiciosPublicosTMCP2H
+                    SinNovedad=2
                 if mensajeMaquinaTMCP2H!="":
-                    mensaje5=mensaje5+"\n"+mensajeMaquinaTMCP2H
+                    mensaje4=mensaje4+"\n"+mensajeMaquinaTMCP2H
+                    SinNovedad=2
                 if mensajeManoDeObraTMCP2H!="":
-                    mensaje5=mensaje5+"\n"+mensajeManoDeObraTMCP2H
+                    mensaje4=mensaje4+"\n"+mensajeManoDeObraTMCP2H
+                    SinNovedad=2
                 if mensajeMateriaPrimaTMCP2H!="":
-                    mensaje5=mensaje5+"\n"+mensajeMateriaPrimaTMCP2H
+                    mensaje4=mensaje4+"\n"+mensajeMateriaPrimaTMCP2H
+                    SinNovedad=2
                 if mensajeMetodoTMCP2H!="":
-                    mensaje5=mensaje5+"\n"+mensajeMetodoTMCP2H
+                    mensaje4=mensaje4+"\n"+mensajeMetodoTMCP2H
+                    SinNovedad=2
                 if mensajeScrapTMCP2H!="":
-                    mensaje5=mensaje5+"\n"+mensajeScrapTMCP2H
+                    mensaje4=mensaje4+"\n"+mensajeScrapTMCP2H
+                    SinNovedad=2
                 if mensajeUnidadesReprocesadasTMCP2H!="":
-                    mensaje5=mensaje5+"\n"+mensajeUnidadesReprocesadasTMCP2H
+                    mensaje4=mensaje4+"\n"+mensajeUnidadesReprocesadasTMCP2H
+                    SinNovedad=2
 
             if SelectReferenciaTM[-1]=="Copa 2.0 Whirlpool":
-                mensaje5=mensaje5+"\n\n*COPA 2.0 WHIRLPOOL*"
+                mensaje4=mensaje4+"\n\n*COPA 2.0 WHIRLPOOL*"
             
                 if mensajeParoProgramadoTMCP2W!="":
-                    mensaje5=mensaje5+"\n"+mensajeParoProgramadoTMCP2W
+                    mensaje4=mensaje4+"\n"+mensajeParoProgramadoTMCP2W
+                    SinNovedad=2
                 if mensajeIncidenteTMCP2W!="":
-                    mensaje5=mensaje5+"\n"+mensajeIncidenteTMCP2W
+                    mensaje4=mensaje4+"\n"+mensajeIncidenteTMCP2W
+                    SinNovedad=2
                 if mensajeServiciosPublicosTMCP2W!="":
-                    mensaje5=mensaje5+"\n"+mensajeServiciosPublicosTMCP2W
+                    mensaje4=mensaje4+"\n"+mensajeServiciosPublicosTMCP2W
+                    SinNovedad=2
                 if mensajeMaquinaTMCP2W!="":
-                    mensaje5=mensaje5+"\n"+mensajeMaquinaTMCP2W
+                    mensaje4=mensaje4+"\n"+mensajeMaquinaTMCP2W
+                    SinNovedad=2
                 if mensajeManoDeObraTMCP2W!="":
-                    mensaje5=mensaje5+"\n"+mensajeManoDeObraTMCP2W
+                    mensaje4=mensaje4+"\n"+mensajeManoDeObraTMCP2W
+                    SinNovedad=2
                 if mensajeMateriaPrimaTMCP2W!="":
-                    mensaje5=mensaje5+"\n"+mensajeMateriaPrimaTMCP2W
+                    mensaje4=mensaje4+"\n"+mensajeMateriaPrimaTMCP2W
+                    SinNovedad=2
                 if mensajeMetodoTMCP2W!="":
-                    mensaje5=mensaje5+"\n"+mensajeMetodoTMCP2W
+                    mensaje4=mensaje4+"\n"+mensajeMetodoTMCP2W
+                    SinNovedad=2
                 if mensajeScrapTMCP2W!="":
-                    mensaje5=mensaje5+"\n"+mensajeScrapTMCP2W
+                    mensaje4=mensaje4+"\n"+mensajeScrapTMCP2W
+                    SinNovedad=2
                 if mensajeUnidadesReprocesadasTMCP2W!="":
-                    mensaje5=mensaje5+"\n"+mensajeUnidadesReprocesadasTMCP2W            
+                    mensaje4=mensaje4+"\n"+mensajeUnidadesReprocesadasTMCP2W
+                    SinNovedad=2         
 
-            if MensajeOeeTM!="":
-                mensaje5=mensaje5+"\n"+MensajeOeeTM
+            if SinNovedad!=2:
+                mensaje4=mensaje4+"\n*No se reportaron novedades*"   
+            
+            SinNovedad=0
+
+            if MensajeOeeTM!="" and OeeTapaMovil!="#DIV/0!":
+                mensaje4=mensaje4+"\n"+MensajeOeeTM
 
         if espera_Minuto:
             print("2 Esperando minuto de envio...")
             espera_Minuto= False
 
         #CONDICIONAL PARA SELECCIONAR EL MIN Y EL RANGO DE SEGUNDOS
-        if (Minuto2==11 and Segundo>=40) and Segundo<=45:
+        if (Minuto2==8 and Segundo>=40) and Segundo<=45:
             #TAPA FIJA:::::::::::::::::
             print("TAPA FIJA:::---------")
 
@@ -1637,7 +1766,7 @@ while True:
             #SELECCIONAR LA REFERENCIA:::::Back Panel -- COPA 2 WHIRLPOOL -- AGIPELER --- BACK PANEL --- IMPELER --- QUASAR
             UnidadesFabricadasTF2=  TapaFija.col_values(5)
             print(UnidadesFabricadasTF2[-1])
-            mensajeUnidadesFabricadasTF2=UnidadesFabricadasTF2[-1]
+            mensajeUnidadesFabricadasTF2="Unidades producidas: "+UnidadesFabricadasTF2[-1]
             #SELECCION DE Agipeller:::::
             SelectReferenciaTF2 = TapaFija.col_values(7)
             if SelectReferenciaTF2[-1]=="Agipeller":
@@ -1647,7 +1776,7 @@ while True:
                 if ParoProgramadoTF2AGI[-1]=="Si":
                     RazonParoProgramadoTF2AGI =  TapaFija.col_values(9)
                     TiempoParoProgramadoTF2AGI =  TapaFija.col_values(10)
-                    mensajeParoProgramadoTF2AGI="*Paro programado - Tiempo:* "+TiempoParoProgramadoTF2AGI[-1]+" min, *Razón:* "+RazonParoProgramadoTF2AGI[-1]
+                    mensajeParoProgramadoTF2AGI="*Paro programado - Tiempo:* "+TiempoParoProgramadoTF2AGI[-1]+" min, *Razon:* "+RazonParoProgramadoTF2AGI[-1]
                     print(mensajeParoProgramadoTF2AGI)
                 else:
                     mensajeParoProgramadoTF2AGI=""
@@ -1658,15 +1787,15 @@ while True:
                 if IncidenteTF2AGI[-1]=="Si":
                     DescrIncidenteTF2AGI=TapaFija.col_values(13)
                     ValidarParoIncidenteTF2AGI=TapaFija.col_values(14)
-                    mensajeIncidenteTF2AGI="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTF2AGI[-1] + " No se generó paro"
+                    mensajeIncidenteTF2AGI="*Incidente y/o accidente ambiental y/o SST: Razon:* "+DescrIncidenteTF2AGI[-1] + " No se generó paro"
                     print(mensajeIncidenteTF2AGI)
                     if ValidarParoIncidenteTF2AGI[-1]=="Si":   
                         TiempoIncidenteTF2AGI=TapaFija.col_values(15)
-                        mensajeIncidenteTF2AGI="*Incidente y/o accidente ambiental y/o SST - Tiempo:* "+TiempoIncidenteTF2AGI[-1]+" min, *Razón:* "+DescrIncidenteTF2AGI[-1]
+                        mensajeIncidenteTF2AGI="*Incidente y/o accidente ambiental y/o SST - Tiempo:* "+TiempoIncidenteTF2AGI[-1]+" min, *Razon:* "+DescrIncidenteTF2AGI[-1]
                         print (mensajeIncidenteTF2AGI)
                     else:
                         #DescrIncidenteTF2AGI=TapaFija.col_values(12)
-                        mensajeIncidenteTF2AGI="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTF2AGI[-1] + " No se generó paro"
+                        mensajeIncidenteTF2AGI="*Incidente y/o accidente ambiental y/o SST: Razon:* "+DescrIncidenteTF2AGI[-1] + " No se generó paro"
                         print (mensajeIncidenteTF2AGI)
                 else:
                     mensajeIncidenteTF2AGI=""
@@ -1677,7 +1806,7 @@ while True:
                 if ServiciosPublicosTF2AGI[-1]=="Si":
                     DescrServiciosPublicosTF2AGI=TapaFija.col_values(18)
                     TiempoServiciosPublucosTF2AGI=TapaFija.col_values(17)
-                    mensajeServiciosPublicosTF2AGI="*Hubo afectación en las unidades del hora a hora por falta de servicios públicos: Razón:* "+DescrServiciosPublicosTF2AGI[-1]+ " -*Tiempo:* :"+TiempoServiciosPublucosTF2AGI[-1]+"min"
+                    mensajeServiciosPublicosTF2AGI="*Hubo afectación en las unidades del hora a hora por falta de servicios públicos: Razon:* "+DescrServiciosPublicosTF2AGI[-1]+ " -*Tiempo:* :"+TiempoServiciosPublucosTF2AGI[-1]+"min"
                     print(mensajeServiciosPublicosTF2AGI)
                 else:
                     mensajeServiciosPublicosTF2AGI=""
@@ -1687,7 +1816,7 @@ while True:
                 if MaquinaTF2AGI[-1]=="Si":
                     DescrMaquinaTF2AGI=TapaFija.col_values(22)
                     TiempoMaquinaTF2AGI=TapaFija.col_values(20)
-                    mensajeMaquinaTF2AGI="*Hubo afectación en las unidades por Maquina/ Equipo: Razón:* "+DescrMaquinaTF2AGI[-1]+ " - *Tiempo:* "+TiempoMaquinaTF2AGI[-1]+"min" 
+                    mensajeMaquinaTF2AGI="*Hubo afectación en las unidades por Maquina/ Equipo: Razon:* "+DescrMaquinaTF2AGI[-1]+ " - *Tiempo:* "+TiempoMaquinaTF2AGI[-1]+"min" 
                     print(mensajeMaquinaTF2AGI)
                 else:
                     mensajeMaquinaTF2AGI=""
@@ -1698,7 +1827,7 @@ while True:
                 if ManoDeObraTF2AGI[-1]=="Si":
                     DescrManoDeObraTF2AGI=TapaFija.col_values(27)
                     TiempoManoDeObraTF2AGI=TapaFija.col_values(24)
-                    mensajeManoDeObraTF2AGI="*Hubo afectación en las unidades por Mano De Obra: Razón:* "+DescrManoDeObraTF2AGI[-1]+ " - *Tiempo:* "+TiempoManoDeObraTF2AGI[-1]+"min" 
+                    mensajeManoDeObraTF2AGI="*Hubo afectación en las unidades por Mano De Obra: Razon:* "+DescrManoDeObraTF2AGI[-1]+ " - *Tiempo:* "+TiempoManoDeObraTF2AGI[-1]+"min" 
                     print(mensajeManoDeObraTF2AGI)
                 else:
                     mensajeManoDeObraTF2AGI=""
@@ -1710,7 +1839,7 @@ while True:
                 if MateriaPrimaTF2AGI[-1]=="Si":
                     DescrMateriaPrimaTF2AGI=TapaFija.col_values(32)
                     TiempoMateriaPrimaTF2AGI=TapaFija.col_values(29)
-                    mensajeMateriaPrimaTF2AGI="*Hubo afectación en las unidades por Materia Prima: Razón:* "+DescrMateriaPrimaTF2AGI[-1]+ " - *Tiempo:* "+TiempoMateriaPrimaTF2AGI[-1]+"min" 
+                    mensajeMateriaPrimaTF2AGI="*Hubo afectación en las unidades por Materia Prima: Razon:* "+DescrMateriaPrimaTF2AGI[-1]+ " - *Tiempo:* "+TiempoMateriaPrimaTF2AGI[-1]+"min" 
                     print(mensajeMateriaPrimaTF2AGI)
                 else:
                     mensajeMateriaPrimaTF2AGI=""
@@ -1721,7 +1850,7 @@ while True:
                 if MetodoTF2AGI[-1]=="Si":
                     DescrMetodoTF2AGI=TapaFija.col_values(36)
                     TiempoMetodoTF2AGI=TapaFija.col_values(34)
-                    mensajeMetodoTF2AGI="*Hubo afectación en las unidades por Método: Razón:* "+DescrMetodoTF2AGI[-1]+ "- *Tiempo:* "+TiempoMetodoTF2AGI[-1]+"min" 
+                    mensajeMetodoTF2AGI="*Hubo afectación en las unidades por Método: Razon:* "+DescrMetodoTF2AGI[-1]+ "- *Tiempo:* "+TiempoMetodoTF2AGI[-1]+"min" 
                     print(mensajeMetodoTF2AGI)
                 else:
                     mensajeMetodoTF2AGI=""
@@ -1732,7 +1861,7 @@ while True:
                 if ScrapTF2AGI[-1]=="Si":
                     DescrScrapTF2AGI=TapaFija.col_values(39)
                     CantidadScrapTF2AGI=TapaFija.col_values(40)
-                    mensajeScrapTF2AGI="*Se generó SCRAP: Cantidad:* "+CantidadScrapTF2AGI[-1]+" - *Razón:* "+DescrScrapTF2AGI[-1]
+                    mensajeScrapTF2AGI="*Se generó SCRAP: Cantidad:* "+CantidadScrapTF2AGI[-1]+" - *Razon:* "+DescrScrapTF2AGI[-1]
                     print(mensajeScrapTF2AGI)
                 else:
                     mensajeScrapTF2AGI=""
@@ -1759,7 +1888,7 @@ while True:
                 if ParoProgramadoTF2BP[-1]=="Si":
                     RazonParoProgramadoTF2BP =  TapaFija.col_values(44)
                     TiempoParoProgramadoTF2BP =  TapaFija.col_values(45)
-                    mensajeParoProgramadoTF2BP="*Paro programado - Tiempo:* "+TiempoParoProgramadoTF2BP[-1]+" min, *Razón:* "+RazonParoProgramadoTF2BP[-1]
+                    mensajeParoProgramadoTF2BP="*Paro programado - Tiempo:* "+TiempoParoProgramadoTF2BP[-1]+" min, *Razon:* "+RazonParoProgramadoTF2BP[-1]
                     print(mensajeParoProgramadoTF2BP)
                 else:
                     mensajeParoProgramadoTF2BP=""
@@ -1770,15 +1899,15 @@ while True:
                 if IncidenteTF2BP[-1]=="Si":
                     DescrIncidenteTF2BP=TapaFija.col_values(48)
                     ValidarParoIncidenteEMCP2H=TapaFija.col_values(49)
-                    mensajeIncidenteTF2BP="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTF2BP[-1]+ " no se generó paro."
+                    mensajeIncidenteTF2BP="*Incidente y/o accidente ambiental y/o SST: Razon:* "+DescrIncidenteTF2BP[-1]+ " no se generó paro."
                     print(mensajeIncidenteTF2BP)
                     if ValidarParoIncidenteEMCP2H[-1]=="Si":   
                         TiempoIncidenteTF2BP=TapaFija.col_values(50)
-                        mensajeIncidenteTF2BP="*Incidente y/o accidente ambiental y/o SST - Tiempo:* "+TiempoIncidenteTF2BP[-1]+" min, *Razón:* "+DescrIncidenteTF2BP[-1]
+                        mensajeIncidenteTF2BP="*Incidente y/o accidente ambiental y/o SST - Tiempo:* "+TiempoIncidenteTF2BP[-1]+" min, *Razon:* "+DescrIncidenteTF2BP[-1]
                         print (mensajeIncidenteTF2BP)
                     else:
                         #DescrIncidenteTF2AGI=TapaFija.col_values(12)
-                        mensajeIncidenteTF2BP="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTF2BP[-1] + " no se generó paro."
+                        mensajeIncidenteTF2BP="*Incidente y/o accidente ambiental y/o SST: Razon:* "+DescrIncidenteTF2BP[-1] + " no se generó paro."
                         print (mensajeIncidenteTF2BP)
                 else:
                     mensajeIncidenteTF2BP=""
@@ -1789,7 +1918,7 @@ while True:
                 if ServiciosPublicosTF2BP[-1]=="Si":
                     DescrServiciosPublicosTF2BP=TapaFija.col_values(53)
                     TiempoServiciosPublicosTF2BP=TapaFija.col_values(52)
-                    mensajeServiciosPublicosTF2BP="*Hubo afectación en las unidades del hora a hora por falta de servicios públicos: Razón:* "+DescrServiciosPublicosTF2BP[-1]+ " -*Tiempo:* :"+TiempoServiciosPublicosTF2BP[-1]+"min"
+                    mensajeServiciosPublicosTF2BP="*Hubo afectación en las unidades del hora a hora por falta de servicios públicos: Razon:* "+DescrServiciosPublicosTF2BP[-1]+ " -*Tiempo:* :"+TiempoServiciosPublicosTF2BP[-1]+"min"
                     print(mensajeServiciosPublicosTF2BP)
                 else:
                     mensajeServiciosPublicosTF2BP=""
@@ -1799,7 +1928,7 @@ while True:
                 if MaquinaTF2BP[-1]=="Si":
                     DescrMaquinaTF2BP=TapaFija.col_values(57)
                     TiempoMaquinaTF2BP=TapaFija.col_values(55)
-                    mensajeMaquinaTF2BP="*Hubo afectación en las unidades por Maquina/ Equipo: Razón:* "+DescrMaquinaTF2BP[-1]+ " - *Tiempo:* "+TiempoMaquinaTF2BP[-1]+"min" 
+                    mensajeMaquinaTF2BP="*Hubo afectación en las unidades por Maquina/ Equipo: Razon:* "+DescrMaquinaTF2BP[-1]+ " - *Tiempo:* "+TiempoMaquinaTF2BP[-1]+"min" 
                     print(mensajeMaquinaTF2BP)
                 else:
                     mensajeMaquinaTF2BP=""
@@ -1810,7 +1939,7 @@ while True:
                 if ManoDeObraTF2BP[-1]=="Si":
                     DescrManoDeObraTF2BP=TapaFija.col_values(62)
                     TiempoManoDeObraTF2BP=TapaFija.col_values(59)
-                    mensajeManoDeObraTF2BP="*Hubo afectación en las unidades por Mano De Obra: Razón:* "+DescrManoDeObraTF2BP[-1]+ " - *Tiempo:* "+TiempoManoDeObraTF2BP[-1]+"min" 
+                    mensajeManoDeObraTF2BP="*Hubo afectación en las unidades por Mano De Obra: Razon:* "+DescrManoDeObraTF2BP[-1]+ " - *Tiempo:* "+TiempoManoDeObraTF2BP[-1]+"min" 
                     print(mensajeManoDeObraTF2BP)
                 else:
                     mensajeManoDeObraTF2BP=""
@@ -1822,7 +1951,7 @@ while True:
                 if MateriaPrimaTF2BP[-1]=="Si":
                     DescrMateriaPrimaTF2BP=TapaFija.col_values(67)
                     TiempoMateriaPrimaTF2BP=TapaFija.col_values(64)
-                    mensajeMateriaPrimaTF2BP="*Hubo afectación en las unidades por Materia Prima: Razón:* "+DescrMateriaPrimaTF2BP[-1]+ " - *Tiempo:* "+TiempoMateriaPrimaTF2BP[-1]+"min" 
+                    mensajeMateriaPrimaTF2BP="*Hubo afectación en las unidades por Materia Prima: Razon:* "+DescrMateriaPrimaTF2BP[-1]+ " - *Tiempo:* "+TiempoMateriaPrimaTF2BP[-1]+"min" 
                     print(mensajeMateriaPrimaTF2BP)
                 else:
                     mensajeMateriaPrimaTF2BP=""
@@ -1833,7 +1962,7 @@ while True:
                 if MetodoTF2BP[-1]=="Si":
                     DescrMetodoTF2BP=TapaFija.col_values(71)
                     TiempoMetodoTF2BP=TapaFija.col_values(69)
-                    mensajeMetodoTF2BP="*Hubo afectación en las unidades por Método: Razón:* "+DescrMetodoTF2BP[-1]+ "- *Tiempo:* "+TiempoMetodoTF2BP[-1]+"min" 
+                    mensajeMetodoTF2BP="*Hubo afectación en las unidades por Método: Razon:* "+DescrMetodoTF2BP[-1]+ "- *Tiempo:* "+TiempoMetodoTF2BP[-1]+"min" 
                     print(mensajeMetodoTF2BP)
                 else:
                     mensajeMetodoTF2BP=""
@@ -1844,7 +1973,7 @@ while True:
                 if ScrapTF2BP[-1]=="Si":
                     DescrScrapTF2BP=TapaFija.col_values(74)
                     CantidadScrapTF2BP=TapaFija.col_values(75)
-                    mensajeScrapTF2BP="*Se generó SCRAP: Cantidad:* "+CantidadScrapTF2BP[-1]+" - *Razón:* "+DescrScrapTF2BP[-1]
+                    mensajeScrapTF2BP="*Se generó SCRAP: Cantidad:* "+CantidadScrapTF2BP[-1]+" - *Razon:* "+DescrScrapTF2BP[-1]
                     print(mensajeScrapTF2BP)
                 else:
                     mensajeScrapTF2BP=""
@@ -1870,7 +1999,7 @@ while True:
                 if ParoProgramadoTF2CP2H[-1]=="Si":
                     RazonParoProgramadoTF2CP2H =  TapaFija.col_values(79)
                     TiempoParoProgramadoTF2CP2H =  TapaFija.col_values(80)
-                    mensajeParoProgramadoTF2CP2H="*Paro programado - Tiempo:* "+TiempoParoProgramadoTF2CP2H[-1]+" min, *Razón:* "+RazonParoProgramadoTF2CP2H[-1]
+                    mensajeParoProgramadoTF2CP2H="*Paro programado - Tiempo:* "+TiempoParoProgramadoTF2CP2H[-1]+" min, *Razon:* "+RazonParoProgramadoTF2CP2H[-1]
                     print(mensajeParoProgramadoTF2CP2H)
                 else:
                     mensajeParoProgramadoTF2CP2H=""
@@ -1881,15 +2010,15 @@ while True:
                 if IncidenteTF2CP2H[-1]=="Si":
                     DescrIncidenteTF2CP2H=TapaFija.col_values(83)
                     ValidarParoIncidenteEMCP2W=TapaFija.col_values(84)
-                    mensajeIncidenteTF2CP2H="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTF2CP2H[-1]+ " no se generó paro."
+                    mensajeIncidenteTF2CP2H="*Incidente y/o accidente ambiental y/o SST: Razon:* "+DescrIncidenteTF2CP2H[-1]+ " no se generó paro."
                     print(mensajeIncidenteTF2CP2H)
                     if ValidarParoIncidenteEMCP2W[-1]=="Si":   
                         TiempoIncidenteTF2CP2H=TapaFija.col_values(85)
-                        mensajeIncidenteTF2CP2H="*Incidente y/o accidente ambiental y/o SST - Tiempo:* "+TiempoIncidenteTF2CP2H[-1]+" min, *Razón:* "+DescrIncidenteTF2CP2H[-1]
+                        mensajeIncidenteTF2CP2H="*Incidente y/o accidente ambiental y/o SST - Tiempo:* "+TiempoIncidenteTF2CP2H[-1]+" min, *Razon:* "+DescrIncidenteTF2CP2H[-1]
                         print (mensajeIncidenteTF2CP2H)
                     else:
                         #DescrIncidenteTF2AGI=TapaFija.col_values(12)
-                        mensajeIncidenteTF2CP2H="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTF2CP2H[-1] + " no se generó paro."
+                        mensajeIncidenteTF2CP2H="*Incidente y/o accidente ambiental y/o SST: Razon:* "+DescrIncidenteTF2CP2H[-1] + " no se generó paro."
                         print (mensajeIncidenteTF2CP2H)
                 else:
                     mensajeIncidenteTF2CP2H=""
@@ -1900,7 +2029,7 @@ while True:
                 if ServiciosPublicosTF2CP2H[-1]=="Si":
                     DescrServiciosPublicosTF2CP2H=TapaFija.col_values(88)
                     TiempoServiciosPublicosTF2CP2H=TapaFija.col_values(87)
-                    mensajeServiciosPublicosTF2CP2H="*Hubo afectación en las unidades del hora a hora por falta de servicios públicos: Razón:* "+DescrServiciosPublicosTF2CP2H[-1]+ " -*Tiempo:* :"+TiempoServiciosPublicosTF2CP2H[-1]+"min"
+                    mensajeServiciosPublicosTF2CP2H="*Hubo afectación en las unidades del hora a hora por falta de servicios públicos: Razon:* "+DescrServiciosPublicosTF2CP2H[-1]+ " -*Tiempo:* :"+TiempoServiciosPublicosTF2CP2H[-1]+"min"
                     print(mensajeServiciosPublicosTF2CP2H)
                 else:
                     mensajeServiciosPublicosTF2CP2H=""
@@ -1911,7 +2040,7 @@ while True:
                 if MaquinaTF2CP2H[-1]=="Si":
                     DescrMaquinaTF2CP2H=TapaFija.col_values(92)
                     TiempoMaquinaTF2CP2H=TapaFija.col_values(90)
-                    mensajeMaquinaTF2CP2H="*Hubo afectación en las unidades por Maquina/ Equipo: Razón:* "+DescrMaquinaTF2CP2H[-1]+ " - *Tiempo:* "+TiempoMaquinaTF2CP2H[-1]+"min" 
+                    mensajeMaquinaTF2CP2H="*Hubo afectación en las unidades por Maquina/ Equipo: Razon:* "+DescrMaquinaTF2CP2H[-1]+ " - *Tiempo:* "+TiempoMaquinaTF2CP2H[-1]+"min" 
                     print(mensajeMaquinaTF2CP2H)
                 else:
                     mensajeMaquinaTF2CP2H=""
@@ -1922,7 +2051,7 @@ while True:
                 if ManoDeObraTF2CP2H[-1]=="Si":
                     DescrManoDeObraTF2CP2H=TapaFija.col_values(97)
                     TiempoManoDeObraTF2CP2H=TapaFija.col_values(94)
-                    mensajeManoDeObraTF2CP2H="*Hubo afectación en las unidades por Mano De Obra: Razón:* "+DescrManoDeObraTF2CP2H[-1]+ " - *Tiempo:* "+TiempoManoDeObraTF2CP2H[-1]+"min" 
+                    mensajeManoDeObraTF2CP2H="*Hubo afectación en las unidades por Mano De Obra: Razon:* "+DescrManoDeObraTF2CP2H[-1]+ " - *Tiempo:* "+TiempoManoDeObraTF2CP2H[-1]+"min" 
                     print(mensajeManoDeObraTF2CP2H)
                 else:
                     mensajeManoDeObraTF2CP2H=""
@@ -1934,7 +2063,7 @@ while True:
                 if MateriaPrimaTF2CP2H[-1]=="Si":
                     DescrMateriaPrimaTF2CP2H=TapaFija.col_values(102)
                     TiempoMateriaPrimaTF2CP2H=TapaFija.col_values(99)
-                    mensajeMateriaPrimaTF2CP2H="*Hubo afectación en las unidades por Materia Prima: Razón:* "+DescrMateriaPrimaTF2CP2H[-1]+ " - *Tiempo:* "+TiempoMateriaPrimaTF2CP2H[-1]+"min" 
+                    mensajeMateriaPrimaTF2CP2H="*Hubo afectación en las unidades por Materia Prima: Razon:* "+DescrMateriaPrimaTF2CP2H[-1]+ " - *Tiempo:* "+TiempoMateriaPrimaTF2CP2H[-1]+"min" 
                     print(mensajeMateriaPrimaTF2CP2H)
                 else:
                     mensajeMateriaPrimaTF2CP2H=""
@@ -1945,7 +2074,7 @@ while True:
                 if MetodoTF2CP2H[-1]=="Si":
                     DescrMetodoTF2CP2H=TapaFija.col_values(106)
                     TiempoMetodoTF2CP2H=TapaFija.col_values(104)
-                    mensajeMetodoTF2CP2H="*Hubo afectación en las unidades por Método: Razón:* "+DescrMetodoTF2CP2H[-1]+ "- *Tiempo:* "+TiempoMetodoTF2CP2H[-1]+"min" 
+                    mensajeMetodoTF2CP2H="*Hubo afectación en las unidades por Método: Razon:* "+DescrMetodoTF2CP2H[-1]+ "- *Tiempo:* "+TiempoMetodoTF2CP2H[-1]+"min" 
                     print(mensajeMetodoTF2CP2H)
                 else:
                     mensajeMetodoTF2CP2H=""
@@ -1956,7 +2085,7 @@ while True:
                 if ScrapTF2CP2H[-1]=="Si":
                     DescrScrapTF2CP2H=TapaFija.col_values(109)
                     CantidadScrapTF2CP2H=TapaFija.col_values(110)
-                    mensajeScrapTF2CP2H="*Se generó SCRAP: Cantidad:* "+CantidadScrapTF2CP2H[-1]+" - *Razón:* "+DescrScrapTF2CP2H[-1]
+                    mensajeScrapTF2CP2H="*Se generó SCRAP: Cantidad:* "+CantidadScrapTF2CP2H[-1]+" - *Razon:* "+DescrScrapTF2CP2H[-1]
                     print(mensajeScrapTF2CP2H)
                 else:
                     mensajeScrapTF2CP2H=""
@@ -1985,7 +2114,7 @@ while True:
                 if ParoProgramadoTF2CP2W[-1]=="Si":
                     RazonParoProgramadoTF2CP2W =  TapaFija.col_values(114)
                     TiempoParoProgramadoTF2CP2W =  TapaFija.col_values(115)
-                    mensajeParoProgramadoTF22CP2W="*Paro programado - Tiempo:* "+TiempoParoProgramadoTF2CP2W[-1]+" min, *Razón:* "+RazonParoProgramadoTF2CP2W[-1]
+                    mensajeParoProgramadoTF22CP2W="*Paro programado - Tiempo:* "+TiempoParoProgramadoTF2CP2W[-1]+" min, *Razon:* "+RazonParoProgramadoTF2CP2W[-1]
                     print(mensajeParoProgramadoTF22CP2W)
                 else:
                     mensajeParoProgramadoTF22CP2W=""
@@ -1996,15 +2125,15 @@ while True:
                 if IncidenteTF2CP2W[-1]=="Si":
                     DescrIncidenteTF2CP2W=TapaFija.col_values(118)
                     ValidarParoIncidenteEMCP2W=TapaFija.col_values(119)
-                    mensajeIncidenteTF2CP2W="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTF2CP2W[-1]+ " no se generó paro."
+                    mensajeIncidenteTF2CP2W="*Incidente y/o accidente ambiental y/o SST: Razon:* "+DescrIncidenteTF2CP2W[-1]+ " no se generó paro."
                     print(mensajeIncidenteTF2CP2W)
                     if ValidarParoIncidenteEMCP2W[-1]=="Si":   
                         TiempoIncidenteTF2CP2W=TapaFija.col_values(120)
-                        mensajeIncidenteTF2CP2W="*Incidente y/o accidente ambiental y/o SST - Tiempo:* "+TiempoIncidenteTF2CP2W[-1]+" min, *Razón:* "+DescrIncidenteTF2CP2W[-1]
+                        mensajeIncidenteTF2CP2W="*Incidente y/o accidente ambiental y/o SST - Tiempo:* "+TiempoIncidenteTF2CP2W[-1]+" min, *Razon:* "+DescrIncidenteTF2CP2W[-1]
                         print (mensajeIncidenteTF2CP2W)
                     else:
                         #DescrIncidenteTF2AGI=TapaFija.col_values(12)
-                        mensajeIncidenteTF2CP2W="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTF2CP2W[-1] + " no se generó paro."
+                        mensajeIncidenteTF2CP2W="*Incidente y/o accidente ambiental y/o SST: Razon:* "+DescrIncidenteTF2CP2W[-1] + " no se generó paro."
                         print (mensajeIncidenteTF2CP2W)
                 else:
                     mensajeIncidenteTF2CP2W=""
@@ -2015,7 +2144,7 @@ while True:
                 if ServiciosPublicosTF2CP2W[-1]=="Si":
                     DescrServiciosPublicosTF2CP2W=TapaFija.col_values(123)
                     TiempoServiciosPublicosTF2CP2W=TapaFija.col_values(122)
-                    mensajeServiciosPublicosTF2CP2W="*Hubo afectación en las unidades del hora a hora por falta de servicios públicos: Razón:* "+DescrServiciosPublicosTF2CP2W[-1]+ " -*Tiempo:* :"+TiempoServiciosPublicosTF2CP2W[-1]+"min"
+                    mensajeServiciosPublicosTF2CP2W="*Hubo afectación en las unidades del hora a hora por falta de servicios públicos: Razon:* "+DescrServiciosPublicosTF2CP2W[-1]+ " -*Tiempo:* :"+TiempoServiciosPublicosTF2CP2W[-1]+"min"
                     print(mensajeServiciosPublicosTF2CP2W)
                 else:
                     mensajeServiciosPublicosTF2CP2W=""
@@ -2026,7 +2155,7 @@ while True:
                 if MaquinaTF2CP2W[-1]=="Si":
                     DescrMaquinaTF2CP2W=TapaFija.col_values(127)
                     TiempoMaquinaTF2CP2W=TapaFija.col_values(125)
-                    mensajeMaquinaTF2CP2W="*Hubo afectación en las unidades por Maquina/ Equipo: Razón:* "+DescrMaquinaTF2CP2W[-1]+ " - *Tiempo:* "+TiempoMaquinaTF2CP2W[-1]+"min" 
+                    mensajeMaquinaTF2CP2W="*Hubo afectación en las unidades por Maquina/ Equipo: Razon:* "+DescrMaquinaTF2CP2W[-1]+ " - *Tiempo:* "+TiempoMaquinaTF2CP2W[-1]+"min" 
                     print(mensajeMaquinaTF2CP2W)
                 else:
                     mensajeMaquinaTF2CP2W=""
@@ -2037,7 +2166,7 @@ while True:
                 if ManoDeObraTF2CP2W[-1]=="Si":
                     DescrManoDeObraTF2CP2W=TapaFija.col_values(132)
                     TiempoManoDeObraTF2CP2W=TapaFija.col_values(129)
-                    mensajeManoDeObraTF2CP2W="*Hubo afectación en las unidades por Mano De Obra: Razón:* "+DescrManoDeObraTF2CP2W[-1]+ " - *Tiempo:* "+TiempoManoDeObraTF2CP2W[-1]+"min" 
+                    mensajeManoDeObraTF2CP2W="*Hubo afectación en las unidades por Mano De Obra: Razon:* "+DescrManoDeObraTF2CP2W[-1]+ " - *Tiempo:* "+TiempoManoDeObraTF2CP2W[-1]+"min" 
                     print(mensajeManoDeObraTF2CP2W)
                 else:
                     mensajeManoDeObraTF2CP2W=""
@@ -2049,7 +2178,7 @@ while True:
                 if MateriaPrimaTF2CP2W[-1]=="Si":
                     DescrMateriaPrimaTF2CP2W=TapaFija.col_values(137)
                     TiempoMateriaPrimaTF2CP2W=TapaFija.col_values(174)
-                    mensajeMateriaPrimaTF2CP2W="*Hubo afectación en las unidades por Materia Prima: Razón:* "+DescrMateriaPrimaTF2CP2W[-1]+ " - *Tiempo:* "+TiempoMateriaPrimaTF2CP2W[-1]+"min" 
+                    mensajeMateriaPrimaTF2CP2W="*Hubo afectación en las unidades por Materia Prima: Razon:* "+DescrMateriaPrimaTF2CP2W[-1]+ " - *Tiempo:* "+TiempoMateriaPrimaTF2CP2W[-1]+"min" 
                     print(mensajeMateriaPrimaTF2CP2W)
                 else:
                     mensajeMateriaPrimaTF2CP2W=""
@@ -2060,7 +2189,7 @@ while True:
                 if MetodoTF2CP2W[-1]=="Si":
                     DescrMetodoTF2CP2W=TapaFija.col_values(141)
                     TiempoMetodoTF2CP2W=TapaFija.col_values(139)
-                    mensajeMetodoTF2CP2W="*Hubo afectación en las unidades por Método: Razón:* "+DescrMetodoTF2CP2W[-1]+ "- *Tiempo:* "+TiempoMetodoTF2CP2W[-1]+"min" 
+                    mensajeMetodoTF2CP2W="*Hubo afectación en las unidades por Método: Razon:* "+DescrMetodoTF2CP2W[-1]+ "- *Tiempo:* "+TiempoMetodoTF2CP2W[-1]+"min" 
                     print(mensajeMetodoTF2CP2W)
                 else:
                     mensajeMetodoTF2CP2W=""
@@ -2071,7 +2200,7 @@ while True:
                 if ScrapTF2CP2W[-1]=="Si":
                     DescrScrapTF2CP2W=TapaFija.col_values(144)
                     CantidadScrapTF2CP2W=TapaFija.col_values(145)
-                    mensajeScrapTF2CP2W="*Se generó SCRAP: Cantidad:* "+CantidadScrapTF2CP2W[-1]+" - *Razón:* "+DescrScrapTF2CP2W[-1]
+                    mensajeScrapTF2CP2W="*Se generó SCRAP: Cantidad:* "+CantidadScrapTF2CP2W[-1]+" - *Razon:* "+DescrScrapTF2CP2W[-1]
                     print(mensajeScrapTF2CP2W)
                 else:
                     mensajeScrapTF2CP2W=""
@@ -2100,7 +2229,7 @@ while True:
                 if ParoProgramadoTF2IMPELLER[-1]=="Si":
                     RazonParoProgramadoTF2IMPELLER =  TapaFija.col_values(149)
                     TiempoParoProgramadoTF2IMPELLER =  TapaFija.col_values(150)
-                    mensajeParoProgramadoTF2IMPELLER="*Paro programado - Tiempo:* "+TiempoParoProgramadoTF2IMPELLER[-1]+" min, *Razón:* "+RazonParoProgramadoTF2IMPELLER[-1]
+                    mensajeParoProgramadoTF2IMPELLER="*Paro programado - Tiempo:* "+TiempoParoProgramadoTF2IMPELLER[-1]+" min, *Razon:* "+RazonParoProgramadoTF2IMPELLER[-1]
                     print(mensajeParoProgramadoTF2IMPELLER)
                 else:
                     mensajeParoProgramadoTF2IMPELLER=""
@@ -2111,15 +2240,15 @@ while True:
                 if IncidenteTF2IMPELLER[-1]=="Si":
                     DescrIncidenteTF2IMPELLER=TapaFija.col_values(153)
                     ValidarParoIncidenteEMCP2W=TapaFija.col_values(154)
-                    mensajeIncidenteTF2IMPELLER="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTF2IMPELLER[-1]+ " no se generó paro."
+                    mensajeIncidenteTF2IMPELLER="*Incidente y/o accidente ambiental y/o SST: Razon:* "+DescrIncidenteTF2IMPELLER[-1]+ " no se generó paro."
                     print(mensajeIncidenteTF2IMPELLER)
                     if ValidarParoIncidenteEMCP2W[-1]=="Si":   
                         TiempoIncidenteTF2IMPELLER=TapaFija.col_values(155)
-                        mensajeIncidenteTF2IMPELLER="*Incidente y/o accidente ambiental y/o SST - Tiempo:* "+TiempoIncidenteTF2IMPELLER[-1]+" min, *Razón:* "+DescrIncidenteTF2IMPELLER[-1]
+                        mensajeIncidenteTF2IMPELLER="*Incidente y/o accidente ambiental y/o SST - Tiempo:* "+TiempoIncidenteTF2IMPELLER[-1]+" min, *Razon:* "+DescrIncidenteTF2IMPELLER[-1]
                         print (mensajeIncidenteTF2IMPELLER)
                     else:
                         #DescrIncidenteTF2AGI=TapaFija.col_values(12)
-                        mensajeIncidenteTF2IMPELLER="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTF2IMPELLER[-1] + " no se generó paro."
+                        mensajeIncidenteTF2IMPELLER="*Incidente y/o accidente ambiental y/o SST: Razon:* "+DescrIncidenteTF2IMPELLER[-1] + " no se generó paro."
                         print (mensajeIncidenteTF2IMPELLER)
                 else:
                     mensajeIncidenteTF2IMPELLER=""
@@ -2130,7 +2259,7 @@ while True:
                 if ServiciosPublicosTF2IMPELLER[-1]=="Si":
                     DescrServiciosPublicosTF2IMPELLER=TapaFija.col_values(158)
                     TiempoServiciosPublicosTF2IMPELLER=TapaFija.col_values(157)
-                    mensajeServiciosPublicosTF2IMPELLER="*Hubo afectación en las unidades del hora a hora por falta de servicios públicos: Razón:* "+DescrServiciosPublicosTF2IMPELLER[-1]+ " -*Tiempo:* :"+TiempoServiciosPublicosTF2IMPELLER[-1]+"min"
+                    mensajeServiciosPublicosTF2IMPELLER="*Hubo afectación en las unidades del hora a hora por falta de servicios públicos: Razon:* "+DescrServiciosPublicosTF2IMPELLER[-1]+ " -*Tiempo:* :"+TiempoServiciosPublicosTF2IMPELLER[-1]+"min"
                     print(mensajeServiciosPublicosTF2IMPELLER)
                 else:
                     mensajeServiciosPublicosTF2IMPELLER=""
@@ -2141,7 +2270,7 @@ while True:
                 if MaquinaTF2IMPELLER[-1]=="Si":
                     DescrMaquinaTF2IMPELLER=TapaFija.col_values(162)
                     TiempoMaquinaTF2IMPELLER=TapaFija.col_values(160)
-                    mensajeMaquinaTF2IMPELLER="*Hubo afectación en las unidades por Maquina/ Equipo: Razón:* "+DescrMaquinaTF2IMPELLER[-1]+ " - *Tiempo:* "+TiempoMaquinaTF2IMPELLER[-1]+"min" 
+                    mensajeMaquinaTF2IMPELLER="*Hubo afectación en las unidades por Maquina/ Equipo: Razon:* "+DescrMaquinaTF2IMPELLER[-1]+ " - *Tiempo:* "+TiempoMaquinaTF2IMPELLER[-1]+"min" 
                     print(mensajeMaquinaTF2IMPELLER)
                 else:
                     mensajeMaquinaTF2IMPELLER=""
@@ -2152,7 +2281,7 @@ while True:
                 if ManoDeObraTF2IMPELLER[-1]=="Si":
                     DescrManoDeObraTF2IMPELLER=TapaFija.col_values(167)
                     TiempoManoDeObraTF2IMPELLER=TapaFija.col_values(164)
-                    mensajeManoDeObraTF2IMPELLER="*Hubo afectación en las unidades por Mano De Obra: Razón:* "+DescrManoDeObraTF2IMPELLER[-1]+ " - *Tiempo:* "+TiempoManoDeObraTF2IMPELLER[-1]+"min" 
+                    mensajeManoDeObraTF2IMPELLER="*Hubo afectación en las unidades por Mano De Obra: Razon:* "+DescrManoDeObraTF2IMPELLER[-1]+ " - *Tiempo:* "+TiempoManoDeObraTF2IMPELLER[-1]+"min" 
                     print(mensajeManoDeObraTF2IMPELLER)
                 else:
                     mensajeManoDeObraTF2IMPELLER=""
@@ -2164,7 +2293,7 @@ while True:
                 if MateriaPrimaTF2IMPELLER[-1]=="Si":
                     DescrMateriaPrimaTF2IMPELLER=TapaFija.col_values(172)
                     TiempoMateriaPrimaTF2IMPELLER=TapaFija.col_values(169)
-                    mensajeMateriaPrimaTF2IMPELLER="*Hubo afectación en las unidades por Materia Prima: Razón:* "+DescrMateriaPrimaTF2IMPELLER[-1]+ " - *Tiempo:* "+TiempoMateriaPrimaTF2IMPELLER[-1]+"min" 
+                    mensajeMateriaPrimaTF2IMPELLER="*Hubo afectación en las unidades por Materia Prima: Razon:* "+DescrMateriaPrimaTF2IMPELLER[-1]+ " - *Tiempo:* "+TiempoMateriaPrimaTF2IMPELLER[-1]+"min" 
                     print(mensajeMateriaPrimaTF2IMPELLER)
                 else:
                     mensajeMateriaPrimaTF2IMPELLER=""
@@ -2175,7 +2304,7 @@ while True:
                 if MetodoTF2IMPELLER[-1]=="Si":
                     DescrMetodoTF2IMPELLER=TapaFija.col_values(176)
                     TiempoMetodoTF2IMPELLER=TapaFija.col_values(174)
-                    mensajeMetodoTF2IMPELLER="*Hubo afectación en las unidades por Método: Razón:* "+DescrMetodoTF2IMPELLER[-1]+ "- *Tiempo:* "+TiempoMetodoTF2IMPELLER[-1]+"min" 
+                    mensajeMetodoTF2IMPELLER="*Hubo afectación en las unidades por Método: Razon:* "+DescrMetodoTF2IMPELLER[-1]+ "- *Tiempo:* "+TiempoMetodoTF2IMPELLER[-1]+"min" 
                     print(mensajeMetodoTF2IMPELLER)
                 else:
                     mensajeMetodoTF2IMPELLER=""
@@ -2186,7 +2315,7 @@ while True:
                 if ScrapTF2IMPELLER[-1]=="Si":
                     DescrScrapTF2IMPELLER=TapaFija.col_values(179)
                     CantidadScrapTF2IMPELLER=TapaFija.col_values(180)
-                    mensajeScrapTF2IMPELLER="*Se generó SCRAP: Cantidad:* "+CantidadScrapTF2IMPELLER[-1]+" - *Razón:* "+DescrScrapTF2IMPELLER[-1]
+                    mensajeScrapTF2IMPELLER="*Se generó SCRAP: Cantidad:* "+CantidadScrapTF2IMPELLER[-1]+" - *Razon:* "+DescrScrapTF2IMPELLER[-1]
                     print(mensajeScrapTF2IMPELLER)
                 else:
                     mensajeScrapTF2IMPELLER=""
@@ -2215,7 +2344,7 @@ while True:
                 if ParoProgramadoTF2QUASAR[-1]=="Si":
                     RazonParoProgramadoTF2QUASAR =  TapaFija.col_values(184)
                     TiempoParoProgramadoTF2QUASAR =  TapaFija.col_values(185)
-                    mensajeParoProgramadoTF2QUASAR="*Paro programado - Tiempo:* "+TiempoParoProgramadoTF2QUASAR[-1]+" min, *Razón:* "+RazonParoProgramadoTF2QUASAR[-1]
+                    mensajeParoProgramadoTF2QUASAR="*Paro programado - Tiempo:* "+TiempoParoProgramadoTF2QUASAR[-1]+" min, *Razon:* "+RazonParoProgramadoTF2QUASAR[-1]
                     print(mensajeParoProgramadoTF2QUASAR)
                 else:
                     mensajeParoProgramadoTF2QUASAR=""
@@ -2226,15 +2355,15 @@ while True:
                 if IncidenteTF2QUASAR[-1]=="Si":
                     DescrIncidenteTF2QUASAR=TapaFija.col_values(188)
                     ValidarParoIncidenteEMCP2W=TapaFija.col_values(189)
-                    mensajeIncidenteTF2QUASAR="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTF2QUASAR[-1]+ " no se generó paro."
+                    mensajeIncidenteTF2QUASAR="*Incidente y/o accidente ambiental y/o SST: Razon:* "+DescrIncidenteTF2QUASAR[-1]+ " no se generó paro."
                     print(mensajeIncidenteTF2QUASAR)
                     if ValidarParoIncidenteEMCP2W[-1]=="Si":   
                         TiempoIncidenteTF2QUASAR=TapaFija.col_values(190)
-                        mensajeIncidenteTF2QUASAR="*Incidente y/o accidente ambiental y/o SST - Tiempo:* "+TiempoIncidenteTF2QUASAR[-1]+" min, *Razón:* "+DescrIncidenteTF2QUASAR[-1]
+                        mensajeIncidenteTF2QUASAR="*Incidente y/o accidente ambiental y/o SST - Tiempo:* "+TiempoIncidenteTF2QUASAR[-1]+" min, *Razon:* "+DescrIncidenteTF2QUASAR[-1]
                         print (mensajeIncidenteTF2QUASAR)
                     else:
                         #DescrIncidenteTF2AGI=TapaFija.col_values(12)
-                        mensajeIncidenteTF2QUASAR="*Incidente y/o accidente ambiental y/o SST: Razón:* "+DescrIncidenteTF2QUASAR[-1] + " no se generó paro."
+                        mensajeIncidenteTF2QUASAR="*Incidente y/o accidente ambiental y/o SST: Razon:* "+DescrIncidenteTF2QUASAR[-1] + " no se generó paro."
                         print (mensajeIncidenteTF2QUASAR)
                 else:
                     mensajeIncidenteTF2QUASAR=""
@@ -2245,7 +2374,7 @@ while True:
                 if ServiciosPublicosTF2QUASAR[-1]=="Si":
                     DescrServiciosPublicosTF2QUASAR=TapaFija.col_values(193)
                     TiempoServiciosPublicosTF2QUASAR=TapaFija.col_values(192)
-                    mensajeServiciosPublicosTF2QUASAR="*Hubo afectación en las unidades del hora a hora por falta de servicios públicos: Razón:* "+DescrServiciosPublicosTF2QUASAR[-1]+ " -*Tiempo:* :"+TiempoServiciosPublicosTF2QUASAR[-1]+"min"
+                    mensajeServiciosPublicosTF2QUASAR="*Hubo afectación en las unidades del hora a hora por falta de servicios públicos: Razon:* "+DescrServiciosPublicosTF2QUASAR[-1]+ " -*Tiempo:* :"+TiempoServiciosPublicosTF2QUASAR[-1]+"min"
                     print(mensajeServiciosPublicosTF2QUASAR)
                 else:
                     mensajeServiciosPublicosTF2QUASAR=""
@@ -2256,7 +2385,7 @@ while True:
                 if MaquinaTF2QUASAR[-1]=="Si":
                     DescrMaquinaTF2QUASAR=TapaFija.col_values(197)
                     TiempoMaquinaTF2QUASAR=TapaFija.col_values(195)
-                    mensajeMaquinaTF2QUASAR="*Hubo afectación en las unidades por Maquina/ Equipo: Razón:* "+DescrMaquinaTF2QUASAR[-1]+ " - *Tiempo:* "+TiempoMaquinaTF2QUASAR[-1]+"min" 
+                    mensajeMaquinaTF2QUASAR="*Hubo afectación en las unidades por Maquina/ Equipo: Razon:* "+DescrMaquinaTF2QUASAR[-1]+ " - *Tiempo:* "+TiempoMaquinaTF2QUASAR[-1]+"min" 
                     print(mensajeMaquinaTF2QUASAR)
                 else:
                     mensajeMaquinaTF2QUASAR=""
@@ -2267,7 +2396,7 @@ while True:
                 if ManoDeObraTF2QUASAR[-1]=="Si":
                     DescrManoDeObraTF2QUASAR=TapaFija.col_values(202)
                     TiempoManoDeObraTF2QUASAR=TapaFija.col_values(199)
-                    mensajeManoDeObraTF2QUASAR="*Hubo afectación en las unidades por Mano De Obra: Razón:* "+DescrManoDeObraTF2QUASAR[-1]+ " - *Tiempo:* "+TiempoManoDeObraTF2QUASAR[-1]+"min" 
+                    mensajeManoDeObraTF2QUASAR="*Hubo afectación en las unidades por Mano De Obra: Razon:* "+DescrManoDeObraTF2QUASAR[-1]+ " - *Tiempo:* "+TiempoManoDeObraTF2QUASAR[-1]+"min" 
                     print(mensajeManoDeObraTF2QUASAR)
                 else:
                     mensajeManoDeObraTF2QUASAR=""
@@ -2279,7 +2408,7 @@ while True:
                 if MateriaPrimaTF2QUASAR[-1]=="Si":
                     DescrMateriaPrimaTF2QUASAR=TapaFija.col_values(207)
                     TiempoMateriaPrimaTF2QUASAR=TapaFija.col_values(204)
-                    mensajeMateriaPrimaTF2QUASAR="*Hubo afectación en las unidades por Materia Prima: Razón:* "+DescrMateriaPrimaTF2QUASAR[-1]+ " - *Tiempo:* "+TiempoMateriaPrimaTF2QUASAR[-1]+"min" 
+                    mensajeMateriaPrimaTF2QUASAR="*Hubo afectación en las unidades por Materia Prima: Razon:* "+DescrMateriaPrimaTF2QUASAR[-1]+ " - *Tiempo:* "+TiempoMateriaPrimaTF2QUASAR[-1]+"min" 
                     print(mensajeMateriaPrimaTF2QUASAR)
                 else:
                     mensajeMateriaPrimaTF2QUASAR=""
@@ -2290,7 +2419,7 @@ while True:
                 if MetodoTF2QUASAR[-1]=="Si":
                     DescrMetodoTF2QUASAR=TapaFija.col_values(211)
                     TiempoMetodoTF2QUASAR=TapaFija.col_values(209)
-                    mensajeMetodoTF2QUASAR="*Hubo afectación en las unidades por Método: Razón:* "+DescrMetodoTF2QUASAR[-1]+ "- *Tiempo:* "+TiempoMetodoTF2QUASAR[-1]+"min" 
+                    mensajeMetodoTF2QUASAR="*Hubo afectación en las unidades por Método: Razon:* "+DescrMetodoTF2QUASAR[-1]+ "- *Tiempo:* "+TiempoMetodoTF2QUASAR[-1]+"min" 
                     print(mensajeMetodoTF2QUASAR)
                 else:
                     mensajeMetodoTF2QUASAR=""
@@ -2301,7 +2430,7 @@ while True:
                 if ScrapTF2QUASAR[-1]=="Si":
                     DescrScrapTF2QUASAR=TapaFija.col_values(214)
                     CantidadScrapTF2QUASAR=TapaFija.col_values(215)
-                    mensajeScrapTF2QUASAR="*Se generó SCRAP: Cantidad:* "+CantidadScrapTF2QUASAR[-1]+" - *Razón:* "+DescrScrapTF2QUASAR[-1]
+                    mensajeScrapTF2QUASAR="*Se generó SCRAP: Cantidad:* "+CantidadScrapTF2QUASAR[-1]+" - *Razon:* "+DescrScrapTF2QUASAR[-1]
                     print(mensajeScrapTF2QUASAR)
                 else:
                     mensajeScrapTF2QUASAR=""
@@ -2318,8 +2447,6 @@ while True:
                     mensajeUnidadesReprocesadasTF2QUASAR=""
                     print(mensajeUnidadesReprocesadasTF2QUASAR)
 
-
-
             OeeTF2= TapaFija.col_values(223)
             OeeTapaFija = OeeTF2[-1]
             print("Porcentaje OEE: "+ OeeTapaFija)
@@ -2329,148 +2456,207 @@ while True:
             print("Esperando minuto para envio de wpp...")
             espera_Minuto= False
 
-        if Minuto2==12:
+        if Minuto2==9:
         #Se envia el mensaje por WPP
             print("Entró")
 
-            mensaje6="\n\n*TAPA FIJA*" 
+            mensaje5="\n\n*TAPA FIJA*" 
 
             if mensajeUnidadesFabricadasTF2!="":
-                mensaje6=mensaje6+"\n\n"+mensajeUnidadesFabricadasTF2
+                mensaje5=mensaje5+"\n\n"+mensajeUnidadesFabricadasTF2
 
             if SelectReferenciaTF2[-1]=="Agipeller":
-                mensaje6=mensaje6+"\n\n*AGIPELLER*"
+                mensaje5=mensaje5+"\n\n*AGIPELLER*"
             
                 if mensajeParoProgramadoTF2AGI!="":
-                    mensaje6=mensaje6+"\n"+mensajeParoProgramadoTF2AGI
+                    mensaje5=mensaje5+"\n"+mensajeParoProgramadoTF2AGI
+                    SinNovedad=2
                 if mensajeIncidenteTF2AGI!="":
-                    mensaje6=mensaje6+"\n"+mensajeIncidenteTF2AGI
+                    mensaje5=mensaje5+"\n"+mensajeIncidenteTF2AGI
+                    SinNovedad=2
                 if mensajeServiciosPublicosTF2AGI!="":
-                    mensaje6=mensaje6+"\n"+mensajeServiciosPublicosTF2AGI
+                    mensaje5=mensaje5+"\n"+mensajeServiciosPublicosTF2AGI
+                    SinNovedad=2
                 if mensajeMaquinaTF2AGI!="":
-                    mensaje6=mensaje6+"\n"+mensajeMaquinaTF2AGI
+                    mensaje5=mensaje5+"\n"+mensajeMaquinaTF2AGI
+                    SinNovedad=2
                 if mensajeManoDeObraTF2AGI!="":
-                    mensaje6=mensaje6+"\n"+mensajeManoDeObraTF2AGI
+                    mensaje5=mensaje5+"\n"+mensajeManoDeObraTF2AGI
+                    SinNovedad=2
                 if mensajeMateriaPrimaTF2AGI!="":
-                    mensaje6=mensaje6+"\n"+mensajeMateriaPrimaTF2AGI
+                    mensaje5=mensaje5+"\n"+mensajeMateriaPrimaTF2AGI
+                    SinNovedad=2
                 if mensajeMetodoTF2AGI!="":
-                    mensaje6=mensaje6+"\n"+mensajeMetodoTF2AGI
+                    mensaje5=mensaje5+"\n"+mensajeMetodoTF2AGI
+                    SinNovedad=2
                 if mensajeScrapTF2AGI!="":
-                    mensaje6=mensaje6+"\n"+mensajeScrapTF2AGI
+                    mensaje5=mensaje5+"\n"+mensajeScrapTF2AGI
+                    SinNovedad=2
                 if mensajeUnidadesReprocesadasTF2AGI!="":
-                    mensaje6=mensaje6+"\n"+mensajeUnidadesReprocesadasTF2AGI
+                    mensaje5=mensaje5+"\n"+mensajeUnidadesReprocesadasTF2AGI
+                    SinNovedad=2
             
             if SelectReferenciaTF2[-1]=="Back Panel":
-                mensaje6=mensaje6+"\n\n*BACK PANEL*"
+                mensaje5=mensaje5+"\n\n*BACK PANEL*"
             
                 if mensajeParoProgramadoTF2BP!="":
-                    mensaje6=mensaje6+"\n"+mensajeParoProgramadoTF2BP
+                    mensaje5=mensaje5+"\n"+mensajeParoProgramadoTF2BP
+                    SinNovedad=2
                 if mensajeIncidenteTF2BP!="":
-                    mensaje6=mensaje6+"\n"+mensajeIncidenteTF2BP
+                    mensaje5=mensaje5+"\n"+mensajeIncidenteTF2BP
+                    SinNovedad=2
                 if mensajeServiciosPublicosTF2BP!="":
-                    mensaje6=mensaje6+"\n"+mensajeServiciosPublicosTF2BP
+                    mensaje5=mensaje5+"\n"+mensajeServiciosPublicosTF2BP
+                    SinNovedad=2
                 if mensajeMaquinaTF2BP!="":
-                    mensaje6=mensaje6+"\n"+mensajeMaquinaTF2BP
+                    mensaje5=mensaje5+"\n"+mensajeMaquinaTF2BP
+                    SinNovedad=2
                 if mensajeManoDeObraTF2BP!="":
-                    mensaje6=mensaje6+"\n"+mensajeManoDeObraTF2BP
+                    mensaje5=mensaje5+"\n"+mensajeManoDeObraTF2BP
+                    SinNovedad=2
                 if mensajeMateriaPrimaTF2BP!="":
-                    mensaje6=mensaje6+"\n"+mensajeMateriaPrimaTF2BP
+                    mensaje5=mensaje5+"\n"+mensajeMateriaPrimaTF2BP
+                    SinNovedad=2
                 if mensajeMetodoTF2BP!="":
-                    mensaje6=mensaje6+"\n"+mensajeMetodoTF2BP
+                    mensaje5=mensaje5+"\n"+mensajeMetodoTF2BP
+                    SinNovedad=2
                 if mensajeScrapTF2BP!="":
-                    mensaje6=mensaje6+"\n"+mensajeScrapTF2BP
+                    mensaje5=mensaje5+"\n"+mensajeScrapTF2BP
+                    SinNovedad=2
                 if mensajeUnidadesReprocesadasTF2BP!="":
-                    mensaje6=mensaje6+"\n"+mensajeUnidadesReprocesadasTF2BP
+                    mensaje5=mensaje5+"\n"+mensajeUnidadesReprocesadasTF2BP
+                    SinNovedad=2
             if SelectReferenciaTF2[-1]=="Copa 2.0 Haceb":
-                mensaje6=mensaje6+"\n\n*COPA 2.0 HACEB*"
+                mensaje5=mensaje5+"\n\n*COPA 2.0 HACEB*"
             
                 if mensajeParoProgramadoTF2CP2H!="":
-                    mensaje6=mensaje6+"\n"+mensajeParoProgramadoTF2CP2H
+                    mensaje5=mensaje5+"\n"+mensajeParoProgramadoTF2CP2H
+                    SinNovedad=2
                 if mensajeIncidenteTF2CP2H!="":
-                    mensaje6=mensaje6+"\n"+mensajeIncidenteTF2CP2H
+                    mensaje5=mensaje5+"\n"+mensajeIncidenteTF2CP2H
+                    SinNovedad=2
                 if mensajeServiciosPublicosTF2CP2H!="":
-                    mensaje6=mensaje6+"\n"+mensajeServiciosPublicosTF2CP2H
+                    mensaje5=mensaje5+"\n"+mensajeServiciosPublicosTF2CP2H
+                    SinNovedad=2
                 if mensajeMaquinaTF2CP2H!="":
-                    mensaje6=mensaje6+"\n"+mensajeMaquinaTF2CP2H
+                    mensaje5=mensaje5+"\n"+mensajeMaquinaTF2CP2H
+                    SinNovedad=2
                 if mensajeManoDeObraTF2CP2H!="":
-                    mensaje6=mensaje6+"\n"+mensajeManoDeObraTF2CP2H
+                    mensaje5=mensaje5+"\n"+mensajeManoDeObraTF2CP2H
+                    SinNovedad=2
                 if mensajeMateriaPrimaTF2CP2H!="":
-                    mensaje6=mensaje6+"\n"+mensajeMateriaPrimaTF2CP2H
+                    mensaje5=mensaje5+"\n"+mensajeMateriaPrimaTF2CP2H
+                    SinNovedad=2
                 if mensajeMetodoTF2CP2H!="":
-                    mensaje6=mensaje6+"\n"+mensajeMetodoTF2CP2H
+                    mensaje5=mensaje5+"\n"+mensajeMetodoTF2CP2H
+                    SinNovedad=2
                 if mensajeScrapTF2CP2H!="":
-                    mensaje6=mensaje6+"\n"+mensajeScrapTF2CP2H
+                    mensaje5=mensaje5+"\n"+mensajeScrapTF2CP2H
+                    SinNovedad=2
                 if mensajeUnidadesReprocesadasTF2CP2H!="":
-                    mensaje6=mensaje6+"\n"+mensajeUnidadesReprocesadasTF2CP2H
+                    mensaje5=mensaje5+"\n"+mensajeUnidadesReprocesadasTF2CP2H
+                    SinNovedad=2
 
             if SelectReferenciaTF2[-1]=="Copa 2.0 Whirlpool":
-                mensaje6=mensaje6+"\n\n*COPA 2.0 WHIRLPOOL*"
+                mensaje5=mensaje5+"\n\n*COPA 2.0 WHIRLPOOL*"
 
                 if mensajeParoProgramadoTF22CP2W!="":
-                    mensaje6=mensaje6+"\n"+mensajeParoProgramadoTF22CP2W
+                    mensaje5=mensaje5+"\n"+mensajeParoProgramadoTF22CP2W
+                    SinNovedad=2
                 if mensajeIncidenteTF2CP2W!="":
-                    mensaje6=mensaje6+"\n"+mensajeIncidenteTF2CP2W
+                    mensaje5=mensaje5+"\n"+mensajeIncidenteTF2CP2W
+                    SinNovedad=2
                 if mensajeServiciosPublicosTF2CP2W!="":
-                    mensaje6=mensaje6+"\n"+mensajeServiciosPublicosTF2CP2W
+                    mensaje5=mensaje5+"\n"+mensajeServiciosPublicosTF2CP2W
+                    SinNovedad=2
                 if mensajeMaquinaTF2CP2W!="":
-                    mensaje6=mensaje6+"\n"+mensajeMaquinaTF2CP2W
+                    mensaje5=mensaje5+"\n"+mensajeMaquinaTF2CP2W
+                    SinNovedad=2
                 if mensajeManoDeObraTF2CP2W!="":
-                    mensaje6=mensaje6+"\n"+mensajeManoDeObraTF2CP2W
+                    mensaje5=mensaje5+"\n"+mensajeManoDeObraTF2CP2W
+                    SinNovedad=2
                 if mensajeMateriaPrimaTF2CP2W!="":
-                    mensaje6=mensaje6+"\n"+mensajeMateriaPrimaTF2CP2W
+                    mensaje5=mensaje5+"\n"+mensajeMateriaPrimaTF2CP2W
+                    SinNovedad=2
                 if mensajeMetodoTF2CP2W!="":
-                    mensaje6=mensaje6+"\n"+mensajeMetodoTF2CP2W
+                    mensaje5=mensaje5+"\n"+mensajeMetodoTF2CP2W
+                    SinNovedad=2
                 if mensajeScrapTF2CP2W!="":
-                    mensaje6=mensaje6+"\n"+mensajeScrapTF2CP2W
+                    mensaje5=mensaje5+"\n"+mensajeScrapTF2CP2W
+                    SinNovedad=2
                 if mensajeUnidadesReprocesadasTF2CP2W!="":
-                    mensaje6=mensaje6+"\n"+mensajeUnidadesReprocesadasTF2CP2W     
+                    mensaje5=mensaje5+"\n"+mensajeUnidadesReprocesadasTF2CP2W    
+                    SinNovedad=2 
 
             if SelectReferenciaTF2[-1]=="Impeller":
-                mensaje6=mensaje6+"\n\n*IMPELLER*"
+                mensaje5=mensaje5+"\n\n*IMPELLER*"
             
                 if mensajeParoProgramadoTF2IMPELLER!="":
-                    mensaje6=mensaje6+"\n"+mensajeParoProgramadoTF2IMPELLER
+                    mensaje5=mensaje5+"\n"+mensajeParoProgramadoTF2IMPELLER
+                    SinNovedad=2
                 if mensajeIncidenteTF2IMPELLER!="":
-                    mensaje6=mensaje6+"\n"+mensajeIncidenteTF2IMPELLER
+                    mensaje5=mensaje5+"\n"+mensajeIncidenteTF2IMPELLER
+                    SinNovedad=2
                 if mensajeServiciosPublicosTF2IMPELLER!="":
-                    mensaje6=mensaje6+"\n"+mensajeServiciosPublicosTF2IMPELLER
+                    mensaje5=mensaje5+"\n"+mensajeServiciosPublicosTF2IMPELLER
+                    SinNovedad=2
                 if mensajeMaquinaTF2IMPELLER!="":
-                    mensaje6=mensaje6+"\n"+mensajeMaquinaTF2IMPELLER
+                    mensaje5=mensaje5+"\n"+mensajeMaquinaTF2IMPELLER
+                    SinNovedad=2
                 if mensajeManoDeObraTF2IMPELLER!="":
-                    mensaje6=mensaje6+"\n"+mensajeManoDeObraTF2IMPELLER
+                    mensaje5=mensaje5+"\n"+mensajeManoDeObraTF2IMPELLER
+                    SinNovedad=2
                 if mensajeMateriaPrimaTF2IMPELLER!="":
-                    mensaje6=mensaje6+"\n"+mensajeMateriaPrimaTF2IMPELLER
+                    mensaje5=mensaje5+"\n"+mensajeMateriaPrimaTF2IMPELLER
+                    SinNovedad=2
                 if mensajeMetodoTF2IMPELLER!="":
-                    mensaje6=mensaje6+"\n"+mensajeMetodoTF2IMPELLER
+                    mensaje5=mensaje5+"\n"+mensajeMetodoTF2IMPELLER
+                    SinNovedad=2
                 if mensajeScrapTF2IMPELLER!="":
-                    mensaje6=mensaje6+"\n"+mensajeScrapTF2IMPELLER
+                    mensaje5=mensaje5+"\n"+mensajeScrapTF2IMPELLER
+                    SinNovedad=2
                 if mensajeUnidadesReprocesadasTF2IMPELLER!="":
-                    mensaje6=mensaje6+"\n"+mensajeUnidadesReprocesadasTF2IMPELLER
+                    mensaje5=mensaje5+"\n"+mensajeUnidadesReprocesadasTF2IMPELLER
+                    SinNovedad=2
 
             if SelectReferenciaTF2[-1]=="Quasar":
-                mensaje6=mensaje6+"\n\n*QUASAR*"
+                mensaje5=mensaje5+"\n\n*QUASAR*"
             
                 if mensajeParoProgramadoTF2QUASAR!="":
-                    mensaje6=mensaje6+"\n"+mensajeParoProgramadoTF2QUASAR
+                    mensaje5=mensaje5+"\n"+mensajeParoProgramadoTF2QUASAR
+                    SinNovedad=2
                 if mensajeIncidenteTF2QUASAR!="":
-                    mensaje6=mensaje6+"\n"+mensajeIncidenteTF2QUASAR
+                    mensaje5=mensaje5+"\n"+mensajeIncidenteTF2QUASAR
+                    SinNovedad=2
                 if mensajeServiciosPublicosTF2QUASAR!="":
-                    mensaje6=mensaje6+"\n"+mensajeServiciosPublicosTF2QUASAR
+                    mensaje5=mensaje5+"\n"+mensajeServiciosPublicosTF2QUASAR
+                    SinNovedad=2
                 if mensajeMaquinaTF2QUASAR!="":
-                    mensaje6=mensaje6+"\n"+mensajeMaquinaTF2QUASAR
+                    mensaje5=mensaje5+"\n"+mensajeMaquinaTF2QUASAR
+                    SinNovedad=2
                 if mensajeManoDeObraTF2QUASAR!="":
-                    mensaje6=mensaje6+"\n"+mensajeManoDeObraTF2QUASAR
+                    mensaje5=mensaje5+"\n"+mensajeManoDeObraTF2QUASAR
+                    SinNovedad=2
                 if mensajeMateriaPrimaTF2QUASAR!="":
-                    mensaje6=mensaje6+"\n"+mensajeMateriaPrimaTF2QUASAR
+                    mensaje5=mensaje5+"\n"+mensajeMateriaPrimaTF2QUASAR
+                    SinNovedad=2
                 if mensajeMetodoTF2QUASAR!="":
-                    mensaje6=mensaje6+"\n"+mensajeMetodoTF2QUASAR
+                    mensaje5=mensaje5+"\n"+mensajeMetodoTF2QUASAR
+                    SinNovedad=2
                 if mensajeScrapTF2QUASAR!="":
-                    mensaje6=mensaje6+"\n"+mensajeScrapTF2QUASAR
+                    mensaje5=mensaje5+"\n"+mensajeScrapTF2QUASAR
+                    SinNovedad=2
                 if mensajeUnidadesReprocesadasTF2QUASAR!="":
-                    mensaje6=mensaje6+"\n"+mensajeUnidadesReprocesadasTF2QUASAR     
+                    mensaje5=mensaje5+"\n"+mensajeUnidadesReprocesadasTF2QUASAR     
+                    SinNovedad=2
+            
+            if SinNovedad!=2:
+                mensaje5=mensaje5+"\n*No se reportaron novedades*"
+            
+            SinNovedad=0
 
-            if MensajeOeeTF2!="":
-                mensaje6=mensaje6+"\n"+MensajeOeeTF2
+            if MensajeOeeTF2!="" and OeeTapaFija!="#DIV/0!":
+                mensaje5=mensaje5+"\n"+MensajeOeeTF2
             
             mensajefinal=mensaje+"\n"+mensaje2+"\n"+mensaje3+"\n"+mensaje4+"\n"+mensaje5+"\n"+mensaje6
             try:
