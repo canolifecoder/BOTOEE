@@ -5133,3 +5133,33 @@ Time: 11:9
 Group ID: HPuk6hQ3c4p1SSAgyQCTbE
 Message: *GESTION CELULA HORA A HORA:**Cadencia de la linea:* 130*EMSAMBLE MECANISMOS**Unidades producidas*: 83*No se reportaron novedades**CONJUNTO SUSPENCION**Unidades Producidas:* 380*ENSAMBLE GABINETE**Unidades Producidas:* 43*COPA 1.0**Paro programado - Tiempo:* 35 min, *Razon:* Almuerzo*TAPA MOVIL*Unidades Producidas: 96*COPA 2.0 WHIRLPOOL**No se reportaron novedades**TAPA FIJA*Unidades producidas: 39*IMPELLER**Paro programado - Tiempo:* 35 min, *Razón:* Almuerzo*TESTEO FINAL**Unidades Producidas:* 101*COPA 1.0**Paro programado - Tiempo:* 5 min, *Razon:* Pausas Activas*Se reprocesaron unidades - Cantidad:* 11
 --------------------
+Date: 5/5/2022
+Time: 12:9
+Group ID: HPuk6hQ3c4p1SSAgyQCTbE
+Message: *GESTION CELULA HORA A HORA:**Cadencia de la linea:* 130*EMSAMBLE MECANISMOS**Unidades producidas*: 92*No se reportaron novedades**CONJUNTO SUSPENCION**Unidades Producidas:* 39*No se reportaron novedades**ENSAMBLE GABINETE**Unidades Producidas:* 91*COPA 1.0**Paro programado - Tiempo:* 5 min, *Razon:* Almuerzo*TAPA MOVIL*Unidades Producidas: 96*COPA 2.0 WHIRLPOOL**No se reportaron novedades**TAPA FIJA*Unidades producidas: 110*IMPELLER**No se reportaron novedades**TESTEO FINAL**Unidades Producidas:* 101*COPA 1.0**Paro programado - Tiempo:* 5 min, *Razon:* Pausas Activas*Se reprocesaron unidades - Cantidad:* 117080
+--------------------
+Date: 5/5/2022
+Time: 13:9
+Group ID: HPuk6hQ3c4p1SSAgyQCTbE
+Message: *GESTION CELULA HORA A HORA:**Cadencia de la linea:* 130*EMSAMBLE MECANISMOS**Unidades producidas*: 119*No se reportaron novedades**CONJUNTO SUSPENCION**Unidades Producidas:* 100*No se reportaron novedades**ENSAMBLE GABINETE**Unidades Producidas:* 120*COPA 1.0**No se reportaron novedades**TAPA MOVIL*Unidades Producidas: 96*COPA 2.0 WHIRLPOOL**No se reportaron novedades**TAPA FIJA*Unidades producidas: 110*IMPELLER**No se reportaron novedades**TESTEO FINAL**Unidades Producidas:* 101*COPA 1.0**Paro programado - Tiempo:* 5 min, *Razon:* Pausas Activas*Se reprocesaron unidades - Cantidad:* 1112840
+--------------------
+Date: 5/5/2022
+Time: 14:9
+Group ID: HPuk6hQ3c4p1SSAgyQCTbE
+Message: *GESTION CELULA HORA A HORA:**Cadencia de la linea:* 130*EMSAMBLE MECANISMOS**Unidades producidas*: 96*No se reportaron novedades**CONJUNTO SUSPENCION**Unidades Producidas:* 0*No se reportaron novedades**ENSAMBLE GABINETE**Unidades Producidas:* 109*COPA 1.0**Paro programado - Tiempo:* 5 min, *Razon:* Pausas activas*TAPA MOVIL**Unidades Producidas:* 96*COPA 2.0 WHIRLPOOL**No se reportaron novedades**TAPA FIJA**Unidades producidas:* 110*IMPELLER**No se reportaron novedades**TESTEO FINAL**Unidades Producidas:* 101*COPA 1.0**Paro programado - Tiempo:* 5 min, *Razon:* Pausas Activas*Se reprocesaron unidades - Cantidad:* 11*Unidades acumuladas:* 109
+--------------------
+Date: 5/5/2022
+Time: 15:9
+Group ID: HPuk6hQ3c4p1SSAgyQCTbE
+Message: *GESTION CELULA HORA A HORA:**Cadencia de la linea:* 130*EMSAMBLE MECANISMOS**Unidades producidas*: 96*No se reportaron novedades**CONJUNTO SUSPENCION**Unidades Producidas:* 0*No se reportaron novedades**ENSAMBLE GABINETE**Unidades Producidas:* 109*COPA 1.0**Paro programado - Tiempo:* 5 min, *Razon:* Pausas activas*TAPA MOVIL**Unidades Producidas:* 96*COPA 2.0 WHIRLPOOL**No se reportaron novedades**TAPA FIJA**Unidades producidas:* 110*IMPELLER**No se reportaron novedades**TESTEO FINAL**Unidades Producidas:* 101*COPA 1.0**Paro programado - Tiempo:* 5 min, *Razon:* Pausas Activas*Se reprocesaron unidades - Cantidad:* 11*Unidades acumuladas:* 109
+--------------------
+Date: 5/5/2022
+Time: 16:9
+Group ID: HPuk6hQ3c4p1SSAgyQCTbE
+Message: *GESTION CELULA HORA A HORA:**Cadencia de la linea:* 130*EMSAMBLE MECANISMOS**Unidades producidas*: 96*No se reportaron novedades**CONJUNTO SUSPENCION**Unidades Producidas:* 0*No se reportaron novedades**ENSAMBLE GABINETE**Unidades Producidas:* 109*COPA 1.0**Paro programado - Tiempo:* 5 min, *Razon:* Pausas activas*TAPA MOVIL**Unidades Producidas:* 96*COPA 2.0 WHIRLPOOL**No se reportaron novedades**TAPA FIJA**Unidades producidas:* 110*IMPELLER**No se reportaron novedades**TESTEO FINAL**Unidades Producidas:* 101*COPA 1.0**Paro programado - Tiempo:* 5 min, *Razon:* Pausas Activas*Se reprocesaron unidades - Cantidad:* 11*Unidades acumuladas:* 6894
+--------------------
+Date: 5/5/2022
+Time: 17:9
+Group ID: HPuk6hQ3c4p1SSAgyQCTbE
+Message: *GESTION CELULA HORA A HORA:**Cadencia de la linea:* 130*EMSAMBLE MECANISMOS**Unidades producidas*: 107*No se reportaron novedades**CONJUNTO SUSPENCION**Unidades Producidas:* 126*No se reportaron novedades**ENSAMBLE GABINETE**Unidades Producidas:* 109*COPA 1.0**Paro programado - Tiempo:* 5 min, *Razon:* Pausas activas*TAPA MOVIL**Unidades Producidas:* 96*COPA 2.0 WHIRLPOOL**No se reportaron novedades**TAPA FIJA**Unidades producidas:* 110*IMPELLER**No se reportaron novedades**TESTEO FINAL**Unidades Producidas:* 101*COPA 1.0**Paro programado - Tiempo:* 5 min, *Razon:* Pausas Activas*Se reprocesaron unidades - Cantidad:* 11*Unidades acumuladas:* 108
+--------------------

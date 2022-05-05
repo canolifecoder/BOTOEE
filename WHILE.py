@@ -18,7 +18,7 @@ gc3 = gspread.service_account(
 gc4 = gspread.service_account(
     filename='named-haven-340115-8092bf8dd87f.json'
 )
-f=1
+
 SinNovedad=0
 while True:
     tiempo = datetime.datetime.now()
@@ -34,6 +34,59 @@ while True:
             print("1 Esperando minuto de envio...")
             espera_Minuto= False
 
+        if (Minuto2==0 and Segundo>=45) and Segundo<=49:
+            # Abrir por titulo LA HOJA DE CALCULO
+            sh2 = gc.open("Cadencia")
+            sh3= gc2.open("DATOS UNIDADES PRODUCIDAS Z3")
+            worksheet2 = sh3.get_worksheet(0)
+            unidadesProducidas_list=worksheet2.col_values(2)
+            Unidades = unidadesProducidas_list[-1]
+            Unidades3 = unidadesProducidas_list[-2]
+            Unidades2 = int(Unidades)
+            Unidades4 = int(Unidades3)
+            unidadesFinal=0
+            f=1
+            if Unidades2>=Unidades4:
+                UnidadesFinal=Unidades2
+                print(UnidadesFinal)
+            if Unidades2<Unidades4:
+                UnidadesFinal=Unidades4
+                print(UnidadesFinal)
+            
+        Archivo = open('UnidadesLinea.txt','r') # Abrir el archivo en modo lectura
+        a = Archivo.readlines() # Se lee las variables del archivo
+        Archivo.close() # Se cierra el archivo
+        DiaActual = int(a[1])
+
+        Dia = datetime.datetime.today().day # Actualizo el dìa actual desde el sistema
+        if DiaActual != Dia: # Ingresa si el día es diferente al ultimo día almacenado
+            Archivo = open('UnidadesLinea.txt','w')
+            a[0] = str(0)+'\n' # Dirección de apuntador en la hoja de Google Sheets
+            a[1] = str(Dia)+'\n' # Actualizar día en el archivo
+            Archivo.writelines(a)
+            Archivo.close
+            DiaActual = Dia # Actualización del día actual
+
+        if Minuto2 == 1 and f==1:
+            try:
+                acumulado= int(a[0])
+                Archivo.close
+                acumulado2= acumulado+UnidadesFinal
+                acumulado3 = str(acumulado2)
+                Convertido=str(UnidadesFinal)
+                Archivo = open('UnidadesLinea.txt','w')
+                a[0] = str(acumulado3)+'\n' # Dirección de apuntador en la hoja de Google Sheets
+                Archivo.writelines(a)
+                Archivo.close
+                print(acumulado3)
+                acumulado3="*Unidades acumuladas:* "+acumulado3
+                f=0
+                if espera_Minuto:
+                    print("1 Esperando minuto de envio...")
+                    espera_Minuto= False
+            except:
+                 print("Error, no se capturo el acumulado")    
+        
             #CONDICIONAL PARA SELECCIONAR EL MIN Y EL RANGO DE SEGUNDOS
         if (Minuto2==3 and Segundo>=40) and Segundo<=45:
             ##CADENCIA:::::
@@ -1306,7 +1359,7 @@ while True:
             #SELECCIONAR LA REFERENCIA::::: COPA 1 -- COPA 2 HACEB -- COPA 2 WHIRLPOOL
             UnidadesFabricadasTM=  TapaMovil.col_values(5)
             print("Unidades Fabricadas: "+UnidadesFabricadasTM[-1])
-            MensajeUnidadesFabricadasTM="Unidades Producidas: "+ UnidadesFabricadasTM[-1]
+            MensajeUnidadesFabricadasTM="*Unidades Producidas:* "+ UnidadesFabricadasTM[-1]
             #SELECCION DE COPA 1:::::
             SelectReferenciaTM = TapaMovil.col_values(7)
             if SelectReferenciaTM[-1]=="Copa 1.0":
@@ -1766,7 +1819,7 @@ while True:
             #SELECCIONAR LA REFERENCIA:::::Back Panel -- COPA 2 WHIRLPOOL -- AGIPELER --- BACK PANEL --- IMPELER --- QUASAR
             UnidadesFabricadasTF2=  TapaFija.col_values(5)
             print(UnidadesFabricadasTF2[-1])
-            mensajeUnidadesFabricadasTF2="Unidades producidas: "+UnidadesFabricadasTF2[-1]
+            mensajeUnidadesFabricadasTF2="*Unidades producidas:* "+UnidadesFabricadasTF2[-1]
             #SELECCION DE Agipeller:::::
             SelectReferenciaTF2 = TapaFija.col_values(7)
             if SelectReferenciaTF2[-1]=="Agipeller":
@@ -2658,7 +2711,8 @@ while True:
             if MensajeOeeTF2!="" and OeeTapaFija!="#DIV/0!":
                 mensaje5=mensaje5+"\n"+MensajeOeeTF2
             
-            mensajefinal=mensaje+"\n"+mensaje2+"\n"+mensaje3+"\n"+mensaje4+"\n"+mensaje5+"\n"+mensaje6
+            mensajefinal=mensaje+"\n"+mensaje2+"\n"+mensaje3+"\n"+mensaje4+"\n"+mensaje5+"\n"+mensaje6+"\n\n"+acumulado3
+            
             try:
                 pywhatkit.sendwhatmsg_to_group(
                     "HPuk6hQ3c4p1SSAgyQCTbE", mensajefinal, Hora, Minuto, 30, True, 20)
