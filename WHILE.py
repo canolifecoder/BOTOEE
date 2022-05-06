@@ -105,22 +105,22 @@ while True:
             MensajeUnidadesFabricadasEM ="*Unidades producidas*: "+ UnidadesFabricadasEM[-1]
 
             EmsambleMecanismos = sh.get_worksheet(0)
-            ParoProgramadoEM =  EmsambleMecanismos.col_values(9)
+            ParoProgramadoEM =  EmsambleMecanismos.col_values(8)
             if ParoProgramadoEM[-1]=="Si":
-                RazonParoProgramadoEM =  EmsambleMecanismos.col_values(10)
-                TiempoParoProgramadoEM =  EmsambleMecanismos.col_values(11)
+                RazonParoProgramadoEM =  EmsambleMecanismos.col_values(9)
+                TiempoParoProgramadoEM =  EmsambleMecanismos.col_values(10)
                 mensajeParoProgramadoEM="*Paro programado - Tiempo:* "+TiempoParoProgramadoEM[-1]+" min, *Razon:* "+RazonParoProgramadoEM[-1]
                 print (mensajeParoProgramadoEM)
             else:
                 mensajeParoProgramadoEM=""
                 print(mensajeParoProgramadoEM)
 
-            IncidentesEM =  EmsambleMecanismos.col_values(12)
+            IncidentesEM =  EmsambleMecanismos.col_values(11)
             if IncidentesEM[-1]=="Si":
-                DescrIncidenteEM =  EmsambleMecanismos.col_values(14)
-                ValidarParoIncidentesEM =  EmsambleMecanismos.col_values(15)
+                DescrIncidenteEM =  EmsambleMecanismos.col_values(13)
+                ValidarParoIncidentesEM =  EmsambleMecanismos.col_values(14)
                 if ValidarParoIncidentesEM[-1]=="Si":    
-                    TiempoIncidenteEM =  EmsambleMecanismos.col_values(16)
+                    TiempoIncidenteEM =  EmsambleMecanismos.col_values(15)
                     mensajeIncidenteEM="*Incidente y/o accidente ambiental y/o SST - Tiempo:* "+TiempoIncidenteEM[-1]+" min, *Razon:* "+DescrIncidenteEM[-1]
                 else:
                     mensajeIncidenteEM="*Incidente y/o accidente ambiental y/o SST - Razon:* "+DescrIncidenteEM[-1]
@@ -129,30 +129,30 @@ while True:
                 mensajeIncidenteEM=""
                 print(mensajeIncidenteEM)
 
-            ServiciosPublicosEM =  EmsambleMecanismos.col_values(17)
+            ServiciosPublicosEM =  EmsambleMecanismos.col_values(16)
             if ServiciosPublicosEM[-1]=="Si":
-                DescrServiciosPublicosEM =  EmsambleMecanismos.col_values(19)
-                TiempoServiciosPublicosEM =  EmsambleMecanismos.col_values(18)
+                DescrServiciosPublicosEM =  EmsambleMecanismos.col_values(18)
+                TiempoServiciosPublicosEM =  EmsambleMecanismos.col_values(17)
                 mensajeServiciosPublicosEM="*afectacion por falta de servicios públicos - Tiempo:* "+TiempoServiciosPublicosEM[-1]+" min, *Razon:* "+DescrServiciosPublicosEM[-1]+""
                 print (mensajeServiciosPublicosEM)
             else:
                 mensajeServiciosPublicosEM=""
                 print(mensajeServiciosPublicosEM)
 
-            MaquinaEM =  EmsambleMecanismos.col_values(20)
+            MaquinaEM =  EmsambleMecanismos.col_values(19)
             if MaquinaEM[-1]=="Si":
-                DescrMaquinaEM=  EmsambleMecanismos.col_values(23)
-                TiempoMaquinaEM =  EmsambleMecanismos.col_values(21)
+                DescrMaquinaEM=  EmsambleMecanismos.col_values(22)
+                TiempoMaquinaEM =  EmsambleMecanismos.col_values(20)
                 mensajeMaquinaEM="*afectacion por maquina - Tiempo:* "+TiempoMaquinaEM[-1]+" min, *Razon:* "+DescrMaquinaEM[-1]+""
                 print (mensajeMaquinaEM)
             else:
                 mensajeMaquinaEM=""
                 print(mensajeMaquinaEM)
 
-            ManoObraEM =  EmsambleMecanismos.col_values(24)
+            ManoObraEM =  EmsambleMecanismos.col_values(23)
             if ManoObraEM[-1]=="Si":
-                DescrManoObraEM=  EmsambleMecanismos.col_values(28)
-                TiempoManoObraEM =  EmsambleMecanismos.col_values(25)
+                DescrManoObraEM=  EmsambleMecanismos.col_values(27)
+                TiempoManoObraEM =  EmsambleMecanismos.col_values(24)
                 mensajeManoObraEM="*Hubo afectacion en las unidades por Mano de Obra - Tiempo:* "+TiempoManoObraEM[-1]+" min, *Razon:* "+DescrManoObraEM[-1]+""
                 print (mensajeManoObraEM)
             else:
@@ -160,30 +160,30 @@ while True:
                 print(mensajeManoObraEM)
 
 
-            MateriaPrimaEM =  EmsambleMecanismos.col_values(29)
+            MateriaPrimaEM =  EmsambleMecanismos.col_values(28)
             if MateriaPrimaEM[-1]=="Si":
-                DescrMateriaPrimaEM=  EmsambleMecanismos.col_values(33)
-                TiempoMateriaPrimaEM =  EmsambleMecanismos.col_values(30)
+                DescrMateriaPrimaEM=  EmsambleMecanismos.col_values(32)
+                TiempoMateriaPrimaEM =  EmsambleMecanismos.col_values(29)
                 mensajeMateriaPrimaEM="*Hubo afectacion en las unidades por Materia Prima - Tiempo:* "+TiempoMateriaPrimaEM[-1]+" min, *Razon:* "+DescrMateriaPrimaEM[-1]+""
                 print (mensajeMateriaPrimaEM)
             else:
                 mensajeMateriaPrimaEM=""
                 print(mensajeMateriaPrimaEM)
 
-            UnidadesPorMetodoEM =  EmsambleMecanismos.col_values(34)
+            UnidadesPorMetodoEM =  EmsambleMecanismos.col_values(33)
             if UnidadesPorMetodoEM[-1]=="Si":
-                DescrUnidadesPorMetodoEM=  EmsambleMecanismos.col_values(37)
-                TiempoUnidadesPorMetodoEM =  EmsambleMecanismos.col_values(35)
+                DescrUnidadesPorMetodoEM=  EmsambleMecanismos.col_values(36)
+                TiempoUnidadesPorMetodoEM =  EmsambleMecanismos.col_values(34)
                 mensajeUnidadesPorMetodoEM="*Hubo afectacion en las unidades por Metodo - Tiempo:* "+TiempoUnidadesPorMetodoEM[-1]+" min, *Razon:* "+DescrUnidadesPorMetodoEM[-1]+""
                 print (mensajeUnidadesPorMetodoEM)
             else:
                 mensajeUnidadesPorMetodoEM=""
                 print(mensajeUnidadesPorMetodoEM)
 
-            ScrapEM =  EmsambleMecanismos.col_values(38)
+            ScrapEM =  EmsambleMecanismos.col_values(37)
             if ScrapEM[-1]=="Si":
-                DescrScrapEM=  EmsambleMecanismos.col_values(39)
-                CantidadScrapEM =  EmsambleMecanismos.col_values(41)
+                DescrScrapEM=  EmsambleMecanismos.col_values(38)
+                CantidadScrapEM =  EmsambleMecanismos.col_values(39)
                 mensajeScrapEM="*Se genero SCRAP - Cantidad:* "+CantidadScrapEM[-1]+", *Razon:* "+DescrScrapEM[-1]+""
                 print (mensajeScrapEM)
             else:
@@ -191,9 +191,9 @@ while True:
                 print(mensajeScrapEM)
 
 
-            UnidadesReprocesadasEM =  EmsambleMecanismos.col_values(42)
+            UnidadesReprocesadasEM =  EmsambleMecanismos.col_values(41)
             if UnidadesReprocesadasEM[-1]=="Si":
-                CantidadReprocesadasEM=  EmsambleMecanismos.col_values(43)
+                CantidadReprocesadasEM=  EmsambleMecanismos.col_values(42)
 
                 mensajeUnidadesReprocesadasEM="*Se reprocesaron unidades - Cantidad:* "+CantidadReprocesadasEM[-1]+""
                 print (mensajeUnidadesReprocesadasEM)
@@ -269,10 +269,10 @@ while True:
             print("Unidades Fabricadas: "+UnidadesFabricadasCJ[-1])
             MensajeUnidadesFabricadasCJ="*Unidades Producidas:* "+ UnidadesFabricadasCJ[-1]
             #PAROS PROGRAMADOS::
-            ParoProgramadoCS =  ConjuntoSuspencion.col_values(9)
+            ParoProgramadoCS =  ConjuntoSuspencion.col_values(8)
             if ParoProgramadoCS[-1]=="Si":
-                RazonParoProgramadoCS =  ConjuntoSuspencion.col_values(10)
-                TiempoParoProgramadoCS =  ConjuntoSuspencion.col_values(11)
+                RazonParoProgramadoCS =  ConjuntoSuspencion.col_values(9)
+                TiempoParoProgramadoCS =  ConjuntoSuspencion.col_values(10)
                 mensajeParoProgramadoCS="*Paro programado - Tiempo:* "+TiempoParoProgramadoCS[-1]+" min, *Razon:* "+RazonParoProgramadoCS[-1]
                 print (mensajeParoProgramadoCS)
             else:
@@ -280,10 +280,10 @@ while True:
                 print(mensajeParoProgramadoCS)
 
             #INCIDENTES SST:::
-            IncidentesCS =  ConjuntoSuspencion.col_values(12)
+            IncidentesCS =  ConjuntoSuspencion.col_values(11)
             if IncidentesCS[-1]=="Si":
-                DescrIncidenteCS =  ConjuntoSuspencion.col_values(14)
-                ValidarParoIncidentesCS =  ConjuntoSuspencion.col_values(15)
+                DescrIncidenteCS =  ConjuntoSuspencion.col_values(13)
+                ValidarParoIncidentesCS =  ConjuntoSuspencion.col_values(14)
                 if ValidarParoIncidentesCS[-1]=="Si":    
                     TiempoIncidenteCS =  ConjuntoSuspencion.col_values(16)
                     mensajeIncidenteCS="*Incidente y/o accidente ambiental y/o SST - Tiempo:* "+TiempoIncidenteCS[-1]+" min, *Razon:* "+DescrIncidenteCS[-1]
@@ -295,10 +295,10 @@ while True:
                 print(mensajeIncidenteCS)
 
             #SERVICIOS PUBLICOS::::
-            ServiciosPublicosCS =  ConjuntoSuspencion.col_values(17)
+            ServiciosPublicosCS =  ConjuntoSuspencion.col_values(16)
             if ServiciosPublicosCS[-1]=="Si":
-                DescrServiciosPublicosCS =  ConjuntoSuspencion.col_values(19)
-                TiempoServiciosPublicosCS =  ConjuntoSuspencion.col_values(18)
+                DescrServiciosPublicosCS =  ConjuntoSuspencion.col_values(18)
+                TiempoServiciosPublicosCS =  ConjuntoSuspencion.col_values(17)
                 mensajeServiciosPublicosCS="*afectacion por falta de servicios públicos - Tiempo:* "+TiempoServiciosPublicosCS[-1]+" min, *Razon:* "+DescrServiciosPublicosCS[-1]+""
                 print (mensajeServiciosPublicosCS)
             else:
@@ -306,10 +306,10 @@ while True:
                 print(mensajeServiciosPublicosCS)
 
             #MAQUINA:::::::::::
-            MaquinaCS =  ConjuntoSuspencion.col_values(20)
+            MaquinaCS =  ConjuntoSuspencion.col_values(19)
             if MaquinaCS[-1]=="Si":
-                DescrMaquinaCS=  ConjuntoSuspencion.col_values(23)
-                TiempoMaquinaCS =  ConjuntoSuspencion.col_values(21)
+                DescrMaquinaCS=  ConjuntoSuspencion.col_values(22)
+                TiempoMaquinaCS =  ConjuntoSuspencion.col_values(20)
                 mensajeMaquinaCS="*afectacion por maquina - Tiempo:* "+TiempoMaquinaCS[-1]+" min, *Razon:* "+DescrMaquinaCS[-1]+""
                 print (mensajeMaquinaCS)
             else:
@@ -317,10 +317,10 @@ while True:
                 print(mensajeMaquinaCS)
 
             #MANO DE OBRA:::::::
-            ManoObraCS =  ConjuntoSuspencion.col_values(24)
+            ManoObraCS =  ConjuntoSuspencion.col_values(23)
             if ManoObraCS[-1]=="Si":
-                DescrManoObraCS=  ConjuntoSuspencion.col_values(27)
-                TiempoManoObraCS =  ConjuntoSuspencion.col_values(25)
+                DescrManoObraCS=  ConjuntoSuspencion.col_values(26)
+                TiempoManoObraCS =  ConjuntoSuspencion.col_values(24)
                 mensajeManoObraCS="*Hubo afectacion en las unidades por Mano de Obra - Tiempo:* "+TiempoManoObraCS[-1]+" min, *Razon:* "+DescrManoObraCS[-1]+""
                 print (mensajeManoObraCS)
             else:
@@ -328,10 +328,10 @@ while True:
                 print(mensajeManoObraCS)
 
             #MATERIA PRIMA:::::::::::
-            MateriaPrimaCS =  ConjuntoSuspencion.col_values(28)
+            MateriaPrimaCS =  ConjuntoSuspencion.col_values(27)
             if MateriaPrimaCS[-1]=="Si":
-                DescrMateriaPrimaCS=  ConjuntoSuspencion.col_values(32)
-                TiempoMateriaPrimaCS =  ConjuntoSuspencion.col_values(29)
+                DescrMateriaPrimaCS=  ConjuntoSuspencion.col_values(31)
+                TiempoMateriaPrimaCS =  ConjuntoSuspencion.col_values(28)
                 mensajeMateriaPrimaCS="*Hubo afectacion en las unidades por Materia Prima - Tiempo:* "+TiempoMateriaPrimaCS[-1]+" min, *Razon:* "+DescrMateriaPrimaCS[-1]+""
                 print (mensajeMateriaPrimaCS)
             else:
@@ -340,10 +340,10 @@ while True:
 
 
             #POR METODO:::::::::::::
-            UnidadesPorMetodoCS =  ConjuntoSuspencion.col_values(33)
+            UnidadesPorMetodoCS =  ConjuntoSuspencion.col_values(32)
             if UnidadesPorMetodoCS[-1]=="Si":
-                DescrUnidadesPorMetodoCS=  ConjuntoSuspencion.col_values(36)
-                TiempoUnidadesPorMetodoCS =  ConjuntoSuspencion.col_values(34)
+                DescrUnidadesPorMetodoCS=  ConjuntoSuspencion.col_values(35)
+                TiempoUnidadesPorMetodoCS =  ConjuntoSuspencion.col_values(33)
                 mensajeUnidadesPorMetodoCS="*Hubo afectacion en las unidades por Metodo - Tiempo:* "+TiempoUnidadesPorMetodoCS[-1]+" min, *Razon:* "+DescrUnidadesPorMetodoCS[-1]+""
                 print (mensajeUnidadesPorMetodoCS)
             else:
@@ -352,10 +352,10 @@ while True:
 
 
             ##SCRAPPPP::::::::::::::::::::::::::::::::
-            ScrapCS =  ConjuntoSuspencion.col_values(37)
+            ScrapCS =  ConjuntoSuspencion.col_values(36)
             if ScrapCS[-1]=="Si":
-                DescrScrapCS=  ConjuntoSuspencion.col_values(39)
-                CantidadScrapCS =  ConjuntoSuspencion.col_values(40)
+                DescrScrapCS=  ConjuntoSuspencion.col_values(38)
+                CantidadScrapCS =  ConjuntoSuspencion.col_values(39)
                 mensajeScrapCS="*Se genero SCRAP - Cantidad:* "+CantidadScrapCS[-1]+", *Razon:* "+DescrScrapCS[-1]+""
                 print (mensajeScrapCS)
             else:
@@ -363,9 +363,9 @@ while True:
                 print(mensajeScrapCS)
 
             ##UNIDADES REPROCESADAS:::::::::::::
-            UnidadesReprocesadasCS =  ConjuntoSuspencion.col_values(41)
+            UnidadesReprocesadasCS =  ConjuntoSuspencion.col_values(40)
             if UnidadesReprocesadasCS[-1]=="Si":
-                CantidadReprocesadasCS=  ConjuntoSuspencion.col_values(42)
+                CantidadReprocesadasCS=  ConjuntoSuspencion.col_values(41)
 
                 mensajeUnidadesReprocesadasCS="*Se reprocesaron unidades - Cantidad:* "+CantidadReprocesadasCS[-1]+""
                 print (mensajeUnidadesReprocesadasCS)
@@ -698,8 +698,8 @@ while True:
             ##SERVICIOS PUBLICOS COPA2 WHIRPOOL:::
                 ServiciosPublicosEGCP2W=EmsambleGabinete.col_values(86)
                 if ServiciosPublicosEGCP2W[-1]=="Si":
-                    DescrServiciosPublicosEGCP2W=EmsambleGabinete.col_values(87)
-                    TiempoServiciosPublicosEGCP2W=EmsambleGabinete.col_values(88)
+                    DescrServiciosPublicosEGCP2W=EmsambleGabinete.col_values(88)
+                    TiempoServiciosPublicosEGCP2W=EmsambleGabinete.col_values(87)
                     mensajeServiciosPublicosEGCP2W="*Hubo afectacion en las unidades del hora a hora por falta de servicios públicos: Razon:* "+DescrServiciosPublicosEGCP2W[-1]+ " -*Tiempo:* :"+TiempoServiciosPublicosEGCP2W[-1]+"min"
                     print(mensajeServiciosPublicosEGCP2W)
                 else:
@@ -772,7 +772,6 @@ while True:
                 else:
                     mensajeUnidadesReprocesadasEGCP2W=""
                     print(mensajeUnidadesReprocesadasEGCP2W)
-
 
             OeeEG= EmsambleGabinete.col_values(118)
             OeeEmsableGabinete = OeeEG[-1]
@@ -928,7 +927,7 @@ while True:
                         mensajeIncidenteTFCP1="*Incidente y/o accidente ambiental y/o SST - Tiempo:* "+TiempoIncidenteTFCP1[-1]+" min, *Razon:* "+DescrIncidenteTFCP1[-1]
                         print (mensajeIncidenteTFCP1)
                     else:
-                        DescrIncidenteTFCP1=TesteoFinal.col_values(12)
+                        DescrIncidenteTFCP1=TesteoFinal.col_values(13)
                         mensajeIncidenteTFCP1="*Incidente y/o accidente ambiental y/o SST: Razon:* "+DescrIncidenteTFCP1[-1] + " No se generó paro"
                         print (mensajeIncidenteTFCP1)
                 else:
@@ -1124,7 +1123,7 @@ while True:
                     print(mensajeUnidadesReprocesadasTFCP2H)
 
             ##COPA 2 WHIRLPOOL::::::::::::::
-            # EMSAMBLE MECANISMOS COPA 2 WHIRLPOOL__:::::
+            # TESTEO FINAL COPA 2 WHIRLPOOL__:::::
             if SelectReferenciaTF[-1]=="Copa 2.0 Whirlpool":
                 print("COPA 2 Whirlpool::::::")
                 #PAROS PROGRAMADOS::::
@@ -1160,8 +1159,8 @@ while True:
             ##SERVICIOS PUBLICOS COPA2 WHIRPOOL:::
                 ServiciosPublicosTFCP2W=TesteoFinal.col_values(86)
                 if ServiciosPublicosTFCP2W[-1]=="Si":
-                    DescrServiciosPublicosTFCP2W=TesteoFinal.col_values(87)
-                    TiempoServiciosPublicosTFCP2W=TesteoFinal.col_values(88)
+                    DescrServiciosPublicosTFCP2W=TesteoFinal.col_values(88)
+                    TiempoServiciosPublicosTFCP2W=TesteoFinal.col_values(87)
                     mensajeServiciosPublicosTFCP2W="*Hubo afectacion en las unidades del hora a hora por falta de servicios públicos: Razon:* "+DescrServiciosPublicosTFCP2W[-1]+ " -*Tiempo:* :"+TiempoServiciosPublicosTFCP2W[-1]+"min"
                     print(mensajeServiciosPublicosTFCP2W)
                 else:
@@ -1180,10 +1179,10 @@ while True:
                     print(mensajeMaquinaTFCP2W)
 
             #POR MANO DE OBRA COPA2 WHIRLPOOL::::::::
-                ManoDeObraTFCP2W=TesteoFinal.col_values(93)
+                ManoDeObraTFCP2W=TesteoFinal.col_values(92)
                 if ManoDeObraTFCP2W[-1]=="Si":
-                    DescrManoDeObraTFCP2W=TesteoFinal.col_values(97)
-                    TiempoManoDeObraTFCP2W=TesteoFinal.col_values(94)
+                    DescrManoDeObraTFCP2W=TesteoFinal.col_values(96)
+                    TiempoManoDeObraTFCP2W=TesteoFinal.col_values(93)
                     mensajeManoDeObraTFCP2W="*Hubo afectacion en las unidades por Mano De Obra: Razon:* "+DescrManoDeObraTFCP2W[-1]+ " - *Tiempo:* "+TiempoManoDeObraTFCP2W[-1]+"min" 
                     print(mensajeManoDeObraTFCP2W)
                 else:
@@ -1192,10 +1191,10 @@ while True:
 
             #MATERIA PRIMA COPA2 WHIRPOOL::::
 
-                MateriaPrimaTFCP2W=TesteoFinal.col_values(98)
+                MateriaPrimaTFCP2W=TesteoFinal.col_values(97)
                 if MateriaPrimaTFCP2W[-1]=="Si":
-                    DescrMateriaPrimaTFCP2W=TesteoFinal.col_values(102)
-                    TiempoMateriaPrimaTFCP2W=TesteoFinal.col_values(99)
+                    DescrMateriaPrimaTFCP2W=TesteoFinal.col_values(101)
+                    TiempoMateriaPrimaTFCP2W=TesteoFinal.col_values(98)
                     mensajeMateriaPrimaTFCP2W="*Hubo afectacion en las unidades por Materia Prima: Razon:* "+DescrMateriaPrimaTFCP2W[-1]+ " - *Tiempo:* "+TiempoMateriaPrimaTFCP2W[-1]+"min" 
                     print(mensajeMateriaPrimaTFCP2W)
                 else:
@@ -1203,10 +1202,10 @@ while True:
                     print(mensajeMateriaPrimaTFCP2W)
 
             #POR METODO COPA2 WHIRLPOOL:::
-                MetodoTFCP2W=TesteoFinal.col_values(103)
+                MetodoTFCP2W=TesteoFinal.col_values(102)
                 if MetodoTFCP2W[-1]=="Si":
-                    DescrMetodoTFCP2W=TesteoFinal.col_values(106)
-                    TiempoMetodoTFCP2W=TesteoFinal.col_values(104)
+                    DescrMetodoTFCP2W=TesteoFinal.col_values(105)
+                    TiempoMetodoTFCP2W=TesteoFinal.col_values(103)
                     mensajeMetodoTFCP2W="*Hubo afectacion en las unidades por Metodo: Razon:* "+DescrMetodoTFCP2W[-1]+ "- *Tiempo:* "+TiempoMetodoTFCP2W[-1]+"min" 
                     print(mensajeMetodoTFCP2W)
                 else:
@@ -1214,10 +1213,10 @@ while True:
                     print(mensajeMetodoTFCP2W)
 
             #SCRAP COPA2 WHIRLPOOL::::::::::
-                ScrapTFCP2W=TesteoFinal.col_values(107)
+                ScrapTFCP2W=TesteoFinal.col_values(106)
                 if ScrapTFCP2W[-1]=="Si":
-                    DescrScrapTFCP2W=TesteoFinal.col_values(109)
-                    CantidadScrapTFCP2W=TesteoFinal.col_values(110)
+                    DescrScrapTFCP2W=TesteoFinal.col_values(108)
+                    CantidadScrapTFCP2W=TesteoFinal.col_values(109)
                     mensajeScrapTFCP2W="*Se generó SCRAP: Cantidad:* "+CantidadScrapTFCP2W[-1]+" - *Razon:* "+DescrScrapTFCP2W[-1]
                     print(mensajeScrapTFCP2W)
                 else:
@@ -1225,9 +1224,9 @@ while True:
                     print(mensajeScrapTFCP2W)
 
             #REPROCESADAS COPA2::::::::
-                UnidadesReprocesadasTFCP2W =  TesteoFinal.col_values(111)
+                UnidadesReprocesadasTFCP2W =  TesteoFinal.col_values(110)
                 if UnidadesReprocesadasTFCP2W[-1]=="Si":
-                    CantidadReprocesadasTFCP2W=  TesteoFinal.col_values(112)
+                    CantidadReprocesadasTFCP2W=  TesteoFinal.col_values(111)
 
                     mensajeUnidadesReprocesadasTFCP2W="*Se reprocesaron unidades - Cantidad:* "+CantidadReprocesadasTFCP2W[-1]+""
                     print (mensajeUnidadesReprocesadasTFCP2W)
@@ -1236,7 +1235,7 @@ while True:
                     print(mensajeUnidadesReprocesadasTFCP2W)
 
 
-            OeeTF= TesteoFinal.col_values(118)
+            OeeTF= TesteoFinal.col_values(117)
             OeeTesteoFinal = OeeTF[-1]
             print("OEE: " + OeeTesteoFinal)
             MensajeOeeTF="*OEE:* " + OeeTesteoFinal
@@ -1352,7 +1351,7 @@ while True:
 
         #CONDICIONAL PARA SELECCIONAR EL MIN Y EL RANGO DE SEGUNDOS
         if (Minuto2==7 and Segundo>=40) and Segundo<=45:
-            #TESTEO FINAL:::::::::::::::
+            #TAPA MOVIL:::::::::::::::
             print("TAPA MOVIL::---------")
             #SELECCION DE LA HOJA::
             TapaMovil = sh.get_worksheet(4)
@@ -1619,8 +1618,8 @@ while True:
             ##SERVICIOS PUBLICOS COPA2 WHIRPOOL TAPA MOVIL:::
                 ServiciosPublicosTMCP2W=TapaMovil.col_values(86)
                 if ServiciosPublicosTMCP2W[-1]=="Si":
-                    DescrServiciosPublicosTMCP2W=TapaMovil.col_values(87)
-                    TiempoServiciosPublicosTMCP2W=TapaMovil.col_values(88)
+                    DescrServiciosPublicosTMCP2W=TapaMovil.col_values(88)
+                    TiempoServiciosPublicosTMCP2W=TapaMovil.col_values(87)
                     mensajeServiciosPublicosTMCP2W="*Hubo afectación en las unidades del hora a hora por falta de servicios públicos: Razon:* "+DescrServiciosPublicosTMCP2W[-1]+ " -*Tiempo:* :"+TiempoServiciosPublicosTMCP2W[-1]+"min"
                     print(mensajeServiciosPublicosTMCP2W)
                 else:

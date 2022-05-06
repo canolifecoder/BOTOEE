@@ -5163,3 +5163,8 @@ Time: 17:9
 Group ID: HPuk6hQ3c4p1SSAgyQCTbE
 Message: *GESTION CELULA HORA A HORA:**Cadencia de la linea:* 130*EMSAMBLE MECANISMOS**Unidades producidas*: 107*No se reportaron novedades**CONJUNTO SUSPENCION**Unidades Producidas:* 126*No se reportaron novedades**ENSAMBLE GABINETE**Unidades Producidas:* 109*COPA 1.0**Paro programado - Tiempo:* 5 min, *Razon:* Pausas activas*TAPA MOVIL**Unidades Producidas:* 96*COPA 2.0 WHIRLPOOL**No se reportaron novedades**TAPA FIJA**Unidades producidas:* 110*IMPELLER**No se reportaron novedades**TESTEO FINAL**Unidades Producidas:* 101*COPA 1.0**Paro programado - Tiempo:* 5 min, *Razon:* Pausas Activas*Se reprocesaron unidades - Cantidad:* 11*Unidades acumuladas:* 108
 --------------------
+Date: 6/5/2022
+Time: 11:9
+Group ID: HPuk6hQ3c4p1SSAgyQCTbE
+Message: *GESTION CELULA HORA A HORA:**Cadencia de la linea:* 130*EMSAMBLE MECANISMOS**Unidades producidas*: 32*Paro programado - Tiempo:* 35 min, *Razon:* Almuerzo*afectacion por maquina - Tiempo:* 1 min, *Razon:* sensores alarmados *Se genero SCRAP - Cantidad:* Protector polea, *Razon:* Producción*Se reprocesaron unidades - Cantidad:* 1*CONJUNTO SUSPENCION**Unidades Producidas:* 242*Paro programado - Tiempo:* 35 min, *Razon:* Almuerzo*Se reprocesaron unidades - Cantidad:* 3*ENSAMBLE GABINETE**Unidades Producidas:* 5*No se reportaron novedades**OEE:* 116%*TAPA MOVIL**Unidades Producidas:* 5*No se reportaron novedades*OEE: -21394%*TAPA FIJA**Unidades producidas:* 30*AGIPELLER**Paro programado - Tiempo:* 35 min, *Razon:* Almuerzo*TESTEO FINAL**Unidades Producidas:* 101*COPA 1.0**Paro programado - Tiempo:* 5 min, *Razon:* Pausas Activas*Se reprocesaron unidades - Cantidad:* 11*Unidades acumuladas:* 466
+--------------------
