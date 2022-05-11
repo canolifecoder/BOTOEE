@@ -76,7 +76,7 @@ while True:
                 HoraActual = Hora # Actualización del día actual 
                 print(Hora)
 
-            Archivo2 = open('ControlHora.txt','w')
+            """ Archivo2 = open('ControlHora.txt','w')
             b[1] = str(HoraEM[-1]) + "\n"
             b[2] = str(HoraCS[-1]) + "\n"
             b[3] = str(HoraEG[-1]) + "\n"
@@ -85,7 +85,7 @@ while True:
             b[6] = str(HoraTF2[-1]) + "\n"
             Archivo2.writelines(b)
             Archivo2.close
-            print("Escrito exitosamente")
+            print("Escrito exitosamente") """
 
 
             #EMSAMBLE MECANISMOS:::::::::::::::
@@ -2834,6 +2834,17 @@ while True:
                 print(mensajefinal)
             except:
                 print("Error!! El mensaje no pudo ser enviado")
+
+            Archivo2 = open('ControlHora.txt','w')
+            b[1] = str(HoraEM[-1]) + "\n"
+            b[2] = str(HoraCS[-1]) + "\n"
+            b[3] = str(HoraEG[-1]) + "\n"
+            b[4] = str(HoraTF[-1]) + "\n"
+            b[5] = str(HoraTM[-1]) + "\n"
+            b[6] = str(HoraTF2[-1]) + "\n"
+            Archivo2.writelines(b)
+            Archivo2.close
+            print("Escrito exitosamente")
 
         time.sleep(1)
 
