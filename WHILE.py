@@ -76,8 +76,6 @@ while True:
                 HoraActual = Hora # Actualización del día actual 
                 print(Hora)
 
-            HoraEM2=str(HoraEM[-1])
-            print(HoraEM2)
             Archivo2 = open('ControlHora.txt','w')
             b[1] = str(HoraEM[-1]) + "\n"
             b[2] = str(HoraCS[-1]) + "\n"
@@ -106,8 +104,8 @@ while True:
             HoraGuardadaCS = str(b[2])
             HoraGuardadaEG = str(b[3])
             HoraGuardadaTF = str(b[4])
-            HoraGuardadaCM = str(b[5])
-            HoraGuardadaCF2 = str(b[6])
+            HoraGuardadaTM = str(b[5])
+            HoraGuardadaTF2 = str(b[6])
             Archivo2.close() # Se cierra el archivo
 
             print(HoraGuardadaEM)
