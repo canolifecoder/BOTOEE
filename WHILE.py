@@ -103,6 +103,11 @@ while True:
             Archivo2 = open('ControlHora.txt','r') # Abrir el archivo en modo lectura
             b = Archivo2.readlines() # Se lee las variables del archivo
             HoraGuardadaEM = str(b[1])
+            HoraGuardadaCS = str(b[2])
+            HoraGuardadaEG = str(b[3])
+            HoraGuardadaTF = str(b[4])
+            HoraGuardadaCM = str(b[5])
+            HoraGuardadaCF2 = str(b[6])
             Archivo2.close() # Se cierra el archivo
 
             print(HoraGuardadaEM)
