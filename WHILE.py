@@ -34,7 +34,7 @@ while True:
             print("1 Esperando minuto de envio...")
             espera_Minuto= False
 
-        if (Minuto2==0 and Segundo>=35) and Segundo<=50:
+        if (Minuto2==52 and Segundo>=25) and Segundo<=50:
 
             sh = gc3.open("Gestión Célula Hora a Hora Células")
             #HORA ENSAMBLE MECANISMOS::
@@ -61,32 +61,14 @@ while True:
             worksheet = sh.get_worksheet(5)
             HoraTF2=worksheet.col_values(2)
 
-            Archivo2 = open('ControlHora.txt','r') # Abrir el archivo en modo lectura
-            b = Archivo2.readlines() # Se lee las variables del archivo
-            Archivo2.close() # Se cierra el archivo
-            HoraActual = int(b[7])
-
             Hora = int(tiempo.hour)
-            Dia = datetime.datetime.today().day # Actualizo el dìa actual desde el sistema
-            if HoraActual != Hora: # Ingresa si el día es diferente al ultimo día almacenado
-                Archivo2 = open('ControlHora.txt','w')
-                b[7] = str(Hora)+'\n' # Dirección de apuntador en la hoja de Google Sheets
-                Archivo2.writelines(b)
-                Archivo2.close
-                HoraActual = Hora # Actualización del día actual 
-                print(Hora)
-
-            """ Archivo2 = open('ControlHora.txt','w')
-            b[1] = str(HoraEM[-1]) + "\n"
-            b[2] = str(HoraCS[-1]) + "\n"
-            b[3] = str(HoraEG[-1]) + "\n"
-            b[4] = str(HoraTF[-1]) + "\n"
-            b[5] = str(HoraTM[-1]) + "\n"
-            b[6] = str(HoraTF2[-1]) + "\n"
-            Archivo2.writelines(b)
-            Archivo2.close
-            print("Escrito exitosamente") """
-
+            Hora2=Hora-1
+            hora3=str(Hora)
+            hora4=str(Hora2)
+            if Hora<=12 and Hora2<=11:
+                HoraAHora=hora4+" - "+hora3+" AM"
+            else:
+                HoraAHora=hora4+" - "+hora3+" PM"
 
             #EMSAMBLE MECANISMOS:::::::::::::::
             print("EMSAMBLE MECANISMOS:--------")
@@ -98,18 +80,12 @@ while True:
             EmsambleMecanismos = sh.get_worksheet(0)
             HoraEM=EmsambleMecanismos.col_values(2)
 
-            Archivo2 = open('ControlHora.txt','r') # Abrir el archivo en modo lectura
-            b = Archivo2.readlines() # Se lee las variables del archivo
-            HoraGuardadaEM = str(b[1])
-            HoraGuardadaCS = str(b[2])
-            HoraGuardadaEG = str(b[3])
-            HoraGuardadaTF = str(b[4])
-            HoraGuardadaTM = str(b[5])
-            HoraGuardadaTF2 = str(b[6])
-            Archivo2.close() # Se cierra el archivo
-
-            print(HoraGuardadaEM)
-            print(HoraEM[-1])
+            print("HoraGuardadaEM"+HoraEM[-1])
+            print("HoraGuardadaCS"+HoraCS[-1])
+            print("HoraGuardadaEG"+HoraEG[-1])
+            print("HoraGuardadaTF"+HoraTF[-1])
+            print("HoraGuardadaTM"+HoraTM[-1])
+            print("HoraGuardadaTF2"+HoraTF2[-1])
             
             # Abrir por titulo LA HOJA DE CALCULO
             sh2 = gc.open("Cadencia")
@@ -129,21 +105,21 @@ while True:
                 UnidadesFinal=Unidades4
                 print(UnidadesFinal)
             
-        Archivo = open('UnidadesLinea.txt','r') # Abrir el archivo en modo lectura
-        a = Archivo.readlines() # Se lee las variables del archivo
-        Archivo.close() # Se cierra el archivo
-        DiaActual = int(a[1])
+            Archivo = open('UnidadesLinea.txt','r') # Abrir el archivo en modo lectura
+            a = Archivo.readlines() # Se lee las variables del archivo
+            Archivo.close() # Se cierra el archivo
+            DiaActual = int(a[1])
 
-        Dia = datetime.datetime.today().day # Actualizo el dìa actual desde el sistema
-        if DiaActual != Dia: # Ingresa si el día es diferente al ultimo día almacenado
-            Archivo = open('UnidadesLinea.txt','w')
-            a[0] = str(0)+'\n' # Dirección de apuntador en la hoja de Google Sheets
-            a[1] = str(Dia)+'\n' # Actualizar día en el archivo
-            Archivo.writelines(a)
-            Archivo.close
-            DiaActual = Dia # Actualización del día actual
+            Dia = datetime.datetime.today().day # Actualizo el dìa actual desde el sistema
+            if DiaActual != Dia: # Ingresa si el día es diferente al ultimo día almacenado
+                Archivo = open('UnidadesLinea.txt','w')
+                a[0] = str(0)+'\n' # Dirección de apuntador en la hoja de Google Sheets
+                a[1] = str(Dia)+'\n' # Actualizar día en el archivo
+                Archivo.writelines(a)
+                Archivo.close
+                DiaActual = Dia # Actualización del día actual
 
-        if Minuto2 == 1 and f==1:
+        if Minuto2 ==53 and f==1:
             try:
                 acumulado= int(a[0])
                 Archivo.close
@@ -164,7 +140,7 @@ while True:
                  print("Error, no se capturo el acumulado")    
         
             #CONDICIONAL PARA SELECCIONAR EL MIN Y EL RANGO DE SEGUNDOS
-        if (Minuto2==3 and Segundo>=40) and Segundo<=45:
+        if (Minuto2==54 and Segundo>=40) and Segundo<=45:
             ##CADENCIA:::::
             sh = gc3.open("Gestión Célula Hora a Hora Células")
             cadencia = gc.open("Cadencia")
@@ -173,7 +149,7 @@ while True:
             print("Cadencia de la linea: "+cadenciaList[-1])
             MensajeCadencia = "*Cadencia de la linea:* "+ cadenciaList[-1]
 
-            if str(HoraEM[-1])+"\n" == HoraGuardadaEM:
+            if str(HoraEM[-1]) != HoraAHora:
                 print ("Ensamble mecanismos, no reporto")
                 mensaje="*ENSAMBLE MECANISMOS*/n*La celula no reporto.*"
             else:
@@ -339,9 +315,9 @@ while True:
             espera_Minuto= False
 
         #CONDICIONAL PARA SELECCIONAR EL MIN Y EL RANGO DE SEGUNDOS
-        if (Minuto2==4 and Segundo>=40) and Segundo<=45:
+        if (Minuto2==55 and Segundo>=40) and Segundo<=45:
             #VALIDAR QUE SI HAYA UN REPORTE
-            if str(HoraCS[-1])+"\n" == HoraGuardadaCS:
+            if str(HoraCS[-1]) != HoraAHora:
                 print ("Conjunto suspencion, no reporto")
                 mensaje2="*CONJUNTO SUSPENCION*/n*La celula no reporto.*"
             else:
@@ -513,10 +489,10 @@ while True:
             espera_Minuto= False
 
         #CONDICIONAL PARA SELECCIONAR EL MIN Y EL RANGO DE SEGUNDOS
-        if (Minuto2==5 and Segundo>=40) and Segundo<=45:
+        if (Minuto2==56 and Segundo>=40) and Segundo<=45:
 
             #VALIDAR QUE SI HAYA UN REPORTE
-            if str(HoraEG[-1])+"\n" == HoraGuardadaEG:
+            if str(HoraEG[-1]) != HoraAHora:
                 print ("Ensamble gabinete, no reporto")
                 mensaje3="*EMSAMBLE GABINETE*/n*La celula no reporto.*"
             else:
@@ -982,10 +958,10 @@ while True:
             espera_Minuto= False
 
         #CONDICIONAL PARA SELECCIONAR EL MIN Y EL RANGO DE SEGUNDOS
-        if (Minuto2==6 and Segundo>=40) and Segundo<=45:
+        if (Minuto2==57 and Segundo>=40) and Segundo<=45:
 
             #VALIDAR QUE SI HAYA UN REPORTE
-            if str(HoraTF[-1])+"\n" == HoraGuardadaTF:
+            if str(HoraTF[-1]) != HoraAHora:
                 print ("Testeo final, no reporto")
                 mensaje6="*TESTEO FINAL*/n/n*La celula no reporto.*"
             else:
@@ -1449,10 +1425,10 @@ while True:
             espera_Minuto= False
 
         #CONDICIONAL PARA SELECCIONAR EL MIN Y EL RANGO DE SEGUNDOS
-        if (Minuto2==7 and Segundo>=40) and Segundo<=45:
+        if (Minuto2==58 and Segundo>=40) and Segundo<=45:
 
             #VALIDAR QUE SI HAYA UN REPORTE
-            if str(HoraTM[-1])+"\n" == HoraGuardadaTM:
+            if str(HoraTM[-1]) != HoraAHora:
                 print ("Tapa movil, no reporto")
                 mensaje4="*TAPA MOVIL*/n/n*La celula no reporto.*"
             else:
@@ -1914,10 +1890,10 @@ while True:
             espera_Minuto= False
 
         #CONDICIONAL PARA SELECCIONAR EL MIN Y EL RANGO DE SEGUNDOS
-        if (Minuto2==8 and Segundo>=40) and Segundo<=45:
+        if (Minuto2==59 and Segundo>=40) and Segundo<=45:
 
             #VALIDAR QUE SI HAYA UN REPORTE
-            if str(HoraTF2[-1])+"\n" == HoraGuardadaTF2:
+            if str(HoraTF2[-1]) != HoraAHora:
                 print ("Tapa fija, no reporto")
                 mensaje5="*TAPA FIJA*/n/n*La celula no reporto.*"
             else:
@@ -2615,14 +2591,6 @@ while True:
                 print("Porcentaje OEE: "+ OeeTapaFija)
                 MensajeOeeTF2="OEE: "+OeeTapaFija
 
-            if espera_Minuto:
-                print("Esperando minuto para envio de wpp...")
-                espera_Minuto= False
-
-            if Minuto2==9:
-            #Se envia el mensaje por WPP
-                print("Entró")
-
                 mensaje5="\n*TAPA FIJA*" 
 
                 if mensajeUnidadesFabricadasTF2!="":
@@ -2820,7 +2788,15 @@ while True:
 
                 if MensajeOeeTF2!="" and OeeTapaFija!="#DIV/0!":
                     mensaje5=mensaje5+"\n"+MensajeOeeTF2
-            
+
+        if espera_Minuto:
+                print("Esperando minuto para envio de wpp...")
+                espera_Minuto= False
+
+        if Minuto2==1:
+            #Se envia el mensaje por WPP
+            print("Entró")
+        
             mensajefinal=mensaje+"\n"+mensaje2+"\n"+mensaje3+"\n"+mensaje4+"\n"+mensaje5+"\n"+mensaje6+"\n\n"+acumulado3
             
             try:
@@ -2832,21 +2808,11 @@ while True:
                 espera_Minuto = True
                 espera_Hora = True
                 print(mensajefinal)
+
             except:
                 print("Error!! El mensaje no pudo ser enviado")
 
-            Archivo2 = open('ControlHora.txt','w')
-            b[1] = str(HoraEM[-1]) + "\n"
-            b[2] = str(HoraCS[-1]) + "\n"
-            b[3] = str(HoraEG[-1]) + "\n"
-            b[4] = str(HoraTF[-1]) + "\n"
-            b[5] = str(HoraTM[-1]) + "\n"
-            b[6] = str(HoraTF2[-1]) + "\n"
-            Archivo2.writelines(b)
-            Archivo2.close
-            print("Escrito exitosamente")
-
-        time.sleep(1)
+            time.sleep(1)
 
     else:
         if espera_Hora:
