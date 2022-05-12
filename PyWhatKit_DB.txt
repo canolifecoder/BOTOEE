@@ -5173,3 +5173,23 @@ Time: 11:1
 Group ID: HPuk6hQ3c4p1SSAgyQCTbE
 Message: *GESTION CELULA HORA A HORA:**Cadencia de la linea:* 130*EMSAMBLE MECANISMOS**Unidades producidas*: 38*Paro programado - Tiempo:* 37 min, *Razon:* Almuerzo, Surtido de Motor*CONJUNTO SUSPENCION**Unidades Producidas:* 0*Paro programado - Tiempo:* 35 min, *Razon:* Almuerzo*afectacion por maquina - Tiempo:* 25 min, *Razon:* varilla se atasca *Se reprocesaron unidades - Cantidad:* 0*ENSAMBLE GABINETE**Unidades Producidas:* 33*COPA 2.0 HACEB**Paro programado - Tiempo:* 35 min, *Razon:* Almuerzo*TAPA MOVIL*/n/n*La celula no reporto.**TAPA FIJA**Unidades producidas:* 30*COPA 2.0 HACEB**Paro programado - Tiempo:* 35 min, *Razon:* Almuerzo*TESTEO FINAL**Unidades Producidas:* 33*COPA 2.0 HACEB**Paro programado - Tiempo:* 35 min, *Razon:* Almuerzo*Hubo afectacion en las unidades por Maquina/ Equipo: Razon:* Trolley desactivado ( 3 trolley ) - *Tiempo:* 6min*Se reprocesaron unidades - Cantidad:* 3*Unidades acumuladas:* 199
 --------------------
+Date: 12/5/2022
+Time: 13:38
+Group ID: HPuk6hQ3c4p1SSAgyQCTbE
+Message: *GESTION CELULA HORA A HORA:**Cadencia de la linea:* 130*EMSAMBLE MECANISMOS**Unidades producidas*: 0*No se reportaron novedades**CONJUNTO SUSPENCION**Unidades Producidas:* 439*afectacion por maquina - Tiempo:* 16 min, *Razon:* varilla se atasca en transferidor*Se reprocesaron unidades - Cantidad:* 23*ENSAMBLE GABINETE**Unidades Producidas:* 47*COPA 2.0 HACEB**Hubo afectacion en las unidades por Materia Prima: Razon:* Conformadora de Cesto con novedad - *Tiempo:* 38min*TAPA MOVIL**La celula no reporto.**TAPA FIJA**La celula no reporto.**TESTEO FINAL*/n/n*La celula no reporto.**Unidades acumuladas:* 277
+--------------------
+Date: 12/5/2022
+Time: 13:58
+Group ID: HPuk6hQ3c4p1SSAgyQCTbE
+Message: *GESTION CELULA HORA A HORA:**Cadencia de la linea:* 130*EMSAMBLE MECANISMOS**Unidades producidas*: 0*No se reportaron novedades**CONJUNTO SUSPENCION**Unidades Producidas:* 439*afectacion por maquina - Tiempo:* 16 min, *Razon:* varilla se atasca en transferidor*Se reprocesaron unidades - Cantidad:* 23*ENSAMBLE GABINETE**Unidades Producidas:* 47*COPA 2.0 HACEB**Hubo afectacion en las unidades por Materia Prima: Razon:* Conformadora de Cesto con novedad - *Tiempo:* 38min*TAPA MOVIL**La celula no reporto.**TAPA FIJA**La celula no reporto.**TESTEO FINAL**La celula no reporto.**Unidades acumuladas:* 277
+--------------------
+Date: 12/5/2022
+Time: 14:18
+Group ID: HPuk6hQ3c4p1SSAgyQCTbE
+Message: *ENSAMBLE MECANISMOS*/n*La celula no reporto.**CONJUNTO SUSPENCION*/n*La celula no reporto.**EMSAMBLE GABINETE*/n*La celula no reporto.**TAPA MOVIL**La celula no reporto.**TAPA FIJA**La celula no reporto.**TESTEO FINAL**La celula no reporto.**Unidades acumuladas:* 277
+--------------------
+Date: 12/5/2022
+Time: 14:38
+Group ID: HPuk6hQ3c4p1SSAgyQCTbE
+Message: *GESTION CELULA HORA A HORA:**Cadencia de la linea:* 130*ENSAMBLE MECANISMOS**La celula no reporto.**CONJUNTO SUSPENCION**La celula no reporto.**EMSAMBLE GABINETE**La celula no reporto.**TAPA MOVIL**La celula no reporto.**TAPA FIJA**La celula no reporto.**TESTEO FINAL**La celula no reporto.**Unidades acumuladas:* 277
+--------------------

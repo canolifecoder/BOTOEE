@@ -34,7 +34,7 @@ while True:
             print("1 Esperando minuto de envio...")
             espera_Minuto= False
 
-        if (Minuto2==52 and Segundo>=25) and Segundo<=50:
+        if (Minuto2==30 and Segundo>=25) and Segundo<=50:
 
             sh = gc3.open("Gestión Célula Hora a Hora Células")
             #HORA ENSAMBLE MECANISMOS::
@@ -119,7 +119,7 @@ while True:
                 Archivo.close
                 DiaActual = Dia # Actualización del día actual
 
-        if Minuto2 ==53 and f==1:
+        if Minuto2 ==31 and f==1:
             try:
                 acumulado= int(a[0])
                 Archivo.close
@@ -140,7 +140,7 @@ while True:
                  print("Error, no se capturo el acumulado")    
         
             #CONDICIONAL PARA SELECCIONAR EL MIN Y EL RANGO DE SEGUNDOS
-        if (Minuto2==54 and Segundo>=40) and Segundo<=45:
+        if (Minuto2==32 and Segundo>=40) and Segundo<=45:
             ##CADENCIA:::::
             sh = gc3.open("Gestión Célula Hora a Hora Células")
             cadencia = gc.open("Cadencia")
@@ -149,9 +149,14 @@ while True:
             print("Cadencia de la linea: "+cadenciaList[-1])
             MensajeCadencia = "*Cadencia de la linea:* "+ cadenciaList[-1]
 
+            mensajeIni="*GESTION CELULA HORA A HORA:*" 
+
+            if MensajeCadencia!="":
+                mensajeIni = mensajeIni + "\n\n" +MensajeCadencia
+
             if str(HoraEM[-1]) != HoraAHora:
                 print ("Ensamble mecanismos, no reporto")
-                mensaje="*ENSAMBLE MECANISMOS*/n*La celula no reporto.*"
+                mensaje="\n*ENSAMBLE MECANISMOS*\n*la celula no realizo el reporte.*"
             else:
                 #EMSAMBLE MECANISMOS:::::::::::::::
                 print("EMSAMBLE MECANISMOS:--------")
@@ -262,13 +267,9 @@ while True:
                 mensajeOeeEM = "OEE: "+ OeeEM[-1]
                 print("*OEE*: "+OeeEmsambleMecanismos)
                 
-                mensaje="*GESTION CELULA HORA A HORA:*" 
-
-                if MensajeCadencia!="":
-                    mensaje = mensaje + "\n\n" +MensajeCadencia
-                mensaje=mensaje+"\n*EMSAMBLE MECANISMOS*"
+                mensaje=mensaje+"\n\n*EMSAMBLE MECANISMOS*"
                 if MensajeUnidadesFabricadasEM!="":
-                    mensaje=mensaje+"\n\n"+MensajeUnidadesFabricadasEM
+                    mensaje=mensaje+"\n"+MensajeUnidadesFabricadasEM
                 if mensajeParoProgramadoEM!="":
                     mensaje=mensaje+"\n"+mensajeParoProgramadoEM
                     SinNovedad=2
@@ -308,18 +309,17 @@ while True:
                 if mensajeOeeEM!="" and OeeEmsambleMecanismos!="#DIV/0!":
                     mensaje=mensaje+"\n"+mensajeOeeEM
             
-    
 #-----------------------------------------------------------------------------------------------------------
         if espera_Minuto:
             print("2 Esperando minuto de envio...")
             espera_Minuto= False
 
         #CONDICIONAL PARA SELECCIONAR EL MIN Y EL RANGO DE SEGUNDOS
-        if (Minuto2==55 and Segundo>=40) and Segundo<=45:
+        if (Minuto2==33 and Segundo>=40) and Segundo<=45:
             #VALIDAR QUE SI HAYA UN REPORTE
             if str(HoraCS[-1]) != HoraAHora:
                 print ("Conjunto suspencion, no reporto")
-                mensaje2="*CONJUNTO SUSPENCION*/n*La celula no reporto.*"
+                mensaje2="\n*CONJUNTO SUSPENCION*\n*la celula no realizo el reporte.*"
             else:
                 #CONJUNTO SUSPENCIÓN:::::::::::::::
                 print("CONJUNTO SUSPENCIÓN:---------")
@@ -443,7 +443,7 @@ while True:
                 print("Entró")
                 mensaje2="\n*CONJUNTO SUSPENCION*" 
                 if MensajeUnidadesFabricadasCJ!="":
-                    mensaje2=mensaje2+"\n\n"+MensajeUnidadesFabricadasCJ
+                    mensaje2=mensaje2+"\n"+MensajeUnidadesFabricadasCJ
                 if mensajeParoProgramadoCS!="":
                     mensaje2=mensaje2+"\n"+mensajeParoProgramadoCS
                     SinNovedad=2
@@ -489,12 +489,12 @@ while True:
             espera_Minuto= False
 
         #CONDICIONAL PARA SELECCIONAR EL MIN Y EL RANGO DE SEGUNDOS
-        if (Minuto2==56 and Segundo>=40) and Segundo<=45:
+        if (Minuto2==34 and Segundo>=40) and Segundo<=45:
 
             #VALIDAR QUE SI HAYA UN REPORTE
             if str(HoraEG[-1]) != HoraAHora:
                 print ("Ensamble gabinete, no reporto")
-                mensaje3="*EMSAMBLE GABINETE*/n*La celula no reporto.*"
+                mensaje3="\n*EMSAMBLE GABINETE*\n*la celula no realizo el reporte.*"
             else:
 
                 #--------------------------------------------------------------------------------------------------
@@ -850,10 +850,10 @@ while True:
 
                 mensaje3="\n*ENSAMBLE GABINETE*" 
                 if MensajeUnidadesFabricadasEG!="":
-                    mensaje3=mensaje3+"\n\n"+MensajeUnidadesFabricadasEG
+                    mensaje3=mensaje3+"\n"+MensajeUnidadesFabricadasEG
 
                 if SelectReferenciaEG[-1]=="Copa 1.0":
-                    mensaje3=mensaje3+"\n\n*COPA 1.0*"
+                    mensaje3=mensaje3+"\n*COPA 1.0*"
                 
                     if mensajeParoProgramadoEGCP1!="":
                         mensaje3=mensaje3+"\n"+mensajeParoProgramadoEGCP1
@@ -884,7 +884,7 @@ while True:
                         SinNovedad=2
                 
                 if SelectReferenciaEG[-1]=="Copa 2.0 Haceb":
-                    mensaje3=mensaje3+"\n\n*COPA 2.0 HACEB*"
+                    mensaje3=mensaje3+"\n*COPA 2.0 HACEB*"
                 
                     if mensajeParoProgramadoEGCP2H!="":
                         mensaje3=mensaje3+"\n"+mensajeParoProgramadoEGCP2H
@@ -915,7 +915,7 @@ while True:
                         SinNovedad=2
 
                 if SelectReferenciaEG[-1]=="Copa 2.0 Whirlpool":
-                    mensaje3=mensaje3+"\n\n*COPA 2.0 WHIRLPOOL*"
+                    mensaje3=mensaje3+"\n*COPA 2.0 WHIRLPOOL*"
                 
                     if mensajeParoProgramadoEGCP2W!="":
                         mensaje3=mensaje3+"\n"+mensajeParoProgramadoEGCP2W
@@ -958,12 +958,12 @@ while True:
             espera_Minuto= False
 
         #CONDICIONAL PARA SELECCIONAR EL MIN Y EL RANGO DE SEGUNDOS
-        if (Minuto2==57 and Segundo>=40) and Segundo<=45:
+        if (Minuto2==35 and Segundo>=40) and Segundo<=45:
 
             #VALIDAR QUE SI HAYA UN REPORTE
             if str(HoraTF[-1]) != HoraAHora:
                 print ("Testeo final, no reporto")
-                mensaje6="*TESTEO FINAL*/n/n*La celula no reporto.*"
+                mensaje6="\n*TESTEO FINAL*\n*la celula no realizo el reporte.*"
             else:
 
                 #TESTEO FINAL:::::::::::::::
@@ -1320,7 +1320,7 @@ while True:
                     mensaje6=mensaje6+"\n\n"+MensajeUnidadesFabricadasTF
 
                 if SelectReferenciaTF[-1]=="Copa 1.0":
-                    mensaje6=mensaje6+"\n\n*COPA 1.0*"
+                    mensaje6=mensaje6+"\n*COPA 1.0*"
                 
                     if mensajeParoProgramadoTFCP1!="":
                         mensaje6=mensaje6+"\n"+mensajeParoProgramadoTFCP1
@@ -1351,7 +1351,7 @@ while True:
                         SinNovedad=2
                 
                 if SelectReferenciaTF[-1]=="Copa 2.0 Haceb":
-                    mensaje6=mensaje6+"\n\n*COPA 2.0 HACEB*"
+                    mensaje6=mensaje6+"\n*COPA 2.0 HACEB*"
                 
                     if mensajeParoProgramadoTFCP2H!="":
                         mensaje6=mensaje6+"\n"+mensajeParoProgramadoTFCP2H
@@ -1382,7 +1382,7 @@ while True:
                         SinNovedad=2
 
                 if SelectReferenciaTF[-1]=="Copa 2.0 Whirlpool":
-                    mensaje6=mensaje6+"\n\n*COPA 2.0 WHIRLPOOL*"
+                    mensaje6=mensaje6+"\n*COPA 2.0 WHIRLPOOL*"
                 
                     if mensajeParoProgramadoTFCP2W!="":
                         mensaje6=mensaje6+"\n"+mensajeParoProgramadoTFCP2W
@@ -1425,12 +1425,12 @@ while True:
             espera_Minuto= False
 
         #CONDICIONAL PARA SELECCIONAR EL MIN Y EL RANGO DE SEGUNDOS
-        if (Minuto2==58 and Segundo>=40) and Segundo<=45:
+        if (Minuto2==36 and Segundo>=40) and Segundo<=45:
 
             #VALIDAR QUE SI HAYA UN REPORTE
             if str(HoraTM[-1]) != HoraAHora:
                 print ("Tapa movil, no reporto")
-                mensaje4="*TAPA MOVIL*/n/n*La celula no reporto.*"
+                mensaje4="\n*TAPA MOVIL*\n*la celula no realizo el reporte.*"
             else:
                 #TAPA MOVIL:::::::::::::::
                 print("TAPA MOVIL::---------")
@@ -1780,9 +1780,9 @@ while True:
                 print("Porcentaje OEE: "+ OeeTapaMovil)
                 MensajeOeeTM="OEE: "+OeeTapaMovil
 
-                mensaje4="\n*TAPA MOVIL*" 
+                mensaje4="\n\n*TAPA MOVIL*" 
                 if MensajeUnidadesFabricadasTM!="":
-                    mensaje4=mensaje4+"\n\n"+MensajeUnidadesFabricadasTM
+                    mensaje4=mensaje4+"\n"+MensajeUnidadesFabricadasTM
 
                 if SelectReferenciaTM[-1]=="Copa 1.0":
                     mensaje4=mensaje4+"\n\n*COPA 1.0*"
@@ -1890,12 +1890,12 @@ while True:
             espera_Minuto= False
 
         #CONDICIONAL PARA SELECCIONAR EL MIN Y EL RANGO DE SEGUNDOS
-        if (Minuto2==59 and Segundo>=40) and Segundo<=45:
+        if (Minuto2==37 and Segundo>=40) and Segundo<=45:
 
             #VALIDAR QUE SI HAYA UN REPORTE
             if str(HoraTF2[-1]) != HoraAHora:
-                print ("Tapa fija, no reporto")
-                mensaje5="*TAPA FIJA*/n/n*La celula no reporto.*"
+                print("Tapa fija, no reporto")
+                mensaje5="\n*TAPA FIJA*\n*la celula no realizo el reporte.*"
             else:
                 #TAPA FIJA:::::::::::::::::
                 print("TAPA FIJA:::---------")
@@ -2591,10 +2591,10 @@ while True:
                 print("Porcentaje OEE: "+ OeeTapaFija)
                 MensajeOeeTF2="OEE: "+OeeTapaFija
 
-                mensaje5="\n*TAPA FIJA*" 
+                mensaje5="\n\n*TAPA FIJA*" 
 
                 if mensajeUnidadesFabricadasTF2!="":
-                    mensaje5=mensaje5+"\n\n"+mensajeUnidadesFabricadasTF2
+                    mensaje5=mensaje5+"\n"+mensajeUnidadesFabricadasTF2
 
                 if SelectReferenciaTF2[-1]=="Agipeller":
                     mensaje5=mensaje5+"\n\n*AGIPELLER*"
@@ -2793,11 +2793,11 @@ while True:
                 print("Esperando minuto para envio de wpp...")
                 espera_Minuto= False
 
-        if Minuto2==1:
+        if Minuto2==38:
             #Se envia el mensaje por WPP
             print("Entró")
         
-            mensajefinal=mensaje+"\n"+mensaje2+"\n"+mensaje3+"\n"+mensaje4+"\n"+mensaje5+"\n"+mensaje6+"\n\n"+acumulado3
+            mensajefinal=mensajeIni+"\n"+mensaje+"\n"+mensaje2+"\n"+mensaje3+"\n"+mensaje4+"\n"+mensaje5+"\n"+mensaje6+"\n\n"+acumulado3
             
             try:
                 pywhatkit.sendwhatmsg_to_group(
